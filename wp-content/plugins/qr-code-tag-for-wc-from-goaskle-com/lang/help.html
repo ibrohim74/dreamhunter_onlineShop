@@ -1,0 +1,57 @@
+<h4>1. Size and Margin</h4>
+
+<p>The QR Code symbol area requires a margin or "quiet zone" around it to be used. The margin is a clear area around a symbol where nothing is printed. QR Code requires at least a four QR Code pixel wide margin at all sides of a symbol.</p>
+<p>
+If you manually set the image size of your QR Code it may happen (based on content capacity) that the encoded image is "pixel blurry" (the size of one QR Code pixel varies) and thus is hard to read for your reading device.
+This generally happens if your QR Code image size is very small (smaller than 100 pixels). In order to print out a "Best Read Mode" image, use the size field to specify a "Zoom" level (0-9, with 0=no zoom, 1=100%, 2=200%, etc. ) for an optimal QR Code image size of your content.
+</p>
+
+
+<h4>2. Shortcode usage</h4>
+
+<p>In the posts editor type</p>
+<code>[qrcodetag_from_goaskle_com/]</code> and a QR code with a link to the <i>current URL</i> will be rendered<br>
+<code>[qrcodetag_from_goaskle_com]content[/qrcodetag_from_goaskle_com]</code> to render a QR code with <i>content</i><br>
+<p>
+You can overwrite any default value passing it as a parameter in the shortcode, e.g.<br>
+<code>[qrcodetag_from_goaskle_com size="150" link="true"]content[/qrcodetag_from_goaskle_com]</code> will render a QR code with a dimension of 150px and sets a link to the QR code image.
+</p>
+<p>In order to use the tooltip function, type this code</p>
+<code>[qrcodetag_from_goaskle_com tooltip="QR Code content"]your link or text[/qrcodetag_from_goaskle_com]</code>
+<p>whereas <i>QR Code content</i> is the QR Code image content and <i>your link or text</i> is the visible text - mind the difference to the previous usage!</p> 
+
+<h4>3. PHP Function usage</h4>
+
+<p>To use the QR Code Tag inside your template or <a href="http://wordpress.org/extend/plugins/exec-php/">PHP enabled</a> posts, use the global <code>$qrcodetag_from_goaskle_com</code> object:</p>
+<code>global $qrcodetag_from_goaskle_com;</code><br> 
+<code>echo $qrcodetag_from_goaskle_com->getQrCodeUrl($content, $size, $encoding, $ecc, $margin, $version);</code><br>
+
+<p>In order to display a 100 x 100px QR Code in the page template you would include this PHP code:</p>
+<pre><code>&lt;img src="&lt;?php 
+  global $qrcodetag_from_goaskle_com; 
+  echo $qrcodetag_from_goaskle_com->getQrCodeUrl('mycontent',100,'UTF-8','L',4,0); 
+?&gt;"&gt;</code></pre>
+
+<h4>4. Widget usage</h4>
+
+In order to use the QR Code Tag as a widget, just drop it on your sidebar (Appearance | Widgets) and set the options accordingly.
+
+<h4>5. Known Problems</h4>
+- self closing tag problem (see shortcode warning)<br>
+- mixed tag problem (see shortcode warning)<br>
+- empty tag problem (see shortcode warning)<br>
+- incorrect margin size (with Google API only)<br>
+
+
+<h4>6. Useful Links</h4>
+
+<a href="https://portal.goaskle.com/" target="_blank">Create Support Ticket</a> - Ask any question about this QR Code plugin<br>
+<a href="https://goaskle.com/en/qr-code-tag-goaskle-com-for-woocommerce-yith-pos-pdf-invoices/" target="_blank">Plugin Page</a><br>
+
+
+<h4>7. Translations</h4>
+Translations for this plugin are welcome! Download <a href="http://www.poedit.net/" target="_blank">Poedit</a> and send the translation files (*.po & *.mo, including this html help file) back to <a href="mailto:info@goaskle.com">me</a>. Thanks!
+
+<hr>
+<p style="font-size: 0.7em;"><i>WordPress / Woocommerce plugin <a href="https://goaskle.com"><?php echo $this->pluginName.' v'.$this->pluginVersion ?></a> by <a href="mailto:info@goaskle.com">Goaskle.com</a></i></p>
+

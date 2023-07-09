@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: clearfy\n"
+"POT-Creation-Date: 2018-03-29 21:10+0300\n"
+"PO-Revision-Date: 2018-10-17 15:53+0300\n"
+"Last-Translator: alex.kovalevv@gmail.com <alex.kovalevv@gmail.com>\n"
+"Language-Team: Alex Kovalev <alex.kovalevv@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libs\n"
+"X-Poedit-SearchPathExcluded-1: components\n"
+"X-Poedit-SearchPathExcluded-2: cache\n"
+
+#: admin/boot.php:69
+#, php-format
+msgid ""
+"We found that you are use the (%s) plugin to change wp-login.php page "
+"address. Please delete it, because Clearfy already contains these functions "
+"and you do not need to use two plugins. If you do not want to remove (%s) "
+"plugin for some reason, please do not use wp-login.php page address change "
+"feature in the Clearfy plugin, to avoid conflicts."
+msgstr ""
+"Мы обнаружили, что вы используете плагин (%s) для изменения адреса страницы "
+"wp-login.php. Пожалуйста удалите его, так как Clearfy уже содержит эти "
+"функции и вам незачем использовать два плагина. Если вы по каким-то причинам "
+"не хотите удалять плагин (%s), пожалуйста не используйте функции по "
+"изменению адреса страницы wp-login.php в плагине Clearfy, во избежание "
+"конфликтов."
+
+#: admin/boot.php:71
+#, php-format
+msgid ""
+"We found that you are use the (%s) plugin. Please do not use its wp-login."
+"php page address change and the same feature in the Clearfy plugin, to avoid "
+"conflicts."
+msgstr ""
+"Мы обнаружили, что вы используете плагин (%s). Пожалуйста не используйте его "
+"функции по изменению адреса страницы wp-login.php и схожие функции в плагине "
+"Clearfy, во избежание конфликтов."
+
+#: admin/boot.php:103 admin/options.php:68
+msgid "Hide wp-admin"
+msgstr "Скрыть wp-admin"
+
+#: admin/boot.php:108 admin/options.php:81
+msgid "Hide Login Page"
+msgstr "Скрыть страницу логина"
+
+#: admin/boot.php:113 admin/options.php:135
+msgid "New login page"
+msgstr "Новый адрес страницы логина"
+
+#: admin/boot.php:125
+msgid "Get ultimate plugin free"
+msgstr "Получите полную версию плагина бесплатно"
+
+#: admin/options.php:29
+msgid ""
+"You entered an incorrect part of the path to your login page. The path to "
+"the login page can not consist only of digits, at least 3 characters, you "
+"must use only the characters [0-9A-z_-]!"
+msgstr ""
+"Вы ввели неправильную часть пути к своей странице входа. Путь к странице "
+"входа не может состоять только из цифр, не менее 3 символов, вы должны "
+"использовать только символы [0-9A-z_-]!"
+
+#: admin/options.php:36
+msgid ""
+"The entered login page name is already used for one of your pages. Try to "
+"choose a different login page name!"
+msgstr ""
+"Введенный вами адрес уже используется для одной из ваших страниц. Попробуйте "
+"ввести новый уникальный адрес!"
+
+#: admin/options.php:53
+msgid "<strong>Protect your admin login</strong>."
+msgstr "<strong>Защитите вашу страницу логина</strong>."
+
+#: admin/options.php:53
+msgid ""
+"Dozens of bots attack your login page at /wp-login.php and /wp-admin/daily. "
+"Bruteforce and want to access your admin panel. Even if you're sure that you "
+"have created a complex and reliable password, this does not guarantee "
+"security and does not relieve your login page load. The easiest way is to "
+"protect the login page by simply changing its address to your own and unique."
+msgstr ""
+"Десятки ботов ежедневно атакуют вашу страницу логина по адресам /wp-login."
+"php и /wp-admin/, перебирая пароли, желая получить доступ в вашу админ "
+"панель. Даже если вы уверены, что создали сложный и надежный пароль, это не "
+"гарантирует безопасность и не избавляет от нагрузки вашу страницу логина. "
+"Проще всего защитить страницу логина, просто изменив её адрес на собственный "
+"и уникальный."
+
+#: admin/options.php:70
+msgid ""
+"Hides the /wp-admin directory for unauthorized users. If the option is "
+"disabled, when you request the page /wp-admin you will be redirected to the "
+"login page, even if you changed its address. Therefore, for protection "
+"purposes enable this option."
+msgstr ""
+"Скрывает каталог /wp-admin для неавторизованных пользователей. Если опция "
+"отключена, при запросе страницы /wp-admin вы будете перенаправлены на "
+"страницу логина, даже если вы изменили ее адрес. Поэтому в целях защиты, "
+"включите эту опцию."
+
+#: admin/options.php:83
+msgid "Hides the wp-login.php and wp-signup.php pages."
+msgstr "Скрывает страницу wp-login.php, wp-signup.php."
+
+#: admin/options.php:83
+msgid ""
+"Use this option carefully! If you forget the new login page address, you can "
+"not get into the admin panel."
+msgstr ""
+"Используйте эту опцию осторожно, если вы забудете новый адрес страницы "
+"логина, вы не сможете попасть в админ панель."
+
+#: admin/options.php:94
+msgid "Access error type"
+msgstr "Тип ошибки доступа"
+
+#: admin/options.php:96
+msgid "Page 404"
+msgstr "Страница 404"
+
+#: admin/options.php:97
+msgid "Redirect to"
+msgstr "Перенаправить на"
+
+#: admin/options.php:98
+msgid "Forbidden 403"
+msgstr "403 доступ запрещен"
+
+#: admin/options.php:101
+msgid ""
+"Some Wordpress themes do not have page templates 404, if you see a php error "
+"(blank screen, error 500) when accessing the wp-admin page, wp-login.php, "
+"try set forbidden 403 error or set  a redirect to your custom page 404."
+msgstr ""
+"Некоторые темы Wordpress не имеют шаблонов страниц 404, если вы видите php "
+"ошибку (белый экран, ошибку 500) при доступе к странице wp-admin, wp-login."
+"php, попробуйте установить \"403 доступ запрещен\" или установите "
+"перенаправление на свою настраиваемую страницу 404 ошибки."
+
+#: admin/options.php:119
+msgid "Set custom page 404 url"
+msgstr "Url вашей страницы 404 ошибки"
+
+#: admin/options.php:120
+msgid ""
+"When you try to get to the hidden page wp-admin or wp-login.php, you will be "
+"redirected by the link you have set. Redirect will work only if you have "
+"chosen the required option above!"
+msgstr ""
+"Когда вы пытаетесь перейти на скрытую страницу wp-admin или wp-login.php, вы "
+"будете перенаправлены по указанной вами ссылке. Переадресация будет работать "
+"только в том случае, если вы выбрали требуемый вариант выше!"
+
+#: admin/options.php:127 admin/options.php:215
+#, php-format
+msgid ""
+"If unable to access the login/admin section anymore, use the Recovery Link "
+"which reset links to default: \n"
+"%s"
+msgstr ""
+"Если вы больше не можете получить доступ к разделу login/admin, используйте "
+"ссылку восстановления, которая восстанавливает ссылки по умолчанию: \n"
+"%s"
+
+#: admin/options.php:136
+msgid "Set a new login page name without slash. Example: mysecretlogin"
+msgstr "Задайте новое имя страницы логина без слешей. Пример: mysecretlogin"
+
+#: admin/options.php:136 admin/options.php:214
+msgid "IMPORTANT! Be sure that you wrote down the new login page address"
+msgstr "ВАЖНО! Обязательно запишите новый адрес страницы логина"
+
+#: admin/options.php:213
+#, php-format
+msgid ""
+"Hi,\n"
+"This is %s plugin. Here is your new WordPress login address:\n"
+"URL: %s"
+msgstr ""
+"Здравствуйте!\n"
+"Это плагин %s. Вы изменили адрес страницы логина на:\n"
+"URL: %s"
+
+#: admin/options.php:216
+#, php-format
+msgid ""
+"Best Regards,\n"
+"%s"
+msgstr ""
+"С уважением,\n"
+"%s"
+
+#: admin/options.php:224
+#, php-format
+msgid "[%s] Your New WP Login!"
+msgstr "[%s] Измен адрес страницы логина!"
+
+#: admin/pages/hide-login.php:33 admin/pages/hide-login.php:49
+msgid "Hide login page"
+msgstr "Скрыть страницу логина"
+
+#: admin/pages/hide-login.php:50
+msgid "General"
+msgstr "Основные"
+
+#: hide-login-page.php:23
+msgid ""
+"We found that you have the \"Clearfy - disable unused features\" plugin "
+"installed, this plugin already has disable comments functions, so you can "
+"deactivate plugin \"Hide Login Page\"!"
+msgstr ""
+"Мы обнаружили, что у вас установлен плагин «Clearfy - отключить  "
+"неиспользуемые функции», этот плагин уже имеет функции отключения "
+"комментариев, поэтому вы можете отключить плагин «Hide Login Page»!"
+
+#: hide-login-page.php:80
+msgid "Webcraftic Hide login page"
+msgstr "Webcraftic Скрыть страницу логина"
+
+#~ msgid ""
+#~ "Some Wordpress themes do not have page templates 404, if you see a php "
+#~ "error when accessing the wp-admin page, wp-login.php, try set forbidden "
+#~ "403 error or set  a redirect to your custom page 404."
+#~ msgstr ""
+#~ "Некоторые темы Wordpress не имеют шаблонов страниц 404, если вы видите "
+#~ "php ошибку (белый экран, ошибку 500) при доступе к странице wp-admin, wp-"
+#~ "login.php, попробуйте установить \"Запрещено 403\" или установите "
+#~ "перенаправление на свою настраиваемую страницу 404 ошибки."

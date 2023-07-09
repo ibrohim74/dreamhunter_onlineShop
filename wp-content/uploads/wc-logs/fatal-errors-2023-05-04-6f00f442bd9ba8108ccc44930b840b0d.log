@@ -1,0 +1,6 @@
+2023-05-04T14:20:26+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-content\plugins\woocommerce\src\Admin\Notes\Notes.php на строке 8
+
+2023-05-04T14:20:41+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-includes\blocks.php на строке 324
+
+2023-05-04T14:24:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockPatterns.php на строке 202
+

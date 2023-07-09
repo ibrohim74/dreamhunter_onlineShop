@@ -1,0 +1,17 @@
+button[data-value="googlepage"]:after, button[data-value="background"]:after {
+    display: inline-block;
+    position: absolute;
+    content: 'PRO';
+    background: #ff5722;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 1;
+    font-style: normal;
+    padding: 4px 6px;
+    margin-left: 4px;
+    vertical-align: top;
+    top: -8px;
+    right: 0;
+    z-index: 11;
+}

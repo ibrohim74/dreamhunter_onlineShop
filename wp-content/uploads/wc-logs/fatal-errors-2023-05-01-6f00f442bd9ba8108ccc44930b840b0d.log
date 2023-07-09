@@ -1,0 +1,8 @@
+2023-05-01T12:00:17+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-content\plugins\jetpack\class.jetpack-gutenberg.php на строке 837
+
+2023-05-01T17:36:21+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php на строке 188
+
+2023-05-01T18:55:12+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\OpenServer\domains\dream2\wp-includes\class-wpdb.php on line 2431
+
+2023-05-01T18:56:58+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\OpenServer\domains\dream2\wp-includes\class-wpdb.php on line 2431
+

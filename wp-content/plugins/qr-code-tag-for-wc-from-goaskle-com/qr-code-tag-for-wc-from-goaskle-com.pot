@@ -1,0 +1,592 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code Tag for WC order emails, POS receipt emails, PDF "
+"invoices, PDF packing slips, Blog posts, Custom post types and Pages (from "
+"goaskle.com)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-03 20:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-5.9.3\n"
+"X-Domain: qr-code-tag-for-wc-from-goaskle-com"
+
+#: lib/qrct/QrctWp.php:286
+msgid "#"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:350
+#, php-format
+msgid "%1$01.4f sec average code creation time."
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:349
+#, php-format
+msgid "%1$d codes cached, using %2$s disk space (%3$s free disk space)."
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:266
+msgid "(Google Chart API only)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:298
+msgid "(QR Code Lib only)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:239
+msgid ""
+"<b style=\"color:red;\">!!! CLEAR IT FOR AUTOMATIC DATA TEMPLATE IN "
+"WOOCOMMERCE !!!</b> Woocommerce will use this template for the data to "
+"generate the QR code. The QR code will be created based on the texts and "
+"variables of this template. For example (AUTOMATIC):<br>Ivan Ivanov<br>TOTAL "
+"AMOUNT $39.10<br>VAT AMOUNT $5.10<br>VAT NUMBER 1235ABN457<br>DATE "
+"03/11/2021<br>TIME 19:03<br>https://goaskle.com<br>You can easy use your own "
+"text, labels and these variables: {order_id}, {full_customer_name}, "
+"{total_amount}, {total_amount_no_curr}, {vat_amount}, {vat_number}, "
+"{order_date}, {order_time}, {wc_website}, {wc_order_items_name1}, "
+"{wc_order_items_qty1}, {wc_order_items_price1}, {wc_order_items_subtot1}, "
+"{wc_order_items_name2}, {wc_order_items_qty2}, {wc_order_items_price2}, "
+"{wc_order_items_subtot2}, {wc_order_items_template1}, {hash_gaqr}<br><b>"
+"EXAMPLE FOR YOUR OWN TEMPLATE:</b><br>Order ID: {order_id}<br>"
+"{full_customer_name}<br>TOTAL AMOUNT: {total_amount}<br>VAT AMOUNT: "
+"{vat_amount}<br>VAT NUMBER: {vat_number}<br>DATE {order_date}<br>TIME "
+"{order_time}<br>{wc_website}<br>{wc_order_items_template1}"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:298
+msgid ""
+"<strong>0-40 (0=auto)</strong>. Before choosing the QR code version, "
+"consider what kind of device is used to read your code. The best QR code "
+"readers are able to read Version 40 codes, mobile devices may read only up "
+"to Version 4 "
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:322
+msgid "A Tag classes"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:595 lib/qrct/QrctWp.php:634
+msgid "Activate hash"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:279
+msgid "Active"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:312
+msgid "Additional image classes (e.g. <i>qrctimage anynewclass</i>)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:326
+msgid "Additional link classes (e.g. <i>mylinkclass anynewlinkclass</i>)"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:1124
+msgid "After QR Code:"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:1122
+msgid "Before QR Code:"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:2018
+msgid "Cache cleared."
+msgstr ""
+
+#: lib/qrct/QrctWp.php:598 lib/qrct/QrctWp.php:635
+msgid "Cancel activation"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:318
+msgid "Change"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:352
+msgid "Clear Cache"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:58
+msgid "Code Generation"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:730
+msgid "CONGRATULATIONS!"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:1123
+msgid "Content (blank for current URL):"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:279
+msgid "Deactivated"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:127
+msgid "Default Options"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:2008
+msgid "Default options loaded."
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:319
+msgid ""
+"Defines if the image will have a link:<br/><strong>false</strong> = no "
+"link<br/><strong>true</strong> = link to the QR code content<br/><strong>"
+"url</strong> = link to the current URL<br><strong>http://</strong> = link to "
+"some URL (e.g. <i>http://www.google.com</i>)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:305
+msgid ""
+"Defines the margin (or blank space) around the QR code (in QR Code pixel "
+"size - not actual pixels!)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:135
+msgid "Description"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:161
+msgid ""
+"Disable Auto QR code Generating for Woocommerce ( Shortcode mode will "
+"continue working )"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:167
+msgid ""
+"Disable Auto QR code Generating for Woocommerce PAGES only ( For ex. Thank "
+"you page and etc. Shortcode mode will continue working and QR code for "
+"Woocommerce emails too )"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:172
+msgid "Disable for ALL Woocommerce emails except these:"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:165
+msgid ""
+"Disable for all Woocommerce Pages (auto) and keep QR code in emails enabled"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:159
+msgid "Disable for Woocommerce (Auto)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:174
+msgid ""
+"Disable QR code Generating for All Woocommerce emails, except ( Except these "
+"ones: new order email, failed order email, order-on-hold email, processing "
+"email, complete email, refunded email ) some"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:271
+msgid "ECC"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:219
+msgid "Enable for cancelled orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:201
+msgid "Enable for completed orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:225
+msgid "Enable for customer invoice for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:183
+msgid "Enable for failed orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:178
+msgid "Enable for new orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:189
+msgid "Enable for on-hold orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:213
+msgid "Enable for partially refunded orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:195
+msgid "Enable for processing orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:207
+msgid "Enable for refunded orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:221
+msgid "Enable QR code Generating for cancelled orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:203
+msgid "Enable QR code Generating for completed orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:227
+msgid "Enable QR code Generating for customer invoice for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:185
+msgid "Enable QR code Generating for failed orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:180
+msgid "Enable QR code Generating for new orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:191
+msgid "Enable QR code Generating for on-hold orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:215
+msgid ""
+"Enable QR code Generating for partially refunded orders for Woocommerce "
+"emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:197
+msgid "Enable QR code Generating for processing orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:209
+msgid "Enable QR code Generating for refunded orders for Woocommerce emails"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:155
+msgid ""
+"Enable this feature if you want to add a unique hash code to every "
+"Woocommerce order. You can use this for example to start selling tickets "
+"within Woocommerce. By scanning the QR code, you can check the validity of "
+"the unique hash for every order and check the data in the admin console "
+"(edit order mode).<br>The recommended template to be used is: <code>"
+"{wc_website}/?hash-gaqr={hash_gaqr}</code><br><br><b>Steps:</b><br>1. Enable "
+"this feature<br>2. Use the recommended template for QR code<br><br><b>"
+"Features:</b><br>1. Customers can validate the QR code using any QR app<br>2."
+" Administrators can validate, activate or deactivate the QR code using any "
+"QR app or link (in edit order mode). Edit hash. View a list of all QR code "
+"activations of each order (edit order mode)<br><br>(Thanks to Marc de Jong "
+"for the Idea) and to me for realization.<br>You can always thank me by "
+"adding a review for this plugin ( <a href=\"https://wordpress."
+"org/support/plugin/qr-code-tag-for-wc-from-goaskle-com/reviews/\" "
+"target=\"_blank\">Post review</a> ) or use the <a href=\"https://goaskle."
+"com/en/donation/\" target=\"_blank\">Donation link</a>"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:153
+msgid ""
+"Enable unique Hash creation for every Woocommerce order (for ticket sellers)."
+" Plus hash validation. Plus activation of hash"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:249
+msgid "Enc"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:291
+#, php-format
+msgid ""
+"Error Correction Level (see <a href=\"http://code.google."
+"com/apis/chart/types.html#ec_level_table\" target=\"_blank\">Google Chart "
+"API</a>)<br/><strong>L</strong> allows 7% of a QR code to be restored<br/>"
+"<strong>M</strong> allows 15% of a QR code to be restored<br/><strong>"
+"Q</strong> allows 25% of a QR code to be restored<br/><strong>H</strong> "
+"allows 30% of a QR code to be restored"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:131
+msgid "Field"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:107
+msgid "Generator"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:119
+msgid "GIF"
+msgstr ""
+
+#. Author of the plugin
+msgid "Goaskle.com"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:110
+msgid "Google Chart API"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:276 lib/qrct/QrctWp-admin.inc.php:282
+#: lib/qrct/QrctWp-admin.inc.php:288
+msgid "H"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:511
+msgid "Hash Activated!"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:528
+msgid "Hash Restored and can be activated again"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:514 lib/qrct/QrctWp.php:531
+msgid "Hash was Activated before, job cancelled"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:312
+msgid "HASH:"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:413 lib/qrct/QrctWp.php:585
+msgid "Hash:"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:452 lib/qrct/QrctWp.php:708
+msgid "HAVE A NICE DAY!"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:355
+msgid "Help"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://15.to"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://goaskle.com/en/full-description-of-the-features-of-the-qr-code-tag-"
+"from-goaskle-com-plugin/"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:308
+msgid "Image Classes"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:116
+msgid "Image Type"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:253 lib/qrct/QrctWp-admin.inc.php:258
+#: lib/qrct/QrctWp-admin.inc.php:263
+msgid "ISO-8859-1"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:121
+msgid "JPG"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:273 lib/qrct/QrctWp-admin.inc.php:279
+#: lib/qrct/QrctWp-admin.inc.php:285
+msgid "L"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:238
+msgid "Leave empty for automatic template"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:315
+msgid "Link"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:274 lib/qrct/QrctWp-admin.inc.php:280
+#: lib/qrct/QrctWp-admin.inc.php:286
+msgid "M"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:140
+msgid "Main color"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:301
+msgid "Margin"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:146
+msgid "Margin color"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:148
+msgid ""
+"Margin color around the QR code ( If you have set its size greater than 0 in "
+"the settings. Please clear all kinds of cache in Wordpress after saving your "
+"settings )"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:719
+msgid "NOT ACTIVATED"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:1993
+msgid "Options saved."
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:120
+msgid "PNG"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:275 lib/qrct/QrctWp-admin.inc.php:281
+#: lib/qrct/QrctWp-admin.inc.php:287
+msgid "Q"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:332
+msgid "QR Code Cache"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:111
+msgid "QR Code Lib"
+msgstr ""
+
+#. Name of the plugin
+msgid ""
+"QR Code Tag for WC order emails, POS receipt emails, PDF invoices, PDF "
+"packing slips, Blog posts, Custom post types and Pages (from goaskle.com)"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"QR Code tag generator for Woocommerce orders, POS, PDF, emails. Using modes: "
+"automatic for Woocommerce, manual for: widget, shortcode and tooltip."
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:55
+msgid "QR Code Tag Settings"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:329
+msgid "Reset Options"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:329
+msgid "Save Changes"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:945
+msgid "Settings"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:252 lib/qrct/QrctWp-admin.inc.php:257
+#: lib/qrct/QrctWp-admin.inc.php:262
+msgid "Shift_JIS"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:132
+msgid "Shortcode"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:242
+msgid "Size"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:541
+msgid "Something went wrong, job not completed"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:405
+msgid "SORRY!"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:265
+msgid "Specifies how the output is encoded"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:318
+msgid "Status: "
+msgstr ""
+
+#: lib/qrct/QrctWp.php:453 lib/qrct/QrctWp.php:709
+msgid "THANK YOU"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:142
+msgid ""
+"The main color with which the main part of the QR code will be formed. ( "
+"Please clear all kinds of cache in Wordpress after saving your settings. use "
+"CTRL+F5 for clear cache of your browser for Windows users and ⌘ Command + "
+"Option + E for MAC users or Safari > Empty Cache )<br><br>(Thanks to Gonzalo "
+"for the Idea) and to me for realization. You can always thank me by adding a "
+"review for this plugin ( <a href=\"https://wordpress.org/support/plugin/qr-"
+"code-tag-for-wc-from-goaskle-com/reviews/\" target=\"_blank\">Post review</a>"
+" )"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:246
+msgid ""
+"The size of the generated QRCode image (in pixels). it's always a square, so "
+"you only need to set one side - to enable the \"Best Read Mode\" <i>(QR Code "
+"Lib only)</i> specify a value lower than 10 (read help below)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:128
+msgid ""
+"This will be the default values of the QR Code Tag Shortcode, Tooltip and "
+"Widget."
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:133
+msgid "Tooltip"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:233
+msgid "Using for Woocommerce in shortcode mode only"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:251 lib/qrct/QrctWp-admin.inc.php:256
+#: lib/qrct/QrctWp-admin.inc.php:261
+msgid "UTF-8"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:231
+msgid "VAT Number"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:294
+msgid "Version"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:319
+msgid "Was activated (times): "
+msgstr ""
+
+#: lib/qrct/QrctWp.php:721
+msgid "WAS ACTIVATED: "
+msgstr ""
+
+#: lib/qrct/QrctWp.php:286
+msgid "When"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:134
+msgid "Widget"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:237
+msgid "Woocommerce Data Template"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:467
+msgid "You have no right for this action!"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:357
+msgid "Your content"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:707
+msgid "YOUR QR CODE HASH IS <b style='color: green;'>VALID!</b>"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:451
+msgid "YOUR QR CODE HASH IS <b style='color: red;'>NOT VALID!</b>"
+msgstr ""

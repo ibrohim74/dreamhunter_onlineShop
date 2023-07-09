@@ -1,0 +1,30 @@
+.xoo-wsc-premium {
+    padding: 20px 0;
+}
+
+.xoo-wscp-head {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.xoo-wscp-head a {
+    font-size: 15px;
+    margin: 0 3px;
+}
+
+ul.xoo-wscp-features {
+    margin: 10px 20px;
+    padding: 0;
+    list-style-type: disc;
+    color: #2a9d8f;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ul.xoo-wscp-features li {
+    padding: 7px 0px;
+}
+
+.xoo-settings-container[active-tab="pro"] .xoo-sc-bottom-btns {
+    display: none;
+}

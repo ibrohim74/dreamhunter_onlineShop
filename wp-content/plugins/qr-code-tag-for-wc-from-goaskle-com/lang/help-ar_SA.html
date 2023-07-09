@@ -1,0 +1,59 @@
+<h4> 1. الحجم والهامش </ h4>
+
+<p> تتطلب منطقة رمز الاستجابة السريعة وجود هامش أو "منطقة هادئة" حولها لاستخدامها. الهامش عبارة عن منطقة واضحة حول رمز حيث لا تتم طباعة أي شيء. يتطلب رمز الاستجابة السريعة ما لا يقل عن أربعة بكسلات لرمز الاستجابة السريعة هامشًا عريضًا في جميع جوانب الرمز. </ p>
+<p>
+إذا قمت بتعيين حجم صورة رمز الاستجابة السريعة يدويًا ، فقد يحدث (بناءً على سعة المحتوى) أن الصورة المشفرة "ضبابية البكسل" (يختلف حجم رمز الاستجابة السريعة بكسل واحدًا) وبالتالي يصعب قراءتها لجهاز القراءة الخاص بك.
+يحدث هذا بشكل عام إذا كان حجم صورة رمز الاستجابة السريعة الخاصة بك صغيرًا جدًا (أصغر من 100 بكسل). لطباعة صورة "أفضل وضع قراءة" ، استخدم حقل الحجم لتحديد مستوى "تكبير / تصغير" (0-9 ، مع 0 = بدون تكبير ، 1 = 100٪ ، 2 = 200٪ ، إلخ.) للحصول على الحجم الأمثل لصورة رمز الاستجابة السريعة للمحتوى الخاص بك.
+</p>
+
+
+<h4> 2. استخدام الرمز القصير </ h4>
+
+<p> في نوع محرر المشاركات </ p>
+<code> [qrcodetag_from_goaskle_com /] </code> وسيتم عرض رمز QR مع رابط إلى <i> عنوان URL الحالي </ i> <br>
+<code> [qrcodetag_from_goaskle_com] content [/ qrcodetag_from_goaskle_com] </code> لعرض رمز الاستجابة السريعة مع <i> محتوى </ i> <br>
+<p>
+يمكنك استبدال أي قيمة افتراضية بتمريرها كمعامل في الرمز القصير ، على سبيل المثال <br>
+<code> [qrcodetag_from_goaskle_com size = "150" link = "true"] content [/ qrcodetag_from_goaskle_com] </code> سيعرض رمز QR بأبعاد 150 بكسل ويعين رابطًا لصورة رمز الاستجابة السريعة.
+</p>
+<p> لاستخدام وظيفة تلميح الأداة ، اكتب هذا الرمز </ p>
+<code> [qrcodetag_from_goaskle_com tooltip = "QR Code content"] الرابط أو النص الخاص بك [/ qrcodetag_from_goaskle_com] </code>
+<p> بينما يمثل <i> محتوى رمز الاستجابة السريعة </ i> محتوى صورة رمز الاستجابة السريعة و <i> رابطك أو نصك </ i> هو النص المرئي - ضع في اعتبارك الاختلاف عن الاستخدام السابق! </ p>
+
+<h4> 3. استخدام وظيفة PHP </h4>
+
+<p> لاستخدام علامة QR Code داخل نموذجك أو <a href="http://wordpress.org/extend/plugins/exec-php/"> PHP الممكّنة </a> في النشرات ، استخدم <code> العمومية الكائن $ qrcodetag_from_goaskle_com </code>: </p>
+<code> global $ qrcodetag_from_goaskle_com؛ </code> <br>
+<code> echo $ qrcodetag_from_goaskle_com-> getQrCodeUrl ($ content، $ size، $ encoding، $ ecc، $ margin، $ version)؛ </code> <br>
+
+<p> لعرض رمز الاستجابة السريعة 100 × 100 بكسل في قالب الصفحة ، يجب تضمين رمز PHP هذا: </ p>
+<pre> <code> & lt؛ img src = "& lt؛؟ php
+  qrcodetag_from_goaskle_com $ العالمية؛
+  echo $ qrcodetag_from_goaskle_com-> getQrCodeUrl ('mycontent'، 100، 'UTF-8'، 'L'، 4،0) ؛
+؟ & gt؛ "& gt؛ </code> </pre>
+
+<h4> 4. استخدام القطعة </ h4>
+
+من أجل استخدام علامة QR Code كأداة ، ما عليك سوى إسقاطها على الشريط الجانبي (المظهر | الحاجيات) وتعيين الخيارات وفقًا لذلك.
+
+<h4> 5. المشاكل المعروفة </ h4>
+- مشكلة علامة الإغلاق الذاتي (انظر تحذير الرمز القصير) <br>
+- مشكلة العلامة المختلطة (انظر تحذير الرمز القصير) <br>
+- مشكلة علامة فارغة (انظر تحذير الرمز القصير) <br>
+- حجم الهامش غير صحيح (مع Google API فقط) <br>
+
+
+<h4> 6. روابط مفيدة </ h4>
+
+<a href="https://portal.goaskle.com/" target="_blank"> إنشاء تذكرة دعم </a> - اطرح أي سؤال حول هذا المكون الإضافي لرمز الاستجابة السريعة <br>
+<a href="https://goaskle.com/en/qr-code-tag-goaskle-com-for-woocommerce-yith-pos-pdf-invoices/" target="_blank"> صفحة المكوّن الإضافي </a> <br>
+
+
+<h4> 7. الترجمات </ h4>
+نرحب بترجمات هذا البرنامج المساعد! قم بتنزيل <a href="http://www.poedit.net/" target="_blank"> Poedit </a> وأرسل ملفات الترجمة (* .po & * .mo ، بما في ذلك ملف تعليمات html هذا) مرة أخرى إلى <a href="mailto:info@goaskle.com"> أنا </a>. شكرا!
+
+
+
+
+<hr>
+<p style = "font-size: 0.7em؛"> <i> WordPress / Woocommerce plugin <a href="https://goaskle.com"> <؟ php echo $ this-> pluginName. ' v '. $ this-> pluginVersion؟> </a> بواسطة <a href="mailto:info@goaskle.com"> Goaskle.com </a> </i> </p>

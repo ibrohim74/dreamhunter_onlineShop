@@ -1,0 +1,6 @@
+2023-05-05T10:35:17+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-content\plugins\jetpack\modules\module-extras.php на строке 72
+
+2023-05-05T10:37:13+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-includes\class-wpdb.php на строке 2431
+
+2023-05-05T10:37:13+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-includes\class-wpdb.php на строке 2431
+

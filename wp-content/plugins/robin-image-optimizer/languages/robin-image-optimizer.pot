@@ -1,0 +1,1324 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Webcraftic Robin image optimizer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-06 07:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7\n"
+"X-Domain: robin-image-optimizer"
+
+#: libs/addons/views/part-settings-page-webp-options.php:54
+msgid ""
+" Each &lt;img&gt; will be replaced with a &lt;picture&gt; tag that will also "
+"provide the WebP image as a choice for browsers that support it. Also loads "
+"the picturefill.js for browsers that don't support the &lt;picture&gt; tag. "
+"You don't need to activate this if you're using the Cache Enabler plugin "
+"because your WebP images are already handled by this plugin. <strong>Please "
+"make a test before using this option</strong>, as if the styles that your "
+"theme is using rely on the position of your &lt;img&gt; tag, you might "
+"experience display problems. <strong>You can revert anytime to the previous "
+"state by just deactivating the option.</strong>"
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:70
+msgid ""
+" Plugin will not replace the source JPEG, PNG image on Webp version of the "
+"image in\n"
+"                        front-end."
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:62
+msgid ""
+"\"Image URLs\" replaces the image URLs to point to the webp <i>rather "
+"than</i> the original. Handles src, srcset, common lazy-load attributes and "
+"even inline styles."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:446
+#: includes/classes/class-rio-cron.php:43
+msgid "1 min"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:449
+#: includes/classes/class-rio-cron.php:55
+msgid "10 min"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:447
+#: includes/classes/class-rio-cron.php:47
+msgid "2 min"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:450
+#: includes/classes/class-rio-cron.php:59
+msgid "30 min"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:448
+#: includes/classes/class-rio-cron.php:51
+msgid "5 min"
+msgstr ""
+
+#: includes/classes/class-rio-cron.php:63
+msgid "60 min"
+msgstr ""
+
+#: admin/boot.php:275
+#, php-format
+msgid ""
+"<a href=\"%s\">License activation</a> required. A license is required to get "
+"premium plugin updates, as well as to get additional services."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:429
+msgid ""
+"<b>Scheduled optimization</b> will occur on a scheduled basis.<br><b>"
+"Background optimization</b> will occur in the background constantly."
+msgstr ""
+
+#: admin/includes/sidebar-widgets.php:24
+msgid "Activate Robin image optimizer pro"
+msgstr ""
+
+#: libs/addons/views/part-bulk-optimization-table-folders.php:17
+msgid "Add custom folder"
+msgstr ""
+
+#: views/part-settings-page-error-log-options.php:13
+msgid ""
+"Additional logging levels. Enable these options only when the plugin support "
+"service asks for it. If you use logging always, it can slow down your site."
+msgstr ""
+
+#: libs/addons/views/part-bulk-optimization-table-folders.php:15
+msgid "Additional media folders"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:120
+msgid "All Folders"
+msgstr ""
+
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:172
+msgid "All images from custom folders are optimized."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:285
+#: admin/pages/class-rio-statistic.php:291
+msgid "All images from the media library are optimized."
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:131
+msgid "All Media Files"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:564
+msgid "Are you sure that you want to clear image backups folder?"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:296
+msgid ""
+"Are you sure that you want to leave the page? The optimization process is "
+"not over yet, stay on the page until the end of the optimization process."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:561
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:316
+msgid "Ascending"
+msgstr ""
+
+#: includes/classes/class-rio-attachment.php:271
+#, php-format
+msgid "Attachment #%d doesn't have metadata, the image may be damaged."
+msgstr ""
+
+#: includes/classes/class-rio-attachment.php:268
+msgid "Attachment cannot be optimized."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:225
+msgid "Auto optimization on upload"
+msgstr ""
+
+#: admin/boot.php:246
+msgid "Automatic convertation in Webp"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:227
+msgid ""
+"Automatically compress all images that you upload directly to the WordPress "
+"media library, when editing pages and posts or using themes and plugins."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:424
+msgid "Background"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:266
+msgid "Background conversion"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:265
+msgid "Background optimization"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:415
+msgid "Background optimization type"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:236
+msgid "Backup images"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:238
+msgid ""
+"Before optimizing, all your images will be saved in a separate folder for "
+"future recovery."
+msgstr ""
+
+#: admin/boot.php:252
+msgid "Best support"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:120
+msgid "Bulk optimization"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:278
+#: libs/addons/views/part-bulk-optimization-table-folders.php:26
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:166
+msgid "Cancel"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:380
+msgid ""
+"Choose which formats of images should be optimized and uncheck those that do "
+"not need optimization."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:401
+msgid ""
+"Choose which sizes of thumbnails should be optimized and uncheck those that "
+"do not need optimization."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:565
+msgid "Clear Backup"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:22
+msgctxt "Column label"
+msgid "File path"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:23
+msgctxt "Column label"
+msgid "Folder"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:25
+msgctxt "Column label"
+msgid "Optimization"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:21
+msgctxt "Column label"
+msgid "Preview"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:24
+msgctxt "Column label"
+msgid "Status"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:299
+msgid "Completed"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:71
+msgid "Compress bulk of images"
+msgstr ""
+
+#: libs/addons/views/part-bulk-optimization-table-folders.php:35
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:171
+#, php-format
+msgid "Compressed %d of %s<br>images"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:118
+msgid "Compressed thumbnails"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:160
+msgid "Compression mode"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:279
+msgid "Confirm"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:292
+#, php-format
+msgid ""
+"Conversion in progress. Remained <span id=\"wio-total-unoptimized\">%s</span>"
+" images."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:268
+msgid "Convert Images to WebP"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:253
+msgid "Convert in progress"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:270
+msgid ""
+"Convert JPEG & PNG images into WebP format and replace them for browsers "
+"which support it. Unsupported browsers would be skipped."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:288
+msgid "Convert now"
+msgstr ""
+
+#: views/part-bulk-convert-webp-button.php:25
+#: views/part-bulk-convert-webp-button.php:31
+#: admin/pages/class-rio-statistic.php:293
+#: admin/includes/classes/class-rio-optimize-template.php:255
+msgid "Convert to WebP"
+msgstr ""
+
+#: includes/classes/class-rio-backup.php:321
+msgid "Could not copy the file to the temporary directory"
+msgstr ""
+
+#. Author of the plugin
+msgid "Creative Motion <info@cm-wp.com>"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:35
+msgid "Credits"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:110
+msgid "Cron is disabled in wp-config.php"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:114
+msgid "Current size"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:184
+#: admin/includes/classes/class-rio-optimize-template.php:146
+msgid "Custom"
+msgstr ""
+
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:69
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:76
+msgid "Custom Folders"
+msgstr ""
+
+#: views/part-bulk-optimization-tabs.php:32
+msgid "Custom folders"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:216
+msgid "custom quality 1-100"
+msgstr ""
+
+#: includes/classes/class-rio-cron.php:67
+msgid "daily"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:45
+msgid "Date when the limit is topped up"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:452
+msgid "Day"
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:30
+#, php-format
+msgid ""
+"Deliver the WebP versions of the images in the front-end <a href=\"%s\" "
+"target=\"_blank\">Read more</a>"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:321
+msgid "Descending"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:297
+msgid "Do you want to start optimization without backup?"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:275
+msgid "down"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:249
+msgid "Enable error logging. The log will be displayed on a separate tab."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:214
+msgid "Enter custom quality"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:363
+msgid "Enter the maximum height (px)"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:353
+msgid "Enter the maximum width (px)"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:141
+#: views/part-bulk-optimization-statistic.php:53
+#: admin/pages/class-rio-statistic.php:277
+#: libs/addons/includes/classes/class.folders-list-table.php:236
+msgid "Error"
+msgstr ""
+
+#: admin/pages/class-rio-log.php:69 admin/pages/class-rio-log.php:98
+#: admin/pages/class-rio-settings.php:247
+msgid "Error Log"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:171
+msgid "Error Message:"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:138
+msgid "Errors"
+msgstr ""
+
+#: libs/addons/views/part-bulk-optimization-table-folders.php:44
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:168
+msgid "Exclude directory from optimization?"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:299
+msgid ""
+"EXIF is information stored in photos: camera model, shutter speed, exposure "
+"compensation, ISO, GPS, etc. By default, the plugin removes EXIF extended "
+"data. If your project is dedicated to photography and you need to display "
+"this data, then enable this option."
+msgstr ""
+
+#: admin/ajax/logs.php:15
+msgid "Failed to clean-up logs. Please try again later."
+msgstr ""
+
+#: admin/boot.php:250
+msgid "Fast optimization servers"
+msgstr ""
+
+#: includes/classes/class-rio-attachment.php:273
+#, php-format
+msgid "File \"(%s)\" doesn't exist"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:112
+msgid "File name"
+msgstr ""
+
+#: libs/addons/includes/classes/class.image-nextgen.php:207
+msgid "File not found"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:118
+msgid "Filter by folder"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:129
+msgid "Filter by status"
+msgstr ""
+
+#: admin/ajax/meta-migrations.php:163
+msgid "Finishing-up..."
+msgstr ""
+
+#: libs/addons/views/part-bulk-optimization-table-folders.php:25
+msgid "Folder"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:101
+msgid "Folder wp-content/uploads/ is unavailable for writing"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:106
+msgid "Folder wp-content/uploads/wio-backup/ is unavailable for writing"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:179
+msgid "G PageSpeed"
+msgstr ""
+
+#: admin/includes/sidebar-widgets.php:67
+msgid "Get starting free support"
+msgstr ""
+
+#: admin/includes/sidebar-widgets.php:60
+msgid "Having Issues?"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:305
+msgid "Here you can specify additional image optimization options."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:174
+#: admin/includes/classes/class-rio-optimize-template.php:154
+#: admin/includes/classes/class-rio-optimize-template.php:211
+msgid "High"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:451
+msgid "Hour"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://cm-wp.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://robinoptimizer.com"
+msgstr ""
+
+#: libs/addons/includes/classes/class.custom-folders.php:329
+msgid ""
+"If the file counter shows that not all files have been optimized yet, add "
+"the custom folder again."
+msgstr ""
+
+#: views/modal-webp-conversion.php:29
+msgid ""
+"If you choose to a scheduled conversion, you can leave this page or close "
+"the browser. A plugin without your participation will convert images via "
+"cron until it convert them all. This conversion method is slower than its "
+"alternative, but you don’t have to waste your time on manual conversion."
+msgstr ""
+
+#: views/modal-bulk-optimization.php:29
+msgid ""
+"If you choose to a scheduled optimization, you can leave this page or close "
+"the browser. A plugin without your participation will optimize images via "
+"cron until it optimizes them all. This optimization method is slower than "
+"its alternative, but you don’t have to waste your time on manual "
+"optimization."
+msgstr ""
+
+#: views/modal-webp-conversion.php:15
+msgid ""
+"If you choose to convert now, you should keep this page open until a bulk "
+"conversion is performed. If you leave, the conversion process will stop and "
+"you will need to run it again.."
+msgstr ""
+
+#: views/modal-bulk-optimization.php:15
+msgid ""
+"If you choose to optimize now, you should keep this page open until a bulk "
+"optimization is performed. If you leave, the optimization process will stop "
+"and you will need to run it again.."
+msgstr ""
+
+#: views/modal-webp-conversion.php:31
+msgid ""
+"If you have selected background conversion, you can leave this page or close "
+"the browser. The plugin will convert the images without your participation "
+"until it convert them all. This conversion method is faster than scheduled "
+"conversion and manual conversion. (beta version)."
+msgstr ""
+
+#: views/modal-bulk-optimization.php:31
+msgid ""
+"If you have selected background optimization, you can leave this page or "
+"close the browser. The plugin will optimize the images without your "
+"participation until it optimizes them all. This optimization method is "
+"faster than scheduled optimization and manual optimization. (beta version)."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:204
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:123
+msgid "Image optimization dashboard"
+msgstr ""
+
+#: admin/pages/class-rio-log.php:98 admin/pages/class-rio-statistic.php:120
+#: admin/includes/classes/class-rio-nextgen-landing.php:38
+#: admin/includes/classes/class-rio-nextgen-landing.php:39
+msgid "Image optimizer"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:462
+msgid "Images per iteration"
+msgstr ""
+
+#: libs/addons/views/modal-select-custom-folders.php:14
+msgid "images."
+msgstr ""
+
+#: libs/addons/views/modal-select-custom-folders.php:15
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:170
+msgid ""
+"Indexing complete. Directory successfully added and ready for optimization."
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:113
+msgid "Inital size"
+msgstr ""
+
+#: includes/classes/class-rio-backup.php:334
+msgid ""
+"It is not possible to create a temporary file, the backup folder is not "
+"writable."
+msgstr ""
+
+#: views/part-settings-page-error-log-options.php:18
+msgid "Keep an error log on frontend"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:297
+msgid "Leave EXIF data"
+msgstr ""
+
+#: admin/ajax/meta-migrations.php:152
+#, php-format
+msgid "left to migrate: %s items"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:140
+msgid "Level:"
+msgstr ""
+
+#: views/clearfy-component-card.php:37 admin/pages/class-rio-license.php:49
+msgid "License"
+msgstr ""
+
+#: admin/ajax/logs.php:21
+msgid "Logs clean-up successfully"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:164
+msgid "Lossless"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:150
+#: admin/includes/classes/class-rio-optimize-template.php:185
+msgid "lossless"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:169
+msgid "Lossy"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:152
+#: admin/includes/classes/class-rio-optimize-template.php:198
+msgid "lossy"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:127
+msgid "Main Settings"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:549
+msgid "Manage backups"
+msgstr ""
+
+#: views/part-bulk-optimization-tabs.php:23
+msgid "Media library"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:205
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:124
+msgid ""
+"Monitor image optimization statistics and run on demand or scheduled "
+"optimization."
+msgstr ""
+
+#: admin/boot.php:249
+msgid "Multisite support"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:125
+msgid "New Filesize:"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:42
+msgid "Next credits update"
+msgstr ""
+
+#: libs/addons/admin/pages/class-rio-statistic-nextgen-page.php:61
+#: libs/addons/admin/pages/class-rio-statistic-nextgen-page.php:68
+msgid "NextGen Gallery"
+msgstr ""
+
+#: views/part-bulk-optimization-tabs.php:42
+msgid "Nextgen gallery"
+msgstr ""
+
+#: includes/classes/class-rio-media-library.php:293
+#: includes/classes/class-rio-media-library.php:297
+#: libs/addons/includes/classes/class.custom-folders.php:312
+#: libs/addons/includes/classes/class.custom-folders.php:316
+#: libs/addons/includes/classes/class.gallery-nextgen.php:341
+#: libs/addons/includes/classes/class.gallery-nextgen.php:344
+msgid "No access for writing backups."
+msgstr ""
+
+#: admin/boot.php:251
+msgid "No ads"
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:67
+msgid "No delivery"
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:31
+#: views/part-bulk-optimization-statistic.php:108
+msgid "of your website's images"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:305
+msgid "Optimization"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:183
+#: admin/includes/classes/class-rio-optimize-template.php:196
+#: admin/includes/classes/class-rio-optimize-template.php:209
+#: admin/includes/classes/class-rio-optimize-template.php:243
+msgid "Optimization in progress"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:286
+#, php-format
+msgid ""
+"Optimization in progress. Remained <span id=\"wio-total-unoptimized\">"
+"%s</span> images."
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:104
+msgid "Optimization log"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:105
+msgid ""
+"Optimization log shows the last 100 optimized images. You can check the "
+"quality of the image by clicking on the file name."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:312
+msgid "Optimization order"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:133
+msgid "Optimization server"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:425
+msgid "Optimization will occur in the background constantly"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:322
+msgid "Optimization will start with new images in the media library"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:317
+msgid "Optimization will start with old images in the media library"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:420
+msgid "Optimization will take place on a schedule"
+msgstr ""
+
+#: views/part-bulk-optimization-button.php:25
+#: views/part-bulk-optimization-button.php:31
+#: admin/pages/class-rio-statistic.php:300
+#: admin/includes/classes/class-rio-optimize-template.php:245
+#: libs/addons/views/part-bulk-optimization-table-folders.php:41
+msgid "Optimize"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:373
+msgid "Optimize formats"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Optimize images without losing quality, speed up your website load, improve "
+"SEO and save money on server and CDN bandwidth."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:282
+msgid "Optimize now"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:398
+msgid "Optimize thumbnails"
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:46
+#: libs/addons/includes/classes/class.folders-list-table.php:132
+msgid "Optimized"
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:71
+msgid "Optimized size"
+msgstr ""
+
+#: views/part-settings-page-error-log-options.php:21
+msgid ""
+"Option enables error logging on frontend. If for some reason webp images are "
+"not displayed on the front-end, you can use this option to catch errors and "
+"send this report to the plugin support service."
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:137
+msgid "Original Filesize:"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:116
+msgid "Original Saving"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:131
+msgid "Original Saving:"
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:62
+msgid "Original size"
+msgstr ""
+
+#: libs/addons/includes/classes/class.custom-folders.php:85
+msgid "Other Media"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:120
+msgid "Overall Saving"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:166
+msgid "Overall Saving:"
+msgstr ""
+
+#: admin/includes/sidebar-widgets.php:28
+msgid ""
+"Paid license guarantees that you can download and update existing and future "
+"paid components of the plugin."
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:14
+msgid ""
+"Please, find the list of available servers for image optimization below. If "
+"the server has a state “Down”, it means that the server is not available, "
+"and you should choose another one. “Stable” means that the server is "
+"available and you can use it."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:50
+msgid "Plugin configuration"
+msgstr ""
+
+#: admin/pages/class-rio-log.php:70
+msgid "Plugin debug report"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:27
+#: admin/pages/class-rio-settings.php:147
+msgid "Premium - no limits"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:237
+msgid "Processing"
+msgstr ""
+
+#: admin/pages/class-rio-license.php:50
+msgid "Product activation"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:185
+#: admin/includes/classes/class-rio-optimize-template.php:198
+#: admin/includes/classes/class-rio-optimize-template.php:211
+msgid "Re-Optimize to"
+msgstr ""
+
+#: libs/addons/views/part-bulk-optimization-table-folders.php:43
+msgid "Recover images from backup?"
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:220
+msgid "Recovery in progress"
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:35
+msgid "Redirection (via .htaccess)"
+msgstr ""
+
+#: views/modal-webp-conversion.php:45
+msgid ""
+"Remember that the conversion of a large number of images may take some time "
+"depending on your server and network speed."
+msgstr ""
+
+#: views/modal-bulk-optimization.php:45
+msgid ""
+"Remember that the optimization of a large number of images may take some "
+"time depending on your server and network speed."
+msgstr ""
+
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:167
+msgid "Remove"
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:51
+msgid ""
+"Replace &lt;img&gt; tags with &lt;picture&gt; tags, adding the webp to "
+"srcset."
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:59
+msgid "Replace image URLs"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:335
+msgid "Resizing large images"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:562
+#: libs/addons/views/part-bulk-optimization-table-folders.php:43
+msgid "Restore"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:618
+msgid "Restore completed."
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:221
+msgid "Restore original"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:298
+msgid "Resume"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:113
+msgid "Robin Image Optimizer"
+msgstr ""
+
+#. Name of the plugin
+#: robin-image-optimizer.php:35 admin/pages/class-rio-statistic.php:70
+#: admin/pages/class-rio-statistic.php:113
+msgid "Robin image optimizer"
+msgstr ""
+
+#: admin/pages/class-rio-license.php:52
+msgid "Robin image optimizer Premium"
+msgstr ""
+
+#: admin/boot.php:230
+msgid "ROBIN IMAGE OPTIMIZER PRO"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:455
+msgid "Run every"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:419
+msgid "Scheduled"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:408
+msgid "Scheduled and background optimization"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:259
+msgid "Scheduled conversion"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:258
+msgid "Scheduled optimization"
+msgstr ""
+
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:165
+msgid "Select"
+msgstr ""
+
+#: libs/addons/views/modal-select-custom-folders.php:10
+msgid ""
+"Select a directory for optimization. All nested images and folders will be "
+"optimized recursively."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:287
+msgid "Select conversion way"
+msgstr ""
+
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:163
+msgid "Select custom folder"
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:28
+msgid "Select delivery mode"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:13
+msgid "Select optimization server:"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:281
+msgid "Select optimization way"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:189
+msgid "Select the compression mode appropriate for your case."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:326
+msgid "Select the optimization order from the media library."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:456
+msgid "Select time at which the task will be repeated."
+msgstr ""
+
+#: libs/addons/admin/pages/class-rio-statistic-folders-page.php:169
+#, php-format
+msgid "Selected directory is being indexed. Found %d images."
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:40
+msgid "Server"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:21
+#: admin/pages/class-rio-settings.php:137
+msgid "Server 1 - image size limit up to 5 MB"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:24
+#: admin/pages/class-rio-settings.php:142
+msgid "Server 2 - beta"
+msgstr ""
+
+#: includes/classes/class-rio-bulk-optimization.php:483
+msgid "Server name is empty!"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:355
+#: admin/pages/class-rio-settings.php:365
+msgid ""
+"Set the maximum images resolution on the long side. For horizontal images, "
+"this will be the width, and for vertical images - the height. The resolution "
+"of the images will be changed proportionally according to the set value."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:49
+msgid "Settings"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:408
+msgid "Settings for scheduled and background image optimization."
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:239
+msgid "Skipped"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:464
+msgid ""
+"Specify the number of images that will be optimized during the job. For "
+"example, if you enter 5 and select 5 min, the plugin will optimize 5 images "
+"every 5 minutes."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:276
+msgid "stable"
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:60
+msgid "Statistics"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:31
+#: libs/addons/views/part-bulk-optimization-table-folders.php:24
+msgid "Status"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:301
+msgid "Stop"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:268
+msgid "Stop background conversion"
+msgstr ""
+
+#: views/part-bulk-optimization-button.php:29
+#: admin/pages/class-rio-statistic.php:267
+msgid "Stop background optimization"
+msgstr ""
+
+#: views/part-bulk-convert-webp-button.php:29
+msgid "Stop conversation"
+msgstr ""
+
+#: views/part-bulk-convert-webp-button.php:29
+msgid "Stop schedule conversation"
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:261
+msgid "Stop schedule conversion"
+msgstr ""
+
+#: views/part-bulk-optimization-button.php:29
+#: admin/pages/class-rio-statistic.php:260
+msgid "Stop schedule optimization"
+msgstr ""
+
+#: libs/addons/includes/classes/class.folders-list-table.php:235
+msgid "Success"
+msgstr ""
+
+#: admin/boot.php:248
+msgid "Support Nextgen gallery"
+msgstr ""
+
+#: libs/addons/views/part-bulk-optimization-table-folders.php:42
+msgid "Sync"
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:87
+msgid "that's the size you saved <br>by using Image Optimizer"
+msgstr ""
+
+#: views/part-bulk-optimization-servers.php:38
+msgid "The all images are limited, including thumbnails"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:620
+msgid "The backup folder was cleared."
+msgstr ""
+
+#: libs/addons/views/modal-select-custom-folders.php:13
+msgid "The selected directory is being indexed. Found"
+msgstr ""
+
+#: views/part-bulk-optimization-total.php:13
+msgid ""
+"The total number of images in the media library of this site, including "
+"thumbnails that are selected in the plugin settings"
+msgstr ""
+
+#: includes/functions.php:475
+#, php-format
+msgid ""
+"There were big changes in database schema. Please <a href=\"#\" id=\"wbcr-"
+"wio-meta-migration-action\" class=\"button button-default\" data-"
+"nonce=\"%s\">click here</a> to upgrade it to the latest version"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:185
+msgid "This mode allows you to configure your own compression ratio."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:170
+msgid ""
+"This mode provides an ideal optimization of your images without significant "
+"quality loss. The file size will be reduced approximately 5 times with a "
+"slight decrease in image quality. In most cases that cannot be seen with the "
+"naked eye."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:165
+msgid ""
+"This mode provides lossless compression and your images will be optimized "
+"without visible changes. If you want an ideal image quality, we recommend "
+"this mode. The size of the files will be reduced approximately 2 times. If "
+"this is not enough for you, try other modes."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:180
+msgid "This mode uses the optimal settings for Google Page Speed"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:175
+msgid ""
+"This mode will use all available optimization methods for maximum image "
+"compression. The file size will be reduced approximately 7 times. The "
+"quality of some images may deteriorate slightly. Use this mode if you need "
+"the maximum weight reduction, and you are ready to accept the loss of image "
+"quality."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:127
+msgid "This section you can set main images optimization settings."
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:38
+#, php-format
+msgid ""
+"This will add rules in the .htaccess that redirects directly to existing "
+"converted files. Best performance is achieved by redirecting in .htaccess. "
+"Based on testing your particular hosting configuration, we determined that "
+"your server <img width=\"30\" src=\"%s\"> serve the WEBP versions of the "
+"JPEG files seamlessly, via .htaccess."
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:162
+msgid "Thumbnails Optimized:"
+msgstr ""
+
+#: libs/addons/views/part-settings-page-webp-options.php:17
+msgid ""
+"To convert to WebP, select the premium optimization server in the settings "
+"above."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:295
+msgid ""
+"To start optimizing, you must complete migration from old plugin version."
+msgstr ""
+
+#: views/part-bulk-optimization-total.php:11
+msgid "Total number of images to optimize"
+msgstr ""
+
+#: includes/classes/class-rio-image-statistic.php:537
+#: includes/classes/class-rio-image-statistic.php:644
+#: libs/addons/includes/classes/class.image-statistic-folders.php:325
+#: libs/addons/includes/classes/class.image-statistic-nextgen.php:199
+msgid "Unknown error"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:145
+msgid "Unknown error."
+msgstr ""
+
+#: includes/classes/class-rio-bulk-optimization.php:309
+#: includes/classes/class-rio-bulk-optimization.php:383
+msgid ""
+"Unknown error. Enable error log on the plugin's settings page, then check "
+"the error report on the Error Log page. You can export the error report and "
+"send it to the support service of the plugin."
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:39
+#: libs/addons/includes/classes/class.folders-list-table.php:135
+#: libs/addons/includes/classes/class.folders-list-table.php:238
+msgid "Unoptimized"
+msgstr ""
+
+#: admin/includes/sidebar-widgets.php:31
+#, php-format
+msgid "Upgrade to Clearfy Business for $%s"
+msgstr ""
+
+#: libs/addons/views/part-bulk-optimization-table-folders.php:16
+msgid ""
+"Use the add folder... button to select site folders. Robin image optimizer "
+"will optimize images from the specified folders and their subfolders. The "
+"optimization status for each image in these folders can be seen in the Other "
+"Media list, under the Media menu."
+msgstr ""
+
+#: admin/includes/sidebar-widgets.php:63
+msgid ""
+"We provide free support for this plugin. If you are pushed with a problem, "
+"just create a new ticket. We will definitely help you!"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:151
+msgid ""
+"We use several free servers for image optimization and can’t fully guarantee "
+"their stable performance. The server can be not available in some countries "
+"due to the political reasons. There is a solution: if one of the servers is "
+"not available or can’t optimize the image, you can try to switch to the "
+"alternative server. Each server has individual limitations for image weight "
+"and optimization level. By default, you have the best server with minimum "
+"limitations."
+msgstr ""
+
+#: admin/includes/classes/class-rio-optimize-template.php:128
+#: admin/includes/classes/class-rio-optimize-template.php:232
+msgid "WebP Filesize:"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:115
+msgid "WebP size"
+msgstr ""
+
+#: views/modal-webp-conversion.php:2
+msgid "What you need to know before starting conversion."
+msgstr ""
+
+#: views/modal-bulk-optimization.php:2
+msgid "What you need to know before starting optimization."
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:337
+msgid ""
+"When you upload images from a camera or stock, they may be too high "
+"resolution and it is not necessary for web. The option allows you to "
+"automatically change images resolution on upload."
+msgstr ""
+
+#: admin/boot.php:247
+msgid "You can optimize custom folders"
+msgstr ""
+
+#: admin/pages/class-rio-settings.php:552
+msgid "You can restore the original images from a backup or clear them."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:273
+msgid ""
+"You can't convert to WebP through a free optimization server. Select the "
+"premium optimization server."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:272
+msgid ""
+"You cannot use the premium server on a free plan. You must activate the "
+"license to use all the features of the premium version."
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:104
+msgid "You converted to WebP"
+msgstr ""
+
+#: views/part-bulk-optimization-log.php:126
+msgid "You don't have optimized images."
+msgstr ""
+
+#: libs/addons/includes/classes/class.custom-folders.php:320
+msgid "You need to add an custom folder to start optimization!"
+msgstr ""
+
+#: views/part-bulk-optimization-statistic.php:27
+msgid "You optimized"
+msgstr ""
+
+#: admin/boot.php:277
+#, php-format
+msgid ""
+"Your <a href=\"%s\">license</a> has expired. You can no longer get premium "
+"plugin updates, premium support and your access to Webcraftic services has "
+"been suspended."
+msgstr ""
+
+#: admin/pages/class-rio-statistic.php:274
+msgid ""
+"Your selected optimization server is down. This means that you cannot "
+"optimize images through this server. Try selecting another optimization "
+"server."
+msgstr ""

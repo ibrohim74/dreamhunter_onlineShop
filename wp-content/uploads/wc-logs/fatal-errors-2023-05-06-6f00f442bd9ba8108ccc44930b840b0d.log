@@ -1,0 +1,2 @@
+2023-05-06T06:23:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\dream2\wp-includes\Requests\src\Transport\Curl.php на строке 510
+

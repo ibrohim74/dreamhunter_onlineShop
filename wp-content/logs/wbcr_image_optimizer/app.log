@@ -1,0 +1,412 @@
+
+02-05-2023 21:48:38 [dream2][info] Parent plugin start installation!
+02-05-2023 21:48:38 [dream2][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.5.8
+02-05-2023 21:48:43 [dream2][info] Parent plugin installation complete!
+-------------------------------
+02-05-2023 21:53:24 [dream2][info] Try to create backup directory. Backup dir: (C:/OpenServer/domains/dream2/wp-content/uploads/wio_backup)
+-------------------------------
+02-05-2023 21:57:37 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:57:37 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/woocommerce-placeholder.png) to a remote server (server_1).
+02-05-2023 21:57:38 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:39 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/woocommerce-placeholder-150x150.png) to a remote server (server_1).
+02-05-2023 21:57:39 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:39 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/woocommerce-placeholder-300x300.png) to a remote server (server_1).
+02-05-2023 21:57:40 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:40 [dream2][debug] New queue created #1, attributes values: {"server_id":null,"object_id":"5","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":117041,"final_size":84931,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":102644,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053860}
+02-05-2023 21:57:40 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 39
+-------------------------------
+02-05-2023 21:57:43 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:57:43 [dream2][info] Try to create backup directory. Backup dir: (C:/OpenServer/domains/dream2/wp-content/uploads/wio_backup/2023/04)
+02-05-2023 21:57:43 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/1_2.png) to a remote server (server_1).
+02-05-2023 21:57:45 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:46 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/1_2-150x150.png) to a remote server (server_1).
+02-05-2023 21:57:47 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:47 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/1_2-300x200.png) to a remote server (server_1).
+02-05-2023 21:57:47 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:48 [dream2][debug] New queue created #2, attributes values: {"server_id":null,"object_id":"39","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1506110,"final_size":511460,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1412998,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053868}
+02-05-2023 21:57:48 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 38
+-------------------------------
+02-05-2023 21:57:51 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:57:51 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/2_2.png) to a remote server (server_1).
+02-05-2023 21:57:53 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:54 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/2_2-150x150.png) to a remote server (server_1).
+02-05-2023 21:57:55 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:55 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/2_2-300x200.png) to a remote server (server_1).
+02-05-2023 21:57:56 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:57:56 [dream2][debug] New queue created #3, attributes values: {"server_id":null,"object_id":"40","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":2749202,"final_size":826815,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":2610206,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053876}
+02-05-2023 21:57:56 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 37
+-------------------------------
+02-05-2023 21:57:59 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:57:59 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/3_3.png) to a remote server (server_1).
+02-05-2023 21:58:02 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:03 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/3_3-150x150.png) to a remote server (server_1).
+02-05-2023 21:58:03 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:03 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/3_3-300x200.png) to a remote server (server_1).
+02-05-2023 21:58:04 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:04 [dream2][debug] New queue created #4, attributes values: {"server_id":null,"object_id":"41","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1956940,"final_size":700198,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1858013,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053884}
+02-05-2023 21:58:04 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 36
+-------------------------------
+02-05-2023 21:58:07 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:58:07 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/4_4.png) to a remote server (server_1).
+02-05-2023 21:58:12 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:13 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/4_4-150x150.png) to a remote server (server_1).
+02-05-2023 21:58:13 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:13 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/4_4-300x200.png) to a remote server (server_1).
+02-05-2023 21:58:14 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:14 [dream2][debug] New queue created #5, attributes values: {"server_id":null,"object_id":"42","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":2178855,"final_size":667699,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":2069831,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053894}
+02-05-2023 21:58:14 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 35
+-------------------------------
+02-05-2023 21:58:17 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:58:17 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/5_5.png) to a remote server (server_1).
+02-05-2023 21:58:19 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:20 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/5_5-150x150.png) to a remote server (server_1).
+02-05-2023 21:58:21 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:21 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/5_5-300x200.png) to a remote server (server_1).
+02-05-2023 21:58:22 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:22 [dream2][debug] New queue created #6, attributes values: {"server_id":null,"object_id":"43","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":2260945,"final_size":708171,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":2128771,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053902}
+02-05-2023 21:58:22 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 34
+-------------------------------
+02-05-2023 21:58:25 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:58:25 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/6_6.png) to a remote server (server_1).
+02-05-2023 21:58:27 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:28 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/6_6-150x150.png) to a remote server (server_1).
+02-05-2023 21:58:28 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:29 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/6_6-300x200.png) to a remote server (server_1).
+02-05-2023 21:58:29 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:30 [dream2][debug] New queue created #7, attributes values: {"server_id":null,"object_id":"44","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1861643,"final_size":565679,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1763792,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053910}
+02-05-2023 21:58:30 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 33
+-------------------------------
+02-05-2023 21:58:32 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:58:33 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/7_7.png) to a remote server (server_1).
+02-05-2023 21:58:36 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:37 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/7_7-150x150.png) to a remote server (server_1).
+02-05-2023 21:58:37 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:38 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/7_7-300x200.png) to a remote server (server_1).
+02-05-2023 21:58:38 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:39 [dream2][debug] New queue created #8, attributes values: {"server_id":null,"object_id":"45","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":2503903,"final_size":731124,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":2353722,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053919}
+02-05-2023 21:58:39 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 32
+-------------------------------
+02-05-2023 21:58:42 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:58:43 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/8_8.png) to a remote server (server_1).
+02-05-2023 21:58:45 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:46 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/8_8-150x150.png) to a remote server (server_1).
+02-05-2023 21:58:46 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:46 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/8_8-300x200.png) to a remote server (server_1).
+02-05-2023 21:58:47 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:47 [dream2][debug] New queue created #9, attributes values: {"server_id":null,"object_id":"46","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1837847,"final_size":627159,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1723791,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053927}
+02-05-2023 21:58:47 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 31
+-------------------------------
+02-05-2023 21:58:50 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:58:50 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/aboy.jpg) to a remote server (server_1).
+02-05-2023 21:58:50 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:51 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/aboy-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:58:51 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:51 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/aboy-300x236.jpg) to a remote server (server_1).
+02-05-2023 21:58:51 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:52 [dream2][debug] New queue created #10, attributes values: {"server_id":null,"object_id":"47","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":45253,"final_size":45253,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":33101,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053932}
+02-05-2023 21:58:52 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 30
+-------------------------------
+02-05-2023 21:58:54 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:58:54 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-1.jpg) to a remote server (server_1).
+02-05-2023 21:58:55 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:56 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-1-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:58:56 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:56 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-1-300x300.jpg) to a remote server (server_1).
+02-05-2023 21:58:56 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:58:57 [dream2][debug] New queue created #11, attributes values: {"server_id":null,"object_id":"48","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":565647,"final_size":179739,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":536666,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053937}
+02-05-2023 21:58:57 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 29
+-------------------------------
+02-05-2023 21:59:00 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:00 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-2.jpg) to a remote server (server_1).
+02-05-2023 21:59:01 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:01 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-2-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:59:01 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:02 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-2-300x300.jpg) to a remote server (server_1).
+02-05-2023 21:59:02 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:02 [dream2][debug] New queue created #12, attributes values: {"server_id":null,"object_id":"49","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":676211,"final_size":216268,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":640002,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053942}
+02-05-2023 21:59:02 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 28
+-------------------------------
+02-05-2023 21:59:05 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:05 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-5.jpg) to a remote server (server_1).
+02-05-2023 21:59:06 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:06 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-5-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:59:07 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:07 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-5-300x300.jpg) to a remote server (server_1).
+02-05-2023 21:59:07 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:07 [dream2][debug] New queue created #13, attributes values: {"server_id":null,"object_id":"50","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":592368,"final_size":160831,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":565877,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053947}
+02-05-2023 21:59:08 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 27
+-------------------------------
+02-05-2023 21:59:10 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:10 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-7.jpg) to a remote server (server_1).
+02-05-2023 21:59:11 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:12 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-7-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:59:12 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:12 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-7-300x300.jpg) to a remote server (server_1).
+02-05-2023 21:59:13 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:13 [dream2][debug] New queue created #14, attributes values: {"server_id":null,"object_id":"51","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":906726,"final_size":312691,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":862467,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053953}
+02-05-2023 21:59:13 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 26
+-------------------------------
+02-05-2023 21:59:16 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:16 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-9.jpg) to a remote server (server_1).
+02-05-2023 21:59:17 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:18 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-9-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:59:18 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:18 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Artboard-9-300x300.jpg) to a remote server (server_1).
+02-05-2023 21:59:19 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:19 [dream2][debug] New queue created #15, attributes values: {"server_id":null,"object_id":"52","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":890666,"final_size":290236,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":846909,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053959}
+02-05-2023 21:59:19 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 25
+-------------------------------
+02-05-2023 21:59:22 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:22 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/chitosan1.png) to a remote server (server_1).
+02-05-2023 21:59:25 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:26 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/chitosan1-150x150.png) to a remote server (server_1).
+02-05-2023 21:59:26 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:27 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/chitosan1-300x200.png) to a remote server (server_1).
+02-05-2023 21:59:27 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:28 [dream2][debug] New queue created #16, attributes values: {"server_id":null,"object_id":"53","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":2080890,"final_size":624841,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1955451,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053968}
+02-05-2023 21:59:28 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 24
+-------------------------------
+02-05-2023 21:59:30 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:31 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/chitosan2.png) to a remote server (server_1).
+02-05-2023 21:59:33 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:34 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/chitosan2-150x150.png) to a remote server (server_1).
+02-05-2023 21:59:35 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:35 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/chitosan2-300x200.png) to a remote server (server_1).
+02-05-2023 21:59:35 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:36 [dream2][debug] New queue created #17, attributes values: {"server_id":null,"object_id":"54","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1103459,"final_size":537676,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":992558,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053976}
+02-05-2023 21:59:36 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 23
+-------------------------------
+02-05-2023 21:59:40 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:40 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor1.jpg) to a remote server (server_1).
+02-05-2023 21:59:40 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:40 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor1-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:59:41 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:41 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor1-300x293.jpg) to a remote server (server_1).
+02-05-2023 21:59:41 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:41 [dream2][debug] New queue created #18, attributes values: {"server_id":null,"object_id":"55","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":55205,"final_size":55205,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":37711,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053981}
+02-05-2023 21:59:42 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 22
+-------------------------------
+02-05-2023 21:59:44 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:44 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor2.jpg) to a remote server (server_1).
+02-05-2023 21:59:45 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:45 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor2-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:59:45 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:45 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor2-300x281.jpg) to a remote server (server_1).
+02-05-2023 21:59:46 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:46 [dream2][debug] New queue created #19, attributes values: {"server_id":null,"object_id":"56","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":46490,"final_size":46490,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":31330,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053986}
+02-05-2023 21:59:46 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 21
+-------------------------------
+02-05-2023 21:59:48 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:48 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor3.jpg) to a remote server (server_1).
+02-05-2023 21:59:49 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:49 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor3-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:59:49 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:50 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor3-300x280.jpg) to a remote server (server_1).
+02-05-2023 21:59:50 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:50 [dream2][debug] New queue created #20, attributes values: {"server_id":null,"object_id":"57","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":57182,"final_size":57182,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":38413,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053990}
+02-05-2023 21:59:50 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 20
+-------------------------------
+02-05-2023 21:59:53 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:53 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor4.jpg) to a remote server (server_1).
+02-05-2023 21:59:53 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:53 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor4-150x150.jpg) to a remote server (server_1).
+02-05-2023 21:59:54 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:54 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/doctor4-300x286.jpg) to a remote server (server_1).
+02-05-2023 21:59:54 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 21:59:54 [dream2][debug] New queue created #21, attributes values: {"server_id":null,"object_id":"58","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":40115,"final_size":40115,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":26994,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683053994}
+02-05-2023 21:59:54 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 19
+-------------------------------
+02-05-2023 21:59:57 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 21:59:57 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/dripseed1.png) to a remote server (server_1).
+02-05-2023 21:59:59 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:00 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/dripseed1-150x150.png) to a remote server (server_1).
+02-05-2023 22:00:00 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:00 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/dripseed1-300x200.png) to a remote server (server_1).
+02-05-2023 22:00:01 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:01 [dream2][debug] New queue created #22, attributes values: {"server_id":null,"object_id":"59","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1822089,"final_size":567301,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1722366,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054001}
+02-05-2023 22:00:01 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 18
+-------------------------------
+02-05-2023 22:00:04 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:04 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/dripseed2.png) to a remote server (server_1).
+02-05-2023 22:00:05 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:06 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/dripseed2-150x150.png) to a remote server (server_1).
+02-05-2023 22:00:07 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:07 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/dripseed2-300x200.png) to a remote server (server_1).
+02-05-2023 22:00:07 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:08 [dream2][debug] New queue created #23, attributes values: {"server_id":null,"object_id":"60","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":952847,"final_size":586691,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":848269,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054008}
+02-05-2023 22:00:08 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 17
+-------------------------------
+02-05-2023 22:00:10 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:10 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/innocence.jpg) to a remote server (server_1).
+02-05-2023 22:00:11 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:12 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/innocence-150x150.jpg) to a remote server (server_1).
+02-05-2023 22:00:12 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:13 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/innocence-300x300.jpg) to a remote server (server_1).
+02-05-2023 22:00:13 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:13 [dream2][debug] New queue created #24, attributes values: {"server_id":null,"object_id":"62","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":769687,"final_size":232523,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":733817,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054013}
+02-05-2023 22:00:13 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 16
+-------------------------------
+02-05-2023 22:00:16 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:16 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/inocenc.png) to a remote server (server_1).
+02-05-2023 22:00:18 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:19 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/inocenc-150x150.png) to a remote server (server_1).
+02-05-2023 22:00:20 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:20 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/inocenc-300x200.png) to a remote server (server_1).
+02-05-2023 22:00:21 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:21 [dream2][debug] New queue created #25, attributes values: {"server_id":null,"object_id":"63","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":841107,"final_size":593211,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":741912,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054021}
+02-05-2023 22:00:21 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 15
+-------------------------------
+02-05-2023 22:00:23 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:24 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/inoncence1.png) to a remote server (server_1).
+02-05-2023 22:00:26 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:27 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/inoncence1-150x150.png) to a remote server (server_1).
+02-05-2023 22:00:27 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:27 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/inoncence1-300x200.png) to a remote server (server_1).
+02-05-2023 22:00:28 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:28 [dream2][debug] New queue created #26, attributes values: {"server_id":null,"object_id":"64","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":718905,"final_size":423880,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":631113,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054028}
+02-05-2023 22:00:28 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 14
+-------------------------------
+02-05-2023 22:00:31 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:31 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/photo_2023.jpg) to a remote server (server_1).
+02-05-2023 22:00:31 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:32 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/photo_2023-150x150.jpg) to a remote server (server_1).
+02-05-2023 22:00:32 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:32 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/photo_2023-257x300.jpg) to a remote server (server_1).
+02-05-2023 22:00:32 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:33 [dream2][debug] New queue created #27, attributes values: {"server_id":null,"object_id":"65","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":94873,"final_size":94873,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":79638,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054032}
+02-05-2023 22:00:33 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 13
+-------------------------------
+02-05-2023 22:00:36 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:36 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/photo_2023-04-01_19-30-39.jpg) to a remote server (server_1).
+02-05-2023 22:00:37 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:37 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/photo_2023-04-01_19-30-39-150x150.jpg) to a remote server (server_1).
+02-05-2023 22:00:37 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:37 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/photo_2023-04-01_19-30-39-300x256.jpg) to a remote server (server_1).
+02-05-2023 22:00:38 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:38 [dream2][debug] New queue created #28, attributes values: {"server_id":null,"object_id":"66","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":33893,"final_size":33893,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":23609,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054038}
+02-05-2023 22:00:38 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 12
+-------------------------------
+02-05-2023 22:00:41 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:41 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_1.png) to a remote server (server_1).
+02-05-2023 22:00:42 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:43 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_1-150x150.png) to a remote server (server_1).
+02-05-2023 22:00:43 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:43 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_1-300x200.png) to a remote server (server_1).
+02-05-2023 22:00:44 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:45 [dream2][debug] New queue created #29, attributes values: {"server_id":null,"object_id":"67","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":753012,"final_size":215445,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":595035,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054045}
+02-05-2023 22:00:45 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 11
+-------------------------------
+02-05-2023 22:00:47 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:47 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_2.png) to a remote server (server_1).
+02-05-2023 22:00:49 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:49 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_2-150x150.png) to a remote server (server_1).
+02-05-2023 22:00:49 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:50 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_2-300x200.png) to a remote server (server_1).
+02-05-2023 22:00:50 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:51 [dream2][debug] New queue created #30, attributes values: {"server_id":null,"object_id":"68","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":407354,"final_size":127292,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":317466,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054051}
+02-05-2023 22:00:51 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 10
+-------------------------------
+02-05-2023 22:00:53 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:00:53 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_3.png) to a remote server (server_1).
+02-05-2023 22:00:54 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:55 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_3-150x150.png) to a remote server (server_1).
+02-05-2023 22:00:56 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:56 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/scarlet_3-300x200.png) to a remote server (server_1).
+02-05-2023 22:00:57 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:00:57 [dream2][debug] New queue created #31, attributes values: {"server_id":null,"object_id":"69","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":496392,"final_size":150104,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":382583,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054057}
+02-05-2023 22:00:57 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 9
+-------------------------------
+02-05-2023 22:01:00 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:00 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/seksolog.jpg) to a remote server (server_1).
+02-05-2023 22:01:00 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:00 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/seksolog-150x150.jpg) to a remote server (server_1).
+02-05-2023 22:01:01 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:01 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/seksolog-300x300.jpg) to a remote server (server_1).
+02-05-2023 22:01:01 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:01 [dream2][debug] New queue created #32, attributes values: {"server_id":null,"object_id":"70","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":51595,"final_size":51595,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":36387,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054061}
+02-05-2023 22:01:02 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 8
+-------------------------------
+02-05-2023 22:01:04 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:04 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/seviwa.jpg) to a remote server (server_1).
+02-05-2023 22:01:04 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:05 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/seviwa-150x150.jpg) to a remote server (server_1).
+02-05-2023 22:01:05 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:05 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/seviwa-300x292.jpg) to a remote server (server_1).
+02-05-2023 22:01:06 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:06 [dream2][debug] New queue created #33, attributes values: {"server_id":null,"object_id":"71","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":43207,"final_size":43207,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":30079,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054066}
+02-05-2023 22:01:06 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 7
+-------------------------------
+02-05-2023 22:01:08 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:10 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/skarlet.jpg) to a remote server (server_1).
+02-05-2023 22:01:11 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:12 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/skarlet-150x150.jpg) to a remote server (server_1).
+02-05-2023 22:01:12 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:12 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/skarlet-300x300.jpg) to a remote server (server_1).
+02-05-2023 22:01:13 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:13 [dream2][debug] New queue created #34, attributes values: {"server_id":null,"object_id":"72","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":2814802,"final_size":320238,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":2759422,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054073}
+02-05-2023 22:01:13 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 6
+-------------------------------
+02-05-2023 22:01:16 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:16 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza1.png) to a remote server (server_1).
+02-05-2023 22:01:19 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:20 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza1-150x150.png) to a remote server (server_1).
+02-05-2023 22:01:20 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:20 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza1-300x200.png) to a remote server (server_1).
+02-05-2023 22:01:21 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:21 [dream2][debug] New queue created #35, attributes values: {"server_id":null,"object_id":"73","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1632535,"final_size":536508,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1531749,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054081}
+02-05-2023 22:01:21 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 5
+-------------------------------
+02-05-2023 22:01:24 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:24 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza2.png) to a remote server (server_1).
+02-05-2023 22:01:26 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:27 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza2-150x150.png) to a remote server (server_1).
+02-05-2023 22:01:28 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:28 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza2-300x200.png) to a remote server (server_1).
+02-05-2023 22:01:29 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:29 [dream2][debug] New queue created #36, attributes values: {"server_id":null,"object_id":"74","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1725570,"final_size":491769,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1617639,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054089}
+02-05-2023 22:01:29 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 4
+-------------------------------
+02-05-2023 22:01:32 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:32 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza3.png) to a remote server (server_1).
+02-05-2023 22:01:37 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:38 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza3-150x150.png) to a remote server (server_1).
+02-05-2023 22:01:38 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:39 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/speranza3-300x200.png) to a remote server (server_1).
+02-05-2023 22:01:39 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:40 [dream2][debug] New queue created #37, attributes values: {"server_id":null,"object_id":"75","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1252222,"final_size":657171,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1126358,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054100}
+02-05-2023 22:01:40 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 3
+-------------------------------
+02-05-2023 22:01:44 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:45 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Безымянный_1_Восстановлен_Монтажная_область_1.png) to a remote server (server_1).
+02-05-2023 22:01:46 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:46 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Безымянный_1_Восстановлен_Монтажная_область_1-150x150.png) to a remote server (server_1).
+02-05-2023 22:01:47 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:47 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/04/Безымянный_1_Восстановлен_Монтажная_область_1-300x172.png) to a remote server (server_1).
+02-05-2023 22:01:47 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:48 [dream2][debug] New queue created #38, attributes values: {"server_id":null,"object_id":"76","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":139914,"final_size":31235,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":125507,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054108}
+02-05-2023 22:01:48 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 2
+-------------------------------
+02-05-2023 22:01:50 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:50 [dream2][info] Try to create backup directory. Backup dir: (C:/OpenServer/domains/dream2/wp-content/uploads/wio_backup/2023/05)
+02-05-2023 22:01:50 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/05/512-512.png) to a remote server (server_1).
+02-05-2023 22:01:51 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:51 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/05/512-512-150x150.png) to a remote server (server_1).
+02-05-2023 22:01:51 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:52 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/05/512-512-300x300.png) to a remote server (server_1).
+02-05-2023 22:01:52 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:52 [dream2][debug] New queue created #39, attributes values: {"server_id":null,"object_id":"86","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":68592,"final_size":36289,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":16647,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054112}
+02-05-2023 22:01:52 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 1
+-------------------------------
+02-05-2023 22:01:55 [dream2][info] Start bulk optimization process! Scope: media-library
+02-05-2023 22:01:55 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/05/cropped-512-512.png) to a remote server (server_1).
+02-05-2023 22:01:56 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:56 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/05/cropped-512-512-150x150.png) to a remote server (server_1).
+02-05-2023 22:01:56 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:57 [dream2][info] Preparing to upload a file (C:/OpenServer/domains/dream2/wp-content/uploads/2023/05/cropped-512-512-300x300.png) to a remote server (server_1).
+02-05-2023 22:01:57 [dream2][info] File successfully uploaded to remote server (server_1).
+02-05-2023 22:01:59 [dream2][debug] New queue created #40, attributes values: {"server_id":null,"object_id":"87","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":116733,"final_size":41652,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":62248,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1683054117}
+02-05-2023 22:01:59 [dream2][info] End bulk optimization process! Scope: media-library. Remain: 0
+-------------------------------

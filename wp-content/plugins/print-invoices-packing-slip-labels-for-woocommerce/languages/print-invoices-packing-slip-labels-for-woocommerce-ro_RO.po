@@ -1,0 +1,4548 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Invoices, Packing Slips, Delivery Notes "
+"and Shipping Labels\n"
+"POT-Creation-Date: 2022-12-26 18:46+0530\n"
+"PO-Revision-Date: 2022-12-26 21:35+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && "
+"n%100<=19) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: print-invoices-packing-slip-labels-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:118
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:60
+msgid "Settings updated."
+msgstr "Setările aduse la zi."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:119
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:61
+msgid "All fields are mandatory"
+msgstr "Toate campurile sunt obligatorii"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:120
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:62
+#, php-format
+msgid ""
+"Unable to update settings due to an internal error. %s To troubleshoot "
+"please click %s here. %s"
+msgstr ""
+"Setările nu pot fi actualizate din cauza unei erori interne. %s Pentru "
+"depanare, faceți clic pe %s aici. %s"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:121
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:63
+msgid "You have to select order(s) first!"
+msgstr "Trebuie să selectați ordinele mai întâi!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:122
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:64
+msgid "One or more order do not have invoice generated. Generate manually?"
+msgstr "Unul sau mai multe comenzi nu au generat factură. Generați manual?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:123
+#: admin/class-wf-woocommerce-packing-list-admin.php:1328
+#: admin/class-wf-woocommerce-packing-list-admin.php:1981
+#: admin/modules/customizer/customizer.php:49
+#: admin/modules/customizer/customizer.php:241
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:65
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:85
+#: public/modules/invoice/invoice.php:140
+#: public/modules/shippinglabel/shippinglabel.php:247
+msgid "Error"
+msgstr "Eroare"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:124
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:66
+msgid "Please wait"
+msgstr "Te rog să aștepți"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:125
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:67
+msgid "is required"
+msgstr "este obligatoriu"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:126
+#: admin/views/freevspro.php:6
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:68
+#: public/modules/invoice/invoice.php:108
+#: public/modules/invoice/invoice.php:109
+#: public/modules/invoice/invoice.php:988
+#: public/modules/invoice/invoice.php:1012
+#: public/modules/invoice/invoice.php:1311
+#: public/modules/invoice/views/invoice-admin-settings.php:13
+msgid "Invoice"
+msgstr "Factura fiscala"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:127
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:69
+msgid ""
+"number has not been generated yet. Do you want to manually generate one ?"
+msgstr "numărul nu a fost încă generat. Doriți să generați unul manual?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:128
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:70
+msgid ""
+"‘Generate invoice for free orders’ is disabled in Invoice settings > "
+"Advanced. You are attempting to generate invoice for this free order. "
+"Proceed?"
+msgstr ""
+"„Generați factura pentru comenzi gratuite” este dezactivat în Setări "
+"factură> Avansat. Încercați să generați factură pentru această comandă "
+"gratuită. Continua?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:129
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:71
+msgid "Please fill the `from address` in the plugin's general settings."
+msgstr ""
+"Vă rugăm să completați „de la adresa” din setările generale ale pluginului."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:130
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:72
+msgid "Code Copied"
+msgstr "Cod copiat"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:131
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:73
+msgid "Close"
+msgstr "Închide"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:132
+#: admin/modules/customizer/views/customize.php:140
+#: admin/modules/customizer/views/customize.php:158
+#: admin/modules/customizer/views/customize.php:208
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:74
+msgid "Save"
+msgstr "Salvați"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:133
+#: admin/class-wf-woocommerce-packing-list-admin.php:1982
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:75
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:86
+msgid "Please enter mandatory fields"
+msgstr "Vă rugăm să introduceți câmpuri obligatorii"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:134
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:76
+msgid "You can add more than 1 order meta in"
+msgstr "Puteți adăuga mai mult de 1 meta de comandă"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:135
+#: admin/views/_custom_field_editor_form.php:19
+#: admin/views/_custom_field_editor_form.php:24
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:77
+msgid "Edit"
+msgstr "Editeaza"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:136
+#: admin/views/_custom_field_editor_form.php:42
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:78
+msgid "You can edit an existing item by using its key."
+msgstr "Puteți edita un element existent folosind cheia acestuia."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:234
+msgctxt "placeholder"
+msgid "Enter "
+msgstr "Introduce "
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:437
+#: admin/class-wf-woocommerce-packing-list-admin.php:674
+msgid "Invoice/Packing"
+msgstr "Factură / ambalare"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:447
+#: admin/partials/admin-settings.php:41
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:24
+#: public/modules/deliverynote/views/admin-settings.php:20
+#: public/modules/dispatchlabel/views/admin-settings.php:19
+#: public/modules/invoice/views/invoice-admin-settings.php:13
+#: public/modules/packinglist/views/admin-settings.php:14
+#: public/modules/shippinglabel/views/admin-settings.php:13
+msgid "Settings"
+msgstr "Setări"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:448
+msgid "Upgrade to premium"
+msgstr "Treceți la premium"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:449
+msgid "Support"
+msgstr "A sustine"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:450
+msgid "Review"
+msgstr "Recenzie"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:475
+msgid "Document details"
+msgstr "Detalii Document"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:497
+msgid "Print/Download"
+msgstr "Imprimare / descărcare"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:673
+#: admin/class-wf-woocommerce-packing-list-admin.php:705
+msgid "General Settings"
+msgstr "Setări generale"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:693
+#: admin/class-wf-woocommerce-packing-list-admin.php:694
+#: admin/views/admin_document_addons_page.php:28
+msgid "Addons"
+msgstr ""
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:784
+msgid "You are not allowed to view this page."
+msgstr "Nu aveți permisiunea de a vizualiza această pagină."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:785
+msgid "Access denied !!!."
+msgstr "Acces interzis !!!."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:1415
+msgid "Settings Updated"
+msgstr "Setarile actualizate"
+
+#. translators: %s: method
+#: admin/class-wf-woocommerce-packing-list-admin.php:1900
+#: public/modules/invoice/invoice.php:924
+#, php-format
+msgid "via %s"
+msgstr "prin %s"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:1905
+msgid "Free!"
+msgstr "Gratuit!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2066
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:170
+msgid "Item with same meta key already exists"
+msgstr "Elementul cu aceeași cheie meta există deja"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2124
+msgid ""
+"This will remove all invoice numbers created by WooCommerce PDF Invoices, "
+"Packing Slips, Delivery Notes & Shipping Labels by WebToffee."
+msgstr ""
+"Acest lucru va elimina toate numerele de factură create de WooCommerce "
+"Facturile PDF, borderourile de ambalare, Notele de livrare și Etichetele de "
+"expediere de WebToffee."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2124
+msgid "Note:"
+msgstr "Notă:"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2124
+#, php-format
+msgid ""
+"Before using this tool, please make sure you followed the steps described in "
+"this article %1$s how to reset/delete existing invoice numbers%2$s."
+msgstr ""
+"Înainte de a utiliza acest instrument, asigurați-vă că ați urmat pașii "
+"descriși în acest articol %1$s cum să resetați/Ștergeți numerele de factură "
+"existente%2$s."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2127
+msgid "Delete all generated invoice numbers"
+msgstr "Ștergeți toate numerele de factură generate"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2128
+#: admin/modules/customizer/views/customize.php:222
+msgid "Delete"
+msgstr "Șterge"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2325
+msgid "You are not allowed to do this action"
+msgstr "Nu aveți voie să faceți această acțiune"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2340
+msgid "Updated"
+msgstr "Actualizat"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2347
+msgid "No modules"
+msgstr ""
+
+#: admin/data/data.filters-help.php:3
+msgid "Order Details"
+msgstr "Detalii comanda"
+
+#: admin/data/data.filters-help.php:4 public/modules/invoice/invoice.php:1076
+msgid "Product Table"
+msgstr "Tabel de produse"
+
+#: admin/data/data.filters-help.php:5
+msgid "Summary Table"
+msgstr "Tabel rezumat"
+
+#: admin/data/data.filters-help.php:6
+#: public/modules/invoice/views/general.php:262
+msgid "Others"
+msgstr "Altele"
+
+#: admin/data/data.filters-help.php:11
+msgid "Alter order date"
+msgstr "Modificați data comenzii"
+
+#: admin/data/data.filters-help.php:12
+msgid ""
+"This filter is used to alter the order date in all the document templates"
+msgstr ""
+"Acest filtru este folosit pentru a modifica data comenzii în toate "
+"șabloanele de document"
+
+#: admin/data/data.filters-help.php:25
+msgid "Alter invoice date"
+msgstr "Modificați data facturii"
+
+#: admin/data/data.filters-help.php:26
+msgid ""
+"This filter is used to alter the invoice date in all the document templates"
+msgstr ""
+"Acest filtru este folosit pentru a modifica data facturii în toate "
+"șabloanele de documente"
+
+#: admin/data/data.filters-help.php:39 admin/data/data.filters-help.php:40
+msgid "Alter dispatch date"
+msgstr "Modificați data expedierii"
+
+#: admin/data/data.filters-help.php:53
+msgid "Alter barcode information"
+msgstr "Modificați informațiile codului de bare"
+
+#: admin/data/data.filters-help.php:54
+msgid ""
+"This filter is used to alter the barcode information for all the document "
+"templates"
+msgstr ""
+"Acest filtru este folosit pentru a modifica informațiile codului de bare "
+"pentru toate șabloanele de documente"
+
+#: admin/data/data.filters-help.php:63 admin/data/data.filters-help.php:64
+msgid "Alter shipping address"
+msgstr "Modificați adresa de expediere"
+
+#: admin/data/data.filters-help.php:79 admin/data/data.filters-help.php:80
+msgid "Alter billing address"
+msgstr "Modificați adresa de facturare"
+
+#: admin/data/data.filters-help.php:95 admin/data/data.filters-help.php:96
+msgid "Alter shipping from address"
+msgstr "Modificați livrarea de la adresa"
+
+#: admin/data/data.filters-help.php:111
+msgid "Add additional information"
+msgstr "Adăugați informații suplimentare"
+
+#: admin/data/data.filters-help.php:112
+msgid "Add additional info"
+msgstr "Adăugați informații suplimentare"
+
+#: admin/data/data.filters-help.php:124
+msgid "Alter product table head.(Add,remove, change the order)"
+msgstr ""
+"Modificați capul tabelului de produse. (Adăugați, eliminați, modificați "
+"comanda)"
+
+#: admin/data/data.filters-help.php:125
+msgid "Alter product table head.(Add, remove, change order)"
+msgstr ""
+"Modificați capul tabelului de produse. (Adăugați, eliminați, schimbați "
+"ordinea)"
+
+#: admin/data/data.filters-help.php:140
+msgid "Alter the product name in package documents"
+msgstr "Modificați numele produsului în documentele pachetului"
+
+#: admin/data/data.filters-help.php:141
+msgid ""
+"Alter product name in product (Works with Packing List, Shipping Label and "
+"Delivery note only)"
+msgstr ""
+"Modificați numele produsului în produs (funcționează numai cu lista de "
+"ambalare, eticheta de livrare și bonul de livrare)"
+
+#: admin/data/data.filters-help.php:150
+msgid "Add product variation in package documents"
+msgstr "Adăugați o variantă de produs în documentele pachetului"
+
+#: admin/data/data.filters-help.php:151
+msgid ""
+"Add product variation in product (Works with Packing List, Shipping Label "
+"and Delivery note only)"
+msgstr ""
+"Adăugați o variație de produs în produs (funcționează numai cu lista de "
+"ambalare, eticheta de livrare și bonul de livrare)"
+
+#: admin/data/data.filters-help.php:159
+msgid "Alter item quantity in package documents"
+msgstr "Modificați cantitatea articolului în documentele de pachet"
+
+#: admin/data/data.filters-help.php:160
+msgid ""
+"Alter item quantity in product table (Works with Packing List, Shipping "
+"Label and Delivery note only)"
+msgstr ""
+"Modificați cantitatea articolului în tabelul de produse (funcționează numai "
+"cu lista de ambalare, eticheta de livrare și bonul de livrare)"
+
+#: admin/data/data.filters-help.php:168
+msgid "Alter item total in package documents"
+msgstr "Modificați totalul articolului din documentele pachetului"
+
+#: admin/data/data.filters-help.php:169
+msgid ""
+"Alter item total in product table (Works with Packing List, Shipping Label "
+"and Delivery note only)"
+msgstr ""
+"Modificați totalul articolului în tabelul de produse (funcționează numai cu "
+"lista de ambalare, eticheta de livrare și bonul de livrare)"
+
+#: admin/data/data.filters-help.php:177
+msgid "Add additional column in product table of package documents"
+msgstr ""
+"Adăugați o coloană suplimentară în tabelul de produse din documentele "
+"pachetului"
+
+#: admin/data/data.filters-help.php:178
+msgid ""
+"You can add additional column head via `wf_pklist_alter_product_table_head` "
+"filter. You need to add column data via this filter. (Works with Packing "
+"List, Shipping Label and Delivery note only)"
+msgstr ""
+"Puteți adăuga un cap de coloană suplimentar prin filtrul "
+"`wf_pklist_alter_product_table_head`. Trebuie să adăugați date coloanei prin "
+"acest filtru. (Funcționează numai cu Lista de ambalare, eticheta de "
+"expediere și bonul de livrare)"
+
+#: admin/data/data.filters-help.php:190
+msgid "Alter product table column in package documents"
+msgstr "Modificați coloana tabelului de produse din documentele pachetului"
+
+#: admin/data/data.filters-help.php:191
+msgid ""
+"Alter product table column. (Works with Packing List, Shipping Label and "
+"Delivery note only)"
+msgstr ""
+"Modificați coloana tabelului de produse. (Funcționează numai cu Lista de "
+"ambalare, eticheta de expediere și bonul de livrare)"
+
+#: admin/data/data.filters-help.php:200
+msgid "Alter product name"
+msgstr "Modificați numele produsului"
+
+#: admin/data/data.filters-help.php:201
+msgid "Alter product name. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Modificați numele produsului. (Funcționează numai cu eticheta Factură și "
+"expediere)"
+
+#: admin/data/data.filters-help.php:210
+msgid "Add product variation"
+msgstr "Adăugați o variantă de produs"
+
+#: admin/data/data.filters-help.php:211
+msgid "Add product variation. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Adăugați o variantă de produs. (Funcționează numai cu eticheta Factură și "
+"expediere)"
+
+#: admin/data/data.filters-help.php:220
+msgid "Alter item quantity"
+msgstr "Modificați cantitatea articolului"
+
+#: admin/data/data.filters-help.php:221
+msgid "Alter item quantity. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Modificați cantitatea articolului. (Funcționează numai cu eticheta Factură "
+"și expediere)"
+
+#: admin/data/data.filters-help.php:229
+msgid "Alter item price"
+msgstr "Modificați prețul articolului"
+
+#: admin/data/data.filters-help.php:230
+msgid "Alter item price. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Modificați prețul articolului. (Funcționează numai cu eticheta Factură și "
+"expediere)"
+
+#: admin/data/data.filters-help.php:238
+msgid "Alter item price format"
+msgstr "Modificați formatul prețului articolului"
+
+#: admin/data/data.filters-help.php:239
+msgid "Alter formated item price. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Modificați prețul articolului formatat. (Funcționează numai cu eticheta "
+"Factură și expediere)"
+
+#: admin/data/data.filters-help.php:247
+msgid "Alter item total"
+msgstr "Modificați totalul articolului"
+
+#: admin/data/data.filters-help.php:248
+msgid "Alter item total. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Modificați totalul articolului. (Funcționează numai cu eticheta Factură și "
+"expediere)"
+
+#: admin/data/data.filters-help.php:256
+msgid "Alter item total format"
+msgstr "Modificați formatul total al articolului"
+
+#: admin/data/data.filters-help.php:257
+msgid "Alter formated item total. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Modificați totalul articolului formatat. (Funcționează numai cu eticheta "
+"Factură și expediere)"
+
+#: admin/data/data.filters-help.php:265
+msgid "Add additional column in product table"
+msgstr "Adăugați o coloană suplimentară în tabelul de produse"
+
+#: admin/data/data.filters-help.php:266
+msgid ""
+"You can add additional column head via `wf_pklist_alter_product_table_head` "
+"filter. You need to add column data via this filter. (Works with Invoice and "
+"Dispatch label only)"
+msgstr ""
+"Puteți adăuga un cap de coloană suplimentar prin filtrul "
+"`wf_pklist_alter_product_table_head`. Trebuie să adăugați date coloanei prin "
+"acest filtru. (Funcționează numai cu eticheta Factură și expediere)"
+
+#: admin/data/data.filters-help.php:278
+msgid "Alter product table column"
+msgstr "Modificați coloana tabelului de produse"
+
+#: admin/data/data.filters-help.php:279
+msgid ""
+"Alter product table column. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Modificați coloana tabelului de produse. (Funcționează numai cu eticheta "
+"Factură și expediere)"
+
+#: admin/data/data.filters-help.php:290 admin/data/data.filters-help.php:291
+msgid "Alter subtotal"
+msgstr "Modificați subtotalul"
+
+#: admin/data/data.filters-help.php:300
+msgid "Alter subtotal format"
+msgstr "Modificați formatul subtotalului"
+
+#: admin/data/data.filters-help.php:301
+msgid "Alter formated subtotal"
+msgstr "Modificați subtotalul formatat"
+
+#: admin/data/data.filters-help.php:310 admin/data/data.filters-help.php:311
+msgid "Alter shipping method"
+msgstr "Modificați metoda de expediere"
+
+#: admin/data/data.filters-help.php:319 admin/data/data.filters-help.php:320
+msgid "Alter fee"
+msgstr "Taxa de modificare"
+
+#: admin/data/data.filters-help.php:328 admin/data/data.filters-help.php:329
+msgid "Alter total fee"
+msgstr "Modificați taxa totală"
+
+#: admin/data/data.filters-help.php:337 admin/data/data.filters-help.php:338
+msgid "Alter total price"
+msgstr "Modificați prețul total"
+
+#: admin/data/data.filters-help.php:347 admin/data/data.filters-help.php:348
+msgid "Alter total price in words"
+msgstr "Modificați prețul total în cuvinte"
+
+#: admin/data/data.filters-help.php:359
+msgid "Alter meta data"
+msgstr "Modificați metadatele"
+
+#: admin/data/data.filters-help.php:360
+msgid "Alter meta data."
+msgstr "Modificați metadatele."
+
+#: admin/data/data.filters-help.php:368 admin/data/data.filters-help.php:369
+msgid "Alter additional item meta"
+msgstr "Modificați meta elementul suplimentar"
+
+#: admin/data/data.filters-help.php:380
+msgid "Hide/Show received seal in invoice"
+msgstr "Ascunde/Afișează sigiliul primit în factură"
+
+#: admin/data/data.filters-help.php:381
+msgid "Hide/Show received seal in invoice."
+msgstr "Ascunde/Afișează sigiliul primit în factură."
+
+#: admin/data/data.filters-help.php:394
+msgid "Add extra text in received seal"
+msgstr "Adăugați text suplimentar în sigiliul primit"
+
+#: admin/data/data.filters-help.php:395
+msgid "Add extra text in received seal."
+msgstr "Adăugați text suplimentar în sigiliul primit."
+
+#: admin/data/data.filters-help.php:410
+msgid "Alter template HTML before printing"
+msgstr "Modificați codul HTML al șablonului înainte de imprimare"
+
+#: admin/data/data.filters-help.php:411
+msgid "Alter template HTML before printing."
+msgstr "Modificați HTML-ul șablonului înainte de imprimare."
+
+#: admin/data/data.filters-help.php:424
+msgid "Alter the variation data."
+msgstr "Modificați datele de variație."
+
+#: admin/data/data.filters-help.php:428
+msgid "Alter the settings array"
+msgstr "Modificați matricea de setări"
+
+#: admin/data/data.filters-help.php:442
+msgid "Alter the footer data"
+msgstr ""
+
+#: admin/data/data.filters-help.php:443
+msgid "Alter the footer data."
+msgstr ""
+
+#: admin/data/data.tooltip.php:3
+msgid "Key in your company name."
+msgstr "Introduceți numele companiei dvs."
+
+#: admin/data/data.tooltip.php:4
+msgid ""
+"When enabled, replaces state code with state name in the from, return, "
+"billing and shipping addresses"
+msgstr ""
+"Când este activat, înlocuiește codul de stat cu numele statului în adresele "
+"de la de la, returnare, facturare și expediere"
+
+#: admin/data/data.tooltip.php:5
+msgid "Enable to have a preview of the document before the print is initiated"
+msgstr ""
+"Activați pentru a avea o previzualizare a documentului înainte de a începe "
+"imprimarea"
+
+#: admin/data/data.tooltip.php:6
+msgid "The default library to be used PDF generation"
+msgstr "Biblioteca implicită care va fi utilizată generarea PDF"
+
+#: admin/modules/customizer/classes/class-customizer.php:86
+#: public/modules/shippinglabel/shippinglabel.php:166
+msgid "Box name"
+msgstr "Numele cutiei"
+
+#: admin/modules/customizer/classes/class-customizer.php:419
+msgid "Refund"
+msgstr "Rambursa"
+
+#: admin/modules/customizer/classes/class-customizer.php:447
+msgid "incl. tax"
+msgstr "incl. impozit"
+
+#: admin/modules/customizer/classes/class-customizer.php:766
+#: admin/modules/customizer/classes/class-customizer.php:1490
+msgid "n/a"
+msgstr "n / A"
+
+#: admin/modules/customizer/classes/class-customizer.php:1746
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: admin/modules/customizer/classes/class-customizer.php:2152
+msgid ""
+"Mauris dignissim neque ut sapien vulputate, eu semper tellus porttitor. Cras "
+"porta lectus id augue interdum egestas. Suspendisse potenti. Phasellus "
+"mollis porttitor enim sit amet fringilla. Nulla sed ligula venenatis, rutrum "
+"lectus vel"
+msgstr ""
+"Mauris dignissim neque ut sapien vulputate, eu sempre tellus porttitor. Cras "
+"porta lectus id augue interdum egestas. Suspendisse potenti. Phasellus "
+"mollis porttitor enim sit amet fringilla. Nulla sed ligula venenatis, rutrum "
+"lectus vel"
+
+#: admin/modules/customizer/classes/class-customizer.php:2157
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec vehicula "
+"purus. Mauris tempor nec ipsum ac tempus. Aenean vehicula porttitor tortor, "
+"et interdum tellus fermentum at. Fusce pellentesque justo rhoncus"
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec vehicula "
+"purus. Mauris tempor nec ipsum ac tempus. Aenean vehicula porttitor tortor, "
+"și interdum tellus fermentum at. Fusce pellentesque justo rhoncus"
+
+#: admin/modules/customizer/customizer.php:81
+msgid "Unable to generate PDF."
+msgstr "Imposibil de generat PDF."
+
+#: admin/modules/customizer/customizer.php:183
+#: admin/modules/customizer/customizer.php:188
+msgid "Customize"
+msgstr "Personalizați"
+
+#: admin/modules/customizer/customizer.php:242
+msgid "Success"
+msgstr "Personalizați"
+
+#: admin/modules/customizer/customizer.php:243
+msgid "You can't undo this action. Are you sure?"
+msgstr "Nu puteți anula această acțiune. Esti sigur?"
+
+#: admin/modules/customizer/customizer.php:244
+msgid "Click here to add Company logo"
+msgstr "Faceți clic aici pentru a adăuga logo-ul companiei"
+
+#: admin/modules/customizer/customizer.php:245
+msgid "Click here to add Company name"
+msgstr "Faceți clic aici pentru a adăuga numele companiei"
+
+#: admin/modules/customizer/customizer.php:246
+msgid "Click here to add From address"
+msgstr "Faceți clic aici pentru a adăuga adresa de la De la"
+
+#: admin/modules/customizer/customizer.php:247
+msgid "Click here to add Signature"
+msgstr "Faceți clic aici pentru a adăuga semnătura"
+
+#: admin/modules/customizer/customizer.php:248
+msgid ""
+"Please save all data before leaving this page. All unsaved data will be "
+"lost. Are you sure?"
+msgstr ""
+"Vă rugăm să salvați toate datele înainte de a părăsi această pagină. Toate "
+"datele nesalvate se vor pierde. Esti sigur?"
+
+#: admin/modules/customizer/customizer.php:249
+#: admin/modules/customizer/views/customize.php:204
+msgid "Create new template"
+msgstr "Creați un nou șablon"
+
+#: admin/modules/customizer/customizer.php:250
+msgid "Change layout"
+msgstr "Modifică format"
+
+#: admin/modules/customizer/customizer.php:251
+msgid "Saving"
+msgstr "Salvăm datele"
+
+#: admin/modules/customizer/customizer.php:252
+#: public/modules/invoice/invoice.php:138
+#: public/modules/shippinglabel/shippinglabel.php:245
+msgid "Please enter order number"
+msgstr "Vă rugăm să introduceți numărul comenzii"
+
+#: admin/modules/customizer/customizer.php:253
+#: public/modules/invoice/invoice.php:139
+#: public/modules/shippinglabel/shippinglabel.php:246
+msgid "Generating"
+msgstr "Generare"
+
+#: admin/modules/customizer/customizer.php:299
+#: admin/modules/customizer/customizer.php:586
+msgid "Active"
+msgstr "Activ"
+
+#: admin/modules/customizer/customizer.php:558
+msgid "Error."
+msgstr "Eroare."
+
+#: admin/modules/customizer/customizer.php:589
+#: admin/modules/customizer/views/customize.php:221
+msgid "Activate"
+msgstr "Activati"
+
+#: admin/modules/customizer/customizer.php:616
+msgid "No template found."
+msgstr "Nu sa găsit niciun șablon."
+
+#: admin/modules/customizer/customizer.php:633
+msgid "Unable to save theme."
+msgstr "Imposibil de salvat tema."
+
+#: admin/modules/customizer/customizer.php:651
+msgid "Template with same name already exists."
+msgstr "Șablonul cu același nume există deja."
+
+#: admin/modules/customizer/customizer.php:681
+msgid "Template created."
+msgstr "Șablonul a fost creat."
+
+#: admin/modules/customizer/customizer.php:716
+msgid "Template updated."
+msgstr "Șablonul a fost actualizat."
+
+#: admin/modules/customizer/customizer.php:758
+msgid "Unable to switch view."
+msgstr "Imposibil de schimbat vizualizarea."
+
+#: admin/modules/customizer/customizer.php:1076
+msgid "Unable to load template."
+msgstr "Imposibil de încărcat șablonul."
+
+#: admin/modules/customizer/customizer.php:1100
+msgid "Untitled template"
+msgstr "Șablon fără titlu"
+
+#: admin/modules/customizer/customizer.php:1221
+msgid "Lighter"
+msgstr "Mai usoara"
+
+#: admin/modules/customizer/customizer.php:1222
+msgid "Normal"
+msgstr "Normal"
+
+#: admin/modules/customizer/customizer.php:1223
+msgid "Bold"
+msgstr "Îndrăzneţ"
+
+#: admin/modules/customizer/customizer.php:1224
+msgid "Bolder"
+msgstr "Bolder"
+
+#: admin/modules/customizer/customizer.php:1238
+msgid "Select One"
+msgstr "Selectați unul"
+
+#: admin/modules/customizer/customizer.php:1256
+msgid "Left"
+msgstr "Stânga"
+
+#: admin/modules/customizer/customizer.php:1257
+msgid "Right"
+msgstr "Dreapta"
+
+#: admin/modules/customizer/customizer.php:1258
+msgid "Center"
+msgstr "Centru"
+
+#: admin/modules/customizer/customizer.php:1259
+msgid "Start"
+msgstr "Start"
+
+#: admin/modules/customizer/customizer.php:1260
+msgid "End"
+msgstr "Sfârșit"
+
+#: admin/modules/customizer/customizer.php:1268
+msgid "None"
+msgstr "Nici unul"
+
+#: admin/modules/customizer/customizer.php:1281
+msgid "Solid"
+msgstr "Solid"
+
+#: admin/modules/customizer/customizer.php:1282
+msgid "Dotted"
+msgstr "Punctat"
+
+#: admin/modules/customizer/customizer.php:1283
+msgid "Dashed"
+msgstr "Punctată"
+
+#: admin/modules/customizer/data/data.tooltip.php:3
+msgid "Click to view predefined templates."
+msgstr "Faceți clic pentru a vizualiza șabloanele predefinite."
+
+#: admin/modules/customizer/data/data.tooltip.php:4
+msgid "Create a new template or edit an existing template."
+msgstr "Creați un șablon nou sau editați un șablon existent."
+
+#: admin/modules/customizer/data/data.tooltip.php:5
+msgid ""
+"Displays the currently chosen document template with provisions to modify."
+msgstr ""
+"Afișează șablonul de document ales în prezent cu dispoziții de modificat."
+
+#: admin/modules/customizer/data/data.tooltip.php:6
+msgid ""
+"Shows a preview of the template on an actual order. Key in an order number "
+"to view the same."
+msgstr ""
+"Afișează o previzualizare a șablonului pentru o comandă reală. Tastați un "
+"număr de comandă pentru a vedea același lucru."
+
+#: admin/modules/customizer/data/data.translation_strings.php:1
+msgid "Invoice No:"
+msgstr "Nr Factura:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:2
+#: admin/modules/customizer/data/data.translation_strings.php:28
+msgid "Order Date:"
+msgstr "Data comanda:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:3
+msgid "Dispatch Date:"
+msgstr "Data expedierii:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:4
+msgid "From Address:"
+msgstr "Din adresa:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:5
+msgid "Billing Address:"
+msgstr "Billing Address:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:6
+#: admin/modules/customizer/data/data.translation_strings.php:40
+msgid "Email:"
+msgstr "E-mail:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:7
+msgid "Tel:"
+msgstr "Telefon:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:8
+msgid "Shipping Address:"
+msgstr "Adresa de transport:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:9
+msgid "Tracking number:"
+msgstr "Număr de urmărire:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:10
+msgid "SSN:"
+msgstr "NAS:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:11
+msgid "SKU"
+msgstr "Cod produs"
+
+#: admin/modules/customizer/data/data.translation_strings.php:12
+msgid "Product"
+msgstr "Produs"
+
+#: admin/modules/customizer/data/data.translation_strings.php:13
+msgid "Quantity"
+msgstr "Cantitate"
+
+#: admin/modules/customizer/data/data.translation_strings.php:14
+msgid "Price"
+msgstr "Preț"
+
+#: admin/modules/customizer/data/data.translation_strings.php:15
+msgid "Total Price"
+msgstr "Tarif Total"
+
+#: admin/modules/customizer/data/data.translation_strings.php:16
+#: admin/modules/customizer/views/_customize_properties.php:640
+#: admin/views/wt_ipc_free_pro.php:752 admin/views/wt_ipc_free_pro.php:794
+#: public/modules/invoice/invoice.php:1101
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: admin/modules/customizer/data/data.translation_strings.php:17
+#: admin/modules/customizer/views/_customize_properties.php:646
+#: admin/views/wt_ipc_free_pro.php:756 admin/views/wt_ipc_free_pro.php:798
+#: public/modules/invoice/invoice.php:1102
+msgid "Shipping"
+msgstr "Livrare"
+
+#: admin/modules/customizer/data/data.translation_strings.php:18
+#: admin/modules/customizer/views/_customize_properties.php:653
+#: public/modules/invoice/invoice.php:1103
+msgid "Cart Discount"
+msgstr "Cosul de reducere"
+
+#: admin/modules/customizer/data/data.translation_strings.php:19
+#: admin/modules/customizer/views/_customize_properties.php:659
+#: public/modules/invoice/invoice.php:1104
+msgid "Order Discount"
+msgstr "Ordine Reducere"
+
+#: admin/modules/customizer/data/data.translation_strings.php:20
+#: admin/modules/customizer/views/_customize_properties.php:666
+#: public/modules/invoice/invoice.php:1105
+msgid "Total Tax"
+msgstr "Taxa totală"
+
+#: admin/modules/customizer/data/data.translation_strings.php:21
+#: admin/modules/customizer/views/_customize_properties.php:672
+#: admin/views/wt_ipc_free_pro.php:768 admin/views/wt_ipc_free_pro.php:810
+#: public/modules/invoice/invoice.php:1106
+msgid "Fee"
+msgstr "Taxa"
+
+#: admin/modules/customizer/data/data.translation_strings.php:22
+msgid "Coupon Used"
+msgstr "Cupon folosit"
+
+#: admin/modules/customizer/data/data.translation_strings.php:23
+#: admin/modules/customizer/views/_customize_properties.php:685
+#: admin/views/wt_ipc_free_pro.php:780 admin/views/wt_ipc_free_pro.php:822
+#: public/modules/invoice/invoice.php:1109
+msgid "Total"
+msgstr "Total"
+
+#: admin/modules/customizer/data/data.translation_strings.php:24
+msgid "INVOICE"
+msgstr "Factură"
+
+#: admin/modules/customizer/data/data.translation_strings.php:25
+msgid "Invoice Date:"
+msgstr "Dată Factură:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:26
+msgid "Invoice No.:"
+msgstr "Nr Factura:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:27
+msgid "Order No.:"
+msgstr "Comandă nu.:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:29
+msgid "Image"
+msgstr "Imagine"
+
+#: admin/modules/customizer/data/data.translation_strings.php:30
+msgid "Jumbing LED Light Wall Ball"
+msgstr "Minge de perete cu lumină LED Jumbing"
+
+#: admin/modules/customizer/data/data.translation_strings.php:31
+msgid "Payment method:"
+msgstr "Metoda de plată:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:32
+#: admin/modules/customizer/data/data.translation_strings.php:42
+msgid "Order No:"
+msgstr "Nr. Comanda:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:33
+msgid "Date:"
+msgstr "Data:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:34
+msgid "From:"
+msgstr "De la:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:35
+msgid "To:"
+msgstr "La:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:36
+msgid "Weight:"
+msgstr "Greutate:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:37
+msgid "Ship Date:"
+msgstr "Data de expediere:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:38
+msgid "Phone No:"
+msgstr "Telefon:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:39
+msgid "Ph No:"
+msgstr "Nu Ph:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:41
+msgid "Tracking Number:"
+msgstr "Număr de urmărire:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:43
+msgid "Total Weight"
+msgstr "Greutatea totală"
+
+#: admin/modules/customizer/data/data.translation_strings.php:44
+msgid "Contact Number"
+msgstr "Numar de contact"
+
+#: admin/modules/customizer/data/data.translation_strings.php:45
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/modules/customizer/data/data.translation_strings.php:46
+msgid "SSN"
+msgstr "CNP"
+
+#: admin/modules/customizer/data/data.translation_strings.php:47
+msgid "VAT"
+msgstr "TVA"
+
+#: admin/modules/customizer/data/data.translation_strings.php:48
+msgid "Customer Note"
+msgstr "Mențiune client"
+
+#: admin/modules/customizer/views/_customize_properties.php:119
+#: admin/modules/customizer/views/_customize_properties.php:311
+#: admin/modules/customizer/views/_customize_properties.php:335
+#: admin/modules/customizer/views/_customize_properties.php:599
+#: admin/views/wt_ipc_free_pro.php:478 admin/views/wt_ipc_free_pro.php:492
+#: public/modules/shippinglabel/shippinglabel.php:103
+#: public/modules/shippinglabel/shippinglabel.php:128
+msgid "Title"
+msgstr "Titlu"
+
+#: admin/modules/customizer/views/_customize_properties.php:125
+#: admin/modules/customizer/views/_customize_properties.php:230
+#: admin/modules/customizer/views/_customize_properties.php:282
+#: admin/modules/customizer/views/_customize_properties.php:340
+#: admin/modules/customizer/views/_customize_properties.php:604
+#: public/modules/invoice/invoice.php:307
+msgid "Font size"
+msgstr "Font size"
+
+#: admin/modules/customizer/views/_customize_properties.php:132
+#: admin/modules/customizer/views/_customize_properties.php:316
+msgid "Text align"
+msgstr "Aliniere text"
+
+#: admin/modules/customizer/views/_customize_properties.php:142
+msgid "Text Color"
+msgstr "Culoare text"
+
+#: admin/modules/customizer/views/_customize_properties.php:154
+#: admin/modules/customizer/views/_customize_properties.php:210
+msgid "Display"
+msgstr "Afişa"
+
+#: admin/modules/customizer/views/_customize_properties.php:158
+#: public/modules/shippinglabel/shippinglabel.php:155
+msgid "Company Logo"
+msgstr "Logoul companiei"
+
+#: admin/modules/customizer/views/_customize_properties.php:159
+msgid "Company Name"
+msgstr "Numele Companiei"
+
+#: admin/modules/customizer/views/_customize_properties.php:163
+msgid "Logo Width"
+msgstr "Logo Lățime"
+
+#: admin/modules/customizer/views/_customize_properties.php:170
+msgid "Logo Height"
+msgstr "Logo Înălțime"
+
+#: admin/modules/customizer/views/_customize_properties.php:178
+msgid "Company name font size"
+msgstr "Dimensiunea fontului companiei"
+
+#: admin/modules/customizer/views/_customize_properties.php:184
+msgid "Extra Details"
+msgstr "Detalii suplimentare"
+
+#: admin/modules/customizer/views/_customize_properties.php:190
+msgid "Extra detail font size"
+msgstr "Dimensiune font suplimentar detaliat"
+
+#: admin/modules/customizer/views/_customize_properties.php:196
+msgid "Header Color"
+msgstr "Culoarea antetului"
+
+#: admin/modules/customizer/views/_customize_properties.php:214
+#: public/modules/invoice/invoice.php:1090
+#: public/modules/shippinglabel/shippinglabel.php:164
+msgid "Barcode"
+msgstr "Cod de bare"
+
+#: admin/modules/customizer/views/_customize_properties.php:215
+msgid "QR Code"
+msgstr "Cod QR"
+
+#: admin/modules/customizer/views/_customize_properties.php:225
+#: admin/modules/customizer/views/_customize_properties.php:259
+#: public/modules/invoice/invoice.php:301
+msgid "Text"
+msgstr "Text"
+
+#: admin/modules/customizer/views/_customize_properties.php:238
+#: admin/modules/customizer/views/_customize_properties.php:290
+msgid "Style"
+msgstr "Stil"
+
+#: admin/modules/customizer/views/_customize_properties.php:248
+#: admin/modules/customizer/views/_customize_properties.php:300
+#: admin/modules/customizer/views/_customize_properties.php:324
+#: admin/modules/customizer/views/_customize_properties.php:347
+msgid "Text color"
+msgstr "Culoarea textului"
+
+#: admin/modules/customizer/views/_customize_properties.php:264
+#: public/modules/invoice/views/general.php:357
+msgid "Format"
+msgstr "Format"
+
+#: admin/modules/customizer/views/_customize_properties.php:358
+msgid "Table head background"
+msgstr "Fundalul capului mesei"
+
+#: admin/modules/customizer/views/_customize_properties.php:365
+msgid "Table head text color"
+msgstr "Culoarea textului capului mesei"
+
+#: admin/modules/customizer/views/_customize_properties.php:372
+msgid "Table body text color"
+msgstr "Culoarea textului corpului de masă"
+
+#: admin/modules/customizer/views/_customize_properties.php:386
+msgid "Serial No label"
+msgstr "Numărul de serie etichetă"
+
+#: admin/modules/customizer/views/_customize_properties.php:392
+msgid "Serial no text align"
+msgstr "Serial fără aliniere a textului"
+
+#: admin/modules/customizer/views/_customize_properties.php:409
+msgid "Image label"
+msgstr "Eticheta de imagine"
+
+#: admin/modules/customizer/views/_customize_properties.php:415
+msgid "Image text align"
+msgstr "Textul textului de aliniere"
+
+#: admin/modules/customizer/views/_customize_properties.php:432
+msgid "SKU label"
+msgstr "Eticheta SKU"
+
+#: admin/modules/customizer/views/_customize_properties.php:438
+msgid "SKU text align"
+msgstr "SKU text alin"
+
+#: admin/modules/customizer/views/_customize_properties.php:455
+msgid "Product label"
+msgstr "Eticheta produsului"
+
+#: admin/modules/customizer/views/_customize_properties.php:461
+msgid "Product text align"
+msgstr "Alinierea textului produsului"
+
+#: admin/modules/customizer/views/_customize_properties.php:478
+msgid "Qty label"
+msgstr "Eticheta etichetă"
+
+#: admin/modules/customizer/views/_customize_properties.php:484
+msgid "Qty text align"
+msgstr "Cantitate text aliniat"
+
+#: admin/modules/customizer/views/_customize_properties.php:501
+msgid "Price label"
+msgstr "Etichetă de preț"
+
+#: admin/modules/customizer/views/_customize_properties.php:507
+msgid "Price text align"
+msgstr "Preț text alin"
+
+#: admin/modules/customizer/views/_customize_properties.php:524
+msgid "Tax label"
+msgstr "Eticheta Taxa"
+
+#: admin/modules/customizer/views/_customize_properties.php:530
+msgid "Tax text align"
+msgstr "Aliniere text"
+
+#: admin/modules/customizer/views/_customize_properties.php:547
+msgid "Total weight label"
+msgstr "Etichetă de greutate totală"
+
+#: admin/modules/customizer/views/_customize_properties.php:553
+msgid "Total weight text align"
+msgstr "Greutatea totală aliniată"
+
+#: admin/modules/customizer/views/_customize_properties.php:570
+msgid "Total label"
+msgstr "Etichetă totală"
+
+#: admin/modules/customizer/views/_customize_properties.php:576
+msgid "Total text align"
+msgstr "Alinierea totală a textului"
+
+#: admin/modules/customizer/views/_customize_properties.php:590
+msgid "Signature type"
+msgstr "Tipul semnăturii"
+
+#: admin/modules/customizer/views/_customize_properties.php:594
+msgid "Manual Signature"
+msgstr "Semnătură manuală"
+
+#: admin/modules/customizer/views/_customize_properties.php:595
+msgid "Image Signature"
+msgstr "Semnătură de imagine"
+
+#: admin/modules/customizer/views/_customize_properties.php:612
+msgid "Align"
+msgstr "Alinia"
+
+#: admin/modules/customizer/views/_customize_properties.php:629
+msgid "Label"
+msgstr "Eticheta"
+
+#: admin/modules/customizer/views/_customize_properties.php:679
+#: public/modules/invoice/invoice.php:1108
+msgid "Payment Method"
+msgstr "Modalitate de plată"
+
+#: admin/modules/customizer/views/_pdf_preview.php:22
+msgid "View sample customization demo"
+msgstr "Vizualizați o demonstrație personalizată"
+
+#: admin/modules/customizer/views/_pdf_preview.php:28
+msgid "Preview sample PDF"
+msgstr "Previzualizați exemplul PDF"
+
+#: admin/modules/customizer/views/_pdf_preview.php:29
+msgid "Order"
+msgstr "Comanda"
+
+#: admin/modules/customizer/views/_pdf_preview.php:34
+#: admin/modules/customizer/views/_pdf_preview.php:35
+#: admin/views/admin_document_addons_page.php:47
+#: public/modules/invoice/views/qrcode_promote.php:37
+msgid "Order number"
+msgstr "Număr Comandă"
+
+#: admin/modules/customizer/views/customize.php:110
+msgid "Templates"
+msgstr "Template-uri"
+
+#: admin/modules/customizer/views/customize.php:115
+msgid "Type template name to search"
+msgstr "Introduceți numele șablonului pentru a căuta"
+
+#: admin/modules/customizer/views/customize.php:125
+msgid "Enter a name for your template"
+msgstr "Introduceți un nume pentru șablonul dvs"
+
+#: admin/modules/customizer/views/customize.php:130
+msgid "Please enter name"
+msgstr "Introduceți numele"
+
+#: admin/modules/customizer/views/customize.php:137
+#: admin/modules/customizer/views/customize.php:212
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:173
+msgid "Cancel"
+msgstr "Anulare"
+
+#: admin/modules/customizer/views/customize.php:148
+msgid "Choose a layout."
+msgstr "Alegeți un aspect de formular."
+
+#: admin/modules/customizer/views/customize.php:154
+msgid "All unsaved changes will be lost upon switching to a new layout."
+msgstr ""
+"Toate modificările nesalvate se vor pierde la trecerea la un nou aspect."
+
+#: admin/modules/customizer/views/customize.php:156
+msgid "Save before you proceed."
+msgstr "Salvați înainte de a continua."
+
+#: admin/modules/customizer/views/customize.php:157
+msgid "Saving..."
+msgstr "Se salvează…"
+
+#: admin/modules/customizer/views/customize.php:223
+msgid "Create new"
+msgstr "Creaza nou"
+
+#: admin/modules/customizer/views/customize.php:224
+msgid "My templates"
+msgstr "Șabloanele mele"
+
+#: admin/modules/customizer/views/customize.php:229
+msgid "This template is not comaptible with QR Code addon plugin"
+msgstr "Acest șablon nu este compatibil cu pluginul addon QR Code"
+
+#: admin/modules/customizer/views/customize.php:244
+#: admin/modules/customizer/views/customize.php:256
+msgid "Visual"
+msgstr "Vizual"
+
+#: admin/modules/customizer/views/customize.php:245
+#: admin/modules/customizer/views/customize.php:259
+msgid "Code"
+msgstr "Cod"
+
+#: admin/modules/customizer/views/customize.php:259
+#: public/modules/invoice/invoice.php:1064
+#: public/modules/shippinglabel/shippinglabel.php:152
+msgid "Pro version"
+msgstr "Versiunea PRO"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:38
+msgid "I couldn't understand how to make it work"
+msgstr "Nu am putut înțelege să-l fac să funcționeze"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:40
+msgid "Would you like us to assist you?"
+msgstr "Vrei să te ajutăm?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:44
+msgid "Language support issues"
+msgstr "Probleme de asistență lingvistică"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:49
+msgid "Plugin settings not available in my language"
+msgstr "Setările pluginului nu sunt disponibile în limba mea"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:51
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:57
+msgid "Which language?"
+msgstr "Ce limba?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+msgid ""
+"Missing RTL/Unicode language(e.g Chinese, Arabic etc) support for PDF "
+"document."
+msgstr ""
+"Lipsește compatibilitatea limbii RTL / Unicode (de exemplu, chineză, arabă "
+"etc.) pentru documentul PDF."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+#, php-format
+msgid "Already tried the free %s WebToffee mPDF addon %s."
+msgstr "Am încercat deja %s suplimentul WebToffee mPDF %s."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:63
+msgid ""
+"I am unable to add customer VAT(or GSTIN or ABN or any other tax id etc)"
+msgstr ""
+"Nu pot adăuga TVA pentru client (sau GSTIN sau ABN sau orice alt cod fiscal "
+"etc.)"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:68
+msgid ""
+"Unable to add from third party plugin that collects customer VAT(or GSTIN or "
+"ABN etc)"
+msgstr ""
+"Imposibil de adăugat de la un plugin terță parte care colectează TVA-ul "
+"clientului (sau GSTIN sau ABN etc.)"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:70
+msgid "Mention the name of the plugin or meta key if any"
+msgstr "Menționați numele pluginului sau meta cheii, dacă există"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:74
+msgid "Need a field to add the tax id on checkout page"
+msgstr ""
+"Aveți nevoie de un câmp pentru a adăuga codul fiscal pe pagina de finalizare "
+"a achiziției"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:82
+msgid "I found a better plugin"
+msgstr "Am găsit un plugin mai bun"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:84
+msgid "Which plugin?"
+msgstr "Care plugin?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Pluginul este grozav, dar am nevoie de funcții specifice pe care nu le "
+"acceptați"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:90
+msgid "Could you tell us more about that feature?"
+msgstr "Ne-ai putea spune mai multe despre această funcție?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:94
+msgid "The plugin didn't work as expected"
+msgstr "Pluginul nu a funcționat așa cum era de așteptat"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:96
+msgid "What did you expect?"
+msgstr "La ce te astepti?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:100
+msgid "Upgraded to pro version"
+msgstr "Actualizat la versiunea pro"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:106
+msgid "Other"
+msgstr "Alte"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:108
+msgid "Could you tell us a bit more?"
+msgstr "Ne-ai putea spune ceva mai mult?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:127
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Dacă aveți un moment, vă rugăm să ne anunțați de ce dezactivați:"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:164
+msgid ""
+"We do not collect any personal data when you submit this form. It's your "
+"feedback that we value."
+msgstr ""
+"Nu colectăm date cu caracter personal atunci când trimiteți acest formular. "
+"Apreciem feedback-ul dvs."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:165
+msgid "Privacy Policy"
+msgstr "Politică de confidențialitate"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:171
+msgid "Go to support"
+msgstr "Suport RTL"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:172
+msgid "Submit & Deactivate"
+msgstr "Trimiteti & dezactivați"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:174
+msgid "I rather wouldn't say"
+msgstr "N-aș spune"
+
+#: admin/partials/admin-settings.php:19 admin/partials/admin-settings.php:26
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:36
+msgid "Documents"
+msgstr "Documente"
+
+#: admin/partials/admin-settings.php:20 admin/partials/admin-settings.php:25
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:37
+#: public/modules/deliverynote/views/admin-settings.php:7
+#: public/modules/dispatchlabel/views/admin-settings.php:6
+#: public/modules/invoice/views/general.php:56
+#: public/modules/invoice/views/invoice-admin-settings.php:6
+#: public/modules/packinglist/views/admin-settings.php:7
+#: public/modules/shippinglabel/views/admin-settings.php:6
+msgid "General"
+msgstr "General"
+
+#: admin/partials/admin-settings.php:21 admin/partials/admin-settings.php:27
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:38
+msgid "Help Guide"
+msgstr "Ajutor Ghid"
+
+#: admin/partials/admin-settings.php:31
+msgid "Free vs Premium"
+msgstr "Gratuit vs Premium"
+
+#: admin/partials/admin-settings.php:33
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:39
+msgid "Other Solutions"
+msgstr "Alte Solutii"
+
+#. Plugin Name of the plugin/theme
+#: admin/partials/admin-settings.php:42
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:25
+#: admin/views/admin-settings-other-solutions.php:78
+#: admin/views/wf-other-solutions.php:78
+msgid ""
+"WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels"
+msgstr ""
+"Facturi PDF WooCommerce, borderouri de ambalare, note de livrare și etichete "
+"de expediere"
+
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:22
+msgid "Document Settings"
+msgstr "Setări document"
+
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:32
+msgid "Other documents"
+msgstr "Alte documente"
+
+#: admin/views/_custom_field_editor_form.php:19
+#: admin/views/_custom_field_editor_form.php:22
+#: admin/views/_custom_field_editor_form.php:31
+msgid "Add new"
+msgstr "Adaugă nou"
+
+#: admin/views/_custom_field_editor_form.php:40
+msgid "You can add custom/predefined order meta using its key"
+msgstr ""
+"Puteți adăuga meta comanda personalizată/predefinită folosind cheia acesteia"
+
+#: admin/views/_custom_field_editor_form.php:47
+msgid "Field Name"
+msgstr "Numele domeniului"
+
+#: admin/views/_custom_field_editor_form.php:48
+msgid "Meta Key"
+msgstr "Meta-cheie"
+
+#: admin/views/_custom_field_editor_form.php:53
+msgid "To add more than one custom order meta,"
+msgstr "Pentru a adăuga mai multe meta de comandă personalizată,"
+
+#: admin/views/_custom_field_editor_form.php:53
+msgid "upgrade to premium version"
+msgstr "upgrade la versiunea premium"
+
+#: admin/views/_form_field_generator_new.php:409
+msgid "Order Meta"
+msgstr "Metadatele Comenzilor"
+
+#: admin/views/_form_field_generator_new.php:411
+msgid "Add/Edit Order Meta Field"
+msgstr "Adăugați / Editați Câmpul Meta"
+
+#: admin/views/_form_field_generator_new.php:438
+msgid "Upload your image"
+msgstr ""
+
+#: admin/views/_form_field_generator_new.php:439
+msgid "Recommended size is 150x50px."
+msgstr ""
+
+#: admin/views/_form_field_generator_new.php:471
+msgid "Reset"
+msgstr "Reset"
+
+#: admin/views/_form_field_generator_new.php:496
+msgid "Select country"
+msgstr "Selectați Țara"
+
+#: admin/views/addons_page.php:33
+msgid "Premium and free Add-ons"
+msgstr ""
+
+#: admin/views/addons_page.php:70 admin/views/freevspro.php:141
+#: admin/views/freevspro_sidebar.php:46
+#, fuzzy
+#| msgid "Upgrade to premium"
+msgid "Upgrade To Premium"
+msgstr "Treceți la premium"
+
+#: admin/views/addons_page.php:76 admin/views/freevspro.php:133
+#: admin/views/freevspro_sidebar.php:52 admin/views/goto-pro.php:217
+msgid "30 Day Money Back Guarantee"
+msgstr "Garanție de rambursare în 30 de zile"
+
+#: admin/views/addons_page.php:77 admin/views/freevspro.php:134
+#: admin/views/freevspro_sidebar.php:53 admin/views/goto-pro.php:218
+msgid "Fast and Superior Support"
+msgstr "Suport rapid și superior"
+
+#: admin/views/addons_page.php:93
+msgid "Show More"
+msgstr ""
+
+#: admin/views/addons_page.php:94
+msgid "Show Less"
+msgstr ""
+
+#: admin/views/admin-settings-branding.php:6
+msgid "Developed by"
+msgstr "Dezvoltat de"
+
+#: admin/views/admin-settings-debug.php:7
+msgid "Debug"
+msgstr "Diagnosticare"
+
+#: admin/views/admin-settings-debug.php:8
+msgid "Caution: Settings here are only for advanced users."
+msgstr "Atenție: setările de aici sunt doar pentru utilizatorii avansați."
+
+#: admin/views/admin-settings-help-filters.php:28 admin/views/help.php:36
+msgid "Filters"
+msgstr "Filtre"
+
+#: admin/views/admin-settings-help-filters.php:30
+msgid "Some useful `filters` to extend plugin's functionality"
+msgstr "Câteva „filtre” utile pentru a extinde funcționalitatea pluginului"
+
+#: admin/views/admin-settings-help-filters.php:32
+msgid "search filter"
+msgstr "filtrul de căutare"
+
+#: admin/views/admin-settings-help-filters.php:61
+msgid "Example Code"
+msgstr "Exemplu de cod"
+
+#: admin/views/admin-settings-help-filters.php:83
+msgid "Copy Code"
+msgstr "Copiere cod"
+
+#: admin/views/admin-settings-other-solutions.php:30
+#: admin/views/wf-other-solutions.php:30
+msgid "More Plugins To Make Your Store Stand Out"
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:31
+#: admin/views/wf-other-solutions.php:31
+msgid ""
+"Check out our other plugins that are perfectly suited for WooCommerce store "
+"needs."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:42
+#: admin/views/wf-other-solutions.php:42
+msgid "WebToffee WooCommerce Best Sellers"
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:43
+#: admin/views/wf-other-solutions.php:43
+msgid ""
+"Highlight top-selling products on your WooCommerce store using best seller "
+"labels, sliders, and custom seals. You can display ranking positions for "
+"best-seller products in different categories."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:51
+#: admin/views/wf-other-solutions.php:51
+msgid "WebToffee WooCommerce Gift Cards"
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:52
+#: admin/views/wf-other-solutions.php:52
+msgid ""
+"Create and manage advanced gift cards for WooCommerce stores. Enable your "
+"customers to buy, redeem, and share gift cards from your store."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:60
+#: admin/views/wf-other-solutions.php:60
+#, fuzzy
+#| msgid "Sequential Order Number for WooCommerce"
+msgid "Frequently Bought Together for WooCommerce"
+msgstr "Număr de ordine secvențial pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:61
+#: admin/views/wf-other-solutions.php:61
+msgid ""
+"Boost the visibility of the products by displaying them as ‘Frequently "
+"bought together’ items in your store. You may also set up discounts for "
+"Frequently Bought Together bundles with this plugin."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:69
+#: admin/views/wf-other-solutions.php:69
+#, fuzzy
+#| msgid "GDPR Cookie Consent (CCPA Ready)"
+msgid "GDPR Cookie Consent Plugin (CCPA Ready)"
+msgstr "Consimțământul GDPR privind cookie-urile (CCPA Ready)"
+
+#: admin/views/admin-settings-other-solutions.php:70
+#: admin/views/wf-other-solutions.php:70
+msgid ""
+"The plugin helps you get compliant with GDPR, CCPA, and other major cookie "
+"laws. You can create and manage cookie consent banners, scan website "
+"cookies, and generate cookie policies with this plugin."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:79
+#: admin/views/wf-other-solutions.php:79
+msgid ""
+"Generate, customize, and manage WooCommerce documents including PDF "
+"invoices, packing slips, delivery notes, shipping labels, address labels, "
+"and other shipping documents using a single plugin."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:87
+#: admin/views/wf-other-solutions.php:87
+#, fuzzy
+#| msgid "Order XML File Export Import for WooCommerce"
+msgid "Product Import Export Plugin For WooCommerce"
+msgstr "Comandați importul de export de fișiere XML pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:88
+#: admin/views/wf-other-solutions.php:88
+msgid ""
+"Seamlessly import/export your WooCommerce products including simple, "
+"variable, custom products and subscriptions. You may also import and export "
+"product images, tags, categories, reviews, and ratings."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:96
+#: admin/views/wf-other-solutions.php:96
+#, fuzzy
+#| msgid "Import Export WordPress Users and WooCommerce Customers"
+msgid "WordPress Users & WooCommerce Customers Import Export"
+msgstr "Importați Exportați utilizatori WordPress și clienți WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:97
+#: admin/views/wf-other-solutions.php:97
+msgid ""
+"Easily import and export your WordPress users and WooCommerce customers "
+"using the Import Export plugin for WooCommerce. The plugin supports the use "
+"of CSV, XML, TSV, XLS, and XLSX file formats."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:105
+#: admin/views/wf-other-solutions.php:105
+#, fuzzy
+#| msgid "Order XML File Export Import for WooCommerce"
+msgid "Order, Coupon, Subscription Export Import for WooCommerce"
+msgstr "Comandați importul de export de fișiere XML pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:106
+#: admin/views/wf-other-solutions.php:106
+msgid ""
+"Export and Import your WooCommerce orders, subscriptions, and discount "
+"coupons using a single Import Export plugin. You may customize the export "
+"and import files with advanced filters and settings."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:114
+#: admin/views/wf-other-solutions.php:114
+#, fuzzy
+#| msgid "Smart Coupons for WooCommerce"
+msgid "Import Export Suite for WooCommerce"
+msgstr "Cupoane inteligente pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:115
+#: admin/views/wf-other-solutions.php:115
+msgid ""
+"An all-in-one plugin to import and export WooCommerce store data. You can "
+"import and export products, product reviews, orders, customers, discount "
+"coupons, and subscriptions using this single plugin."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:127
+#: admin/views/wf-other-solutions.php:127
+msgid "Smart Coupons for WooCommerce"
+msgstr "Cupoane inteligente pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:128
+#: admin/views/wf-other-solutions.php:128
+msgid ""
+"Create coupons to offer discounts and free products to your customers with "
+"Smart Coupons for WooCommerce. You can set up BOGO coupons, giveaways, gift "
+"cards, store credits, and more with this plugin."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:136
+#: admin/views/wf-other-solutions.php:136
+#, fuzzy
+#| msgid "Smart Coupons for WooCommerce"
+msgid "URL Coupons for WooCommerce"
+msgstr "Cupoane inteligente pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:137
+#: admin/views/wf-other-solutions.php:137
+msgid ""
+"Generate custom URLs and QR codes for every discount coupon in your "
+"WooCommerce store. These unique coupons are easy to share and can even be "
+"set to add new products to the cart upon application."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:145
+#: admin/views/wf-other-solutions.php:145
+msgid "PayPal Express Checkout Payment Gateway for WooCommerce"
+msgstr "PayPal Express Checkout Payment Gateway pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:146
+#: admin/views/wf-other-solutions.php:146
+msgid ""
+"Offer a fast checkout experience to your customers with PayPal Payment "
+"Gateway. You can set up the PayPal Express Checkout option on the product "
+"pages to reduce the clicks to complete the checkout."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:154
+#: admin/views/wf-other-solutions.php:154
+msgid "WooCommerce Stripe Payment Gateway"
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:155
+#: admin/views/wf-other-solutions.php:155
+msgid ""
+"Ensure a fast and secure checkout experience for your users with WooCommerce "
+"Stripe Payment Gateway. Stripe accepts credit/debit cards and offers "
+"integrations with Apple Pay, SEPA, Alipay, and more."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:163
+#: admin/views/wf-other-solutions.php:163
+#, fuzzy
+#| msgid "Smart Coupons for WooCommerce"
+msgid "Subscriptions for WooCommerce"
+msgstr "Cupoane inteligente pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:164
+#: admin/views/wf-other-solutions.php:164
+msgid ""
+"Enable subscriptions on your WooCommerce store to sell products (physical "
+"and digital) and services that require accepting recurring payments. "
+"Supports both simple and variable subscription products."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:172
+#: admin/views/wf-other-solutions.php:172
+#, fuzzy
+#| msgid "Sequential Order Number for WooCommerce"
+msgid "Sequential Order Numbers for WooCommerce"
+msgstr "Număr de ordine secvențial pentru WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:173
+#: admin/views/wf-other-solutions.php:173
+msgid ""
+"Number your WooCommerce orders in a custom, sequential & manageable format. "
+"The Sequential Order Number plugin lets your orders follow a custom & unique "
+"numbering sequence suitable for your business."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:181
+#: admin/views/wf-other-solutions.php:181
+#, fuzzy
+#| msgid "WordPress Migration & Duplicator"
+msgid "WordPress Backup and Migration"
+msgstr "WordPress Migrare și Duplicator"
+
+#: admin/views/admin-settings-other-solutions.php:182
+#: admin/views/wf-other-solutions.php:182
+msgid ""
+"A complete WordPress backup and migration plugin to easily back up and "
+"migrate your WordPress website and database. This fast and flexible backup "
+"solution makes creating and restoring backups easy."
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:228
+#: admin/views/wf-other-solutions.php:228
+#, fuzzy
+#| msgid "Upgrade to premium"
+msgid " Get Premium"
+msgstr "Treceți la premium"
+
+#: admin/views/admin-settings-other-solutions.php:236
+#: admin/views/wf-other-solutions.php:236
+msgid "Installed"
+msgstr ""
+
+#: admin/views/admin-settings-other-solutions.php:247
+#: admin/views/wf-other-solutions.php:247
+#, fuzzy
+#| msgid "Get Plugin"
+msgid "Get Free Plugin"
+msgstr "Obțineți pluginul"
+
+#: admin/views/admin-settings-save-button-form-wizard.php:6
+#: admin/views/admin-settings-save-button.php:6
+msgid "Update Settings"
+msgstr "Actualizați setările"
+
+#: admin/views/admin-settings-system-info.php:5
+msgid "System Configuration"
+msgstr "Configuratia sistemului"
+
+#: admin/views/admin-settings-system-info.php:6
+#, fuzzy
+#| msgid "Copy Code"
+msgid "Copy"
+msgstr "Copiere cod"
+
+#: admin/views/admin-settings-system-info.php:7
+#, fuzzy
+#| msgid "Code Copied"
+msgid "Copied"
+msgstr "Cod copiat"
+
+#: admin/views/admin-settings-system-info.php:14
+msgid "5.6 or higher recommended"
+msgstr "5.6 sau mai mare recomandat"
+
+#: admin/views/admin-settings-system-info.php:27
+msgid "Recommended, will use fallback functions"
+msgstr "Recomandat, va folosi funcții de rezervă"
+
+#: admin/views/admin-settings-system-info.php:33
+msgid "Required if you have images in your documents"
+msgstr "Obligatoriu dacă aveți imagini în documente"
+
+#: admin/views/admin-settings-system-info.php:36
+msgid "Better with transparent PNG images"
+msgstr "Mai bine cu imagini PNG transparente"
+
+#: admin/views/admin-settings-system-info.php:39
+#: admin/views/admin-settings-system-info.php:57
+msgid "Recommended for better performances"
+msgstr "Recomandat pentru performanțe mai bune"
+
+#: admin/views/admin-settings-system-info.php:48
+msgid "To compress PDF documents"
+msgstr "Pentru a comprima documente PDF"
+
+#: admin/views/admin-settings-system-info.php:51
+msgid "Recommended to compress PDF documents"
+msgstr "Recomandat pentru comprimarea documentelor PDF"
+
+#: admin/views/admin-settings-system-info.php:54
+msgid "For better performances"
+msgstr "Pentru performanțe mai bune"
+
+#. translators: <a> tags
+#. 'required' => sprintf( __( 'Recommended: 128MB (more for plugin-heavy setups<br/>See: %1$sIncreasing the WordPress Memory Limit%2$s', 'print-invoices-packing-slip-labels-for-woocommerce' ), '<a href="https://docs.woocommerce.com/document/increasing-the-wordpress-memory-limit/" target="_blank">', '</a>' ),
+#: admin/views/admin-settings-system-info.php:68
+msgid "Recommended 128MB or more"
+msgstr "Se recomandă 128 MB sau mai mult"
+
+#: admin/views/admin-settings-system-info.php:73
+msgid "Allow remote stylesheets and images"
+msgstr "Permite foi de stil și imagini la distanță"
+
+#: admin/views/admin-settings-system-info.php:76
+msgid "allow_url_fopen disabled"
+msgstr "allow_url_fopen dezactivat"
+
+#: admin/views/admin-settings-system-info.php:80
+msgid "Writtable"
+msgstr "Inscriptibil"
+
+#: admin/views/admin-settings-system-info.php:120
+msgid "Required"
+msgstr "Necesar"
+
+#: admin/views/admin-settings-system-info.php:121
+msgid "Present"
+msgstr "Prezent"
+
+#: admin/views/admin_document_addons_page.php:28
+#, fuzzy
+#| msgid ""
+#| "WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping "
+#| "Labels"
+msgid ""
+"WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels\n"
+msgstr ""
+"Facturi PDF WooCommerce, borderouri de ambalare, note de livrare și etichete "
+"de expediere"
+
+#: admin/views/admin_document_addons_page.php:35
+#: admin/views/wt_pro_addons_list.php:99
+#: public/modules/invoice/views/qrcode_promote.php:25
+msgid "QR Code Addon for WooCommerce PDF Invoices"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:36
+#: public/modules/invoice/views/qrcode_promote.php:26
+msgid "To help you comply with invoice mandates that require QR Codes"
+msgstr ""
+"Pentru a vă ajuta să respectați mandatele de facturare care necesită coduri "
+"QR"
+
+#: admin/views/admin_document_addons_page.php:38
+#: public/modules/invoice/views/qrcode_promote.php:28
+msgid ""
+"Assign QR code to all of invoices generated for the orders in your store"
+msgstr ""
+"Atribuiți cod QR tuturor facturilor generate pentru comenzile din magazinul "
+"dvs"
+
+#: admin/views/admin_document_addons_page.php:39
+#: public/modules/invoice/views/qrcode_promote.php:29
+msgid "Assign different types of info in your QR code, including:"
+msgstr "Atribuiți diferite tipuri de informații în codul dvs. QR, inclusiv:"
+
+#: admin/views/admin_document_addons_page.php:41
+#: public/modules/invoice/views/qrcode_promote.php:31
+msgid "Order number (default)"
+msgstr "Numărul comenzii (implicit)"
+
+#: admin/views/admin_document_addons_page.php:42
+#: admin/views/admin_document_addons_page.php:46
+#: public/modules/invoice/views/general.php:134
+#: public/modules/invoice/views/qrcode_promote.php:32
+#: public/modules/invoice/views/qrcode_promote.php:36
+msgid "Invoice number"
+msgstr "Număr Factură"
+
+#: admin/views/admin_document_addons_page.php:44
+#: public/modules/invoice/views/qrcode_promote.php:34
+msgid "Custom details, as below:"
+msgstr "Detalii personalizate, după cum urmează:"
+
+#: admin/views/admin_document_addons_page.php:48
+#: public/modules/invoice/views/general.php:63
+#: public/modules/invoice/views/qrcode_promote.php:38
+msgid "Invoice date"
+msgstr "Dată Factură"
+
+#: admin/views/admin_document_addons_page.php:49
+#: public/modules/invoice/views/general.php:69
+#: public/modules/invoice/views/qrcode_promote.php:39
+msgid "Order date"
+msgstr "Data comandă"
+
+#: admin/views/admin_document_addons_page.php:50
+#: public/modules/invoice/views/qrcode_promote.php:40
+msgid "Seller tax ID"
+msgstr "Codul fiscal al vânzătorului"
+
+#: admin/views/admin_document_addons_page.php:51
+#: public/modules/invoice/views/qrcode_promote.php:41
+msgid "Buyer name"
+msgstr "Numele cumpărătorului"
+
+#: admin/views/admin_document_addons_page.php:52
+#: public/modules/invoice/views/qrcode_promote.php:42
+msgid "Seller name"
+msgstr "Numele vânzătorului"
+
+#: admin/views/admin_document_addons_page.php:53
+#: public/modules/invoice/views/qrcode_promote.php:43
+msgid "Invoice total"
+msgstr "Totalul facturii"
+
+#: admin/views/admin_document_addons_page.php:54
+#: public/modules/invoice/views/qrcode_promote.php:44
+msgid "Invoice total tax"
+msgstr "Facturați taxa totală"
+
+#: admin/views/admin_document_addons_page.php:59
+#: public/modules/invoice/views/qrcode_promote.php:49
+msgid ""
+"Compatible with WooCommerce PDF Invoice, Packing Slips, Delivery Notes, and "
+"Shipping Label (Free and Pro versions)"
+msgstr ""
+"Compatibil cu factură PDF WooCommerce, borderouri de ambalare, note de "
+"livrare și etichetă de expediere (versiunile gratuite și Pro)"
+
+#: admin/views/admin_document_addons_page.php:61
+#: admin/views/admin_document_addons_page.php:83
+#: admin/views/admin_document_addons_page.php:103
+#: public/modules/invoice/views/qrcode_promote.php:51
+msgid "Get Plugin"
+msgstr "Obțineți pluginul"
+
+#: admin/views/admin_document_addons_page.php:71
+msgid "Remote Print Addon for WooCommerce PDF Invoices – PrintNode"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:72
+msgid ""
+"Enables remote cloud printing for WooCommerce PDF Invoices with PrintNode."
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:74
+msgid "Supports PDF Printing"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:75
+msgid "Faster printing of WooCommerce PDF Invoices "
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:76
+msgid "Integration with PrintNode"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:79
+msgid "Secure print with base64 and URI printing"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:80
+msgid "Automatic & Manual printing"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:81
+msgid "Compatible with Windows, macOS / OS X, Linux, and Raspberry Pi."
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:93
+msgid ""
+"mPDF add-on for PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels"
+msgstr ""
+"supliment mPDF pentru facturi PDF, borderouri de ambalare, note de livrare "
+"și etichete de expediere"
+
+#: admin/views/admin_document_addons_page.php:94
+#, fuzzy
+#| msgid ""
+#| "Upgrade to WooCommerce PDF Invoices, Packing Slips, Delivery Notes & "
+#| "Shipping Labels Premium to get hold of advanced features."
+msgid ""
+"This addon works with PDF Invoices, Packing Slips, Delivery Notes & Shipping "
+"Labels plugin to support RTL layout and Unicode for different languages."
+msgstr ""
+"Faceți upgrade la WooCommerce Facturi PDF, borderouri de ambalare, note de "
+"livrare și etichete de expediere Premium pentru a obține funcții avansate."
+
+#: admin/views/admin_document_addons_page.php:96
+msgid "Handles 12 RTL languages"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:97
+msgid "Support for all languages including Unicode standard"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:100
+msgid "Prints Hebrew and Arabic languages"
+msgstr ""
+
+#: admin/views/admin_document_addons_page.php:101
+msgid "Enables easy print, download, and attachment provisions"
+msgstr ""
+
+#: admin/views/freevspro.php:7 public/modules/packinglist/packinglist.php:25
+#: public/modules/packinglist/packinglist.php:76
+#: public/modules/packinglist/packinglist.php:77
+#: public/modules/packinglist/packinglist.php:246
+#: public/modules/packinglist/views/admin-settings.php:14
+msgid "Packing slip"
+msgstr "Eticheta ambalare"
+
+#: admin/views/freevspro.php:8
+msgid "Credit note"
+msgstr "Notă de credit"
+
+#: admin/views/freevspro.php:9
+#: public/modules/shippinglabel/shippinglabel.php:221
+#: public/modules/shippinglabel/shippinglabel.php:222
+#: public/modules/shippinglabel/views/admin-settings.php:13
+msgid "Shipping label"
+msgstr "Eticheta de expediere"
+
+#: admin/views/freevspro.php:10
+#: public/modules/dispatchlabel/dispatchlabel.php:25
+#: public/modules/dispatchlabel/dispatchlabel.php:72
+#: public/modules/dispatchlabel/dispatchlabel.php:73
+#: public/modules/dispatchlabel/views/admin-settings.php:19
+msgid "Dispatch label"
+msgstr "Eticheta de expediere"
+
+#: admin/views/freevspro.php:11 public/modules/deliverynote/deliverynote.php:72
+#: public/modules/deliverynote/deliverynote.php:73
+#: public/modules/deliverynote/deliverynote.php:237
+#: public/modules/deliverynote/views/admin-settings.php:20
+msgid "Delivery note"
+msgstr "Aviz de însoțire"
+
+#: admin/views/freevspro.php:12
+msgid "Proforma invoice"
+msgstr "Factură proformă"
+
+#: admin/views/freevspro.php:13
+#, fuzzy
+#| msgid "Picklist"
+msgid "Pick list"
+msgstr "Listă de alegere"
+
+#: admin/views/freevspro.php:14
+msgid "Address label"
+msgstr "Etichetă de adresă"
+
+#: admin/views/freevspro.php:15 public/modules/invoice/views/general.php:115
+msgid "My account - Order lists page"
+msgstr "Contul meu - Pagina Liste de comenzi"
+
+#: admin/views/freevspro.php:16 public/modules/invoice/views/general.php:116
+msgid "My account - Order details page"
+msgstr "Contul meu - Pagina cu detaliile comenzii"
+
+#: admin/views/freevspro.php:17 public/modules/invoice/views/general.php:117
+msgid "Order email"
+msgstr "E-mail de comandă"
+
+#: admin/views/freevspro.php:80
+msgid "Features"
+msgstr ""
+
+#: admin/views/freevspro.php:81
+msgid "Free"
+msgstr "Gratuit"
+
+#: admin/views/freevspro.php:82
+msgid "Premium"
+msgstr ""
+
+#: admin/views/general.php:12 admin/views/general_form_wizard.php:8
+msgid ""
+"The company name and the address details from this section will be used as "
+"the sender address in the invoice and other related documents."
+msgstr ""
+"Numele companiei și detaliile adresei din această secțiune vor fi folosite "
+"ca adresă de expeditor în factură și în alte documente aferente."
+
+#: admin/views/general.php:25 admin/views/general_settings_step2.php:11
+msgid "Load from WooCommerce"
+msgstr "Încărcați din WooCommerce"
+
+#: admin/views/general.php:35 admin/views/general_settings_step1.php:20
+msgid "Company details"
+msgstr "Detalii companie"
+
+#: admin/views/general.php:40 admin/views/general_settings_step1.php:28
+msgid "Name"
+msgstr "Nume"
+
+#: admin/views/general.php:45 admin/views/general_settings_step1.php:33
+msgid "To include the keyed in name to the Invoice, ensure to select"
+msgstr "Pentru a include numele introdus pe factură, asigurați-vă că selectați"
+
+#: admin/views/general.php:46 admin/views/general_settings_step1.php:34
+msgid "Company name"
+msgstr "Numele Companiei"
+
+#: admin/views/general.php:47 admin/views/general_settings_step1.php:35
+msgid "from"
+msgstr "de la"
+
+#: admin/views/general.php:48 admin/views/general.php:58
+#: admin/views/general_settings_step1.php:36
+#: admin/views/general_settings_step1.php:46
+msgid "Invoice > Customize > Company Logo / Name"
+msgstr "Factură > Personalizare > Logo / Nume companie"
+
+#: admin/views/general.php:53 admin/views/general_settings_step1.php:41
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/views/general.php:57 admin/views/general_settings_step1.php:45
+msgid ""
+"To include the uploaded image as logo to the invoice, ensure to select "
+"Company logo from"
+msgstr ""
+"Pentru a include imaginea încărcată ca siglă pe factură, asigurați-vă că "
+"selectați sigla companiei din"
+
+#: admin/views/general.php:59 admin/views/general_settings_step1.php:47
+msgid "Recommended size is 150×50px"
+msgstr "Dimensiunea recomandată este 150×50px"
+
+#: admin/views/general.php:66
+msgid "Company Tax ID"
+msgstr "Numele Companiei"
+
+#: admin/views/general.php:70 admin/views/general_settings_step1.php:58
+msgid ""
+"Specify your company tax ID. For e.g., you may enter as VAT: GB123456789, "
+"GSTIN:0948745 or ABN:51 824 753 556"
+msgstr ""
+"Specificați codul fiscal al companiei. De ex. puteți introduce ca TVA: "
+"GB123456789, GSTIN: 0948745 sau ABN: 51 824 753 556"
+
+#: admin/views/general.php:74 admin/views/general_settings_step3.php:28
+#: public/modules/invoice/invoice.php:1091
+#: public/modules/invoice/invoice.php:1095
+#: public/modules/shippinglabel/views/general.php:51
+msgid "Footer"
+msgstr "Subsol"
+
+#: admin/views/general.php:89 admin/views/general_settings_step2.php:28
+msgid "Address details"
+msgstr "Detaliile adresei"
+
+#: admin/views/general.php:97 admin/views/general_settings_step2.php:43
+msgid "Department/Business unit/Sender name"
+msgstr "Departamentul/Unitatea comercială/Numele expeditorului"
+
+#: admin/views/general.php:105 admin/views/general_settings_step2.php:51
+msgid "Address line 1"
+msgstr "Adresa 1"
+
+#: admin/views/general.php:114 admin/views/general_settings_step2.php:60
+msgid "Address line 2"
+msgstr "Adresa 2"
+
+#: admin/views/general.php:122 admin/views/general_settings_step2.php:68
+msgid "City"
+msgstr "Oraș"
+
+#: admin/views/general.php:131 admin/views/general_settings_step2.php:77
+msgid "Country/State"
+msgstr "Țara de origine"
+
+#: admin/views/general.php:133 admin/views/general_settings_step2.php:79
+msgid "Choose a country&hellip;"
+msgstr "Alegeți o țară și un vârf;"
+
+#: admin/views/general.php:139 admin/views/general_settings_step2.php:84
+msgid "Postal code"
+msgstr "Cod poștal"
+
+#: admin/views/general.php:148 admin/views/general_settings_step2.php:94
+msgid "Contact number"
+msgstr "Telefon"
+
+#: admin/views/general.php:163 admin/views/general_settings_step3.php:20
+msgid "Advanced options"
+msgstr "Optiuni avansate"
+
+#: admin/views/general.php:170 admin/views/general_settings_step3.php:35
+msgid "Display state name"
+msgstr "Afișați numele stării"
+
+#: admin/views/general.php:174 admin/views/general_settings_step3.php:39
+msgid "Enable to show state name in addresses"
+msgstr "Activați pentru a afișa numele statului în adrese"
+
+#: admin/views/general.php:182 admin/views/general_settings_step3.php:47
+msgid "Preview before printing"
+msgstr "Previzualizare înainte de imprimare"
+
+#: admin/views/general.php:186 admin/views/general_settings_step3.php:51
+msgid "Preview documents before printing"
+msgstr "Previzualizare înainte de imprimare"
+
+#: admin/views/general.php:194 admin/views/general_settings_step3.php:59
+msgid "Enable RTL support"
+msgstr "Activați suportul RTL"
+
+#: admin/views/general.php:198 admin/views/general_settings_step3.php:63
+msgid "RTL support for documents"
+msgstr "Suport RTL pentru documente"
+
+#: admin/views/general.php:202 admin/views/general_settings_step3.php:67
+msgid "For better RTL integration in PDF documents, please use our"
+msgstr ""
+"Pentru o mai bună integrare RTL în documentele PDF, vă rugăm să utilizați"
+
+#: admin/views/general.php:203 admin/views/general_settings_step3.php:68
+msgid "mPDF add-on"
+msgstr ""
+
+#: admin/views/general.php:215 admin/views/general_settings_step3.php:80
+msgid "PDF library"
+msgstr "Biblioteca PDF"
+
+#: admin/views/general.php:229 admin/views/general_settings_step3.php:93
+#, php-format
+msgid ""
+"%sNote:%s You have not enabled tax option in WooCommerce. If you need to "
+"apply tax for new orders you need to enable it %s here. %s"
+msgstr ""
+"%s Notă: %s nu ați activat opțiunea fiscală în WooCommerce. Dacă trebuie să "
+"aplicați taxe pentru comenzile noi, trebuie să o activați %s aici. %s"
+
+#: admin/views/general.php:235 admin/views/general_settings_step3.php:99
+msgid "Display price in the product table"
+msgstr "Afișați prețul în tabelul cu produse"
+
+#: admin/views/general.php:240 admin/views/general_settings_step3.php:104
+msgid "WooCommerce tax settings"
+msgstr "Setări fiscale WooCommerce"
+
+#: admin/views/general.php:242 admin/views/general_settings_step3.php:106
+msgid "Exclude tax"
+msgstr "Exclude TVA"
+
+#: admin/views/general.php:243 admin/views/general_settings_step3.php:107
+msgid "Include tax"
+msgstr "Includeți impozitul"
+
+#: admin/views/general.php:247 admin/views/general_settings_step3.php:111
+msgid "All price columns displayed will be inclusive of tax."
+msgstr "Toate coloanele de preț afișate vor include taxe."
+
+#: admin/views/general.php:253 admin/views/general_settings_step3.php:117
+msgid "All price columns displayed will be exclusive of tax."
+msgstr "Toate coloanele de preț afișate vor fi fără taxe."
+
+#: admin/views/general_settings_step1.php:54
+#, fuzzy
+#| msgid "Company Tax ID"
+msgid "Tax ID"
+msgstr "Numele Companiei"
+
+#: admin/views/goto-pro.php:201
+msgid "Watch setup video"
+msgstr "Urmăriți videoclipul de configurare"
+
+#: admin/views/goto-pro.php:221 admin/views/goto-pro.php:236
+msgid "UPGRADE TO PREMIUM"
+msgstr "ACTUALIZARE LA PREMIUM"
+
+#: admin/views/help.php:37 admin/views/help.php:42
+msgid "Help Links"
+msgstr "Linkuri"
+
+#: admin/views/help.php:38
+msgid "System Info"
+msgstr "Informații sistem"
+
+#: admin/views/help.php:46 admin/views/help.php:49
+msgid "Documentation"
+msgstr "Documentație"
+
+#: admin/views/help.php:47
+msgid "Refer to our documentation to setup and get started"
+msgstr "Consultă documentația noastră pentru a configura și începe"
+
+#: admin/views/help.php:54
+msgid "Help and Support"
+msgstr "Ajutor și asistență"
+
+#: admin/views/help.php:55
+msgid "We would love to help you on any queries or issues."
+msgstr "Ne-ar plăcea să vă ajutăm cu privire la orice întrebări sau probleme."
+
+#: admin/views/help.php:57
+msgid "Contact Us"
+msgstr "Contactează-ne"
+
+#: admin/views/wt_ipc_free_pro.php:6 admin/views/wt_pro_addons_list.php:9
+#, fuzzy
+#| msgid ""
+#| "WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels"
+msgid "WooCommerce PDF Invoices, Packing Slips and Credit Notes plugin"
+msgstr "WooCommerce Facturi PDF, Ambalare, Etichete Livrare & Livrare"
+
+#: admin/views/wt_ipc_free_pro.php:10 admin/views/wt_sdd_free_pro.php:10
+#, fuzzy
+#| msgid "Supported Documents"
+msgid "Supported documents"
+msgstr "Documentație"
+
+#: admin/views/wt_ipc_free_pro.php:41
+#, fuzzy
+#| msgid "Creates invoices for selected order statuses."
+msgid "Automatically create invoice based on order status"
+msgstr "Creează facturi pentru stările de comenzi selectate."
+
+#: admin/views/wt_ipc_free_pro.php:54
+#, fuzzy
+#| msgid "Attach invoice PDF in order email"
+msgid "Attach document to order email"
+msgstr "Atașați factura PDF în e-mailul comenzii"
+
+#: admin/views/wt_ipc_free_pro.php:85
+#, fuzzy
+#| msgid "Alter invoice date"
+msgid "Custom invoice date"
+msgstr "Modificați data facturii"
+
+#: admin/views/wt_ipc_free_pro.php:88 admin/views/wt_ipc_free_pro.php:98
+#, fuzzy
+#| msgid "Alter order date"
+msgid "Use order date"
+msgstr "Modificați data comenzii"
+
+#: admin/views/wt_ipc_free_pro.php:92 admin/views/wt_ipc_free_pro.php:102
+#, fuzzy
+#| msgid "Invoice created date"
+msgid "Use invoice created date"
+msgstr "Data creării facturii"
+
+#: admin/views/wt_ipc_free_pro.php:108
+#, fuzzy
+#| msgid "Show print invoice button for customers"
+msgid "Show print invoice button to customers"
+msgstr "Afișați butonul „Tipărește factura” pentru clienți"
+
+#: admin/views/wt_ipc_free_pro.php:139
+#, fuzzy
+#| msgid "Show print invoice button for customers"
+msgid "Show print packing slip button to customers"
+msgstr "Afișați butonul „Tipărește factura” pentru clienți"
+
+#: admin/views/wt_ipc_free_pro.php:162
+#, fuzzy
+#| msgid "Use order number as invoice number"
+msgid "Use order number as document number"
+msgstr "Utilizați numărul de ordine ca număr de factură"
+
+#: admin/views/wt_ipc_free_pro.php:185
+msgid "Use custom number series to number documents"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:208
+#, fuzzy
+#| msgid "Invoice number format"
+msgid "Change document number format & length"
+msgstr "Formatul numărului de factură"
+
+#: admin/views/wt_ipc_free_pro.php:231 admin/views/wt_pl_free_pro.php:38
+#: admin/views/wt_pro_addons_list.php:21 admin/views/wt_pro_addons_list.php:39
+#: admin/views/wt_sdd_free_pro.php:104
+msgid "Group products by ‘Category’"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:254 admin/views/wt_pi_free_pro.php:122
+#: admin/views/wt_pl_free_pro.php:94 admin/views/wt_sdd_free_pro.php:80
+msgid "Sort order items in product table"
+msgstr "Sortați articolele de comandă în tabelul de produse"
+
+#: admin/views/wt_ipc_free_pro.php:285 admin/views/wt_pl_free_pro.php:66
+#: admin/views/wt_pro_addons_list.php:18 admin/views/wt_pro_addons_list.php:36
+#: admin/views/wt_pro_addons_list.php:53 admin/views/wt_sdd_free_pro.php:120
+#, fuzzy
+#| msgid "Add product variation"
+msgid "Show product variation data"
+msgstr "Adăugați o variantă de produs"
+
+#: admin/views/wt_ipc_free_pro.php:316
+#, fuzzy
+#| msgid "Display price in the product table"
+msgid "Display options for bundled products"
+msgstr "Afișați prețul în tabelul cu produse"
+
+#: admin/views/wt_ipc_free_pro.php:339
+msgid "Generate invoices for old orders"
+msgstr "Generați facturi pentru comenzile vechi"
+
+#: admin/views/wt_ipc_free_pro.php:352
+#: public/modules/invoice/views/general.php:280
+msgid "Generate invoices for free orders"
+msgstr "Generați facturi pentru comenzi gratuite"
+
+#: admin/views/wt_ipc_free_pro.php:365
+msgid "Option to include/exclude tax to Invoice"
+msgstr "Opțiunea de a include / exclude taxe la factură"
+
+#: admin/views/wt_ipc_free_pro.php:378
+#, fuzzy
+#| msgid "Separate tax column in product table for multiple tax options"
+msgid ""
+"Separate tax column in the product table for multiple tax options in invoices"
+msgstr ""
+"Coloana de impozite separate din tabelul de produse pentru mai multe opțiuni "
+"de impozitare"
+
+#: admin/views/wt_ipc_free_pro.php:391
+#, fuzzy
+#| msgid "Supports checkout, order & product meta fields (SSN, VAT, etc.)"
+msgid "Customizable tax items, tax fields (SSN, VAT, etc.)"
+msgstr "Suportă câmpurile de plată, comandă și meta (SSN, TVA etc.)."
+
+#: admin/views/wt_ipc_free_pro.php:422
+#, fuzzy
+#| msgid "Display free line items in the invoice"
+msgid "Display free line items on invoice"
+msgstr "Afișați elemente rând gratuite în factură"
+
+#: admin/views/wt_ipc_free_pro.php:435
+#, fuzzy
+#| msgid "Invoice number format"
+msgid "Customize invoice PDF name format"
+msgstr "Formatul numărului de factură"
+
+#: admin/views/wt_ipc_free_pro.php:448
+msgid "Add a payment link to invoice"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:461
+msgid "Show Pay Later option at checkout"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:474
+msgid "Customize Pay Later option display"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:482 admin/views/wt_ipc_free_pro.php:496
+msgid "Description"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:486 admin/views/wt_ipc_free_pro.php:500
+msgid "Instruction"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:505 admin/views/wt_sdd_free_pro.php:144
+#, fuzzy
+#| msgid "Order meta fields"
+msgid "Add order meta fields"
+msgstr "Comandați câmpurile meta"
+
+#: admin/views/wt_ipc_free_pro.php:513
+msgid "(But customer notes can be added)"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:536 admin/views/wt_pi_free_pro.php:164
+#: admin/views/wt_sdd_free_pro.php:176
+#, fuzzy
+#| msgid "Order meta fields"
+msgid "Add product meta fields"
+msgstr "Comandați câmpurile meta"
+
+#: admin/views/wt_ipc_free_pro.php:567 admin/views/wt_pi_free_pro.php:178
+#: admin/views/wt_sdd_free_pro.php:200
+#, fuzzy
+#| msgid "Add product variation"
+msgid "Add product attributes"
+msgstr "Adăugați o variantă de produs"
+
+#: admin/views/wt_ipc_free_pro.php:598
+#: public/modules/invoice/views/general.php:245
+msgid "Custom logo for invoice"
+msgstr "Logo personalizat pentru factură"
+
+#: admin/views/wt_ipc_free_pro.php:611
+#, fuzzy
+#| msgid "Add footer in packing slip"
+msgid "Add product images to packing slips"
+msgstr "Imprimare liste de ambalare"
+
+#: admin/views/wt_ipc_free_pro.php:624
+#, fuzzy
+#| msgid "Customer Note"
+msgid "Custom footer"
+msgstr "Mențiune client"
+
+#: admin/views/wt_ipc_free_pro.php:647 admin/views/wt_pi_free_pro.php:262
+#: admin/views/wt_pl_free_pro.php:150 admin/views/wt_sdd_free_pro.php:288
+#, fuzzy
+#| msgid "Document title"
+msgid "Document customizer"
+msgstr "Titlu document"
+
+#: admin/views/wt_ipc_free_pro.php:651 admin/views/wt_sdd_free_pro.php:292
+msgid "(Visual editor)"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:665 admin/views/wt_sdd_free_pro.php:306
+msgid "(Visual and code editor)"
+msgstr ""
+
+#: admin/views/wt_ipc_free_pro.php:678
+#, fuzzy
+#| msgid "A variety of pre-built templates for each document"
+msgid "Pre-built layouts for documents"
+msgstr "O varietate de șabloane prefabricate pentru fiecare document"
+
+#: admin/views/wt_ipc_free_pro.php:709
+#, fuzzy
+#| msgid "Unable to load template."
+msgid "Save document layout as template"
+msgstr "Imposibil de încărcat șablonul."
+
+#: admin/views/wt_ipc_free_pro.php:740
+#, fuzzy
+#| msgid "Add additional info"
+msgid "Add additional data to invoice layout"
+msgstr "Adăugați informații suplimentare"
+
+#: admin/views/wt_ipc_free_pro.php:744 admin/views/wt_ipc_free_pro.php:786
+#, fuzzy
+#| msgid "Total Tax"
+msgid "Total tax"
+msgstr "Taxa totală"
+
+#: admin/views/wt_ipc_free_pro.php:748 admin/views/wt_ipc_free_pro.php:790
+#, fuzzy
+#| msgid "Tracking number:"
+msgid "Tracking number"
+msgstr "Număr de urmărire:"
+
+#: admin/views/wt_ipc_free_pro.php:760 admin/views/wt_ipc_free_pro.php:802
+#, fuzzy
+#| msgid "Cart Discount"
+msgid "Cart discount"
+msgstr "Cosul de reducere"
+
+#: admin/views/wt_ipc_free_pro.php:764 admin/views/wt_ipc_free_pro.php:806
+#, fuzzy
+#| msgid "Order Discount"
+msgid "Order discount"
+msgstr "Ordine Reducere"
+
+#: admin/views/wt_ipc_free_pro.php:772 admin/views/wt_ipc_free_pro.php:814
+#: public/modules/invoice/invoice.php:1107
+msgid "Coupon info"
+msgstr "Informații despre cupoane"
+
+#: admin/views/wt_ipc_free_pro.php:776 admin/views/wt_ipc_free_pro.php:818
+#, fuzzy
+#| msgid "Payment method:"
+msgid "Payment method"
+msgstr "Metoda de plată:"
+
+#: admin/views/wt_ipc_free_pro.php:827 admin/views/wt_pi_free_pro.php:276
+#: admin/views/wt_pl_free_pro.php:164 admin/views/wt_sdd_free_pro.php:428
+msgid "WPML compatibility"
+msgstr "Compatibilitate WPML"
+
+#: admin/views/wt_pi_free_pro.php:6 admin/views/wt_pro_addons_list.php:63
+msgid "WooCommerce Proforma Invoices plugin"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:10
+#, fuzzy
+#| msgid "Creates invoices for selected order statuses."
+msgid "Create proforma invoice automatically for selected order statuses"
+msgstr "Creează facturi pentru stările de comenzi selectate."
+
+#: admin/views/wt_pi_free_pro.php:24
+#, fuzzy
+#| msgid "Attach invoice PDF in order email"
+msgid "Attach invoice PDF to order emails"
+msgstr "Atașați factura PDF în e-mailul comenzii"
+
+#: admin/views/wt_pi_free_pro.php:38
+#: public/modules/invoice/views/general.php:109
+msgid "Show print invoice button for customers"
+msgstr "Afișați butonul „Tipărește factura” pentru clienți"
+
+#: admin/views/wt_pi_free_pro.php:61 admin/views/wt_pro_addons_list.php:71
+#, fuzzy
+#| msgid "Use order number as invoice number"
+msgid "Set custom proforma invoice number"
+msgstr "Utilizați numărul de ordine ca număr de factură"
+
+#: admin/views/wt_pi_free_pro.php:70
+#, fuzzy
+#| msgid "Please enter order number"
+msgid "Based on order number"
+msgstr "Vă rugăm să introduceți numărul comenzii"
+
+#: admin/views/wt_pi_free_pro.php:74
+#: public/modules/invoice/views/general.php:148
+msgid "Custom number series"
+msgstr "Serii de numere personalizate"
+
+#: admin/views/wt_pi_free_pro.php:80
+#, fuzzy
+#| msgid "Separate tax column in product table for multiple tax options"
+msgid ""
+"Separate tax column in product table for multiple tax options in proforma "
+"invoices"
+msgstr ""
+"Coloana de impozite separate din tabelul de produse pentru mai multe opțiuni "
+"de impozitare"
+
+#: admin/views/wt_pi_free_pro.php:94
+msgid "Use custom number format & length"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:108
+msgid "Group products by 'Category'"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:136
+msgid "Show variation data of products"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:150
+#, fuzzy
+#| msgid "Order meta fields"
+msgid "Add order meta fields "
+msgstr "Comandați câmpurile meta"
+
+#: admin/views/wt_pi_free_pro.php:192
+#, fuzzy
+#| msgid "Add customer note"
+msgid "Add custom footer"
+msgstr "Adăugați câmpul personalizat"
+
+#: admin/views/wt_pi_free_pro.php:206 admin/views/wt_pro_addons_list.php:73
+msgid "Attach special notes with proforma invoices"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:220
+msgid "Attach transport terms"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:234
+msgid "Attach sales terms"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:248
+#, fuzzy
+#| msgid "Multiple template options"
+msgid "Multiple pre-built layouts"
+msgstr "Personalizați șablonul"
+
+#: admin/views/wt_pi_free_pro.php:292 admin/views/wt_pro_addons_list.php:81
+msgid "WooCommerce Address Labels plugin"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:296
+#, fuzzy
+#| msgid "Address label"
+msgid "Generate address labels"
+msgstr "Etichetă de adresă"
+
+#: admin/views/wt_pi_free_pro.php:310
+#, fuzzy
+#| msgid "Supported Documents"
+msgid "Supported address types"
+msgstr "Documentație"
+
+#: admin/views/wt_pi_free_pro.php:319
+#, fuzzy
+#| msgid "Shipping Address"
+msgid "Shipping address"
+msgstr "Adresa de transport"
+
+#: admin/views/wt_pi_free_pro.php:323
+#, fuzzy
+#| msgid "Billing Address"
+msgid "Billing address"
+msgstr "Billing Address"
+
+#: admin/views/wt_pi_free_pro.php:327
+#, fuzzy
+#| msgid "From Address"
+msgid "From address"
+msgstr "Din adresa"
+
+#: admin/views/wt_pi_free_pro.php:331
+#, fuzzy
+#| msgid "Alter billing address"
+msgid "Return address"
+msgstr "Modificați adresa de facturare"
+
+#: admin/views/wt_pi_free_pro.php:337
+#, fuzzy
+#| msgid "Multiple template options"
+msgid "Multiple address label layouts"
+msgstr "Personalizați șablonul"
+
+#: admin/views/wt_pi_free_pro.php:351
+msgid "Customize layout properties"
+msgstr ""
+
+#: admin/views/wt_pi_free_pro.php:365
+#, fuzzy
+#| msgid "WPML compatibility"
+msgid "WPML compatibilityCustomize label sizes"
+msgstr "Compatibilitate WPML"
+
+#: admin/views/wt_pi_free_pro.php:379
+#, fuzzy
+#| msgid "Print Shipping Label"
+msgid "Bulk print shipping labels"
+msgstr "Imprimați eticheta de expediere"
+
+#: admin/views/wt_pi_free_pro.php:393 admin/views/wt_pro_addons_list.php:23
+#: admin/views/wt_pro_addons_list.php:41 admin/views/wt_pro_addons_list.php:57
+#: admin/views/wt_pro_addons_list.php:75 admin/views/wt_pro_addons_list.php:93
+msgid "Multilingual support"
+msgstr ""
+
+#: admin/views/wt_pl_free_pro.php:6
+#, fuzzy
+#| msgid "WooCommerce tax settings"
+msgid "WooCommerce Pick lists plugin"
+msgstr "Setări fiscale WooCommerce"
+
+#: admin/views/wt_pl_free_pro.php:10
+msgid "Generate picklists"
+msgstr ""
+
+#: admin/views/wt_pl_free_pro.php:24 admin/views/wt_pro_addons_list.php:51
+msgid "Automatically email picklists based on order status"
+msgstr ""
+
+#: admin/views/wt_pl_free_pro.php:52
+msgid "Group products by ‘Order’"
+msgstr ""
+
+#: admin/views/wt_pl_free_pro.php:80
+msgid "Exclude virtual items from picklists"
+msgstr ""
+
+#: admin/views/wt_pl_free_pro.php:108
+#, fuzzy
+#| msgid "Order meta fields"
+msgid "Product meta fields"
+msgstr "Comandați câmpurile meta"
+
+#: admin/views/wt_pl_free_pro.php:122
+#, fuzzy
+#| msgid "Product Table"
+msgid "Product attributes"
+msgstr "Tabel de produse"
+
+#: admin/views/wt_pl_free_pro.php:136
+msgid "Pre-built layouts"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:12
+msgid "Auto-generate invoices, packing slips, and credit notes"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:13
+msgid "Show payment link on invoice"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:14
+msgid "Add ‘Pay Later’ option at checkout"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:15
+#, fuzzy
+#| msgid "Creates invoices for selected order statuses."
+msgid "Attach documents to selected order status emails"
+msgstr "Creează facturi pentru stările de comenzi selectate."
+
+#: admin/views/wt_pro_addons_list.php:16
+#, fuzzy
+#| msgid "Add customer note in packing slip"
+msgid "Enable customers to print invoices & packing slips"
+msgstr "Imprimare liste de ambalare"
+
+#: admin/views/wt_pro_addons_list.php:17
+msgid "Customize document layout & properties"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:19
+#, fuzzy
+#| msgid "Add product variation in package documents"
+msgid "Add custom data to documents"
+msgstr "Adăugați o variantă de produs în documentele pachetului"
+
+#: admin/views/wt_pro_addons_list.php:20
+msgid "Multiple display options for bundle products"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:22
+msgid "Verified compatibility with major plugins"
+msgstr "Compatibilitate verificată cu pluginuri majore"
+
+#: admin/views/wt_pro_addons_list.php:29 admin/views/wt_sdd_free_pro.php:6
+msgid "WooCommerce Shipping labels, Dispatch labels and Delivery Notes plugin"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:32
+#, fuzzy
+#| msgid "Add customer note in dispatch label"
+msgid "Create delivery notes, shipping & dispatch labels"
+msgstr "Adăugați o notă pentru client în eticheta de expediere"
+
+#: admin/views/wt_pro_addons_list.php:33
+#, fuzzy
+#| msgid "Enable to display the customer's note in the document."
+msgid "Enable customers to print the documents from order emails"
+msgstr "Activați afișarea notei clientului în document."
+
+#: admin/views/wt_pro_addons_list.php:34
+#, fuzzy
+#| msgid "Shipping label size"
+msgid "Customize shipping label size"
+msgstr "Etichetă de livrare"
+
+#: admin/views/wt_pro_addons_list.php:35
+#, fuzzy
+#| msgid "Add footer in shipping label"
+msgid "Add multiple shipping labels on one page"
+msgstr "Imprimați eticheta de expediere"
+
+#: admin/views/wt_pro_addons_list.php:37
+msgid "Add extra product & order data fields"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:38
+msgid "Pre-built layouts & customizable templates"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:40
+msgid "Sort products based on Name or SKU"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:47
+#, fuzzy
+#| msgid "WooCommerce tax settings"
+msgid "WooCommerce Picklists plugin"
+msgstr "Setări fiscale WooCommerce"
+
+#: admin/views/wt_pro_addons_list.php:50
+#, fuzzy
+#| msgid "Bulk print all documents from the orders page"
+msgid "Bulk print picklists from the admin order page"
+msgstr "Tipăriți în bloc toate documentele din pagina comenzilor"
+
+#: admin/views/wt_pro_addons_list.php:52
+#, fuzzy
+#| msgid "Create custom sized labels"
+msgid "Create or customize picklist templates"
+msgstr "Dimensiunea etichetei de expediere"
+
+#: admin/views/wt_pro_addons_list.php:54
+msgid "Group products in picklist by order/category"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:55
+#, fuzzy
+#| msgid "Supports checkout, order, product meta fields & product attributes."
+msgid "Add product meta fields & attributes"
+msgstr "Suportă plată, comandă, meta câmpuri de produs și atribute de produs."
+
+#: admin/views/wt_pro_addons_list.php:56
+msgid "Exclude virtual products from picklists"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:66
+#, fuzzy
+#| msgid "Create invoice automatically"
+msgid "Create proforma invoices automatically"
+msgstr "Creați factura automat"
+
+#: admin/views/wt_pro_addons_list.php:67
+#, fuzzy
+#| msgid "Proforma invoice"
+msgid "Pre-built proforma invoice layouts"
+msgstr "Factură proformă"
+
+#: admin/views/wt_pro_addons_list.php:68
+msgid "Easy invoice layout customization"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:69
+#, fuzzy
+#| msgid "Attach invoice PDF in order email"
+msgid "Attach proforma invoice PDF to order emails"
+msgstr "Atașați factura PDF în e-mailul comenzii"
+
+#: admin/views/wt_pro_addons_list.php:70
+#, fuzzy
+#| msgid "Dynamic customizer for invoice"
+msgid "Allow customers to print invoices"
+msgstr "Logo personalizat pentru factură"
+
+#: admin/views/wt_pro_addons_list.php:72
+#, fuzzy
+#| msgid "Add additional column in product table"
+msgid "Add additional product & order data fields"
+msgstr "Adăugați o coloană suplimentară în tabelul de produse"
+
+#: admin/views/wt_pro_addons_list.php:74
+msgid "Attach transport & sales terms"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:84
+#, fuzzy
+#| msgid "Shipping Address"
+msgid "Generate Shipping Address labels"
+msgstr "Adresa de transport"
+
+#: admin/views/wt_pro_addons_list.php:85
+#, fuzzy
+#| msgid "Billing Address"
+msgid "Generate Billing Address labels"
+msgstr "Billing Address"
+
+#: admin/views/wt_pro_addons_list.php:86
+#, fuzzy
+#| msgid "Address label"
+msgid "Generate From Address labels"
+msgstr "Etichetă de adresă"
+
+#: admin/views/wt_pro_addons_list.php:87
+#, fuzzy
+#| msgid "Address label"
+msgid "Generate Return Address labels"
+msgstr "Etichetă de adresă"
+
+#: admin/views/wt_pro_addons_list.php:88
+#, fuzzy
+#| msgid "Supports custom label sizes"
+msgid "Customize label sizes"
+msgstr "Dimensiunea etichetei de expediere"
+
+#: admin/views/wt_pro_addons_list.php:89
+#, fuzzy
+#| msgid "Address label"
+msgid "Bulk print address labels"
+msgstr "Etichetă de adresă"
+
+#: admin/views/wt_pro_addons_list.php:90
+#, fuzzy
+#| msgid "Multiple template options"
+msgid "Built-in label templates"
+msgstr "Personalizați șablonul"
+
+#: admin/views/wt_pro_addons_list.php:91
+#, fuzzy
+#| msgid "Change layout"
+msgid "Change address label layout"
+msgstr "Modifică format"
+
+#: admin/views/wt_pro_addons_list.php:92
+msgid "Customize layout elements & properties"
+msgstr ""
+
+#: admin/views/wt_pro_addons_list.php:102
+#, fuzzy
+#| msgid "Delete all generated invoice numbers"
+msgid "Assign QR codes to all generated invoices"
+msgstr "Ștergeți toate numerele de factură generate"
+
+#: admin/views/wt_pro_addons_list.php:103
+#, fuzzy
+#| msgid "Use order number as invoice number"
+msgid "Create QR code that reads order or invoice number"
+msgstr "Utilizați numărul de ordine ca număr de factură"
+
+#: admin/views/wt_pro_addons_list.php:104
+#, fuzzy
+#| msgid "Custom logo to Invoice"
+msgid "Add custom data to invoices"
+msgstr "Logo personalizat pentru factură"
+
+#: admin/views/wt_pro_addons_list.php:105
+#, fuzzy
+#| msgid ""
+#| "Compatible with WooCommerce PDF Invoice, Packing Slips, Delivery Notes, "
+#| "and Shipping Label (Free and Pro versions)"
+msgid ""
+"Compatible with WooCommerce PDF Invoice, Packing Slip & Credit Note (Pro)"
+msgstr ""
+"Compatibil cu factură PDF WooCommerce, borderouri de ambalare, note de "
+"livrare și etichetă de expediere (versiunile gratuite și Pro)"
+
+#: admin/views/wt_pro_addons_list.php:106
+#, fuzzy
+#| msgid ""
+#| "Compatible with WooCommerce PDF Invoice, Packing Slips, Delivery Notes, "
+#| "and Shipping Label (Free and Pro versions)"
+msgid ""
+"Compatible with WooCommerce PDF Invoices, Packing Slips, Delivery Notes, and "
+"Shipping Labels (Free)"
+msgstr ""
+"Compatibil cu factură PDF WooCommerce, borderouri de ambalare, note de "
+"livrare și etichetă de expediere (versiunile gratuite și Pro)"
+
+#: admin/views/wt_sdd_free_pro.php:42
+#: public/modules/shippinglabel/views/general.php:26
+msgid "Shipping label size"
+msgstr "Etichetă de livrare"
+
+#: admin/views/wt_sdd_free_pro.php:46 admin/views/wt_sdd_free_pro.php:56
+#, fuzzy
+#| msgid "Full Page"
+msgid "Full page"
+msgstr "Toată pagina"
+
+#: admin/views/wt_sdd_free_pro.php:50 admin/views/wt_sdd_free_pro.php:60
+#, fuzzy
+#| msgid "Customize"
+msgid "Custom"
+msgstr "Personalizați"
+
+#: admin/views/wt_sdd_free_pro.php:66
+#, fuzzy
+#| msgid "Add footer in shipping label"
+msgid "Add multiple shipping labels in one page"
+msgstr "Imprimați eticheta de expediere"
+
+#: admin/views/wt_sdd_free_pro.php:224
+msgid "Add print document button to selected order emails"
+msgstr ""
+
+#: admin/views/wt_sdd_free_pro.php:256
+#, fuzzy
+#| msgid "A variety of pre-built templates for each document"
+msgid "Pre-built layout for documents"
+msgstr "O varietate de șabloane prefabricate pentru fiecare document"
+
+#: admin/views/wt_sdd_free_pro.php:320
+#, fuzzy
+#| msgid "Add footer in shipping label"
+msgid "Add custom fields to shipping label layout"
+msgstr "Imprimați eticheta de expediere"
+
+#: admin/views/wt_sdd_free_pro.php:324 admin/views/wt_sdd_free_pro.php:334
+#, fuzzy
+#| msgid "Company Logo"
+msgid "Company logo"
+msgstr "Logoul companiei"
+
+#: admin/views/wt_sdd_free_pro.php:328 admin/views/wt_sdd_free_pro.php:338
+#, fuzzy
+#| msgid "Return Policy"
+msgid "Return policy"
+msgstr "Politica de returnare"
+
+#: admin/views/wt_sdd_free_pro.php:344
+#, fuzzy
+#| msgid "Include product image"
+msgid "Include product image in delivery note"
+msgstr "Includeți imaginea produsului"
+
+#: admin/views/wt_sdd_free_pro.php:358
+#: public/modules/deliverynote/views/general.php:38
+#: public/modules/dispatchlabel/views/general.php:24
+#: public/modules/packinglist/views/general.php:39
+msgid "Add customer note"
+msgstr "Adăugați câmpul personalizat"
+
+#: admin/views/wt_sdd_free_pro.php:382
+#: public/modules/deliverynote/views/general.php:53
+#: public/modules/dispatchlabel/views/general.php:39
+#: public/modules/packinglist/views/general.php:54
+#: public/modules/shippinglabel/views/general.php:40
+msgid "Add footer"
+msgstr "Subsol"
+
+#: admin/views/wt_sdd_free_pro.php:414
+#, fuzzy
+#| msgid "Separate tax column in product table for multiple tax options"
+msgid ""
+"Separate tax column in product table for multiple tax options in dispatch "
+"labels"
+msgstr ""
+"Coloana de impozite separate din tabelul de produse pentru mai multe opțiuni "
+"de impozitare"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:29
+msgid "Invoice Generation In Progress"
+msgstr "Generarea facturii în curs"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:30
+msgid ""
+"Invoice numbers are getting generated in the background. This process may "
+"take a little while, so please be patient."
+msgstr ""
+"Numerele facturii sunt generate în fundal. Acest proces poate dura puțin, "
+"așa că vă rugăm să aveți răbdare."
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:31
+msgid "View progress"
+msgstr "Vedeți progresul"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:54
+#, php-format
+msgid ""
+"Hey, we at %sWebToffee%s would like to thank you for using %s %s %s. %s Less "
+"than a minute of your time will motivate us to keep doing what we do. We "
+"would really appreciate if you could take a moment to drop a quick review "
+"that motivate us to keep going."
+msgstr ""
+"Bună, noi, la %sWebToffee%s, dorim să vă mulțumim că ați utilizat %s %s %s. "
+"%s Mai puțin de un minut din timpul dvs. ne va motiva să continuăm să facem "
+"ceea ce facem. Am aprecia cu adevărat dacă ați putea lua un moment pentru a "
+"renunța la o recenzie rapidă care ne motivează să continuăm."
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:57
+msgid "Remind me later"
+msgstr "Aminteşte-mi mai târziu"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:58
+msgid "Not interested"
+msgstr "Nu sunt interesat"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:59
+msgid "Review now"
+msgstr "Examinați acum"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:65
+msgid "Knock, Knock!"
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:66
+msgid "You`ve just crated"
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:68
+msgid "commercial documents using"
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:69
+#, fuzzy
+#| msgid ""
+#| "WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping "
+#| "Labels"
+msgid ""
+"Woocommerce PDF invoices, packing slips, delivery notes, and shipping labels"
+msgstr ""
+"Facturi PDF WooCommerce, borderouri de ambalare, note de livrare și etichete "
+"de expediere"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:70
+msgid ""
+"That’s awesome! We’d love it if you take a moment to share what you think "
+"and help spread the word."
+msgstr ""
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:72
+msgid "Rate us now"
+msgstr ""
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:52
+#, php-format
+msgid ""
+"The plugins %s and %s cannot be active in your store at the same time. "
+"Kindly deactivate one of these prior to activating the other."
+msgstr ""
+"Pluginurile %s și %s nu pot fi active în magazin în același timp. Vă rugăm "
+"să dezactivați una dintre acestea înainte de a o activa pe cealaltă."
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:52
+msgid "Go to plugins page"
+msgstr "Accesați pagina de pluginuri"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:158
+#, php-format
+msgid ""
+"%s WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels "
+"(Basic) %s is enabled but not effective. It requires %s WooCommerce %s in "
+"order to work."
+msgstr ""
+"%s Facturile PDF WooCommerce, buletine de ambalare, note de livrare și "
+"etichete de expediere (de bază) %s sunt activate, dar nu sunt eficiente. "
+"Pentru a funcționa, necesită %s WooCommerce %s."
+
+#: public/modules/deliverynote/data/data.templates.php:5
+msgid "Classic"
+msgstr "Clasic"
+
+#: public/modules/deliverynote/data/data.tooltip.php:3
+#: public/modules/packinglist/data/data.tooltip.php:3
+msgid "Adds product image to the line items in the product table"
+msgstr "Adaugă imaginea produsului la elementele rând din tabelul de produse"
+
+#: public/modules/deliverynote/data/data.tooltip.php:4
+msgid "Adds customer note to the delivery note"
+msgstr "Adaugă nota client la bonul de livrare"
+
+#: public/modules/deliverynote/data/data.tooltip.php:5
+msgid "Adds Footer to the delivery note"
+msgstr "Adaugă Footer la nota de livrare"
+
+#: public/modules/deliverynote/deliverynote.php:224
+#: public/modules/deliverynote/deliverynote.php:244
+#: public/modules/deliverynote/deliverynote.php:254
+#: public/modules/deliverynote/deliverynote.php:255
+msgid "Print Delivery note"
+msgstr "Imprimați nota de livrare"
+
+#: public/modules/deliverynote/deliverynote.php:238
+msgid "Print/Download Delivery note"
+msgstr "Tipăriți / descărcați nota de livrare"
+
+#: public/modules/deliverynote/deliverynote.php:243
+#: public/modules/dispatchlabel/dispatchlabel.php:238
+#: public/modules/invoice/invoice.php:1303
+#: public/modules/packinglist/packinglist.php:252
+#: public/modules/shippinglabel/shippinglabel.php:384
+msgid "Print"
+msgstr "Printare"
+
+#: public/modules/deliverynote/deliverynote.php:321
+msgid "Unable to print Delivery note. Please check the items in the order."
+msgstr ""
+"Imposibil de imprimat nota de livrare. Vă rugăm să verificați articolele din "
+"comandă."
+
+#: public/modules/deliverynote/views/general.php:11
+msgid "Configure the general settings required for the delivery note."
+msgstr "Configurați setările generale necesare pentru bonul de livrare."
+
+#: public/modules/deliverynote/views/general.php:23
+#: public/modules/packinglist/views/general.php:24
+msgid "Include product image"
+msgstr "Includeți imaginea produsului"
+
+#: public/modules/deliverynote/views/general.php:29
+#: public/modules/deliverynote/views/general.php:44
+#: public/modules/deliverynote/views/general.php:59
+#: public/modules/dispatchlabel/views/general.php:30
+#: public/modules/dispatchlabel/views/general.php:45
+#: public/modules/packinglist/views/general.php:30
+#: public/modules/packinglist/views/general.php:45
+#: public/modules/packinglist/views/general.php:60
+#: public/modules/shippinglabel/views/general.php:46
+msgid "Yes"
+msgstr "Da"
+
+#: public/modules/deliverynote/views/general.php:30
+#: public/modules/deliverynote/views/general.php:45
+#: public/modules/deliverynote/views/general.php:60
+#: public/modules/dispatchlabel/views/general.php:31
+#: public/modules/dispatchlabel/views/general.php:46
+#: public/modules/packinglist/views/general.php:31
+#: public/modules/packinglist/views/general.php:46
+#: public/modules/packinglist/views/general.php:61
+#: public/modules/shippinglabel/views/general.php:47
+msgid "No"
+msgstr "Nu"
+
+#: public/modules/dispatchlabel/data/data.templates.php:5
+msgid "Dispatch Label 1"
+msgstr "Etichetă de expediere 1"
+
+#: public/modules/dispatchlabel/data/data.tooltip.php:3
+msgid "Adds customer note in the dispatch label"
+msgstr "Adaugă nota client în eticheta de expediere"
+
+#: public/modules/dispatchlabel/data/data.tooltip.php:4
+msgid "Adds footer in dispatch label"
+msgstr "Adaugă subsol în eticheta de expediere"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:205
+#: public/modules/dispatchlabel/dispatchlabel.php:239
+#: public/modules/dispatchlabel/dispatchlabel.php:249
+#: public/modules/dispatchlabel/dispatchlabel.php:250
+msgid "Print Dispatch Label"
+msgstr "Eticheta de expediere a etichetelor"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:232
+msgid "Dispatch Label"
+msgstr "Eticheta de expediere"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:233
+msgid "Print/Download Dispatch Label"
+msgstr "Imprimați / descărcați eticheta de expediere"
+
+#: public/modules/dispatchlabel/views/general.php:12
+msgid "Configure the general settings required for the dispatch label."
+msgstr "Configurați setările generale necesare pentru eticheta de expediere."
+
+#: public/modules/invoice/data/data.templates.php:5
+#: public/modules/packinglist/data/data.templates.php:5
+msgid "Basic - 1"
+msgstr ""
+
+#: public/modules/invoice/data/data.templates.php:10
+msgid "Basic - 2"
+msgstr ""
+
+#: public/modules/invoice/data/data.templates.php:15
+msgid "Basic - 3"
+msgstr ""
+
+#: public/modules/invoice/data/data.tooltip.php:3
+msgid ""
+"Admins and customers both can leverage this feature wherever applicable. "
+"Disabling will remove all the provisions. Yet, the invoices are customizable."
+msgstr ""
+"Administratorii și clienții pot folosi această funcție oriunde este cazul. "
+"Dezactivarea va elimina toate prevederile. Cu toate acestea, facturile sunt "
+"personalizabile."
+
+#: public/modules/invoice/data/data.tooltip.php:4
+msgid ""
+"The date is displayed on the invoice. It can be either the order creation "
+"date or the invoiced date."
+msgstr ""
+"Data este afișată pe factură. Poate fi fie data creării comenzii, fie data "
+"facturării."
+
+#: public/modules/invoice/data/data.tooltip.php:5
+msgid "Allows customers to print the invoice from the specified pages."
+msgstr "Permite clienților să imprime factura din paginile specificate."
+
+#: public/modules/invoice/invoice.php:265
+#, php-format
+msgid ""
+"You can control the visibility of the seal according to order status via "
+"filters. See filter documentation %s here. %s"
+msgstr ""
+"Puteți controla vizibilitatea sigiliului în funcție de starea comenzii prin "
+"filtre. Consultați documentația de filtrare %s aici. %s"
+
+#: public/modules/invoice/invoice.php:284
+msgid "Width"
+msgstr "Lăţime"
+
+#: public/modules/invoice/invoice.php:292
+msgid "Height"
+msgstr "Înălţime"
+
+#: public/modules/invoice/invoice.php:316
+msgid "Border width"
+msgstr "Dimensiunea chenarului"
+
+#: public/modules/invoice/invoice.php:324
+msgid "Line height"
+msgstr "Înălţime linie"
+
+#: public/modules/invoice/invoice.php:332
+msgid "Opacity"
+msgstr "Opacitate"
+
+#: public/modules/invoice/invoice.php:353
+msgid "Border radius"
+msgstr "Chenar"
+
+#: public/modules/invoice/invoice.php:361
+msgid "From left"
+msgstr "De la stânga"
+
+#: public/modules/invoice/invoice.php:369
+msgid "From top"
+msgstr "Gratar de bază: Glisați din partea de sus"
+
+#: public/modules/invoice/invoice.php:377
+msgid "Angle"
+msgstr "Unghi"
+
+#: public/modules/invoice/invoice.php:384
+msgid "Color"
+msgstr "Culoare"
+
+#: public/modules/invoice/invoice.php:1065
+msgid "Pro Add-on"
+msgstr ""
+
+#: public/modules/invoice/invoice.php:1069
+msgid "Document title"
+msgstr "Titlu document"
+
+#: public/modules/invoice/invoice.php:1070
+msgid "Company Logo / Name"
+msgstr "Logoul companiei"
+
+#: public/modules/invoice/invoice.php:1072
+#: public/modules/invoice/invoice.php:1337
+msgid "Invoice Number"
+msgstr "Număr de factură"
+
+#: public/modules/invoice/invoice.php:1073
+#: public/modules/shippinglabel/shippinglabel.php:158
+msgid "Order Number"
+msgstr "Numar de ordine"
+
+#: public/modules/invoice/invoice.php:1074
+msgid "Invoice Date"
+msgstr "Data facturii"
+
+#: public/modules/invoice/invoice.php:1075
+msgid "Order Date"
+msgstr "Data comandă"
+
+#: public/modules/invoice/invoice.php:1077
+#: public/modules/shippinglabel/shippinglabel.php:156
+msgid "From Address"
+msgstr "Din adresa"
+
+#: public/modules/invoice/invoice.php:1078
+msgid "Billing Address"
+msgstr "Billing Address"
+
+#: public/modules/invoice/invoice.php:1079
+msgid "Shipping Address"
+msgstr "Adresa de transport"
+
+#: public/modules/invoice/invoice.php:1080
+#: public/modules/shippinglabel/shippinglabel.php:162
+msgid "Email Field"
+msgstr "Câmp de e-mail"
+
+#: public/modules/invoice/invoice.php:1081
+#: public/modules/shippinglabel/shippinglabel.php:163
+msgid "Tel Field"
+msgstr "Tel Field"
+
+#: public/modules/invoice/invoice.php:1083
+msgid "Payment received stamp"
+msgstr "Plată primit timbru"
+
+#: public/modules/invoice/invoice.php:1092
+msgid "QR code"
+msgstr "Cod QR"
+
+#: public/modules/invoice/invoice.php:1094
+msgid "Barcode / QR code"
+msgstr "Cod de bare / cod QR"
+
+#: public/modules/invoice/invoice.php:1100
+#: public/modules/shippinglabel/shippinglabel.php:161
+msgid "Tracking Number"
+msgstr "Număr de urmărire"
+
+#: public/modules/invoice/invoice.php:1244
+msgid "Print Invoices"
+msgstr "Imprimare facturi"
+
+#: public/modules/invoice/invoice.php:1245
+msgid "Download Invoices"
+msgstr "Descărcați facturile"
+
+#: public/modules/invoice/invoice.php:1288
+#: public/modules/invoice/invoice.php:1321
+#: public/modules/invoice/invoice.php:1412
+#: public/modules/invoice/invoice.php:1447
+#: public/modules/invoice/invoice.php:1463
+msgid "Print Invoice"
+msgstr "Imprimare factură"
+
+#: public/modules/invoice/invoice.php:1296
+#: public/modules/invoice/invoice.php:1322
+msgid "Download Invoice"
+msgstr "Descărcați factura"
+
+#: public/modules/invoice/invoice.php:1304
+#: public/modules/packinglist/packinglist.php:259
+msgid "Download"
+msgstr "Descarcă"
+
+#: public/modules/invoice/invoice.php:1312
+msgid "Print/Download Invoice"
+msgstr "Imprimați / descărcați factura"
+
+#: public/modules/invoice/invoice.php:1555
+msgid "Customizer module is not active."
+msgstr "Modulul de personalizare nu este activ."
+
+#: public/modules/invoice/views/general.php:18
+msgid "Configure the general settings required for the invoice."
+msgstr "Configurați setările generale necesare pentru factură."
+
+#: public/modules/invoice/views/general.php:25
+#: public/modules/invoice/views/invoice_number_preview.php:23
+msgid "Click to append with existing data"
+msgstr "Faceți clic pentru a adăuga date existente"
+
+#: public/modules/invoice/views/general.php:38
+msgid "Enable to print, download, and mail invoices."
+msgstr ""
+"Activați pentru imprimare, descărcare și trimitere prin poștă a facturilor."
+
+#: public/modules/invoice/views/general.php:40
+msgid "Enable Invoice"
+msgstr "Activați factura"
+
+#: public/modules/invoice/views/general.php:70
+msgid "Invoiced date"
+msgstr "Data facturarii"
+
+#: public/modules/invoice/views/general.php:80
+msgid "Automate invoice creation"
+msgstr "Automatizați crearea facturilor"
+
+#: public/modules/invoice/views/general.php:87
+msgid "Choose order status"
+msgstr "Alegeți Starea comenzii"
+
+#: public/modules/invoice/views/general.php:88
+msgid "Automatically creates invoices for selected order statuses."
+msgstr "Creează automat facturi pentru stările de comenzi selectate."
+
+#: public/modules/invoice/views/general.php:95
+msgid "Attach invoice PDF in order email"
+msgstr "Atașați factura PDF în e-mailul comenzii"
+
+#: public/modules/invoice/views/general.php:99
+msgid "Attach invoice PDF for selected order statuses"
+msgstr "Atașați factura PDF pentru stările comenzii selectate"
+
+#: public/modules/invoice/views/general.php:102
+msgid ""
+"Invoice in PDF format will be attached with the order email for chosen order "
+"statuses."
+msgstr ""
+"Factura în format PDF va fi atașată la e-mailul comenzii pentru stările "
+"comenzii alese."
+
+#: public/modules/invoice/views/general.php:141
+msgid "Set invoice number using"
+msgstr "Setați numărul facturii folosind"
+
+#: public/modules/invoice/views/general.php:147
+msgid "Woocommerce order number"
+msgstr "Numărul comenzii Woocommerce"
+
+#: public/modules/invoice/views/general.php:164
+msgid "Invoice Start Number"
+msgstr "Numărul de început al facturii"
+
+#: public/modules/invoice/views/general.php:177
+msgid "Invoice number format"
+msgstr "Formatul numărului de factură"
+
+#: public/modules/invoice/views/general.php:180
+msgid "[number]"
+msgstr "[număr]"
+
+#: public/modules/invoice/views/general.php:181
+msgid "[number][suffix]"
+msgstr "[sufix][număr]"
+
+#: public/modules/invoice/views/general.php:182
+msgid "[prefix][number]"
+msgstr "[prefix] [număr]"
+
+#: public/modules/invoice/views/general.php:183
+msgid "[prefix][number][suffix]"
+msgstr "[prefix] [număr] [sufix]"
+
+#: public/modules/invoice/views/general.php:187
+msgid ""
+"Allows setting a combination of the prefix, number, and/or suffix as your "
+"invoice number."
+msgstr ""
+"Permite setarea unei combinații de prefix, număr și/sau sufix ca număr de "
+"factură."
+
+#: public/modules/invoice/views/general.php:192
+msgid "Prefix"
+msgstr "Prefix"
+
+#: public/modules/invoice/views/general.php:194
+#: public/modules/invoice/views/general.php:203
+#, php-format
+msgid "Use any of the %s date formats %s or alphanumeric characters."
+msgstr ""
+"Utilizați oricare dintre %s formatele de dată %s sau caractere alfanumerice."
+
+#: public/modules/invoice/views/general.php:201
+msgid "Suffix"
+msgstr "Sufix"
+
+#: public/modules/invoice/views/general.php:210
+msgid "Invoice number length"
+msgstr "Lungimea numărului facturii"
+
+#: public/modules/invoice/views/general.php:213
+msgid ""
+"Indicates the total length of the invoice number, excluding the length of "
+"prefix and suffixes. If the length of the generated invoice number is less "
+"than the provided, it will be padded with '0'. This setting can be "
+"experimented through the preview section. <br> E.g if you specify 7 as "
+"invoice length and your invoice number is 8009, it will be represented as "
+"0008009 in the respective documents."
+msgstr ""
+"Indică lungimea totală a numărului facturii, excluzând lungimea prefixului "
+"și sufixelor. Dacă lungimea numărului de factură generat este mai mică decât "
+"cea furnizată, acesta va fi completat cu „0”. Această setare poate fi "
+"experimentată prin secțiunea de previzualizare.<br> De exemplu, dacă "
+"specificați 7 ca lungime a facturii și numărul facturii dumneavoastră este "
+"8009, acesta va fi reprezentat ca 0008009 în documentele respective."
+
+#: public/modules/invoice/views/general.php:229
+msgid "Invoice details"
+msgstr "Detaliile facturii"
+
+#: public/modules/invoice/views/general.php:236
+msgid "Order meta fields"
+msgstr "Comandați câmpurile meta"
+
+#: public/modules/invoice/views/general.php:240
+msgid ""
+"Select/add order meta to display additional information related to the order "
+"on the invoice."
+msgstr ""
+"Selectați/adăugați meta comanda pentru a afișa informații suplimentare "
+"legate de comandă pe factură."
+
+#: public/modules/invoice/views/general.php:248
+msgid ""
+"If left blank, default to the logo from General settings. Ensure to select "
+"company logo from ‘Invoice > Customize > Company Logo’ to reflect on the "
+"invoice. Recommended size is 150×50px."
+msgstr ""
+"Dacă este lăsat necompletat, implicit la sigla din Setări generale. "
+"Asigurați-vă că selectați sigla companiei din „Factură > Personalizare > "
+"Logo companie” pentru a se reflecta pe factură. Dimensiunea recomandată este "
+"150×50px."
+
+#: public/modules/invoice/views/general.php:269
+msgid "Generate invoices for existing orders"
+msgstr "Generați facturi pentru comenzile existente"
+
+#: public/modules/invoice/views/general.php:273
+msgid ""
+"Enable to create invoice for orders generated before plugin installation"
+msgstr ""
+"Activați crearea unei facturi pentru comenzile generate înainte de "
+"instalarea pluginului"
+
+#: public/modules/invoice/views/general.php:284
+msgid "Enable to create invoices for free orders"
+msgstr "Activați crearea de facturi pentru comenzile gratuite."
+
+#: public/modules/invoice/views/general.php:291
+msgid "Display free line items in the invoice"
+msgstr "Afișați elemente rând gratuite în factură"
+
+#: public/modules/invoice/views/general.php:295
+msgid "Include free(priced as 0) line items in the invoice"
+msgstr "Includeți elemente rând gratuite (la preț ca 0) în factură"
+
+#: public/modules/invoice/views/general.php:298
+msgid "Enable to create invoices for free orders."
+msgstr "Activați crearea de facturi pentru comenzile gratuite."
+
+#: public/modules/invoice/views/general.php:304
+msgid "PDF name format"
+msgstr "Formate de dată"
+
+#: public/modules/invoice/views/general.php:309
+msgid "[prefix][order_no]"
+msgstr "[prefix] [Numar de ordine]"
+
+#: public/modules/invoice/views/general.php:310
+msgid "[prefix][invoice_no]"
+msgstr "[prefix] [număr de factură]"
+
+#: public/modules/invoice/views/general.php:314
+msgid ""
+"Select a name format for PDF invoice that includes invoice/order number."
+msgstr ""
+"Selectați un format de nume pentru factura PDF care include numărul de "
+"factură / comandă."
+
+#: public/modules/invoice/views/general.php:320
+msgid "Custom PDF name prefix"
+msgstr "Prefix personalizat pentru nume PDF"
+
+#: public/modules/invoice/views/general.php:322
+msgid ""
+"Input a custom prefix for ‘PDF name format’ that will appear at the "
+"beginning of the name. Defaulted to ‘Invoice_’."
+msgstr ""
+"Introduceți un prefix personalizat pentru „Format nume PDF” care va apărea "
+"la începutul numelui. Implicit la „Factură_”."
+
+#: public/modules/invoice/views/general.php:350
+msgid "Date formats"
+msgstr "Formate de dată"
+
+#: public/modules/invoice/views/general.php:357
+msgid "Output"
+msgstr "Ieșire"
+
+#: public/modules/invoice/views/invoice_number_preview.php:30
+msgid "PREVIEW"
+msgstr "PREVIZUALIZARE"
+
+#: public/modules/invoice/views/invoice_number_preview.php:33
+msgid "If the order number is"
+msgstr "Dacă numărul de comandă este"
+
+#: public/modules/invoice/views/invoice_number_preview.php:35
+#, php-format
+msgid "the %s number would be"
+msgstr "numărul %s ar fi"
+
+#: public/modules/invoice/views/invoice_number_preview.php:38
+#, php-format
+msgid "Your next %s number would be"
+msgstr "Următorul dvs. număr %s ar fi"
+
+#: public/modules/packinglist/data/data.tooltip.php:4
+msgid "Adds customer note to the packing slip"
+msgstr "Adaugă nota de client la bonul de ambalare"
+
+#: public/modules/packinglist/data/data.tooltip.php:5
+msgid "Adds Footer to the packing slip"
+msgstr "Adaugă subsol la bonul de livrare"
+
+#: public/modules/packinglist/packinglist.php:230
+#: public/modules/packinglist/packinglist.php:253
+#: public/modules/packinglist/packinglist.php:270
+#: public/modules/packinglist/packinglist.php:271
+msgid "Print Packing slip"
+msgstr "Imprimați fișa de ambalare"
+
+#: public/modules/packinglist/packinglist.php:247
+msgid "Print/Download Packing slip"
+msgstr "Tipăriți / descărcați fișa de ambalare"
+
+#: public/modules/packinglist/packinglist.php:260
+#: public/modules/packinglist/packinglist.php:277
+#: public/modules/packinglist/packinglist.php:278
+msgid "Download Packing slip"
+msgstr "Descărcați fișa de ambalare"
+
+#: public/modules/packinglist/packinglist.php:351
+#: public/modules/shippinglabel/shippinglabel.php:510
+msgid "Unable to print Packing slip. Please check the items in the order."
+msgstr ""
+"Nu se poate imprima fișa de ambalare. Vă rugăm să verificați articolele din "
+"comandă."
+
+#: public/modules/packinglist/views/general.php:11
+msgid "Configure the general settings required for the packing slip."
+msgstr "Configurați setările generale necesare pentru bonul de expediere."
+
+#: public/modules/shippinglabel/data/data.templates.php:5
+msgid "Shipping Label 1"
+msgstr "Etichetă de livrare"
+
+#: public/modules/shippinglabel/data/data.tooltip.php:3
+msgid "Adds footer to the  Shipping label"
+msgstr "Adaugă subsol la eticheta de expediere"
+
+#: public/modules/shippinglabel/shippinglabel.php:108
+#: public/modules/shippinglabel/shippinglabel.php:133
+msgid "Title font size"
+msgstr "Dimensiunea fontului titlului"
+
+#: public/modules/shippinglabel/shippinglabel.php:115
+msgid "Address font size"
+msgstr "Dimensiunea fontului adresei"
+
+#: public/modules/shippinglabel/shippinglabel.php:157
+msgid "To Address"
+msgstr "Pentru a răspunde"
+
+#: public/modules/shippinglabel/shippinglabel.php:159
+msgid "Weight"
+msgstr "Greutate"
+
+#: public/modules/shippinglabel/shippinglabel.php:160
+msgid "Ship date"
+msgstr "Eticheta pentru data navei"
+
+#: public/modules/shippinglabel/shippinglabel.php:165
+msgid "Package Number"
+msgstr "Numărul pachetului"
+
+#: public/modules/shippinglabel/shippinglabel.php:167
+msgid "No of Items"
+msgstr "Nr. de elemente"
+
+#: public/modules/shippinglabel/shippinglabel.php:168
+msgid "Fragile"
+msgstr "Fragile"
+
+#: public/modules/shippinglabel/shippinglabel.php:169
+msgid "This way up"
+msgstr "Pe aici in sus"
+
+#: public/modules/shippinglabel/shippinglabel.php:170
+msgid "Keep dry"
+msgstr "Păstrați uscat"
+
+#: public/modules/shippinglabel/shippinglabel.php:172
+msgid "Return Policy"
+msgstr "Politica de returnare"
+
+#: public/modules/shippinglabel/shippinglabel.php:360
+#: public/modules/shippinglabel/shippinglabel.php:378
+#: public/modules/shippinglabel/shippinglabel.php:385
+#: public/modules/shippinglabel/shippinglabel.php:395
+#: public/modules/shippinglabel/shippinglabel.php:396
+msgid "Print Shipping Label"
+msgstr "Imprimați eticheta de expediere"
+
+#: public/modules/shippinglabel/shippinglabel.php:377
+msgid "Shipping Label"
+msgstr "Eticheta de livrare"
+
+#: public/modules/shippinglabel/shippinglabel.php:442
+msgid "Please add shipping from address in the plugin's general settings."
+msgstr ""
+"Adăugați adresa de expediere din adresa în setările generale ale pluginului."
+
+#: public/modules/shippinglabel/views/general.php:12
+msgid "Configure the general settings required for the shipping label."
+msgstr "Configurați setările generale necesare pentru eticheta de expediere."
+
+#: public/modules/shippinglabel/views/general.php:31
+msgid "Full Page"
+msgstr "Toată pagina"
+
+#: public/modules/shippinglabel/views/general.php:32
+msgid "Custom (Pro version)"
+msgstr "Footer personalizat"
+
+#: public/modules/shippinglabel/views/general.php:36
+msgid ""
+"Set the  Size of the Shipping label to be either full page or custom size."
+msgstr ""
+"Setați dimensiunea etichetei de expediere să fie fie pentru pagină întreagă, "
+"fie dimensiune personalizată."
+
+#: public/modules/shippinglabel/views/general.php:50
+msgid "The content set in the"
+msgstr "Conținutul stabilit în"
+
+#: public/modules/shippinglabel/views/general.php:52
+msgid "option from the General settings page"
+msgstr "opțiunea din pagina Setări generale"
+
+#: public/modules/shippinglabel/views/general.php:53
+msgid "General Settings > General > Footer"
+msgstr "Setări generale > General > Subsol"
+
+#: public/modules/shippinglabel/views/general.php:54
+msgid "is included by default in the footer section"
+msgstr "este inclus implicit în secțiunea de subsol"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-slips/"
+msgstr ""
+"https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-slips/"
+
+#. Description of the plugin/theme
+msgid "Prints Packing List,Invoice,Delivery Note and Shipping Label."
+msgstr ""
+"Imprimă lista de ambalare, factură, bon de livrare și etichetă de expediere."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr "https://www.webtoffee.com/"
+
+#~ msgid "Print Actions"
+#~ msgstr "Imprimarea acțiunilor"
+
+#~ msgid "Other Documents"
+#~ msgstr "Documentație"
+
+#~ msgid ""
+#~ "Specify your company name in the field provided. You can choose to "
+#~ "display the name or logo in the invoice from the customize tab."
+#~ msgstr ""
+#~ "Specificați numele companiei dvs. în câmpul furnizat. Puteți alege să "
+#~ "afișați numele sau sigla în factură din fila de personalizare."
+
+#~ msgid ""
+#~ "Upload a company logo (preferably of size 150x50px for better usability) "
+#~ "from the media library which will be displayed in your document."
+#~ msgstr ""
+#~ "Încărcați o siglă a companiei (de preferință de dimensiunea 150x50px "
+#~ "pentru o mai bună utilizare) din biblioteca media care va fi afișată în "
+#~ "documentul dvs."
+
+#~ msgid ""
+#~ "Additional details like the terms and conditions, any specific messages "
+#~ "that have to be displayed at the bottom of the document can be specified "
+#~ "in the expandable text area provided."
+#~ msgstr ""
+#~ "Detalii suplimentare, cum ar fi termenii și condițiile, orice mesaje "
+#~ "specifice care trebuie afișate în partea de jos a documentului pot fi "
+#~ "specificate în zona de text extensibilă furnizată. Puteți alege să îl "
+#~ "afișați sau nu în documentele dvs. de expediere din fila de personalizare "
+#~ "a documentelor respective."
+
+#~ msgid ""
+#~ "The 'From Address' to be displayed in the shipping documents will be "
+#~ "loaded from details specified in these fields."
+#~ msgstr ""
+#~ "„De la adresă” care va fi afișat în documentele de expediere va fi "
+#~ "încărcat din detaliile specificate în aceste câmpuri."
+
+#~ msgid ""
+#~ "Click here to load the default WooCommerce store address details into the "
+#~ "respective fields."
+#~ msgstr ""
+#~ "Faceți clic aici pentru a încărca detaliile implicite ale adresei "
+#~ "magazinului WooCommerce în câmpurile respective."
+
+#~ msgid ""
+#~ "Enable to obtain the document in right to left alignment. (P.S: Use it "
+#~ "only for languages with the right to left text direction)"
+#~ msgstr ""
+#~ "Activați obținerea documentului în alinierea de la dreapta la stânga. "
+#~ "(PS: Folosiți-l numai pentru limbile cu direcția textului de la dreapta "
+#~ "la stânga)"
+
+#~ msgid ""
+#~ "Configure the product price/subtotal inclusive or exclusive of tax. "
+#~ "Provision to set up tax also provided."
+#~ msgstr ""
+#~ "Configurați prețul produsului / subtotal, inclusiv sau fără taxe. De "
+#~ "asemenea, este prevăzută o prevedere pentru stabilirea impozitului."
+
+#~ msgid "Use"
+#~ msgstr "Utilizare"
+
+#~ msgid "Decorator – WooCommerce Email Customizer"
+#~ msgstr "Decorator - Personalizator de e-mail WooCommerce"
+
+#~ msgid "Customize your WooCommerce emails now and stand out from the crowd!"
+#~ msgstr ""
+#~ "Personalizați-vă acum e-mailurile WooCommerce și ieșiți din mulțime!"
+
+#~ msgid ""
+#~ "This plugin will assist you in making your website GDPR (RGPD, DSVGO) "
+#~ "compliant."
+#~ msgstr ""
+#~ "Acest plugin vă va ajuta să vă conformați site-ul dvs. GDPR (RGPD, DSVGO)."
+
+#~ msgid ""
+#~ "This plugin allows you to import and export WordPress users and "
+#~ "WooCommerce customers quickly and easily."
+#~ msgstr ""
+#~ "Acest plugin vă permite să importați și să exportați rapid și ușor "
+#~ "utilizatorii WordPress și clienții WooCommerce."
+
+#~ msgid ""
+#~ "The Order XML File Export Import Plugin for WooCommerce will export your "
+#~ "WooCommerce orders in XML format."
+#~ msgstr ""
+#~ "Pluginul de import pentru exportul fișierului XML pentru WooCommerce va "
+#~ "exporta comenzile dvs. WooCommerce în format XML."
+
+#~ msgid "Related Products for WooCommerce"
+#~ msgstr "Produse conexe pentru WooCommerce"
+
+#~ msgid ""
+#~ "This plugin allows you to choose related products for a particular "
+#~ "product."
+#~ msgstr ""
+#~ "Acest plugin vă permite să alegeți produse conexe pentru un anumit produs."
+
+#~ msgid ""
+#~ "Using this plugin, you will always get sequential order number for "
+#~ "woocommerce."
+#~ msgstr ""
+#~ "Folosind acest plugin, veți obține întotdeauna un număr de ordine "
+#~ "secvențial pentru woocommerce."
+
+#~ msgid ""
+#~ "This plugin provides additional features with default WooCommerce coupons "
+#~ "to get more conversions."
+#~ msgstr ""
+#~ "Acest plugin oferă funcții suplimentare cu cupoane WooCommerce implicite "
+#~ "pentru a obține mai multe conversii."
+
+#~ msgid "WebToffee Product Feed for Facebook"
+#~ msgstr "Feed produs WebToffee pentru Facebook"
+
+#~ msgid ""
+#~ "This plugin allows you to integrate your WooCommerce store with Facebook "
+#~ "in a few steps by syncing your store’s products with it."
+#~ msgstr ""
+#~ "Acest plugin vă permite să vă integrați magazinul WooCommerce cu Facebook "
+#~ "în câțiva pași sincronizând produsele magazinului dvs. cu acesta."
+
+#~ msgid ""
+#~ "This plugin exports your WordPress website media files, plugins and "
+#~ "themes including the database with a single click."
+#~ msgstr ""
+#~ "Acest plugin exportă fișierele media, pluginurile și temele site-ului "
+#~ "dvs. WordPress, inclusiv baza de date, cu un singur clic."
+
+#~ msgid ""
+#~ "With this plugin, your customer can use their credit cards or PayPal "
+#~ "Money to make order from cart page itself."
+#~ msgstr ""
+#~ "Cu acest plugin, clientul dvs. își poate folosi cardurile de credit sau "
+#~ "PayPal Money pentru a face comenzi chiar de pe pagina coșului de "
+#~ "cumpărături."
+
+#~ msgid ""
+#~ "Add-on to support RTL and Unicode languages seamlessly in PDF documents."
+#~ msgstr ""
+#~ "Supliment pentru a sprijini perfect limbile RTL și Unicode în documentele "
+#~ "PDF."
+
+#~ msgid "OTHER FREE SOLUTIONS FROM WEBTOFFEE"
+#~ msgstr "ALTE SOLUȚII GRATUITE DE LA WEBTOFFEE"
+
+#~ msgid ""
+#~ "Generate and print additional documents (Address Labels, Pick Lists, "
+#~ "Proforma Invoices, and Credit Notes)."
+#~ msgstr ""
+#~ "Generați și tipăriți documente suplimentare (etichete de adrese, liste de "
+#~ "selectare, facturi Proforma și note de credit)."
+
+#~ msgid "Advanced customization options along with code editor."
+#~ msgstr "Opțiuni avansate de personalizare împreună cu editorul de cod."
+
+#~ msgid "Choose from pre-built templates."
+#~ msgstr "Alegeți dintre șabloane pre-construite."
+
+#~ msgid "Choose from multiple packaging types for Packing slips."
+#~ msgstr ""
+#~ "Alegeți dintre mai multe tipuri de ambalaje pentru fișele de ambalare."
+
+#~ msgid "Supports custom sizes for address/shipping labels."
+#~ msgstr "Setați subsolul personalizat pentru toate documentele de expediere."
+
+#~ msgid "Group order items by category in the product table of documents."
+#~ msgstr ""
+#~ "Grupați articolele de comandă pe categorii în tabelul de documente al "
+#~ "produselor."
+
+#~ msgid "Display individual tax column(s) in the product table."
+#~ msgstr "Afișați coloane individuale de impozitare în tabelul de produse."
+
+#~ msgid "Share Packing Slip PDF and Picklist PDF as separate mail."
+#~ msgstr ""
+#~ "Distribuiți fișierul de ambalare PDF și lista Picklist PDF ca poștă "
+#~ "separată."
+
+#~ msgid "Sort order items in the product table of documents."
+#~ msgstr ""
+#~ "Sortați articolele de comandă în tabelul de produse al documentelor."
+
+#~ msgid "Add-on for remote printing (PrintNode)."
+#~ msgstr "Supliment pentru imprimare la distanță (PrintNode)."
+
+#~ msgid "Automatically Attach PDF Invoice with order email"
+#~ msgstr "Atașați automat factura PDF cu adresa de e-mail a comenzii"
+
+#~ msgid "Customizer"
+#~ msgstr "Personalizare"
+
+#~ msgid "Minimal customizer available for Invoice and Shipping label only"
+#~ msgstr ""
+#~ "Personalizator minim disponibil numai pentru eticheta Factură și Expediere"
+
+#~ msgid ""
+#~ "Advanced customizer with source code editor, available for all documents"
+#~ msgstr ""
+#~ "Personalizator avansat cu editor de cod sursă, disponibil pentru toate "
+#~ "documentele"
+
+#~ msgid "Predefined templates"
+#~ msgstr "Creați un nou șablon"
+
+#~ msgid "One for document type"
+#~ msgstr "Unul pentru tipul de document"
+
+#~ msgid "Free add-on for RTL and Unicode language support"
+#~ msgstr "Supliment gratuit pentru suport pentru limbajul RTL și Unicode"
+
+#~ msgid "Auto-generate customized Invoice number"
+#~ msgstr "Număr de factură"
+
+#~ msgid "Signature in Invoice"
+#~ msgstr "Imprimare factură"
+
+#~ msgid "Remote(cloud) print add-on support"
+#~ msgstr "Suport suplimentar pentru imprimare la distanță (cloud)"
+
+#~ msgid "Supports multiple packaging types"
+#~ msgstr "Suportă mai multe tipuri de ambalaje"
+
+#~ msgid "In-built custom checkout field manager"
+#~ msgstr "Manager de câmp personalizat de încorporare încorporat"
+
+#~ msgid "In-built Order meta, Product meta, Product attribute manager"
+#~ msgstr "Meta de comandă încorporată, meta produs, manager atribut produs"
+
+#~ msgid "Total tax column in product table"
+#~ msgstr "Coloana impozitului total din tabelul de produse"
+
+#~ msgid "Group order items by category in the product table"
+#~ msgstr "Grupați articolele comandate pe categorii în tabelul de produse"
+
+#~ msgid "Share Packing slip PDF and Picklist PDF as separate emails."
+#~ msgstr ""
+#~ "Distribuiți fișierele de ambalare PDF și Picklist PDF ca e-mailuri "
+#~ "separate."
+
+#~ msgid "Temp file manager (Auto cleanup, Download as zip etc)"
+#~ msgstr ""
+#~ "Manager fișiere temporare (Curățare automată, descărcare ca zip etc.)"
+
+#~ msgid "Custom footer for individual documents"
+#~ msgstr "Subsol personalizat pentru documente individuale"
+
+#~ msgid "FEATURES"
+#~ msgstr "CARACTERISTICI"
+
+#~ msgid "FREE"
+#~ msgstr "GRATUIT"
+
+#~ msgid "PREMIUM"
+#~ msgstr "Premium"
+
+#~ msgid "30 day money back guarantee"
+#~ msgstr "Garanție de rambursare în 30 de zile"
+
+#~ msgid "Fast and superior support"
+#~ msgstr "Suport rapid și superior"
+
+#~ msgid "Features that every site needs"
+#~ msgstr "Funcții de care fiecare site are nevoie"
+
+#~ msgid "Upload"
+#~ msgstr "Încărcați"
+
+#~ msgid ""
+#~ "Either of the document types, Packing  slip, Shipping label, Dispatch "
+#~ "label or Delivery note should be activated to view relevant settings."
+#~ msgstr ""
+#~ "Pentru a vizualiza setările relevante, trebuie să fie activate oricare "
+#~ "dintre tipurile de documente, bonul de ambalare, eticheta de expediere, "
+#~ "eticheta de expediere sau bonul de livrare."
+
+#, php-format
+#~ msgid "Go to %s General Settings %s Documents %s in order to activate."
+#~ msgstr "Accesați %s Setări generale %s Documente %s pentru a activa."
+
+#~ msgid ""
+#~ "WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping "
+#~ "Labels (Basic) | Developed by"
+#~ msgstr ""
+#~ "Facturi PDF WooCommerce, borderouri de ambalare, note de livrare și "
+#~ "etichete de expediere (de bază) | Dezvoltat de"
+
+#~ msgid ""
+#~ "The document types(Invoice, Packing  slip, Shipping label, Dispatch label "
+#~ "and Delivery note) have been enabled by default for use. Click on the "
+#~ "Settings under the document types to configure the respective settings. "
+#~ "You can use the toggle button to activate/deactivate the respective "
+#~ "document type."
+#~ msgstr ""
+#~ "Tipurile de documente (factură, bon de ambalare, etichetă de expediere, "
+#~ "etichetă de expediere și notă de livrare) au fost activate în mod "
+#~ "implicit pentru utilizare. Faceți clic pe Setări sub tipurile de "
+#~ "documente pentru a configura setările respective. Puteți utiliza butonul "
+#~ "de comutare pentru a activa / dezactiva tipul respectiv de document."
+
+#~ msgid ""
+#~ "Also make sure to fill-up the Company and Address information from the "
+#~ "General tab above prior to customization of the respective document types."
+#~ msgstr ""
+#~ "De asemenea, asigurați-vă că completați informațiile despre companie și "
+#~ "adresă din fila General de mai sus înainte de a personaliza tipurile de "
+#~ "documente respective."
+
+#, php-format
+#~ msgid ""
+#~ "For better Unicode/RTL support, use our free %s mPDF add-on %s along with "
+#~ "this plugin."
+#~ msgstr ""
+#~ "Pentru o mai bună asistență Unicode / RTL, utilizați %s suplimentul mPDF "
+#~ "%s gratuit împreună cu acest plugin."
+
+#~ msgid "Company Info"
+#~ msgstr "Informații companie"
+
+#~ msgid ""
+#~ "Ensure to select company logo from ‘Invoice > Customize > Company Logo’ "
+#~ "to reflect on the invoice. Recommended size is 150x50px."
+#~ msgstr ""
+#~ "Asigurați-vă că selectați sigla companiei din „Factură> Personalizare> "
+#~ "Sigla companiei” pentru a reflecta pe factură. Dimensiunea recomandată "
+#~ "este de 150x50px."
+
+#~ msgid "Set up a footer which will be used across the respective documents."
+#~ msgstr ""
+#~ "Configurați un subsol care va fi utilizat în documentele respective."
+
+#~ msgid "Enable ‘Pay Later’ checkout method and pay via invoice"
+#~ msgstr ""
+#~ "Activați metoda de plată „Plătiți mai târziu” și plătiți prin factură"
+
+#~ msgid "Generate picklist, credit notes, proforma invoice, & address labels"
+#~ msgstr ""
+#~ "Generați listă de selectare, note de credit, factură proformă și etichete "
+#~ "de adresă"
+
+#~ msgid "Advanced customization of templates using code-editor"
+#~ msgstr "Opțiuni avansate de personalizare împreună cu editorul de cod"
+
+#~ msgid "Choose from various packing methods"
+#~ msgstr "Alegeți dintre diferite metode de ambalare"
+
+#~ msgid "Option to customize return policy"
+#~ msgstr "Opțiune de personalizare a politicii de retur"
+
+#~ msgid "Premium add-on for cloud printing"
+#~ msgstr "Previzualizare înainte de imprimare"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Enable to include product image in the document."
+#~ msgstr "Activați includerea imaginii produsului în document."
+
+#~ msgid "Enable to display footer content in the document."
+#~ msgstr "Activați afișarea conținutului subsolului în document."
+
+#~ msgid ""
+#~ "By enabling, you are permitting admin as well as customers to have access "
+#~ "to print, download, attach invoice in the mail, etc from wherever "
+#~ "applicable. Disabling will remove all the provisions, still, admin can "
+#~ "customize the template, set invoice number pattern and so on."
+#~ msgstr ""
+#~ "Prin activare, permiteți administratorului, precum și clienților, să aibă "
+#~ "acces la imprimare, descărcare, atașare de facturi prin poștă, etc. de "
+#~ "oriunde este cazul. Dezactivarea va elimina toate prevederile, totuși, "
+#~ "administratorul poate personaliza șablonul, poate seta modelul numărului "
+#~ "de factură și așa mai departe."
+
+#~ msgid ""
+#~ "If you choose 'No' then the invoice date will be the date on which it is "
+#~ "printed, downloaded or attached in the mail."
+#~ msgstr ""
+#~ "Dacă alegeți „Nu”, data facturii va fi data la care este tipărită, "
+#~ "descărcată sau atașată în poștă."
+
+#~ msgid ""
+#~ "PDF version of the currently active invoice template will be attached "
+#~ "with the Woocommerce order emails sent to customers and admins for the "
+#~ "chosen order statuses."
+#~ msgstr ""
+#~ "Versiunea PDF a șablonului de factură activ în prezent va fi atașată la e-"
+#~ "mailurile de comandă Woocommerce trimise clienților și administratorilor "
+#~ "pentru starea comenzii alese."
+
+#~ msgid ""
+#~ "Choose the order statuses for which an email is to be sent to the "
+#~ "customer with an invoice attached to it."
+#~ msgstr ""
+#~ "Alegeți stările comenzii pentru care urmează să fie trimis un e-mail "
+#~ "clientului cu o factură atașată la acesta."
+
+#~ msgid ""
+#~ "Enabling this option will allow your customers to print the invoice (via "
+#~ "print button) from their order mail as well as after checkout."
+#~ msgstr ""
+#~ "Activarea acestei opțiuni le va permite clienților să tipărească factura "
+#~ "(prin butonul de tipărire) din poșta de comandă, precum și după "
+#~ "efectuarea plății."
+
+#~ msgid "You can add any personalised note/comment in this"
+#~ msgstr "Puteți adăuga orice notă / comentariu personalizat în acest sens"
+
+#~ msgid ""
+#~ "Upload to include a unique logo in the invoice other than the one loaded "
+#~ "from general settings.  If left blank, then defaulted to the logo from "
+#~ "general settings."
+#~ msgstr ""
+#~ "Încărcați pentru a include o siglă unică în factură, alta decât cea "
+#~ "încărcată din setările generale. Dacă este lăsat necompletat, atunci este "
+#~ "setată implicit la sigla din setările generale."
+
+#~ msgid ""
+#~ "Select an invoice number format from the drop-down. You can choose to "
+#~ "have a prefix, suffix or both for your invoice number."
+#~ msgstr ""
+#~ "Selectați un format de număr de factură din meniul derulant. Puteți alege "
+#~ "să aveți un prefix, un sufix sau ambele pentru numărul de factură."
+
+#~ msgid ""
+#~ "You can mirror the order number as the invoice number by enabling this "
+#~ "option, else, you can create an invoice number of your own choice by "
+#~ "specifying an invoice start number."
+#~ msgstr ""
+#~ "Puteți oglindi numărul comenzii ca număr de factură activând această "
+#~ "opțiune, altfel puteți crea un număr de factură la alegere, specificând "
+#~ "un număr de începere a facturii."
+
+#~ msgid ""
+#~ "Set a starting number for the invoice number to have a specific number "
+#~ "other than the order number. Reset provisions are also allowed."
+#~ msgstr ""
+#~ "Setați un număr de pornire pentru ca numărul facturii să aibă un număr "
+#~ "specific, altul decât numărul comenzii. Dispozițiile de resetare sunt, de "
+#~ "asemenea, permise."
+
+#~ msgid ""
+#~ "Specify a prefix that will appear at the leading edge of the invoice "
+#~ "number. Provisions are included to select predefined date formats as "
+#~ "prefixes."
+#~ msgstr ""
+#~ "Specificați un prefix care va apărea la marginea din față a numărului de "
+#~ "factură. Sunt incluse dispoziții pentru a selecta formate de date "
+#~ "predefinite ca prefixe."
+
+#~ msgid ""
+#~ "Specify a suffix that will appear at the trailing edge of the invoice "
+#~ "number. Provisions are included to select predefined date formats as "
+#~ "suffixes."
+#~ msgstr ""
+#~ "Specificați un sufix care va apărea la marginea finală a numărului de "
+#~ "factură. Sunt incluse dispoziții pentru selectarea formatelor de date "
+#~ "predefinite ca sufixe."
+
+#~ msgid "Invoice Number:"
+#~ msgstr "Seria și nr. facturii:"
+
+#~ msgid "Create and email invoice"
+#~ msgstr "Creați și trimiteți prin e-mail factura"
+
+#~ msgid "Enable to display free line items in the invoices."
+#~ msgstr "Activați pentru afișarea elementelor rând gratuite în facturi."
+
+#~ msgid ""
+#~ "Use the configurations below to set up a custom invoice number with "
+#~ "prefix/suffix/number series or mirror the order number respectively."
+#~ msgstr ""
+#~ "Utilizați configurațiile de mai jos pentru a configura un număr de "
+#~ "factură personalizat cu serie de prefix / sufix / număr sau oglindesc "
+#~ "respectiv numărul de comandă."
+
+#~ msgid "Invoice length"
+#~ msgstr "Data facturii"
+
+#~ msgid "Save Invoice number settings"
+#~ msgstr "Numărul de factură Postfix"
+
+#~ msgid ""
+#~ "Prints the shipping label in full page. Provisions to create custom sized "
+#~ "labels are allowed in premium versions."
+#~ msgstr ""
+#~ "Tipărește eticheta de expediere pe întreaga pagină. Dispozițiile pentru "
+#~ "crearea etichetelor de dimensiuni personalizate sunt permise în "
+#~ "versiunile premium."
+
+#~ msgid ""
+#~ "Displays print button in the order email, order listing page and in the "
+#~ "order summary."
+#~ msgstr ""
+#~ "Afișează butonul de imprimare în e-mailul comenzii, pagina listării "
+#~ "comenzilor și în rezumatul comenzii."
+
+#~ msgid "Show print button only for statuses"
+#~ msgstr "Afișați butonul de imprimare numai pentru stări"
+
+#~ msgid "Reset Invoice no"
+#~ msgstr "Resetați factura nr"

@@ -1,0 +1,261 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code Tag from Goaskle.com v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-16 14:37+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Goaskle.com <info@Goaskle.com>\n"
+"Language-Team: Goaskle.com <info@Goaskle.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: lib\n"
+
+#: lib/qrct/QrctWp-admin.inc.php:11
+msgid "QR Code Tag Settings"
+msgstr "Paramètres des étiquettes de code QR"
+
+#: lib/qrct/QrctWp-admin.inc.php:14
+msgid "Code Generation"
+msgstr "Génération de code"
+
+#: lib/qrct/QrctWp-admin.inc.php:17
+msgid "Generator"
+msgstr "Générateur"
+
+#: lib/qrct/QrctWp-admin.inc.php:20
+msgid "Google Chart API"
+msgstr "Google Chart API"
+
+#: lib/qrct/QrctWp-admin.inc.php:21
+msgid "QR Code Lib"
+msgstr "QR Code Lib"
+
+#: lib/qrct/QrctWp-admin.inc.php:26
+msgid "Image Type"
+msgstr "Type d'image"
+
+#: lib/qrct/QrctWp-admin.inc.php:29
+msgid "GIF"
+msgstr "GIF"
+
+#: lib/qrct/QrctWp-admin.inc.php:30
+msgid "PNG"
+msgstr "PNG"
+
+#: lib/qrct/QrctWp-admin.inc.php:31
+msgid "JPG"
+msgstr "JPG"
+
+#: lib/qrct/QrctWp-admin.inc.php:37
+msgid "Default Options"
+msgstr "Options par défaut"
+
+#: lib/qrct/QrctWp-admin.inc.php:38
+msgid "This will be the default values of the QR Code Tag Shortcode, Tooltip and Widget."
+msgstr "Il s'agit des valeurs par défaut du code QR Code Tag de Goaskle.com Shortcode, Tooltip et Widget."
+
+#: lib/qrct/QrctWp-admin.inc.php:41
+msgid "Field"
+msgstr "Champ"
+
+#: lib/qrct/QrctWp-admin.inc.php:42
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: lib/qrct/QrctWp-admin.inc.php:43
+msgid "Tooltip"
+msgstr "Info-bulle"
+
+#: lib/qrct/QrctWp-admin.inc.php:44
+msgid "Widget"
+msgstr "Widget"
+
+#: lib/qrct/QrctWp-admin.inc.php:45
+msgid "Description"
+msgstr "Beschreibung"
+
+#: lib/qrct/QrctWp-admin.inc.php:48
+msgid "Size"
+msgstr "Taille"
+
+#: lib/qrct/QrctWp-admin.inc.php:52
+msgid "The size of the generated QRCode image (in pixels). it's always a square, so you only need to set one side - to enable the \"Best Read Mode\" <i>(QR Code Lib only)</i> specify a value lower than 10 (read help below)"
+msgstr "La taille de l'image QRCode générée (en pixels). il s'agit toujours d'un carré, vous n'avez donc besoin de définir qu'un seul côté - pour activer le \"Best Read Mode\" <i>(QR Code Lib only)</i> spécifiez une valeur inférieure à 10 (lire l'aide ci-dessous)."
+
+#: lib/qrct/QrctWp-admin.inc.php:55
+msgid "Enc"
+msgstr "Enc"
+
+#: lib/qrct/QrctWp-admin.inc.php:57 lib/qrct/QrctWp-admin.inc.php:62
+#: lib/qrct/QrctWp-admin.inc.php:67
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: lib/qrct/QrctWp-admin.inc.php:58 lib/qrct/QrctWp-admin.inc.php:63
+#: lib/qrct/QrctWp-admin.inc.php:68
+msgid "Shift_JIS"
+msgstr "Shift_JIS"
+
+#: lib/qrct/QrctWp-admin.inc.php:59 lib/qrct/QrctWp-admin.inc.php:64
+#: lib/qrct/QrctWp-admin.inc.php:69
+msgid "ISO-8859-1"
+msgstr "ISO-8859-1"
+
+#: lib/qrct/QrctWp-admin.inc.php:71
+msgid "Specifies how the output is encoded"
+msgstr "Spécifie comment la sortie est encodée"
+
+#: lib/qrct/QrctWp-admin.inc.php:72
+msgid "(Google Chart API only)"
+msgstr "(API Google Chart uniquement)"
+
+#: lib/qrct/QrctWp-admin.inc.php:77
+msgid "ECC"
+msgstr "ECC"
+
+#: lib/qrct/QrctWp-admin.inc.php:79 lib/qrct/QrctWp-admin.inc.php:85
+#: lib/qrct/QrctWp-admin.inc.php:91
+msgid "L"
+msgstr "L"
+
+#: lib/qrct/QrctWp-admin.inc.php:80 lib/qrct/QrctWp-admin.inc.php:86
+#: lib/qrct/QrctWp-admin.inc.php:92
+msgid "M"
+msgstr "M"
+
+#: lib/qrct/QrctWp-admin.inc.php:81 lib/qrct/QrctWp-admin.inc.php:87
+#: lib/qrct/QrctWp-admin.inc.php:93
+msgid "Q"
+msgstr "Q"
+
+#: lib/qrct/QrctWp-admin.inc.php:82 lib/qrct/QrctWp-admin.inc.php:88
+#: lib/qrct/QrctWp-admin.inc.php:94
+msgid "H"
+msgstr "H"
+
+#: lib/qrct/QrctWp-admin.inc.php:97
+#, php-format
+msgid "Error Correction Level (see <a href=\"http://code.google.com/apis/chart/types.html#ec_level_table\" target=\"_blank\">Google Chart API</a>)<br/><strong>L</strong> allows 7% of a QR code to be restored<br/><strong>M</strong> allows 15% of a QR code to be restored<br/><strong>Q</strong> allows 25% of a QR code to be restored<br/><strong>H</strong> allows 30% of a QR code to be restored"
+msgstr "Niveau de correction des erreurs (voir <a href=\"http://code.google.com/apis/chart/types.html#ec_level_table\" target=\"_blank\">Google Chart API</a>)<br/><strong>L</strong> permet de restaurer 7% d'un code QR<br/><strong>M</strong> permet de restaurer 15% d'un code QR<br/><strong>Q</strong> permet de restaurer 25% d'un code QR<br/><strong>H</strong> permet de restaurer 30% d'un code QR."
+
+#: lib/qrct/QrctWp-admin.inc.php:100
+msgid "Version"
+msgstr "Version"
+
+#: lib/qrct/QrctWp-admin.inc.php:104
+msgid "<strong>0-40 (0=auto)</strong>. Before choosing the QR code version, consider what kind of device is used to read your code. The best QR code readers are able to read Version 40 codes, mobile devices may read only up to Version 4 "
+msgstr "<strong>0-40 (0=auto)</strong>. Avant de choisir la version du code QR, tenez compte du type d'appareil utilisé pour lire votre code. Les meilleurs lecteurs de codes QR sont capables de lire les codes de la version 40, les appareils mobiles peuvent ne lire que la version 4 maximum. "
+
+#: lib/qrct/QrctWp-admin.inc.php:104
+msgid "(QR Code Lib only)"
+msgstr "(QR Code Lib uniquement)"
+
+#: lib/qrct/QrctWp-admin.inc.php:107
+msgid "Margin"
+msgstr "Marge"
+
+#: lib/qrct/QrctWp-admin.inc.php:111
+msgid "Defines the margin (or blank space) around the QR code (in QR Code pixel size - not actual pixels!)"
+msgstr "Définit la marge (ou l'espace vide) autour du code QR (en taille de pixel de code QR - pas de pixels réels !)"
+
+#: lib/qrct/QrctWp-admin.inc.php:114
+msgid "Image Classes"
+msgstr "Image Classes"
+
+#: lib/qrct/QrctWp-admin.inc.php:118
+msgid "Additional image classes (e.g. <i>qrctimage anynewclass</i>)"
+msgstr "Paramètres d'image supplémentaires (par exemple, <i>class=\"qrctimage\"</i>)"
+
+#: lib/qrct/QrctWp-admin.inc.php:121
+msgid "Link"
+msgstr "Lien"
+
+#: lib/qrct/QrctWp-admin.inc.php:125
+msgid "Defines if the image will have a link:<br/><strong>false</strong> = no link<br/><strong>true</strong> = link to the QR code content<br/><strong>url</strong> = link to the current URL<br><strong>http://</strong> = link to some URL (e.g. <i>http://www.google.com</i>)"
+msgstr ""
+"Définit si l'image aura un lien : <br/><strong>false</strong> = no link<br/><strong>true</strong> = link to the QR \n"
+"code content <br/><strong>url</strong> = link to the current URL<br><strong>http://</strong> = link to some URL (e.g. <i>http://www.google.com</i>)"
+
+#: lib/qrct/QrctWp-admin.inc.php:128
+msgid "A Tag classes"
+msgstr "A Tag classes"
+
+#: lib/qrct/QrctWp-admin.inc.php:132
+msgid "Additional link classes (e.g. <i>mylinkclass anynewlinkclass</i>)"
+msgstr "Paramètres de lien supplémentaires (par exemple, <i>mylinkclass anynewlinkclass</i>)"
+
+#: lib/qrct/QrctWp-admin.inc.php:135
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+#: lib/qrct/QrctWp-admin.inc.php:135
+msgid "Reset Options"
+msgstr "Options de réinitialisation"
+
+#: lib/qrct/QrctWp-admin.inc.php:138
+msgid "QR Code Cache"
+msgstr "Cache du code QR"
+
+#: lib/qrct/QrctWp-admin.inc.php:155
+#, php-format
+msgid "%1$d codes cached, using %2$s disk space (%3$s free disk space)."
+msgstr "%1$d codes mis en cache, utilisant %2$s espace disque (%3$s espace disque libre)."
+
+#: lib/qrct/QrctWp-admin.inc.php:156
+#, php-format
+msgid "%1$01.4f sec average code creation time."
+msgstr "%1$01.4f sec temps moyen de création du code."
+
+#: lib/qrct/QrctWp-admin.inc.php:158
+msgid "Clear Cache"
+msgstr "Effacer le cache"
+
+#: lib/qrct/QrctWp-admin.inc.php:161
+msgid "Help"
+msgstr "Aide"
+
+#: lib/qrct/QrctWp.php:119
+msgid "Settings"
+msgstr "Paramètres"
+
+#: lib/qrct/QrctWp.php:130
+msgid "QR Code Tag"
+msgstr "QR Code Tag from Goaskle.com"
+
+#: lib/qrct/QrctWp.php:288
+msgid "Before QR Code:"
+msgstr "Avant le QR Code :"
+
+#: lib/qrct/QrctWp.php:289
+msgid "Content (blank for current URL):"
+msgstr "Contenu (vide pour l'URL actuel) :"
+
+#: lib/qrct/QrctWp.php:290
+msgid "After QR Code:"
+msgstr "Après le code QR :"
+
+#: lib/qrct/QrctWp.php:546
+msgid "Options saved."
+msgstr "Options enregistrées."
+
+#: lib/qrct/QrctWp.php:557
+msgid "Default options loaded."
+msgstr "Options par défaut chargées."
+
+#: lib/qrct/QrctWp.php:567
+msgid "Cache cleared."
+msgstr "Cache effacé."
+
+#~ msgid "Encoding"
+#~ msgstr "Encoding"
+
+#~ msgid "Error correction"
+#~ msgstr "Error correction"

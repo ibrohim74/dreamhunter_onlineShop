@@ -1,0 +1,381 @@
+# Translation of Plugins - Hide login page, Hide wp admin &#8211; stop attack on login page - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Hide login page, Hide wp admin &#8211; stop attack on login page - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-31 11:32:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Hide login page, Hide wp admin &#8211; stop attack on login page - Development (trunk)\n"
+
+#: admin/boot.php:69
+msgid "We found that you are use the (%s) plugin to change wp-login.php page address. Please delete it, because Clearfy already contains these functions and you do not need to use two plugins. If you do not want to remove (%s) plugin for some reason, please do not use wp-login.php page address change feature in the Clearfy plugin, to avoid conflicts."
+msgstr "Мы обнаружили, что вы используете плагин (%s) для изменения адреса страницы wp-login.php. Пожалуйста удалите его, так как Clearfy уже содержит эти функции и вам незачем использовать два плагина. Если вы по каким-то причинам не хотите удалять плагин (%s), пожалуйста не используйте функции по изменению адреса страницы wp-login.php в плагине Clearfy, во избежание конфликтов."
+
+#: admin/boot.php:71
+msgid "We found that you are use the (%s) plugin. Please do not use its wp-login.php page address change and the same feature in the Clearfy plugin, to avoid conflicts."
+msgstr "Мы обнаружили, что вы используете плагин (%s). Пожалуйста не используйте его функции по изменению адреса страницы wp-login.php и схожие функции в плагине Clearfy, во избежание конфликтов."
+
+#: admin/boot.php:103 admin/pages/hide-login.php:241
+msgid "Hide wp-admin"
+msgstr "Скрыть wp-admin"
+
+#: admin/boot.php:108 admin/pages/hide-login.php:63
+#: admin/pages/hide-login.php:64 admin/pages/hide-login.php:254
+msgid "Hide Login Page"
+msgstr "Скрыть страницу логина"
+
+#: admin/boot.php:113 admin/pages/hide-login.php:306
+msgid "New login page"
+msgstr "Новый адрес страницы логина"
+
+#: admin/pages/hide-login.php:202
+msgid "You entered an incorrect part of the path to your login page. The path to the login page can not consist only of digits, at least 3 characters, you must use only the characters [0-9A-z_-]!"
+msgstr "Вы ввели неправильную часть пути к своей странице входа. Путь к странице входа не может состоять только из цифр, не менее 3 символов, вы должны использовать только символы [0-9A-z_-]!"
+
+#: admin/pages/hide-login.php:209
+msgid "The entered login page name is already used for one of your pages. Try to choose a different login page name!"
+msgstr "Введенное имя учетной записи уже используется для одной из ваших страниц. Попробуйте выбрать другое имя учетной записи!"
+
+#: admin/pages/hide-login.php:226
+msgid "<strong>Protect your admin login</strong>."
+msgstr "<strong>Защитите вашу страницу логина</strong>."
+
+#: admin/pages/hide-login.php:226
+msgid "Dozens of bots attack your login page at /wp-login.php and /wp-admin/daily. Bruteforce and want to access your admin panel. Even if you're sure that you have created a complex and reliable password, this does not guarantee security and does not relieve your login page load. The easiest way is to protect the login page by simply changing its address to your own and unique."
+msgstr "Десятки ботов ежедневно атакуют вашу страницу логина по адресам /wp-login.php и /wp-admin/, перебирая пароли, желая получить доступ в вашу админ панель. Даже если вы уверены, что создали сложный и надежный пароль, это не гарантирует безопасность и не избавляет от нагрузки вашу страницу логина. Проще всего защитить страницу логина, просто изменив её адрес на собственный и уникальный."
+
+#: admin/pages/hide-login.php:256
+msgid "Hides the wp-login.php and wp-signup.php pages."
+msgstr "Скрывает страницу wp-login.php, wp-signup.php."
+
+#: admin/pages/hide-login.php:256
+msgid "Use this option carefully! If you forget the new login page address, you can not get into the admin panel."
+msgstr "Используйте эту опцию осторожно, если вы забудете новый адрес страницы логина, вы не сможете попасть в админ панель."
+
+#: admin/pages/hide-login.php:267
+msgid "Access error type"
+msgstr "Тип ошибки доступа"
+
+#: admin/pages/hide-login.php:269
+msgid "Page 404"
+msgstr "Страница 404"
+
+#: admin/pages/hide-login.php:270
+msgid "Redirect to"
+msgstr "Перенаправить на"
+
+#: admin/pages/hide-login.php:271
+msgid "Forbidden 403"
+msgstr "403 доступ запрещен"
+
+#: admin/pages/hide-login.php:292
+msgid "Set custom page 404 url"
+msgstr "Url вашей страницы 404 ошибки"
+
+#: admin/pages/hide-login.php:293
+msgid "When you try to get to the hidden page wp-admin or wp-login.php, you will be redirected by the link you have set. Redirect will work only if you have chosen the required option above!"
+msgstr "Когда вы пытаетесь перейти на скрытую страницу wp-admin или wp-login.php, вы будете перенаправлены по указанной вами ссылке. Переадресация будет работать только в том случае, если вы выбрали требуемый вариант выше!"
+
+#: admin/pages/hide-login.php:243
+msgid "Hides the /wp-admin directory for unauthorized users. If the option is disabled, when you request the page /wp-admin you will be redirected to the login page, even if you changed its address. Therefore, for protection purposes enable this option."
+msgstr "Скрывает каталог /wp-admin для неавторизованных пользователей. Если опция отключена, при запросе страницы /wp-admin вы будете перенаправлены на страницу логина, даже если вы изменили ее адрес. Поэтому в целях защиты, включите эту опцию."
+
+#: admin/pages/hide-login.php:274
+msgid "Some Wordpress themes do not have page templates 404, if you see a php error (blank screen, error 500) when accessing the wp-admin page, wp-login.php, try set forbidden 403 error or set  a redirect to your custom page 404."
+msgstr "Некоторые темы WordPress не имеют шаблонов страниц 404, если вы видите php ошибку (белый экран, ошибку 500) при доступе к странице wp-admin, wp-login.php, попробуйте установить \"403 доступ запрещен\" или установите перенаправление на свою настраиваемую страницу 404 ошибки."
+
+#: admin/pages/hide-login.php:299 admin/pages/hide-login.php:377
+msgid ""
+"If unable to access the login/admin section anymore, use the Recovery Link which reset links to default: \n"
+"%s"
+msgstr ""
+"Если вы больше не можете получить доступ к разделу login/admin, используйте ссылку восстановления, которая восстанавливает ссылки по умолчанию: \n"
+"%s"
+
+#: admin/pages/hide-login.php:307
+msgid "Set a new login page name without slash. Example: mysecretlogin"
+msgstr "Задайте новое имя страницы логина без слешей. Пример: mysecretlogin"
+
+#: admin/pages/hide-login.php:307 admin/pages/hide-login.php:376
+msgid "IMPORTANT! Be sure that you wrote down the new login page address"
+msgstr "ВАЖНО! Обязательно запишите новый адрес страницы логина"
+
+#: admin/pages/hide-login.php:375
+msgid ""
+"Hi,\n"
+"This is %s plugin. Here is your new WordPress login address:\n"
+"URL: %s"
+msgstr ""
+"Здравствуйте!\n"
+"Это плагин %s. Вы изменили адрес страницы логина на:\n"
+"URL: %s"
+
+#: admin/pages/hide-login.php:378
+msgid ""
+"Best Regards,\n"
+"%s"
+msgstr ""
+"С уважением,\n"
+"%s"
+
+#: admin/pages/hide-login.php:384
+msgid "[%s] Your New WP Login!"
+msgstr "[%s] Измен адрес страницы логина!"
+
+#. Plugin Name of the plugin
+#: hide-login-page.php:45
+msgid "Webcraftic Hide login page"
+msgstr "Webcraftic Скрыть страницу логина"
+
+#: libs/factory/forms/controls/multiple-textbox.php:89
+msgid "Add new"
+msgstr "Добавить"
+
+#: libs/factory/templates/pages/templates/impressive/class-page-template-impressive.php:608
+msgid "Page"
+msgstr "Страница"
+
+#: libs/factory/templates/pages/templates/impressive/class-page-template-impressive.php:350
+msgid "It seems that a caching/performance plugin is active on this site. Please manually invalidate that plugin's cache after making any changes to the settings below."
+msgstr "Похоже, что Вы используете плагин кэширования или ускорения блога. Не забудьте после изменения любых настроек, очистить кэш вручную!"
+
+#: libs/factory/core/includes/functions.php:152
+msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
+msgstr "%1$s is <strong>устарел</strong> поскольку версия %2$s не имеет альтернативы."
+
+#: libs/factory/core/includes/functions.php:150
+msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+
+#: libs/factory/templates/pages/class-page-more-features.php:170
+msgid "Get the ultimate plugin 100% FREE"
+msgstr "Получить полную версию бесплатно на 100%"
+
+#: libs/factory/templates/pages/class-page-more-features.php:156
+msgid "In quick mode, you can easily configure the plugin according to your needs."
+msgstr "В быстром режиме вы можете легко настроить плагин в соответствии с вашими потребностями."
+
+#: libs/factory/templates/pages/class-page-more-features.php:155
+msgid "Easy setup"
+msgstr "Простая настройка"
+
+#: libs/factory/templates/pages/class-page-more-features.php:148
+msgid ""
+"Allows you to hide the version of the site and plugins. Allows you to hide your\n"
+"\t\t\t\t\t\t\tWordPress."
+msgstr ""
+"Позволяет скрыть версию сайта и плагинов. Позволяет скрыть ваш\n"
+"WordPress."
+
+#: libs/factory/templates/pages/class-page-more-features.php:147
+msgid "Site privacy"
+msgstr "Конфиденциальность сайта"
+
+#: libs/factory/templates/pages/class-page-more-features.php:141
+msgid "Increases performance by disabling unused functions and reducing the number of requests."
+msgstr "Повышает производительность, отключая неиспользуемые функции и уменьшая количество запросов."
+
+#: libs/factory/templates/pages/class-page-more-features.php:140
+msgid "Speed Optimization"
+msgstr "Оптимизация производительности"
+
+#: libs/factory/templates/pages/class-page-more-features.php:134
+msgid "Allows you to remove unused widgets."
+msgstr "Позволяет удалить неиспользуемые виджеты."
+
+#: libs/factory/templates/pages/class-page-more-features.php:133
+msgid "Manage widgets"
+msgstr "Управление виджетами"
+
+#: libs/factory/templates/pages/class-page-more-features.php:126
+msgid ""
+"Enables or disables automatically updates for plugins, themes and core. It is also possible\n"
+"\t\t\t\t\t\t\tto disable all updates."
+msgstr ""
+"Включает или отключает автоматические обновление плагинов, тем и ядра. Также возможно\n"
+"отключение всех обновлений."
+
+#: libs/factory/templates/pages/class-page-more-features.php:125
+msgid "Manage updates"
+msgstr "Менеджер обновлений"
+
+#: libs/factory/templates/pages/class-page-more-features.php:119
+msgid "Disables comments on the entire site or on specific pages."
+msgstr "Отключает комментарии на всем сайте или у определенных страниц."
+
+#: libs/factory/templates/pages/class-page-more-features.php:112
+msgid "Enables and disables features that improve the protection of your site."
+msgstr "Включает и отключает функции, которые улучшают защиту вашего сайта."
+
+#: libs/factory/templates/pages/class-page-more-features.php:105
+msgid "Removes duplicate pages, closes external links, changes the headers of the server."
+msgstr "Удаляет дубликаты страниц, закрывает внешние ссылки, изменяет заголовки сервера."
+
+#: libs/factory/templates/pages/class-page-more-features.php:104
+msgid "Improve SEO"
+msgstr "Улучшает SEO"
+
+#: libs/factory/templates/pages/class-page-more-features.php:98
+msgid "Clears the source code of the page from unused code."
+msgstr "Очищает исходный код страницы от неиспользуемого кода."
+
+#: libs/factory/templates/pages/class-page-more-features.php:68
+msgid "More features (<b>free</b>)"
+msgstr "Больше функций (<b>бесплатно</b>)"
+
+#: libs/factory/templates/pages/class-page-more-features.php:118
+msgid "Disable comments"
+msgstr "Отключить комментарии"
+
+#. Author of the plugin
+msgid "Webcraftic <wordpress.webraftic@gmail.com>"
+msgstr "Webcraftic <wordpress.webraftic@gmail.com>"
+
+#: libs/factory/forms/controls/pattern.php:117
+msgid "Changing the color may takes a minute or more. Please be patient."
+msgstr "В некоторых случаях изменение цвета может занять около минуты. Пожалуйста, будьте терпеливы."
+
+#: libs/factory/forms/controls/pattern.php:114
+msgid "Select color:"
+msgstr "Выберите цвет:"
+
+#: libs/factory/forms/controls/pattern.php:107
+msgid "re-color"
+msgstr "Перекрасить"
+
+#: libs/factory/forms/controls/pattern.php:105
+msgid "Change color"
+msgstr "Выбрать цвет"
+
+#: libs/factory/forms/controls/paddings-editor.php:70
+msgid "Select a side and move the slider to set up:"
+msgstr "Выберите сторону и переместите ползунок:"
+
+#: libs/factory/forms/controls/holders/more-link.php:56
+msgid "hide extra options"
+msgstr "скрыть дополнительные настроки"
+
+#: libs/factory/forms/controls/gradient.php:70
+msgid "horizontal"
+msgstr "горизонтальный"
+
+#: libs/factory/forms/controls/gradient.php:69
+msgid "vertical"
+msgstr "вертикальный"
+
+#: libs/factory/forms/controls/google-font.php:136
+msgid "Unexpected error. The list of Google Fonts are empty."
+msgstr "Неожиданная ошибка. Список шрифтов Google пуст."
+
+#: libs/factory/forms/controls/google-font.php:126
+msgid "Invalide response from the Google Fonts API."
+msgstr "Недействительный ответ API Google Fonts."
+
+#: libs/factory/forms/controls/google-font.php:118
+msgid "Unable to retrieve the list of Google Fonts."
+msgstr "Не удалось получить список шрифтов Google."
+
+#: libs/factory/forms/controls/google-font.php:68
+msgid "Google Fonts:"
+msgstr "Шрифты Google:"
+
+#: libs/factory/forms/controls/google-font.php:57
+msgid "Standard:"
+msgstr "Стандартный:"
+
+#: libs/factory/forms/controls/font.php:190
+msgid "Monospaced:"
+msgstr "Группа Monospaced:"
+
+#: libs/factory/forms/controls/font.php:134
+msgid "Serif:"
+msgstr "Группа Serif:"
+
+#: libs/factory/forms/controls/font.php:83
+msgid "Sans Serif:"
+msgstr "Группа Sans Serif:"
+
+#: libs/factory/forms/controls/font.php:80
+#: libs/factory/forms/controls/google-font.php:52
+msgid "(use default website font)"
+msgstr "(шрифт сайта по умолчанию)"
+
+#: libs/factory/forms/controls/dropdown.php:271
+#: libs/factory/forms/controls/dropdown.php:352
+msgid "- empty -"
+msgstr "- пусто -"
+
+#: libs/factory/forms/controls/dropdown.php:126
+#: libs/factory/forms/controls/list.php:96
+#: libs/factory/forms/controls/list.php:139
+msgid "The list is empty."
+msgstr "Список пуст."
+
+#: libs/factory/forms/controls/checkbox.php:136
+msgid "Off"
+msgstr "Выкл"
+
+#: libs/factory/forms/controls/checkbox.php:133
+msgid "On"
+msgstr "Вкл"
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:363
+msgid "A neutral setting that can not harm your site, but you must be sure that you need to use it."
+msgstr "Нейтральная настройка, которая не может нанести вред вашему сайту, но вы должны быть уверены, что вам нужно ее использовать."
+
+#: libs/factory/templates/pages/templates/impressive/class-page-template-impressive.php:132
+msgid "Settings"
+msgstr "Настройки"
+
+#: libs/factory/templates/pages/class-page-more-features.php:97
+msgid "Code cleaning"
+msgstr "Очистка кода"
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:370
+msgid "When set this option, you must be careful. Plugins and themes may depend on this function. You must be sure that you can disable this feature for the site."
+msgstr "При включении этой настройки, вы должны быть осторожны. Некоторые плагины и темы могут зависеть от этой функции. Вы должны быть уверены, что эту функцию можно отключить для сайта."
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:377
+msgid "Absolutely safe setting, We recommend to use."
+msgstr "Абсолютно безопасная настройка, рекомендуем использовать."
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:381
+msgid "Hover to the icon to get help for the feature you selected."
+msgstr "Наведите указатель мыши на значок, чтобы получить справку по выбранной функции."
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:408
+msgid "Do you want the plugin to improved and update?"
+msgstr "Вы хотите, чтобы плагин улучшался и обновлялся?"
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:410
+msgid "Help the author, leave a review on wordpress.org. Thanks to feedback, I will know that the plugin is really useful to you and is needed."
+msgstr "Помогите автору, оставьте отзыв на wordpress.org. Благодаря отзывам, я буду знать, что плагин действительно полезен для вас и необходим."
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:411
+msgid "And also write your ideas on how to extend or improve the plugin."
+msgstr "А также напишите свои идеи о том, как расширить или улучшить плагин."
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:415
+msgid "Go rate us and push ideas"
+msgstr "Оставить отзыв или поделиться идеей"
+
+#: libs/factory/templates/pages/templates/impressive/class-pages.php:433
+msgid "Donation for plugin development"
+msgstr "Пожертвование на развитие плагина"
+
+#: libs/factory/templates/pages/templates/impressive-lite/class-page-template-impressive-lite.php:222
+#: libs/factory/templates/pages/templates/impressive/class-page-template-impressive.php:725
+msgid "You do not have permission to edit page."
+msgstr "У вас недостаточно прав, для редактирования этой страницы."
+
+#: libs/factory/templates/pages/templates/impressive/class-page-template-impressive.php:350
+msgid "The settings have been updated successfully!"
+msgstr "Настройки были успешно обновлены!"
+
+#. Description of the plugin
+msgid "Hide wp-login.php login page and close wp-admin access to avoid hacker attacks and brute force."
+msgstr "Скройте страницу логина wp-login.php и закройте доступ к wp-admin, чтобы избежать хакерских атак и перебора пароля."

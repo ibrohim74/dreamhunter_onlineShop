@@ -1,0 +1,60 @@
+2023-04-30T07:01:36+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php:1
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php на строке 1
+
+2023-04-30T07:01:51+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php:1
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php на строке 1
+
+2023-04-30T07:02:06+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php:1
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php на строке 1
+
+2023-04-30T07:02:10+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php:1
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php на строке 1
+
+2023-04-30T07:05:32+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php:1
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\front-page.php на строке 1
+
+2023-04-30T08:34:19+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\OpenServer\domains\dream2\wp-content\plugins\woo-fly-cart\wpc-fly-cart.php:380
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-content\plugins\woo-fly-cart\wpc-fly-cart.php(380): printf()
+#1 C:\OpenServer\domains\dream2\wp-includes\class-wp-hook.php(308): WPCleverWoofc->admin_menu_content()
+#2 C:\OpenServer\domains\dream2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\dream2\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\dream2\wp-admin\admin.php(259): do_action()
+#5 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\plugins\woo-fly-cart\wpc-fly-cart.php на строке 380
+
+2023-04-30T08:38:55+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\OpenServer\domains\dream2\wp-content\plugins\woo-fly-cart\wpc-fly-cart.php:380
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-content\plugins\woo-fly-cart\wpc-fly-cart.php(380): printf()
+#1 C:\OpenServer\domains\dream2\wp-includes\class-wp-hook.php(308): WPCleverWoofc->admin_menu_content()
+#2 C:\OpenServer\domains\dream2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\dream2\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\dream2\wp-admin\admin.php(259): do_action()
+#5 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\plugins\woo-fly-cart\wpc-fly-cart.php на строке 380
+

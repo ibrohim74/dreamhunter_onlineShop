@@ -1,0 +1,4328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Invoices, Packing Slips, Delivery Notes "
+"and Shipping Labels\n"
+"POT-Creation-Date: 2022-12-26 19:47+0530\n"
+"PO-Revision-Date: 2022-12-26 19:49+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: print-invoices-packing-slip-labels-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:118
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:60
+msgid "Settings updated."
+msgstr "Nastavení upraveno."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:119
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:61
+msgid "All fields are mandatory"
+msgstr "Všechna pole jsou povinná"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:120
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:62
+#, php-format
+msgid ""
+"Unable to update settings due to an internal error. %s To troubleshoot "
+"please click %s here. %s"
+msgstr ""
+"Nastavení nelze aktualizovat z důvodu interní chyby. %s Chcete-li problém "
+"vyřešit, klikněte prosím %s sem. %s"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:121
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:63
+msgid "You have to select order(s) first!"
+msgstr "Nejprve musíte vybrat objednávku (objednávky)!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:122
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:64
+msgid "One or more order do not have invoice generated. Generate manually?"
+msgstr ""
+"Jedna nebo více objednávek nemá vygenerovanou fakturu. Generovat ručně?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:123
+#: admin/class-wf-woocommerce-packing-list-admin.php:1328
+#: admin/class-wf-woocommerce-packing-list-admin.php:1981
+#: admin/modules/customizer/customizer.php:49
+#: admin/modules/customizer/customizer.php:241
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:65
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:85
+#: public/modules/invoice/invoice.php:140
+#: public/modules/shippinglabel/shippinglabel.php:247
+msgid "Error"
+msgstr "Chyba"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:124
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:66
+msgid "Please wait"
+msgstr "Čekejte prosím"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:125
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:67
+msgid "is required"
+msgstr "vyžadováno"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:126
+#: admin/views/freevspro.php:6
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:68
+#: public/modules/invoice/invoice.php:108
+#: public/modules/invoice/invoice.php:109
+#: public/modules/invoice/invoice.php:988
+#: public/modules/invoice/invoice.php:1012
+#: public/modules/invoice/invoice.php:1311
+#: public/modules/invoice/views/invoice-admin-settings.php:13
+msgid "Invoice"
+msgstr "FAKTURA"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:127
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:69
+msgid ""
+"number has not been generated yet. Do you want to manually generate one ?"
+msgstr "číslo ještě nebylo vygenerováno. Chcete jej vygenerovat ručně?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:128
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:70
+msgid ""
+"‘Generate invoice for free orders’ is disabled in Invoice settings > "
+"Advanced. You are attempting to generate invoice for this free order. "
+"Proceed?"
+msgstr ""
+"Možnost „Generovat fakturu pro bezplatné objednávky“ je v nastavení faktury> "
+"Upřesnit zakázána. Pokoušíte se generovat fakturu pro tuto bezplatnou "
+"objednávku. Pokračovat?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:129
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:71
+msgid "Please fill the `from address` in the plugin's general settings."
+msgstr "Vyplňte prosím „adresu odesílatele“ v obecných nastaveních pluginu."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:130
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:72
+msgid "Code Copied"
+msgstr "Kód zkopírován"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:131
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:73
+msgid "Close"
+msgstr "Zavřít"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:132
+#: admin/modules/customizer/views/customize.php:140
+#: admin/modules/customizer/views/customize.php:158
+#: admin/modules/customizer/views/customize.php:208
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:74
+msgid "Save"
+msgstr "Uložit"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:133
+#: admin/class-wf-woocommerce-packing-list-admin.php:1982
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:75
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:86
+msgid "Please enter mandatory fields"
+msgstr "Zadejte povinná pole"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:134
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:76
+msgid "You can add more than 1 order meta in"
+msgstr "Můžete přidat více než 1 meta v objednávce"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:135
+#: admin/views/_custom_field_editor_form.php:19
+#: admin/views/_custom_field_editor_form.php:24
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:77
+msgid "Edit"
+msgstr "Upravit"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:136
+#: admin/views/_custom_field_editor_form.php:42
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:78
+msgid "You can edit an existing item by using its key."
+msgstr "Stávající položku můžete upravit pomocí jejího klíče."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:234
+msgctxt "placeholder"
+msgid "Enter "
+msgstr "Zadat "
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:437
+#: admin/class-wf-woocommerce-packing-list-admin.php:674
+msgid "Invoice/Packing"
+msgstr "Faktury/Balení"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:447
+#: admin/partials/admin-settings.php:41
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:24
+#: public/modules/deliverynote/views/admin-settings.php:20
+#: public/modules/dispatchlabel/views/admin-settings.php:19
+#: public/modules/invoice/views/invoice-admin-settings.php:13
+#: public/modules/packinglist/views/admin-settings.php:14
+#: public/modules/shippinglabel/views/admin-settings.php:13
+msgid "Settings"
+msgstr "Nastavení"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:448
+msgid "Upgrade to premium"
+msgstr "Upgrade na Premium verzi"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:449
+msgid "Support"
+msgstr "Podpora"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:450
+msgid "Review"
+msgstr "Hodnocení"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:475
+msgid "Document details"
+msgstr "Podrobnosti o dokumentu"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:497
+msgid "Print/Download"
+msgstr "Tisk / stažení"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:673
+#: admin/class-wf-woocommerce-packing-list-admin.php:705
+msgid "General Settings"
+msgstr "Základní nastavení"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:693
+#: admin/class-wf-woocommerce-packing-list-admin.php:694
+#: admin/views/admin_document_addons_page.php:28
+msgid "Addons"
+msgstr "Addony"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:784
+msgid "You are not allowed to view this page."
+msgstr "Nemáte oprávnění pro zobrazení této stránky."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:785
+msgid "Access denied !!!."
+msgstr "Přístup odepřen !!!."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:1415
+msgid "Settings Updated"
+msgstr "Nastavení aktualizováno"
+
+#. translators: %s: method
+#: admin/class-wf-woocommerce-packing-list-admin.php:1900
+#: public/modules/invoice/invoice.php:924
+#, php-format
+msgid "via %s"
+msgstr "přes %s"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:1905
+msgid "Free!"
+msgstr "Zdarma!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2066
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:170
+msgid "Item with same meta key already exists"
+msgstr "Položka se stejným meta klíčem již existuje"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2124
+msgid ""
+"This will remove all invoice numbers created by WooCommerce PDF Invoices, "
+"Packing Slips, Delivery Notes & Shipping Labels by WebToffee."
+msgstr ""
+"Tím se odstraní všechna čísla faktur vytvořená ve WooCommerce PDF fakturách, "
+"balicích listech, dodacích listech a přepravních štítcích od WebToffee."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2124
+msgid "Note:"
+msgstr "Poznámka:"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2124
+#, php-format
+msgid ""
+"Before using this tool, please make sure you followed the steps described in "
+"this article %1$s how to reset/delete existing invoice numbers%2$s."
+msgstr ""
+"Před použitím tohoto nástroje se prosím ujistěte, že jste postupovali podle "
+"kroků popsaných v tomto článku, %1$sjak obnovit/smazat stávající čísla "
+"faktur%2$s."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2127
+msgid "Delete all generated invoice numbers"
+msgstr "Smažte všechna vygenerovaná čísla faktur"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2128
+#: admin/modules/customizer/views/customize.php:222
+msgid "Delete"
+msgstr "Odstranit"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2325
+msgid "You are not allowed to do this action"
+msgstr "Tuto akci nemáte povoleno provést"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2340
+msgid "Updated"
+msgstr "Aktualizováno"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2347
+msgid "No modules"
+msgstr "Žádné moduly"
+
+#: admin/data/data.filters-help.php:3
+msgid "Order Details"
+msgstr "Detaily objednávky"
+
+#: admin/data/data.filters-help.php:4 public/modules/invoice/invoice.php:1076
+msgid "Product Table"
+msgstr "Tabulka produktů"
+
+#: admin/data/data.filters-help.php:5
+msgid "Summary Table"
+msgstr "Souhrnná tabulka"
+
+#: admin/data/data.filters-help.php:6
+#: public/modules/invoice/views/general.php:262
+msgid "Others"
+msgstr "Ostatní"
+
+#: admin/data/data.filters-help.php:11
+msgid "Alter order date"
+msgstr "Změnit datum objednávky"
+
+#: admin/data/data.filters-help.php:12
+msgid ""
+"This filter is used to alter the order date in all the document templates"
+msgstr ""
+"Tento filtr se používá ke změně data objednávky ve všech šablonách dokumentů"
+
+#: admin/data/data.filters-help.php:25
+msgid "Alter invoice date"
+msgstr "Změnit datum faktury"
+
+#: admin/data/data.filters-help.php:26
+msgid ""
+"This filter is used to alter the invoice date in all the document templates"
+msgstr ""
+"Tento filtr se používá ke změně data faktury ve všech šablonách dokladů"
+
+#: admin/data/data.filters-help.php:39 admin/data/data.filters-help.php:40
+msgid "Alter dispatch date"
+msgstr "Změnit datum odeslání"
+
+#: admin/data/data.filters-help.php:53
+msgid "Alter barcode information"
+msgstr "Změňte informace o čárovém kódu"
+
+#: admin/data/data.filters-help.php:54
+msgid ""
+"This filter is used to alter the barcode information for all the document "
+"templates"
+msgstr ""
+"Tento filtr se používá ke změně informací o čárových kódech pro všechny "
+"šablony dokumentů"
+
+#: admin/data/data.filters-help.php:63 admin/data/data.filters-help.php:64
+msgid "Alter shipping address"
+msgstr "Změňte dodací adresu"
+
+#: admin/data/data.filters-help.php:79 admin/data/data.filters-help.php:80
+msgid "Alter billing address"
+msgstr "Změňte fakturační adresu"
+
+#: admin/data/data.filters-help.php:95 admin/data/data.filters-help.php:96
+msgid "Alter shipping from address"
+msgstr "Změnit odeslání z adresy"
+
+#: admin/data/data.filters-help.php:111
+msgid "Add additional information"
+msgstr "Přidejte další informace"
+
+#: admin/data/data.filters-help.php:112
+msgid "Add additional info"
+msgstr "Přidejte další informace"
+
+#: admin/data/data.filters-help.php:124
+msgid "Alter product table head.(Add,remove, change the order)"
+msgstr "Změnit hlavu tabulky produktů. (Přidat, odebrat, změnit pořadí)"
+
+#: admin/data/data.filters-help.php:125
+msgid "Alter product table head.(Add, remove, change order)"
+msgstr "Změnit hlavu tabulky produktů. (Přidat, odebrat, změnit pořadí)"
+
+#: admin/data/data.filters-help.php:140
+msgid "Alter the product name in package documents"
+msgstr "Změňte název produktu v dokumentaci balení"
+
+#: admin/data/data.filters-help.php:141
+msgid ""
+"Alter product name in product (Works with Packing List, Shipping Label and "
+"Delivery note only)"
+msgstr ""
+"Změňte název produktu v produktu (funguje pouze s balicím listem, přepravním "
+"štítkem a dodacím listem)"
+
+#: admin/data/data.filters-help.php:150
+msgid "Add product variation in package documents"
+msgstr "Přidejte variantu produktu do dokumentů balíku"
+
+#: admin/data/data.filters-help.php:151
+msgid ""
+"Add product variation in product (Works with Packing List, Shipping Label "
+"and Delivery note only)"
+msgstr ""
+"Přidejte variantu produktu v produktu (funguje pouze s balicím listem, "
+"přepravním štítkem a dodacím listem)"
+
+#: admin/data/data.filters-help.php:159
+msgid "Alter item quantity in package documents"
+msgstr "Změňte množství položky v dokumentaci balíku"
+
+#: admin/data/data.filters-help.php:160
+msgid ""
+"Alter item quantity in product table (Works with Packing List, Shipping "
+"Label and Delivery note only)"
+msgstr ""
+"Změňte množství položky v tabulce produktů (funguje pouze s balicím listem, "
+"přepravním štítkem a dodacím listem)"
+
+#: admin/data/data.filters-help.php:168
+msgid "Alter item total in package documents"
+msgstr "Změňte celkový počet položek v dokumentech balíku"
+
+#: admin/data/data.filters-help.php:169
+msgid ""
+"Alter item total in product table (Works with Packing List, Shipping Label "
+"and Delivery note only)"
+msgstr ""
+"Změňte celkový počet položek v tabulce produktů (funguje pouze s balicím "
+"listem, přepravním štítkem a dodacím listem)"
+
+#: admin/data/data.filters-help.php:177
+msgid "Add additional column in product table of package documents"
+msgstr "Přidejte další sloupec do tabulky produktů balíkových dokumentů"
+
+#: admin/data/data.filters-help.php:178
+msgid ""
+"You can add additional column head via `wf_pklist_alter_product_table_head` "
+"filter. You need to add column data via this filter. (Works with Packing "
+"List, Shipping Label and Delivery note only)"
+msgstr ""
+"Další záhlaví sloupce můžete přidat pomocí filtru "
+"`wf_pklist_alter_product_table_head`. Přes tento filtr musíte přidat data "
+"sloupců. (Funguje pouze s balicím listem, přepravním štítkem a dodacím "
+"listem)"
+
+#: admin/data/data.filters-help.php:190
+msgid "Alter product table column in package documents"
+msgstr "Změňte sloupec tabulky produktů v dokumentech balíku"
+
+#: admin/data/data.filters-help.php:191
+msgid ""
+"Alter product table column. (Works with Packing List, Shipping Label and "
+"Delivery note only)"
+msgstr ""
+"Změnit sloupec tabulky produktů. (Funguje pouze s balicím listem, přepravním "
+"štítkem a dodacím listem)"
+
+#: admin/data/data.filters-help.php:200
+msgid "Alter product name"
+msgstr "Změňte název produktu"
+
+#: admin/data/data.filters-help.php:201
+msgid "Alter product name. (Works with Invoice and Dispatch label only)"
+msgstr "Změňte název produktu. (Funguje pouze se štítkem Faktura a Odeslání)"
+
+#: admin/data/data.filters-help.php:210
+msgid "Add product variation"
+msgstr "Přidejte variantu produktu"
+
+#: admin/data/data.filters-help.php:211
+msgid "Add product variation. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Přidejte variantu produktu. (Funguje pouze se štítkem Faktura a Odeslání)"
+
+#: admin/data/data.filters-help.php:220
+msgid "Alter item quantity"
+msgstr "Změňte množství položky"
+
+#: admin/data/data.filters-help.php:221
+msgid "Alter item quantity. (Works with Invoice and Dispatch label only)"
+msgstr "Změňte množství položky. (Funguje pouze se štítkem Faktura a Odeslání)"
+
+#: admin/data/data.filters-help.php:229
+msgid "Alter item price"
+msgstr "Změnit cenu položky"
+
+#: admin/data/data.filters-help.php:230
+msgid "Alter item price. (Works with Invoice and Dispatch label only)"
+msgstr "Změnit cenu položky. (Funguje pouze se štítkem Faktura a Odeslání)"
+
+#: admin/data/data.filters-help.php:238
+msgid "Alter item price format"
+msgstr "Změnit formát ceny položky"
+
+#: admin/data/data.filters-help.php:239
+msgid "Alter formated item price. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Změnit formátovanou cenu položky. (Funguje pouze se štítkem Faktura a "
+"Odeslání)"
+
+#: admin/data/data.filters-help.php:247
+msgid "Alter item total"
+msgstr "Změnit celkový počet položek"
+
+#: admin/data/data.filters-help.php:248
+msgid "Alter item total. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Změnit celkový počet položek. (Funguje pouze se štítkem Faktura a Odeslání)"
+
+#: admin/data/data.filters-help.php:256
+msgid "Alter item total format"
+msgstr "Změnit celkový formát položky"
+
+#: admin/data/data.filters-help.php:257
+msgid "Alter formated item total. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Změnit celkový počet naformátovaných položek. (Funguje pouze se štítkem "
+"Faktura a Odeslání)"
+
+#: admin/data/data.filters-help.php:265
+msgid "Add additional column in product table"
+msgstr "Přidejte další sloupec do tabulky produktů"
+
+#: admin/data/data.filters-help.php:266
+msgid ""
+"You can add additional column head via `wf_pklist_alter_product_table_head` "
+"filter. You need to add column data via this filter. (Works with Invoice and "
+"Dispatch label only)"
+msgstr ""
+"Další záhlaví sloupce můžete přidat pomocí filtru "
+"`wf_pklist_alter_product_table_head`. Přes tento filtr musíte přidat data "
+"sloupců. (Funguje pouze se štítkem Faktura a Odeslání)"
+
+#: admin/data/data.filters-help.php:278
+msgid "Alter product table column"
+msgstr "Změnit sloupec tabulky produktů"
+
+#: admin/data/data.filters-help.php:279
+msgid ""
+"Alter product table column. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"Změnit sloupec tabulky produktů. (Funguje pouze se štítkem Faktura a "
+"Odeslání)"
+
+#: admin/data/data.filters-help.php:290 admin/data/data.filters-help.php:291
+msgid "Alter subtotal"
+msgstr "Změnit mezisoučet"
+
+#: admin/data/data.filters-help.php:300
+msgid "Alter subtotal format"
+msgstr "Změnit formát mezisoučtu"
+
+#: admin/data/data.filters-help.php:301
+msgid "Alter formated subtotal"
+msgstr "Změnit formátovaný mezisoučet"
+
+#: admin/data/data.filters-help.php:310 admin/data/data.filters-help.php:311
+msgid "Alter shipping method"
+msgstr "Změnit způsob dopravy"
+
+#: admin/data/data.filters-help.php:319 admin/data/data.filters-help.php:320
+msgid "Alter fee"
+msgstr "Změna poplatku"
+
+#: admin/data/data.filters-help.php:328 admin/data/data.filters-help.php:329
+msgid "Alter total fee"
+msgstr "Změnit celkový poplatek"
+
+#: admin/data/data.filters-help.php:337 admin/data/data.filters-help.php:338
+msgid "Alter total price"
+msgstr "Změnit celkovou cenu"
+
+#: admin/data/data.filters-help.php:347 admin/data/data.filters-help.php:348
+msgid "Alter total price in words"
+msgstr "Změňte celkovou cenu slovy"
+
+#: admin/data/data.filters-help.php:359
+msgid "Alter meta data"
+msgstr "Změňte meta data"
+
+#: admin/data/data.filters-help.php:360
+msgid "Alter meta data."
+msgstr "Změňte meta data."
+
+#: admin/data/data.filters-help.php:368 admin/data/data.filters-help.php:369
+msgid "Alter additional item meta"
+msgstr "Změnit meta další položky"
+
+#: admin/data/data.filters-help.php:380
+msgid "Hide/Show received seal in invoice"
+msgstr "Skrýt/Zobrazit přijatou pečeť na faktuře"
+
+#: admin/data/data.filters-help.php:381
+msgid "Hide/Show received seal in invoice."
+msgstr "Skrýt/Zobrazit přijatou pečeť na faktuře."
+
+#: admin/data/data.filters-help.php:394
+msgid "Add extra text in received seal"
+msgstr "Přidejte další text do přijaté pečeti"
+
+#: admin/data/data.filters-help.php:395
+msgid "Add extra text in received seal."
+msgstr "Přidejte další text do přijaté pečeti."
+
+#: admin/data/data.filters-help.php:410
+msgid "Alter template HTML before printing"
+msgstr "Před tiskem změňte HTML šablony"
+
+#: admin/data/data.filters-help.php:411
+msgid "Alter template HTML before printing."
+msgstr "Před tiskem změňte HTML šablony."
+
+#: admin/data/data.filters-help.php:424
+msgid "Alter the variation data."
+msgstr "Změňte data variace."
+
+#: admin/data/data.filters-help.php:428
+msgid "Alter the settings array"
+msgstr "Změňte pole nastavení"
+
+#: admin/data/data.filters-help.php:442
+msgid "Alter the footer data"
+msgstr "Změňte data zápatí"
+
+#: admin/data/data.filters-help.php:443
+msgid "Alter the footer data."
+msgstr "Změňte data zápatí."
+
+#: admin/data/data.tooltip.php:3
+msgid "Key in your company name."
+msgstr "Zadejte název vaší společnosti."
+
+#: admin/data/data.tooltip.php:4
+msgid ""
+"When enabled, replaces state code with state name in the from, return, "
+"billing and shipping addresses"
+msgstr ""
+"Je-li povoleno, nahradí kód státu názvem státu v adresách odesílatele, "
+"zpáteční, fakturační a dodací adresy"
+
+#: admin/data/data.tooltip.php:5
+msgid "Enable to have a preview of the document before the print is initiated"
+msgstr "Povolením zobrazíte náhled dokumentu před zahájením tisku"
+
+#: admin/data/data.tooltip.php:6
+msgid "The default library to be used PDF generation"
+msgstr "Výchozí knihovna pro generování PDF"
+
+#: admin/modules/customizer/classes/class-customizer.php:86
+#: public/modules/shippinglabel/shippinglabel.php:166
+msgid "Box name"
+msgstr "Název pole"
+
+#: admin/modules/customizer/classes/class-customizer.php:419
+msgid "Refund"
+msgstr "Vrácení peněz"
+
+#: admin/modules/customizer/classes/class-customizer.php:447
+msgid "incl. tax"
+msgstr "vč. DPH"
+
+#: admin/modules/customizer/classes/class-customizer.php:766
+#: admin/modules/customizer/classes/class-customizer.php:1490
+msgid "n/a"
+msgstr "n/a"
+
+#: admin/modules/customizer/classes/class-customizer.php:1746
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: admin/modules/customizer/classes/class-customizer.php:2152
+msgid ""
+"Mauris dignissim neque ut sapien vulputate, eu semper tellus porttitor. Cras "
+"porta lectus id augue interdum egestas. Suspendisse potenti. Phasellus "
+"mollis porttitor enim sit amet fringilla. Nulla sed ligula venenatis, rutrum "
+"lectus vel"
+msgstr ""
+"Nejčastěji se jedná o vulgární data, jako je portugalský semper tellus. Cras "
+"porta lectus id augue interdum egestas. Suspendisse potenti. Phasellus "
+"mollis porttitor enim sit amet fringilla. Nulla sed ligula venenatis, rutrum "
+"lectus vel"
+
+#: admin/modules/customizer/classes/class-customizer.php:2157
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec vehicula "
+"purus. Mauris tempor nec ipsum ac tempus. Aenean vehicula porttitor tortor, "
+"et interdum tellus fermentum at. Fusce pellentesque justo rhoncus"
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elite. Nunc nec "
+"vehiclesula purus. Časová prodleva ipsum ac tempus. Aenean vehicles "
+"porttitor tortor, et interdum tellus fermentum at. Fusce pellentesque justo "
+"rhoncus"
+
+#: admin/modules/customizer/customizer.php:81
+msgid "Unable to generate PDF."
+msgstr "Nelze vygenerovat PDF."
+
+#: admin/modules/customizer/customizer.php:183
+#: admin/modules/customizer/customizer.php:188
+msgid "Customize"
+msgstr "Přizpůsobit"
+
+#: admin/modules/customizer/customizer.php:242
+msgid "Success"
+msgstr "Úspěch"
+
+#: admin/modules/customizer/customizer.php:243
+msgid "You can't undo this action. Are you sure?"
+msgstr "Tuto akci nemůžete vrátit zpět. Opravdu pokračovat?"
+
+#: admin/modules/customizer/customizer.php:244
+msgid "Click here to add Company logo"
+msgstr "Kliknutím zde přidáte logo společnosti"
+
+#: admin/modules/customizer/customizer.php:245
+msgid "Click here to add Company name"
+msgstr "Kliknutím zde přidáte název společnosti"
+
+#: admin/modules/customizer/customizer.php:246
+msgid "Click here to add From address"
+msgstr "Kliknutím zde přidáte adresu odesílatele"
+
+#: admin/modules/customizer/customizer.php:247
+msgid "Click here to add Signature"
+msgstr "Klepnutím zde přidáte podpis"
+
+#: admin/modules/customizer/customizer.php:248
+msgid ""
+"Please save all data before leaving this page. All unsaved data will be "
+"lost. Are you sure?"
+msgstr ""
+"Před opuštěním této stránky si prosím uložte všechna data. Všechna neuložená "
+"data budou ztracena. Pokračovat?"
+
+#: admin/modules/customizer/customizer.php:249
+#: admin/modules/customizer/views/customize.php:204
+msgid "Create new template"
+msgstr "Vytvořit novou šablonu"
+
+#: admin/modules/customizer/customizer.php:250
+msgid "Change layout"
+msgstr "Změnit rozvržení"
+
+#: admin/modules/customizer/customizer.php:251
+msgid "Saving"
+msgstr "Probíhá ukládání"
+
+#: admin/modules/customizer/customizer.php:252
+#: public/modules/invoice/invoice.php:138
+#: public/modules/shippinglabel/shippinglabel.php:245
+msgid "Please enter order number"
+msgstr "Prosím zadejte číslo objednávky"
+
+#: admin/modules/customizer/customizer.php:253
+#: public/modules/invoice/invoice.php:139
+#: public/modules/shippinglabel/shippinglabel.php:246
+msgid "Generating"
+msgstr "Generuji"
+
+#: admin/modules/customizer/customizer.php:299
+#: admin/modules/customizer/customizer.php:586
+msgid "Active"
+msgstr "Aktivní"
+
+#: admin/modules/customizer/customizer.php:558
+msgid "Error."
+msgstr "Chyba."
+
+#: admin/modules/customizer/customizer.php:589
+#: admin/modules/customizer/views/customize.php:221
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: admin/modules/customizer/customizer.php:616
+msgid "No template found."
+msgstr "Nebyla nalezena žádná šablona."
+
+#: admin/modules/customizer/customizer.php:633
+msgid "Unable to save theme."
+msgstr "Šablonu se nepodařilo uložit."
+
+#: admin/modules/customizer/customizer.php:651
+msgid "Template with same name already exists."
+msgstr "Šablona se stejným názvem již existuje."
+
+#: admin/modules/customizer/customizer.php:681
+msgid "Template created."
+msgstr "Šablona byla vytvořena."
+
+#: admin/modules/customizer/customizer.php:716
+msgid "Template updated."
+msgstr "Šablona byla aktualizována."
+
+#: admin/modules/customizer/customizer.php:758
+msgid "Unable to switch view."
+msgstr "Zobrazení nelze přepnout."
+
+#: admin/modules/customizer/customizer.php:1076
+msgid "Unable to load template."
+msgstr "Šablonu nelze načíst."
+
+#: admin/modules/customizer/customizer.php:1100
+msgid "Untitled template"
+msgstr "Šablona bez názvu"
+
+#: admin/modules/customizer/customizer.php:1221
+msgid "Lighter"
+msgstr "Světlejší"
+
+#: admin/modules/customizer/customizer.php:1222
+msgid "Normal"
+msgstr "Normální"
+
+#: admin/modules/customizer/customizer.php:1223
+msgid "Bold"
+msgstr "Tučně"
+
+#: admin/modules/customizer/customizer.php:1224
+msgid "Bolder"
+msgstr "Tučnější"
+
+#: admin/modules/customizer/customizer.php:1238
+msgid "Select One"
+msgstr "Vybrat jedno"
+
+#: admin/modules/customizer/customizer.php:1256
+msgid "Left"
+msgstr "Vlevo"
+
+#: admin/modules/customizer/customizer.php:1257
+msgid "Right"
+msgstr "Vpravo"
+
+#: admin/modules/customizer/customizer.php:1258
+msgid "Center"
+msgstr "Na střed"
+
+#: admin/modules/customizer/customizer.php:1259
+msgid "Start"
+msgstr "Začátek"
+
+#: admin/modules/customizer/customizer.php:1260
+msgid "End"
+msgstr "Konec"
+
+#: admin/modules/customizer/customizer.php:1268
+msgid "None"
+msgstr "Žádný"
+
+#: admin/modules/customizer/customizer.php:1281
+msgid "Solid"
+msgstr "Plný"
+
+#: admin/modules/customizer/customizer.php:1282
+msgid "Dotted"
+msgstr "Tečkovaný"
+
+#: admin/modules/customizer/customizer.php:1283
+msgid "Dashed"
+msgstr "Přerušovaný"
+
+#: admin/modules/customizer/data/data.tooltip.php:3
+msgid "Click to view predefined templates."
+msgstr "Kliknutím zobrazíte předdefinované šablony."
+
+#: admin/modules/customizer/data/data.tooltip.php:4
+msgid "Create a new template or edit an existing template."
+msgstr "Vytvořit novou šablonu nebo upravit existující šablonu."
+
+#: admin/modules/customizer/data/data.tooltip.php:5
+msgid ""
+"Displays the currently chosen document template with provisions to modify."
+msgstr "Zobrazí aktuálně zvolenou šablonu dokumentu s možností úprav."
+
+#: admin/modules/customizer/data/data.tooltip.php:6
+msgid ""
+"Shows a preview of the template on an actual order. Key in an order number "
+"to view the same."
+msgstr ""
+"Zobrazí náhled šablony na aktuální objednávce. Chcete-li zobrazit vybranou "
+"objednávku, zadejte její číslo."
+
+#: admin/modules/customizer/data/data.translation_strings.php:1
+msgid "Invoice No:"
+msgstr "Faktura č.:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:2
+#: admin/modules/customizer/data/data.translation_strings.php:28
+msgid "Order Date:"
+msgstr "Datum objednávky:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:3
+msgid "Dispatch Date:"
+msgstr "Datum odeslání:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:4
+msgid "From Address:"
+msgstr "Adresa odesílatele:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:5
+msgid "Billing Address:"
+msgstr "Fakturační adresa:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:6
+#: admin/modules/customizer/data/data.translation_strings.php:40
+msgid "Email:"
+msgstr "Email:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:7
+msgid "Tel:"
+msgstr "Tel:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:8
+msgid "Shipping Address:"
+msgstr "Doručovací adresa:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:9
+msgid "Tracking number:"
+msgstr "Sledovací číslo:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:10
+msgid "SSN:"
+msgstr "DIČ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:11
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/modules/customizer/data/data.translation_strings.php:12
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/modules/customizer/data/data.translation_strings.php:13
+msgid "Quantity"
+msgstr "Množství"
+
+#: admin/modules/customizer/data/data.translation_strings.php:14
+msgid "Price"
+msgstr "Cena"
+
+#: admin/modules/customizer/data/data.translation_strings.php:15
+msgid "Total Price"
+msgstr "Celková cena"
+
+#: admin/modules/customizer/data/data.translation_strings.php:16
+#: admin/modules/customizer/views/_customize_properties.php:640
+#: admin/views/wt_ipc_free_pro.php:752 admin/views/wt_ipc_free_pro.php:794
+#: public/modules/invoice/invoice.php:1101
+msgid "Subtotal"
+msgstr "Mezisoučet"
+
+#: admin/modules/customizer/data/data.translation_strings.php:17
+#: admin/modules/customizer/views/_customize_properties.php:646
+#: admin/views/wt_ipc_free_pro.php:756 admin/views/wt_ipc_free_pro.php:798
+#: public/modules/invoice/invoice.php:1102
+msgid "Shipping"
+msgstr "Doprava"
+
+#: admin/modules/customizer/data/data.translation_strings.php:18
+#: admin/modules/customizer/views/_customize_properties.php:653
+#: public/modules/invoice/invoice.php:1103
+msgid "Cart Discount"
+msgstr "Sleva na košík"
+
+#: admin/modules/customizer/data/data.translation_strings.php:19
+#: admin/modules/customizer/views/_customize_properties.php:659
+#: public/modules/invoice/invoice.php:1104
+msgid "Order Discount"
+msgstr "Sleva na objednávku"
+
+#: admin/modules/customizer/data/data.translation_strings.php:20
+#: admin/modules/customizer/views/_customize_properties.php:666
+#: public/modules/invoice/invoice.php:1105
+msgid "Total Tax"
+msgstr "Daň celkem"
+
+#: admin/modules/customizer/data/data.translation_strings.php:21
+#: admin/modules/customizer/views/_customize_properties.php:672
+#: admin/views/wt_ipc_free_pro.php:768 admin/views/wt_ipc_free_pro.php:810
+#: public/modules/invoice/invoice.php:1106
+msgid "Fee"
+msgstr "Poplatek"
+
+#: admin/modules/customizer/data/data.translation_strings.php:22
+msgid "Coupon Used"
+msgstr "Použitý kupón"
+
+#: admin/modules/customizer/data/data.translation_strings.php:23
+#: admin/modules/customizer/views/_customize_properties.php:685
+#: admin/views/wt_ipc_free_pro.php:780 admin/views/wt_ipc_free_pro.php:822
+#: public/modules/invoice/invoice.php:1109
+msgid "Total"
+msgstr "Celkem"
+
+#: admin/modules/customizer/data/data.translation_strings.php:24
+msgid "INVOICE"
+msgstr "FAKTURA"
+
+#: admin/modules/customizer/data/data.translation_strings.php:25
+msgid "Invoice Date:"
+msgstr "Datum vystavení:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:26
+msgid "Invoice No.:"
+msgstr "FAKTURA:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:27
+msgid "Order No.:"
+msgstr "Objednávka číslo.:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:29
+msgid "Image"
+msgstr "Obrázek"
+
+#: admin/modules/customizer/data/data.translation_strings.php:30
+msgid "Jumbing LED Light Wall Ball"
+msgstr "Jumbing LED Light Wall Ball"
+
+#: admin/modules/customizer/data/data.translation_strings.php:31
+msgid "Payment method:"
+msgstr "Způsob platby:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:32
+#: admin/modules/customizer/data/data.translation_strings.php:42
+msgid "Order No:"
+msgstr "Číslo objednávky:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:33
+msgid "Date:"
+msgstr "Datum:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:34
+msgid "From:"
+msgstr "Od:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:35
+msgid "To:"
+msgstr "Do:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:36
+msgid "Weight:"
+msgstr "Hmotnost:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:37
+msgid "Ship Date:"
+msgstr "Přepravní štítek:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:38
+msgid "Phone No:"
+msgstr "Telefon:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:39
+msgid "Ph No:"
+msgstr "Ph No:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:41
+msgid "Tracking Number:"
+msgstr "Sledovací číslo zásilky:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:43
+msgid "Total Weight"
+msgstr "Hmotnost celkem - označení"
+
+#: admin/modules/customizer/data/data.translation_strings.php:44
+msgid "Contact Number"
+msgstr "Kontaktní číslo"
+
+#: admin/modules/customizer/data/data.translation_strings.php:45
+msgid "Email"
+msgstr "Email"
+
+#: admin/modules/customizer/data/data.translation_strings.php:46
+msgid "SSN"
+msgstr "IČO"
+
+#: admin/modules/customizer/data/data.translation_strings.php:47
+msgid "VAT"
+msgstr "DPH"
+
+#: admin/modules/customizer/data/data.translation_strings.php:48
+msgid "Customer Note"
+msgstr "Poznámka zákazníka"
+
+#: admin/modules/customizer/views/_customize_properties.php:119
+#: admin/modules/customizer/views/_customize_properties.php:311
+#: admin/modules/customizer/views/_customize_properties.php:335
+#: admin/modules/customizer/views/_customize_properties.php:599
+#: admin/views/wt_ipc_free_pro.php:478 admin/views/wt_ipc_free_pro.php:492
+#: public/modules/shippinglabel/shippinglabel.php:103
+#: public/modules/shippinglabel/shippinglabel.php:128
+msgid "Title"
+msgstr "Titulek"
+
+#: admin/modules/customizer/views/_customize_properties.php:125
+#: admin/modules/customizer/views/_customize_properties.php:230
+#: admin/modules/customizer/views/_customize_properties.php:282
+#: admin/modules/customizer/views/_customize_properties.php:340
+#: admin/modules/customizer/views/_customize_properties.php:604
+#: public/modules/invoice/invoice.php:307
+msgid "Font size"
+msgstr "Velikost písma"
+
+#: admin/modules/customizer/views/_customize_properties.php:132
+#: admin/modules/customizer/views/_customize_properties.php:316
+msgid "Text align"
+msgstr "Zarovnání textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:142
+msgid "Text Color"
+msgstr "Barva textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:154
+#: admin/modules/customizer/views/_customize_properties.php:210
+msgid "Display"
+msgstr "Zobrazení"
+
+#: admin/modules/customizer/views/_customize_properties.php:158
+#: public/modules/shippinglabel/shippinglabel.php:155
+msgid "Company Logo"
+msgstr "Logo společnosti"
+
+#: admin/modules/customizer/views/_customize_properties.php:159
+msgid "Company Name"
+msgstr "Název společnosti"
+
+#: admin/modules/customizer/views/_customize_properties.php:163
+msgid "Logo Width"
+msgstr "Šířka loga"
+
+#: admin/modules/customizer/views/_customize_properties.php:170
+msgid "Logo Height"
+msgstr "Výška loga"
+
+#: admin/modules/customizer/views/_customize_properties.php:178
+msgid "Company name font size"
+msgstr "Velikost písma názvu společnosti"
+
+#: admin/modules/customizer/views/_customize_properties.php:184
+msgid "Extra Details"
+msgstr "Extra detaily"
+
+#: admin/modules/customizer/views/_customize_properties.php:190
+msgid "Extra detail font size"
+msgstr "Velikost písma pro extra detail"
+
+#: admin/modules/customizer/views/_customize_properties.php:196
+msgid "Header Color"
+msgstr "Barva nadpisu"
+
+#: admin/modules/customizer/views/_customize_properties.php:214
+#: public/modules/invoice/invoice.php:1090
+#: public/modules/shippinglabel/shippinglabel.php:164
+msgid "Barcode"
+msgstr "Čárový kód"
+
+#: admin/modules/customizer/views/_customize_properties.php:215
+msgid "QR Code"
+msgstr "QR kód"
+
+#: admin/modules/customizer/views/_customize_properties.php:225
+#: admin/modules/customizer/views/_customize_properties.php:259
+#: public/modules/invoice/invoice.php:301
+msgid "Text"
+msgstr "Text"
+
+#: admin/modules/customizer/views/_customize_properties.php:238
+#: admin/modules/customizer/views/_customize_properties.php:290
+msgid "Style"
+msgstr "Styl"
+
+#: admin/modules/customizer/views/_customize_properties.php:248
+#: admin/modules/customizer/views/_customize_properties.php:300
+#: admin/modules/customizer/views/_customize_properties.php:324
+#: admin/modules/customizer/views/_customize_properties.php:347
+msgid "Text color"
+msgstr "Barva textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:264
+#: public/modules/invoice/views/general.php:357
+msgid "Format"
+msgstr "Formát"
+
+#: admin/modules/customizer/views/_customize_properties.php:358
+msgid "Table head background"
+msgstr "Barva pozadí hlavičky tabulky"
+
+#: admin/modules/customizer/views/_customize_properties.php:365
+msgid "Table head text color"
+msgstr "Barva textu hlavičky tabulky"
+
+#: admin/modules/customizer/views/_customize_properties.php:372
+msgid "Table body text color"
+msgstr "Barva textu tabulky"
+
+#: admin/modules/customizer/views/_customize_properties.php:386
+msgid "Serial No label"
+msgstr "Sériové bez štítku"
+
+#: admin/modules/customizer/views/_customize_properties.php:392
+msgid "Serial no text align"
+msgstr "Sériové žádné zarovnání textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:409
+msgid "Image label"
+msgstr "Štítek obrázku"
+
+#: admin/modules/customizer/views/_customize_properties.php:415
+msgid "Image text align"
+msgstr "Zarovnání textu obrázku"
+
+#: admin/modules/customizer/views/_customize_properties.php:432
+msgid "SKU label"
+msgstr "Štítek SKU"
+
+#: admin/modules/customizer/views/_customize_properties.php:438
+msgid "SKU text align"
+msgstr "SKU - zarovnání textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:455
+msgid "Product label"
+msgstr "Produkt - označení"
+
+#: admin/modules/customizer/views/_customize_properties.php:461
+msgid "Product text align"
+msgstr "Produkt - zarovnání textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:478
+msgid "Qty label"
+msgstr "Množství - označení"
+
+#: admin/modules/customizer/views/_customize_properties.php:484
+msgid "Qty text align"
+msgstr "Množství - zarovnání textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:501
+msgid "Price label"
+msgstr "Cenový štítek"
+
+#: admin/modules/customizer/views/_customize_properties.php:507
+msgid "Price text align"
+msgstr "Zarovnání textu ceny"
+
+#: admin/modules/customizer/views/_customize_properties.php:524
+msgid "Tax label"
+msgstr "Daňový štítek"
+
+#: admin/modules/customizer/views/_customize_properties.php:530
+msgid "Tax text align"
+msgstr "Zarovnání textu daně"
+
+#: admin/modules/customizer/views/_customize_properties.php:547
+msgid "Total weight label"
+msgstr "Hmotnost celkem - označení"
+
+#: admin/modules/customizer/views/_customize_properties.php:553
+msgid "Total weight text align"
+msgstr "Celkem hmotnost - zarovnání textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:570
+msgid "Total label"
+msgstr "Celkem - štítek"
+
+#: admin/modules/customizer/views/_customize_properties.php:576
+msgid "Total text align"
+msgstr "Celkem - zarovnání textu"
+
+#: admin/modules/customizer/views/_customize_properties.php:590
+msgid "Signature type"
+msgstr "Typ podpisu"
+
+#: admin/modules/customizer/views/_customize_properties.php:594
+msgid "Manual Signature"
+msgstr "Ruční podpis"
+
+#: admin/modules/customizer/views/_customize_properties.php:595
+msgid "Image Signature"
+msgstr "Obrázkový podpis"
+
+#: admin/modules/customizer/views/_customize_properties.php:612
+msgid "Align"
+msgstr "Zarovnání"
+
+#: admin/modules/customizer/views/_customize_properties.php:629
+msgid "Label"
+msgstr "Štítek"
+
+#: admin/modules/customizer/views/_customize_properties.php:679
+#: public/modules/invoice/invoice.php:1108
+msgid "Payment Method"
+msgstr "Platební metoda"
+
+#: admin/modules/customizer/views/_pdf_preview.php:22
+msgid "View sample customization demo"
+msgstr "Zobrazit ukázku přizpůsobení ukázky"
+
+#: admin/modules/customizer/views/_pdf_preview.php:28
+msgid "Preview sample PDF"
+msgstr "Náhled ukázkového PDF"
+
+#: admin/modules/customizer/views/_pdf_preview.php:29
+msgid "Order"
+msgstr "Objednávka"
+
+#: admin/modules/customizer/views/_pdf_preview.php:34
+#: admin/modules/customizer/views/_pdf_preview.php:35
+#: admin/views/admin_document_addons_page.php:47
+#: public/modules/invoice/views/qrcode_promote.php:37
+msgid "Order number"
+msgstr "Číslo objednávky"
+
+#: admin/modules/customizer/views/customize.php:110
+msgid "Templates"
+msgstr "Šablony"
+
+#: admin/modules/customizer/views/customize.php:115
+msgid "Type template name to search"
+msgstr "Zadejte název šablony pro vyhledání"
+
+#: admin/modules/customizer/views/customize.php:125
+msgid "Enter a name for your template"
+msgstr "Zadejte název šablony"
+
+#: admin/modules/customizer/views/customize.php:130
+msgid "Please enter name"
+msgstr "Zadejte prosím jméno"
+
+#: admin/modules/customizer/views/customize.php:137
+#: admin/modules/customizer/views/customize.php:212
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:173
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: admin/modules/customizer/views/customize.php:148
+msgid "Choose a layout."
+msgstr "Zvolit šablonu."
+
+#: admin/modules/customizer/views/customize.php:154
+msgid "All unsaved changes will be lost upon switching to a new layout."
+msgstr "Všechny neuložené změny budou při přepnutí na nový layout ztraceny."
+
+#: admin/modules/customizer/views/customize.php:156
+msgid "Save before you proceed."
+msgstr "Uložte, než budete pokračovat."
+
+#: admin/modules/customizer/views/customize.php:157
+msgid "Saving..."
+msgstr "Probíhá ukládání..."
+
+#: admin/modules/customizer/views/customize.php:223
+msgid "Create new"
+msgstr "Vytvořit nový"
+
+#: admin/modules/customizer/views/customize.php:224
+msgid "My templates"
+msgstr "Mé šablony"
+
+#: admin/modules/customizer/views/customize.php:229
+msgid "This template is not comaptible with QR Code addon plugin"
+msgstr "Tato šablona není kompatibilní s pluginem QR Code"
+
+#: admin/modules/customizer/views/customize.php:244
+#: admin/modules/customizer/views/customize.php:256
+msgid "Visual"
+msgstr "Vizuální"
+
+#: admin/modules/customizer/views/customize.php:245
+#: admin/modules/customizer/views/customize.php:259
+msgid "Code"
+msgstr "Kód"
+
+#: admin/modules/customizer/views/customize.php:259
+#: public/modules/invoice/invoice.php:1064
+#: public/modules/shippinglabel/shippinglabel.php:152
+msgid "Pro version"
+msgstr "Verze Pro"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:38
+msgid "I couldn't understand how to make it work"
+msgstr "Nechápal jsem, jak to udělat"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:40
+msgid "Would you like us to assist you?"
+msgstr "Chcete, abychom vám pomohli?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:44
+msgid "Language support issues"
+msgstr "Problémy s jazykovou podporou"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:49
+msgid "Plugin settings not available in my language"
+msgstr "Nastavení pluginu není v mém jazyce k dispozici"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:51
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:57
+msgid "Which language?"
+msgstr "Jaký plugin?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+msgid ""
+"Missing RTL/Unicode language(e.g Chinese, Arabic etc) support for PDF "
+"document."
+msgstr ""
+"Chybějící podpora formátu RTL/Unicode (např. Čínština, arabština atd.) Pro "
+"dokument PDF."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+#, php-format
+msgid "Already tried the free %s WebToffee mPDF addon %s."
+msgstr "Již jste vyzkoušeli bezplatný doplněk %s WebToffee mPDF %s."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:63
+msgid ""
+"I am unable to add customer VAT(or GSTIN or ABN or any other tax id etc)"
+msgstr ""
+"Nemohu přidat DPH zákazníka (nebo GSTIN nebo ABN nebo jakékoli jiné daňové "
+"identifikační číslo atd.)"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:68
+msgid ""
+"Unable to add from third party plugin that collects customer VAT(or GSTIN or "
+"ABN etc)"
+msgstr ""
+"Nelze přidat plugin od třetí strany, který vybírá DPH zákazníka (nebo GSTIN "
+"nebo ABN atd.)"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:70
+msgid "Mention the name of the plugin or meta key if any"
+msgstr "Uveďte název pluginu nebo meta klíč, pokud existuje"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:74
+msgid "Need a field to add the tax id on checkout page"
+msgstr "Potřebujete pole pro přidání DIČ na stránku pokladny"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:82
+msgid "I found a better plugin"
+msgstr "Našel jsem lepší plugin"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:84
+msgid "Which plugin?"
+msgstr "Jaký plugin?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Plugin je skvělý, ale potřebuji konkrétní funkci, kterou nepodporujete"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:90
+msgid "Could you tell us more about that feature?"
+msgstr "Můžete nám říci více o této funkci?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:94
+msgid "The plugin didn't work as expected"
+msgstr "Plugin nepracoval podle očekávání"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:96
+msgid "What did you expect?"
+msgstr "Co jste očekávali?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:100
+msgid "Upgraded to pro version"
+msgstr "Upgrade na Premium verzi"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:106
+msgid "Other"
+msgstr "Jiný"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:108
+msgid "Could you tell us a bit more?"
+msgstr "Můžete nám říct něco víc?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:127
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Pokud máte chvilku, sdělte nám prosím, proč deaktivujete:"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:164
+msgid ""
+"We do not collect any personal data when you submit this form. It's your "
+"feedback that we value."
+msgstr ""
+"Když odešlete tento formulář, neshromažďujeme žádné osobní údaje. Ceníme si "
+"vaší zpětné vazby."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:165
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobních údajů"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:171
+msgid "Go to support"
+msgstr "Přejít na podporu"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:172
+msgid "Submit & Deactivate"
+msgstr "Odeslat & Deaktivovat"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:174
+msgid "I rather wouldn't say"
+msgstr "Raději bych neřekl"
+
+#: admin/partials/admin-settings.php:19 admin/partials/admin-settings.php:26
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:36
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: admin/partials/admin-settings.php:20 admin/partials/admin-settings.php:25
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:37
+#: public/modules/deliverynote/views/admin-settings.php:7
+#: public/modules/dispatchlabel/views/admin-settings.php:6
+#: public/modules/invoice/views/general.php:56
+#: public/modules/invoice/views/invoice-admin-settings.php:6
+#: public/modules/packinglist/views/admin-settings.php:7
+#: public/modules/shippinglabel/views/admin-settings.php:6
+msgid "General"
+msgstr "Obecné"
+
+#: admin/partials/admin-settings.php:21 admin/partials/admin-settings.php:27
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:38
+msgid "Help Guide"
+msgstr "Průvodce nápovědou"
+
+#: admin/partials/admin-settings.php:31
+msgid "Free vs Premium"
+msgstr "Zdarma vs Premium"
+
+#: admin/partials/admin-settings.php:33
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:39
+msgid "Other Solutions"
+msgstr "Jiná řešení"
+
+#. Plugin Name of the plugin/theme
+#: admin/partials/admin-settings.php:42
+#: admin/partials/wf-woocommerce-packing-list-admin-display.php:25
+#: admin/views/admin-settings-other-solutions.php:78
+#: admin/views/wf-other-solutions.php:78
+msgid ""
+"WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels"
+msgstr "WooCommerce PDF faktury, balicí listy, dodací listy a přepravní štítky"
+
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:22
+msgid "Document Settings"
+msgstr "Nastavení dokumentu"
+
+#: admin/partials/wf-woocommerce-packing-list-admin-document-settings.php:32
+msgid "Other documents"
+msgstr "Další dokumenty"
+
+#: admin/views/_custom_field_editor_form.php:19
+#: admin/views/_custom_field_editor_form.php:22
+#: admin/views/_custom_field_editor_form.php:31
+msgid "Add new"
+msgstr "Přidat nový"
+
+#: admin/views/_custom_field_editor_form.php:40
+msgid "You can add custom/predefined order meta using its key"
+msgstr ""
+"Můžete přidat vlastní/předdefinované meta objednávky pomocí jejího klíče"
+
+#: admin/views/_custom_field_editor_form.php:47
+msgid "Field Name"
+msgstr "Jméno Pole"
+
+#: admin/views/_custom_field_editor_form.php:48
+msgid "Meta Key"
+msgstr "Meta klíč"
+
+#: admin/views/_custom_field_editor_form.php:53
+msgid "To add more than one custom order meta,"
+msgstr "Chcete-li přidat více než jednu metadat vlastní objednávky,"
+
+#: admin/views/_custom_field_editor_form.php:53
+msgid "upgrade to premium version"
+msgstr "upgrade na prémiovou verzi"
+
+#: admin/views/_form_field_generator_new.php:409
+msgid "Order Meta"
+msgstr "Objednat Meta"
+
+#: admin/views/_form_field_generator_new.php:411
+msgid "Add/Edit Order Meta Field"
+msgstr "Přidat / upravit pole Meta objednávky"
+
+#: admin/views/_form_field_generator_new.php:438
+msgid "Upload your image"
+msgstr "Nahrajte svůj obrázek"
+
+#: admin/views/_form_field_generator_new.php:439
+msgid "Recommended size is 150x50px."
+msgstr ""
+"Vyberte logo společnosti z „Faktura> Přizpůsobit> Logo společnosti“, aby se "
+"odráželo na faktuře. Doporučená velikost je 150 x 50 pixelů."
+
+#: admin/views/_form_field_generator_new.php:471
+msgid "Reset"
+msgstr "Resetovat"
+
+#: admin/views/_form_field_generator_new.php:496
+msgid "Select country"
+msgstr "Zvolit zemi"
+
+#: admin/views/addons_page.php:33
+msgid "Premium and free Add-ons"
+msgstr "Prémiové a bezplatné doplňky"
+
+#: admin/views/addons_page.php:70 admin/views/freevspro.php:141
+#: admin/views/freevspro_sidebar.php:46
+msgid "Upgrade To Premium"
+msgstr "Upgradujte na prémium"
+
+#: admin/views/addons_page.php:76 admin/views/freevspro.php:133
+#: admin/views/freevspro_sidebar.php:52 admin/views/goto-pro.php:217
+msgid "30 Day Money Back Guarantee"
+msgstr "30denní záruka vrácení peněz"
+
+#: admin/views/addons_page.php:77 admin/views/freevspro.php:134
+#: admin/views/freevspro_sidebar.php:53 admin/views/goto-pro.php:218
+msgid "Fast and Superior Support"
+msgstr "Rychlá a vynikající podpora"
+
+#: admin/views/addons_page.php:93
+msgid "Show More"
+msgstr "Zobrazit více"
+
+#: admin/views/addons_page.php:94
+msgid "Show Less"
+msgstr "Zobrazit méně"
+
+#: admin/views/admin-settings-branding.php:6
+msgid "Developed by"
+msgstr "Vyvinuto"
+
+#: admin/views/admin-settings-debug.php:7
+msgid "Debug"
+msgstr "Režim ladění"
+
+#: admin/views/admin-settings-debug.php:8
+msgid "Caution: Settings here are only for advanced users."
+msgstr "Upozornění: Nastavení zde jsou pouze pro pokročilé uživatele."
+
+#: admin/views/admin-settings-help-filters.php:28 admin/views/help.php:36
+msgid "Filters"
+msgstr "Filtry"
+
+#: admin/views/admin-settings-help-filters.php:30
+msgid "Some useful `filters` to extend plugin's functionality"
+msgstr "Některé užitečné `filtry` pro rozšíření funkčnosti pluginu"
+
+#: admin/views/admin-settings-help-filters.php:32
+msgid "search filter"
+msgstr "vyhledávací filtr"
+
+#: admin/views/admin-settings-help-filters.php:61
+msgid "Example Code"
+msgstr "Příklad kódu"
+
+#: admin/views/admin-settings-help-filters.php:83
+msgid "Copy Code"
+msgstr "Kopírovat kód"
+
+#: admin/views/admin-settings-other-solutions.php:30
+#: admin/views/wf-other-solutions.php:30
+msgid "More Plugins To Make Your Store Stand Out"
+msgstr "Více pluginů, aby váš obchod vynikl"
+
+#: admin/views/admin-settings-other-solutions.php:31
+#: admin/views/wf-other-solutions.php:31
+msgid ""
+"Check out our other plugins that are perfectly suited for WooCommerce store "
+"needs."
+msgstr ""
+"Podívejte se na naše další pluginy, které se dokonale hodí pro potřeby "
+"obchodu WooCommerce."
+
+#: admin/views/admin-settings-other-solutions.php:42
+#: admin/views/wf-other-solutions.php:42
+msgid "WebToffee WooCommerce Best Sellers"
+msgstr "Nejprodávanější WooCommerce WebToffee"
+
+#: admin/views/admin-settings-other-solutions.php:43
+#: admin/views/wf-other-solutions.php:43
+msgid ""
+"Highlight top-selling products on your WooCommerce store using best seller "
+"labels, sliders, and custom seals. You can display ranking positions for "
+"best-seller products in different categories."
+msgstr ""
+"Zvýrazněte nejprodávanější produkty ve svém obchodě WooCommerce pomocí "
+"nejprodávanějších štítků, posuvníků a vlastních pečetí. Můžete zobrazit "
+"pozice v žebříčku nejprodávanějších produktů v různých kategoriích."
+
+#: admin/views/admin-settings-other-solutions.php:51
+#: admin/views/wf-other-solutions.php:51
+msgid "WebToffee WooCommerce Gift Cards"
+msgstr "Dárkové karty WebToffee WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:52
+#: admin/views/wf-other-solutions.php:52
+msgid ""
+"Create and manage advanced gift cards for WooCommerce stores. Enable your "
+"customers to buy, redeem, and share gift cards from your store."
+msgstr ""
+"Vytvářejte a spravujte pokročilé dárkové karty pro obchody WooCommerce. "
+"Umožněte svým zákazníkům nakupovat, uplatňovat a sdílet dárkové karty z "
+"vašeho obchodu."
+
+#: admin/views/admin-settings-other-solutions.php:60
+#: admin/views/wf-other-solutions.php:60
+msgid "Frequently Bought Together for WooCommerce"
+msgstr "Často kupované společně pro WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:61
+#: admin/views/wf-other-solutions.php:61
+msgid ""
+"Boost the visibility of the products by displaying them as ‘Frequently "
+"bought together’ items in your store. You may also set up discounts for "
+"Frequently Bought Together bundles with this plugin."
+msgstr ""
+"Zvyšte viditelnost produktů tím, že je ve svém obchodě zobrazíte jako "
+"položky „Často kupované společně“. Pomocí tohoto pluginu můžete také "
+"nastavit slevy pro často nakupované balíčky."
+
+#: admin/views/admin-settings-other-solutions.php:69
+#: admin/views/wf-other-solutions.php:69
+msgid "GDPR Cookie Consent Plugin (CCPA Ready)"
+msgstr "GDPR Cookie Consent (CCPA Ready)"
+
+#: admin/views/admin-settings-other-solutions.php:70
+#: admin/views/wf-other-solutions.php:70
+msgid ""
+"The plugin helps you get compliant with GDPR, CCPA, and other major cookie "
+"laws. You can create and manage cookie consent banners, scan website "
+"cookies, and generate cookie policies with this plugin."
+msgstr ""
+"Plugin vám pomůže dosáhnout souladu s GDPR, CCPA a dalšími hlavními zákony o "
+"souborech cookie. Pomocí tohoto pluginu můžete vytvářet a spravovat bannery "
+"souhlasu se soubory cookie, skenovat soubory cookie webových stránek a "
+"generovat zásady souborů cookie."
+
+#: admin/views/admin-settings-other-solutions.php:79
+#: admin/views/wf-other-solutions.php:79
+msgid ""
+"Generate, customize, and manage WooCommerce documents including PDF "
+"invoices, packing slips, delivery notes, shipping labels, address labels, "
+"and other shipping documents using a single plugin."
+msgstr ""
+"Generujte, přizpůsobujte a spravujte dokumenty WooCommerce včetně faktur "
+"PDF, balicích listů, dodacích listů, přepravních štítků, adresních štítků a "
+"dalších přepravních dokumentů pomocí jediného pluginu."
+
+#: admin/views/admin-settings-other-solutions.php:87
+#: admin/views/wf-other-solutions.php:87
+msgid "Product Import Export Plugin For WooCommerce"
+msgstr "Product Import Export Plugin pro WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:88
+#: admin/views/wf-other-solutions.php:88
+msgid ""
+"Seamlessly import/export your WooCommerce products including simple, "
+"variable, custom products and subscriptions. You may also import and export "
+"product images, tags, categories, reviews, and ratings."
+msgstr ""
+"Bezproblémově importujte/exportujte své produkty WooCommerce včetně "
+"jednoduchých, variabilních, vlastních produktů a předplatného. Můžete také "
+"importovat a exportovat obrázky produktů, štítky, kategorie, recenze a "
+"hodnocení."
+
+#: admin/views/admin-settings-other-solutions.php:96
+#: admin/views/wf-other-solutions.php:96
+msgid "WordPress Users & WooCommerce Customers Import Export"
+msgstr "Uživatelé WordPress a zákazníci WooCommerce Import Export"
+
+#: admin/views/admin-settings-other-solutions.php:97
+#: admin/views/wf-other-solutions.php:97
+msgid ""
+"Easily import and export your WordPress users and WooCommerce customers "
+"using the Import Export plugin for WooCommerce. The plugin supports the use "
+"of CSV, XML, TSV, XLS, and XLSX file formats."
+msgstr ""
+"Snadno importujte a exportujte své uživatele WordPress a zákazníky "
+"WooCommerce pomocí pluginu Import Export pro WooCommerce. Plugin podporuje "
+"použití formátů souborů CSV, XML, TSV, XLS a XLSX."
+
+#: admin/views/admin-settings-other-solutions.php:105
+#: admin/views/wf-other-solutions.php:105
+msgid "Order, Coupon, Subscription Export Import for WooCommerce"
+msgstr "Objednávka, kupón, export předplatného Import pro WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:106
+#: admin/views/wf-other-solutions.php:106
+msgid ""
+"Export and Import your WooCommerce orders, subscriptions, and discount "
+"coupons using a single Import Export plugin. You may customize the export "
+"and import files with advanced filters and settings."
+msgstr ""
+"Exportujte a importujte své objednávky, předplatné a slevové kupóny "
+"WooCommerce pomocí jediného pluginu Import Export. Export a import souborů "
+"můžete přizpůsobit pomocí pokročilých filtrů a nastavení."
+
+#: admin/views/admin-settings-other-solutions.php:114
+#: admin/views/wf-other-solutions.php:114
+msgid "Import Export Suite for WooCommerce"
+msgstr "Import Export Suite pro WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:115
+#: admin/views/wf-other-solutions.php:115
+msgid ""
+"An all-in-one plugin to import and export WooCommerce store data. You can "
+"import and export products, product reviews, orders, customers, discount "
+"coupons, and subscriptions using this single plugin."
+msgstr ""
+"All-in-one plugin pro import a export dat obchodu WooCommerce. Pomocí tohoto "
+"jediného pluginu můžete importovat a exportovat produkty, recenze produktů, "
+"objednávky, zákazníky, slevové kupóny a předplatné."
+
+#: admin/views/admin-settings-other-solutions.php:127
+#: admin/views/wf-other-solutions.php:127
+msgid "Smart Coupons for WooCommerce"
+msgstr "Načíst z WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:128
+#: admin/views/wf-other-solutions.php:128
+msgid ""
+"Create coupons to offer discounts and free products to your customers with "
+"Smart Coupons for WooCommerce. You can set up BOGO coupons, giveaways, gift "
+"cards, store credits, and more with this plugin."
+msgstr ""
+"Vytvářejte kupony a nabízejte slevy a produkty zdarma svým zákazníkům pomocí "
+"chytrých kuponů pro WooCommerce. Pomocí tohoto pluginu můžete nastavit BOGO "
+"kupóny, dárky, dárkové karty, kredity do obchodů a další."
+
+#: admin/views/admin-settings-other-solutions.php:136
+#: admin/views/wf-other-solutions.php:136
+msgid "URL Coupons for WooCommerce"
+msgstr "URL kupóny pro WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:137
+#: admin/views/wf-other-solutions.php:137
+msgid ""
+"Generate custom URLs and QR codes for every discount coupon in your "
+"WooCommerce store. These unique coupons are easy to share and can even be "
+"set to add new products to the cart upon application."
+msgstr ""
+"Generujte vlastní adresy URL a QR kódy pro každý slevový kupón ve svém "
+"obchodě WooCommerce. Tyto jedinečné kupony lze snadno sdílet a lze je "
+"dokonce nastavit tak, aby při aplikaci přidávaly do košíku nové produkty."
+
+#: admin/views/admin-settings-other-solutions.php:145
+#: admin/views/wf-other-solutions.php:145
+msgid "PayPal Express Checkout Payment Gateway for WooCommerce"
+msgstr "PayPal Express Checkout Platební brána pro WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:146
+#: admin/views/wf-other-solutions.php:146
+msgid ""
+"Offer a fast checkout experience to your customers with PayPal Payment "
+"Gateway. You can set up the PayPal Express Checkout option on the product "
+"pages to reduce the clicks to complete the checkout."
+msgstr ""
+"Nabídněte svým zákazníkům rychlou platbu pomocí platební brány PayPal. Na "
+"produktových stránkách můžete nastavit možnost PayPal Express Checkout, "
+"abyste snížili počet kliknutí na dokončení platby."
+
+#: admin/views/admin-settings-other-solutions.php:154
+#: admin/views/wf-other-solutions.php:154
+msgid "WooCommerce Stripe Payment Gateway"
+msgstr "Platební brána WooCommerce Stripe"
+
+#: admin/views/admin-settings-other-solutions.php:155
+#: admin/views/wf-other-solutions.php:155
+msgid ""
+"Ensure a fast and secure checkout experience for your users with WooCommerce "
+"Stripe Payment Gateway. Stripe accepts credit/debit cards and offers "
+"integrations with Apple Pay, SEPA, Alipay, and more."
+msgstr ""
+"Zajistěte svým uživatelům rychlou a bezpečnou pokladnu pomocí platební brány "
+"WooCommerce Stripe. Stripe přijímá kreditní/debetní karty a nabízí integraci "
+"s Apple Pay, SEPA, Alipay a dalšími."
+
+#: admin/views/admin-settings-other-solutions.php:163
+#: admin/views/wf-other-solutions.php:163
+msgid "Subscriptions for WooCommerce"
+msgstr "Předplatné pro WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:164
+#: admin/views/wf-other-solutions.php:164
+msgid ""
+"Enable subscriptions on your WooCommerce store to sell products (physical "
+"and digital) and services that require accepting recurring payments. "
+"Supports both simple and variable subscription products."
+msgstr ""
+"Povolte předplatné ve svém obchodě WooCommerce a prodávejte produkty "
+"(fyzické i digitální) a služby, které vyžadují přijímání opakujících se "
+"plateb. Podporuje jednoduché i variabilní předplatné produkty."
+
+#: admin/views/admin-settings-other-solutions.php:172
+#: admin/views/wf-other-solutions.php:172
+msgid "Sequential Order Numbers for WooCommerce"
+msgstr "Sequential Order Numbers for WooCommerce"
+
+#: admin/views/admin-settings-other-solutions.php:173
+#: admin/views/wf-other-solutions.php:173
+msgid ""
+"Number your WooCommerce orders in a custom, sequential & manageable format. "
+"The Sequential Order Number plugin lets your orders follow a custom & unique "
+"numbering sequence suitable for your business."
+msgstr ""
+"Číslovejte své objednávky WooCommerce ve vlastním, sekvenčním a "
+"spravovatelném formátu. Plugin Sequential Order Number umožňuje vašim "
+"objednávkám sledovat vlastní a jedinečné číslování vhodné pro vaši firmu."
+
+#: admin/views/admin-settings-other-solutions.php:181
+#: admin/views/wf-other-solutions.php:181
+msgid "WordPress Backup and Migration"
+msgstr "Zálohování a migrace WordPress"
+
+#: admin/views/admin-settings-other-solutions.php:182
+#: admin/views/wf-other-solutions.php:182
+msgid ""
+"A complete WordPress backup and migration plugin to easily back up and "
+"migrate your WordPress website and database. This fast and flexible backup "
+"solution makes creating and restoring backups easy."
+msgstr ""
+"Kompletní plugin pro zálohování a migraci WordPress pro snadné zálohování a "
+"migraci vašeho webu a databáze WordPress. Toto rychlé a flexibilní řešení "
+"zálohování usnadňuje vytváření a obnovování záloh."
+
+#: admin/views/admin-settings-other-solutions.php:228
+#: admin/views/wf-other-solutions.php:228
+msgid " Get Premium"
+msgstr " Získejte Premium"
+
+#: admin/views/admin-settings-other-solutions.php:236
+#: admin/views/wf-other-solutions.php:236
+msgid "Installed"
+msgstr "Nainstalováno"
+
+#: admin/views/admin-settings-other-solutions.php:247
+#: admin/views/wf-other-solutions.php:247
+msgid "Get Free Plugin"
+msgstr "Získejte zdarma plugin"
+
+#: admin/views/admin-settings-save-button-form-wizard.php:6
+#: admin/views/admin-settings-save-button.php:6
+msgid "Update Settings"
+msgstr "Aktualizovat nastavení"
+
+#: admin/views/admin-settings-system-info.php:5
+msgid "System Configuration"
+msgstr "Konfigurace systému"
+
+#: admin/views/admin-settings-system-info.php:6
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: admin/views/admin-settings-system-info.php:7
+msgid "Copied"
+msgstr "Zkopírováno"
+
+#: admin/views/admin-settings-system-info.php:14
+msgid "5.6 or higher recommended"
+msgstr "5.6 nebo vyšší doporučeno"
+
+#: admin/views/admin-settings-system-info.php:27
+msgid "Recommended, will use fallback functions"
+msgstr "Doporučeno, bude používat záložní funkce"
+
+#: admin/views/admin-settings-system-info.php:33
+msgid "Required if you have images in your documents"
+msgstr "Povinné, pokud máte v dokumentech obrázky"
+
+#: admin/views/admin-settings-system-info.php:36
+msgid "Better with transparent PNG images"
+msgstr "Lepší s průhlednými obrázky PNG"
+
+#: admin/views/admin-settings-system-info.php:39
+#: admin/views/admin-settings-system-info.php:57
+msgid "Recommended for better performances"
+msgstr "Doporučeno pro lepší výkony"
+
+#: admin/views/admin-settings-system-info.php:48
+msgid "To compress PDF documents"
+msgstr "Chcete-li komprimovat dokumenty PDF"
+
+#: admin/views/admin-settings-system-info.php:51
+msgid "Recommended to compress PDF documents"
+msgstr "Doporučeno pro komprimaci dokumentů PDF"
+
+#: admin/views/admin-settings-system-info.php:54
+msgid "For better performances"
+msgstr "Pro lepší výkony"
+
+#. translators: <a> tags
+#. 'required' => sprintf( __( 'Recommended: 128MB (more for plugin-heavy setups<br/>See: %1$sIncreasing the WordPress Memory Limit%2$s', 'print-invoices-packing-slip-labels-for-woocommerce' ), '<a href="https://docs.woocommerce.com/document/increasing-the-wordpress-memory-limit/" target="_blank">', '</a>' ),
+#: admin/views/admin-settings-system-info.php:68
+msgid "Recommended 128MB or more"
+msgstr "Doporučeno 128 MB nebo více"
+
+#: admin/views/admin-settings-system-info.php:73
+msgid "Allow remote stylesheets and images"
+msgstr "Povolit vzdálené šablony stylů a obrázky"
+
+#: admin/views/admin-settings-system-info.php:76
+msgid "allow_url_fopen disabled"
+msgstr "allow_url_fopen zakázáno"
+
+#: admin/views/admin-settings-system-info.php:80
+msgid "Writtable"
+msgstr "Zapisovatelný"
+
+#: admin/views/admin-settings-system-info.php:120
+msgid "Required"
+msgstr "Vyžadováno"
+
+#: admin/views/admin-settings-system-info.php:121
+msgid "Present"
+msgstr "Součastnost"
+
+#: admin/views/admin_document_addons_page.php:28
+msgid ""
+"WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels\n"
+msgstr ""
+"WooCommerce PDF faktury, balicí listy, dodací listy a přepravní štítky\n"
+
+#: admin/views/admin_document_addons_page.php:35
+#: admin/views/wt_pro_addons_list.php:99
+#: public/modules/invoice/views/qrcode_promote.php:25
+msgid "QR Code Addon for WooCommerce PDF Invoices"
+msgstr "Doplněk QR kódu pro faktury WooCommerce PDF"
+
+#: admin/views/admin_document_addons_page.php:36
+#: public/modules/invoice/views/qrcode_promote.php:26
+msgid "To help you comply with invoice mandates that require QR Codes"
+msgstr "Abychom vám pomohli splnit fakturační příkazy, které vyžadují QR kódy"
+
+#: admin/views/admin_document_addons_page.php:38
+#: public/modules/invoice/views/qrcode_promote.php:28
+msgid ""
+"Assign QR code to all of invoices generated for the orders in your store"
+msgstr ""
+"Přiřaďte QR kód všem fakturám vygenerovaným za objednávky ve vašem obchodě"
+
+#: admin/views/admin_document_addons_page.php:39
+#: public/modules/invoice/views/qrcode_promote.php:29
+msgid "Assign different types of info in your QR code, including:"
+msgstr "Přiřaďte svému QR kódu různé typy informací, včetně:"
+
+#: admin/views/admin_document_addons_page.php:41
+#: public/modules/invoice/views/qrcode_promote.php:31
+msgid "Order number (default)"
+msgstr "Číslo objednávky (výchozí)"
+
+#: admin/views/admin_document_addons_page.php:42
+#: admin/views/admin_document_addons_page.php:46
+#: public/modules/invoice/views/general.php:134
+#: public/modules/invoice/views/qrcode_promote.php:32
+#: public/modules/invoice/views/qrcode_promote.php:36
+msgid "Invoice number"
+msgstr "Číslo faktury"
+
+#: admin/views/admin_document_addons_page.php:44
+#: public/modules/invoice/views/qrcode_promote.php:34
+msgid "Custom details, as below:"
+msgstr "Vlastní podrobnosti, jak je uvedeno níže:"
+
+#: admin/views/admin_document_addons_page.php:48
+#: public/modules/invoice/views/general.php:63
+#: public/modules/invoice/views/qrcode_promote.php:38
+msgid "Invoice date"
+msgstr "Datum vystavení"
+
+#: admin/views/admin_document_addons_page.php:49
+#: public/modules/invoice/views/general.php:69
+#: public/modules/invoice/views/qrcode_promote.php:39
+msgid "Order date"
+msgstr "Datum objednávky"
+
+#: admin/views/admin_document_addons_page.php:50
+#: public/modules/invoice/views/qrcode_promote.php:40
+msgid "Seller tax ID"
+msgstr "DIČ prodejce"
+
+#: admin/views/admin_document_addons_page.php:51
+#: public/modules/invoice/views/qrcode_promote.php:41
+msgid "Buyer name"
+msgstr "Jméno kupujícího"
+
+#: admin/views/admin_document_addons_page.php:52
+#: public/modules/invoice/views/qrcode_promote.php:42
+msgid "Seller name"
+msgstr "Jméno prodejce"
+
+#: admin/views/admin_document_addons_page.php:53
+#: public/modules/invoice/views/qrcode_promote.php:43
+msgid "Invoice total"
+msgstr "Faktura celkem"
+
+#: admin/views/admin_document_addons_page.php:54
+#: public/modules/invoice/views/qrcode_promote.php:44
+msgid "Invoice total tax"
+msgstr "Fakturovat celkovou daň"
+
+#: admin/views/admin_document_addons_page.php:59
+#: public/modules/invoice/views/qrcode_promote.php:49
+msgid ""
+"Compatible with WooCommerce PDF Invoice, Packing Slips, Delivery Notes, and "
+"Shipping Label (Free and Pro versions)"
+msgstr ""
+"Kompatibilní s WooCommerce PDF fakturou, balicími listy, dodacími listy a "
+"přepravním štítkem (verze zdarma a Pro)"
+
+#: admin/views/admin_document_addons_page.php:61
+#: admin/views/admin_document_addons_page.php:83
+#: admin/views/admin_document_addons_page.php:103
+#: public/modules/invoice/views/qrcode_promote.php:51
+msgid "Get Plugin"
+msgstr "Získat zásuvný modul"
+
+#: admin/views/admin_document_addons_page.php:71
+msgid "Remote Print Addon for WooCommerce PDF Invoices – PrintNode"
+msgstr "Remote Print Addon pro WooCommerce PDF faktury – PrintNode"
+
+#: admin/views/admin_document_addons_page.php:72
+msgid ""
+"Enables remote cloud printing for WooCommerce PDF Invoices with PrintNode."
+msgstr ""
+"Umožňuje vzdálený cloudový tisk pro faktury WooCommerce PDF pomocí PrintNode."
+
+#: admin/views/admin_document_addons_page.php:74
+msgid "Supports PDF Printing"
+msgstr "Podporuje tisk PDF"
+
+#: admin/views/admin_document_addons_page.php:75
+msgid "Faster printing of WooCommerce PDF Invoices "
+msgstr "Rychlejší tisk faktur WooCommerce PDF "
+
+#: admin/views/admin_document_addons_page.php:76
+msgid "Integration with PrintNode"
+msgstr "Integrace s PrintNode"
+
+#: admin/views/admin_document_addons_page.php:79
+msgid "Secure print with base64 and URI printing"
+msgstr "Zabezpečený tisk s tiskem base64 a URI"
+
+#: admin/views/admin_document_addons_page.php:80
+msgid "Automatic & Manual printing"
+msgstr "Automatický a ruční tisk"
+
+#: admin/views/admin_document_addons_page.php:81
+msgid "Compatible with Windows, macOS / OS X, Linux, and Raspberry Pi."
+msgstr "Kompatibilní s Windows, macOS / OS X, Linux a Raspberry Pi."
+
+#: admin/views/admin_document_addons_page.php:93
+msgid ""
+"mPDF add-on for PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels"
+msgstr ""
+"mPDF add-on for PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels"
+
+#: admin/views/admin_document_addons_page.php:94
+msgid ""
+"This addon works with PDF Invoices, Packing Slips, Delivery Notes & Shipping "
+"Labels plugin to support RTL layout and Unicode for different languages."
+msgstr ""
+"Tento doplněk funguje s pluginem PDF Faktury, Dodací listy, Dodací listy a "
+"Přepravní štítky a podporuje rozložení RTL a Unicode pro různé jazyky."
+
+#: admin/views/admin_document_addons_page.php:96
+msgid "Handles 12 RTL languages"
+msgstr "Zvládá 12 jazyků RTL"
+
+#: admin/views/admin_document_addons_page.php:97
+msgid "Support for all languages including Unicode standard"
+msgstr "Podpora všech jazyků včetně standardu Unicode"
+
+#: admin/views/admin_document_addons_page.php:100
+msgid "Prints Hebrew and Arabic languages"
+msgstr "Tiskne hebrejské a arabské jazyky"
+
+#: admin/views/admin_document_addons_page.php:101
+msgid "Enables easy print, download, and attachment provisions"
+msgstr "Umožňuje snadný tisk, stahování a poskytování příloh"
+
+#: admin/views/freevspro.php:7 public/modules/packinglist/packinglist.php:25
+#: public/modules/packinglist/packinglist.php:76
+#: public/modules/packinglist/packinglist.php:77
+#: public/modules/packinglist/packinglist.php:246
+#: public/modules/packinglist/views/admin-settings.php:14
+msgid "Packing slip"
+msgstr "Balení"
+
+#: admin/views/freevspro.php:8
+msgid "Credit note"
+msgstr "Dobropis"
+
+#: admin/views/freevspro.php:9
+#: public/modules/shippinglabel/shippinglabel.php:221
+#: public/modules/shippinglabel/shippinglabel.php:222
+#: public/modules/shippinglabel/views/admin-settings.php:13
+msgid "Shipping label"
+msgstr "Přepravní štítek"
+
+#: admin/views/freevspro.php:10
+#: public/modules/dispatchlabel/dispatchlabel.php:25
+#: public/modules/dispatchlabel/dispatchlabel.php:72
+#: public/modules/dispatchlabel/dispatchlabel.php:73
+#: public/modules/dispatchlabel/views/admin-settings.php:19
+msgid "Dispatch label"
+msgstr "Expediční štítek"
+
+#: admin/views/freevspro.php:11 public/modules/deliverynote/deliverynote.php:72
+#: public/modules/deliverynote/deliverynote.php:73
+#: public/modules/deliverynote/deliverynote.php:237
+#: public/modules/deliverynote/views/admin-settings.php:20
+msgid "Delivery note"
+msgstr "Dodací list"
+
+#: admin/views/freevspro.php:12
+msgid "Proforma invoice"
+msgstr "Proforma faktura"
+
+#: admin/views/freevspro.php:13
+msgid "Pick list"
+msgstr "Výběrový seznam"
+
+#: admin/views/freevspro.php:14
+msgid "Address label"
+msgstr "Cím címke"
+
+#: admin/views/freevspro.php:15 public/modules/invoice/views/general.php:115
+msgid "My account - Order lists page"
+msgstr "Můj účet – stránka Seznamy objednávek"
+
+#: admin/views/freevspro.php:16 public/modules/invoice/views/general.php:116
+msgid "My account - Order details page"
+msgstr "Můj účet – stránka Podrobnosti objednávky"
+
+#: admin/views/freevspro.php:17 public/modules/invoice/views/general.php:117
+msgid "Order email"
+msgstr "Objednávka emailem"
+
+#: admin/views/freevspro.php:80
+msgid "Features"
+msgstr "Vlastnosti"
+
+#: admin/views/freevspro.php:81
+msgid "Free"
+msgstr "Zdarma"
+
+#: admin/views/freevspro.php:82
+msgid "Premium"
+msgstr "Prémiový"
+
+#: admin/views/general.php:12 admin/views/general_form_wizard.php:8
+msgid ""
+"The company name and the address details from this section will be used as "
+"the sender address in the invoice and other related documents."
+msgstr ""
+"Na faktuře a dalších souvisejících dokumentech bude jako adresa odesílatele "
+"použit název společnosti a podrobnosti o adrese z této části."
+
+#: admin/views/general.php:25 admin/views/general_settings_step2.php:11
+msgid "Load from WooCommerce"
+msgstr "Načíst z WooCommerce"
+
+#: admin/views/general.php:35 admin/views/general_settings_step1.php:20
+msgid "Company details"
+msgstr "Detaily o společnosti"
+
+#: admin/views/general.php:40 admin/views/general_settings_step1.php:28
+msgid "Name"
+msgstr "Jméno"
+
+#: admin/views/general.php:45 admin/views/general_settings_step1.php:33
+msgid "To include the keyed in name to the Invoice, ensure to select"
+msgstr "Chcete-li do faktury zahrnout zadané jméno, nezapomeňte vybrat"
+
+#: admin/views/general.php:46 admin/views/general_settings_step1.php:34
+msgid "Company name"
+msgstr "Název společnosti"
+
+#: admin/views/general.php:47 admin/views/general_settings_step1.php:35
+msgid "from"
+msgstr "od"
+
+#: admin/views/general.php:48 admin/views/general.php:58
+#: admin/views/general_settings_step1.php:36
+#: admin/views/general_settings_step1.php:46
+msgid "Invoice > Customize > Company Logo / Name"
+msgstr "Faktura > Přizpůsobit > Logo / Název společnosti"
+
+#: admin/views/general.php:53 admin/views/general_settings_step1.php:41
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/views/general.php:57 admin/views/general_settings_step1.php:45
+msgid ""
+"To include the uploaded image as logo to the invoice, ensure to select "
+"Company logo from"
+msgstr ""
+"Chcete-li na fakturu zahrnout nahraný obrázek jako logo, vyberte možnost "
+"Logo společnosti z"
+
+#: admin/views/general.php:59 admin/views/general_settings_step1.php:47
+msgid "Recommended size is 150×50px"
+msgstr "Doporučená velikost je 150×50px"
+
+#: admin/views/general.php:66
+msgid "Company Tax ID"
+msgstr "Název společnosti"
+
+#: admin/views/general.php:70 admin/views/general_settings_step1.php:58
+msgid ""
+"Specify your company tax ID. For e.g., you may enter as VAT: GB123456789, "
+"GSTIN:0948745 or ABN:51 824 753 556"
+msgstr ""
+"Zadejte DIČ své společnosti. Například pro můžete zadat jako DPH: "
+"GB123456789, GSTIN: 0948745 nebo ABN: 51 824 753 556"
+
+#: admin/views/general.php:74 admin/views/general_settings_step3.php:28
+#: public/modules/invoice/invoice.php:1091
+#: public/modules/invoice/invoice.php:1095
+#: public/modules/shippinglabel/views/general.php:51
+msgid "Footer"
+msgstr "Zápatí"
+
+#: admin/views/general.php:89 admin/views/general_settings_step2.php:28
+msgid "Address details"
+msgstr "Podrobnosti adresy"
+
+#: admin/views/general.php:97 admin/views/general_settings_step2.php:43
+msgid "Department/Business unit/Sender name"
+msgstr "Oddělení/Obchodní jednotka/Jméno odesílatele"
+
+#: admin/views/general.php:105 admin/views/general_settings_step2.php:51
+msgid "Address line 1"
+msgstr "Řádek adresy 1"
+
+#: admin/views/general.php:114 admin/views/general_settings_step2.php:60
+msgid "Address line 2"
+msgstr "Řádek adresy 2"
+
+#: admin/views/general.php:122 admin/views/general_settings_step2.php:68
+msgid "City"
+msgstr "Město"
+
+#: admin/views/general.php:131 admin/views/general_settings_step2.php:77
+msgid "Country/State"
+msgstr "Země / Stát"
+
+#: admin/views/general.php:133 admin/views/general_settings_step2.php:79
+msgid "Choose a country&hellip;"
+msgstr "Vyberte zemi&hellip;"
+
+#: admin/views/general.php:139 admin/views/general_settings_step2.php:84
+msgid "Postal code"
+msgstr "PSČ"
+
+#: admin/views/general.php:148 admin/views/general_settings_step2.php:94
+msgid "Contact number"
+msgstr "Kontaktní číslo"
+
+#: admin/views/general.php:163 admin/views/general_settings_step3.php:20
+msgid "Advanced options"
+msgstr "Rozšířené možnosti"
+
+#: admin/views/general.php:170 admin/views/general_settings_step3.php:35
+msgid "Display state name"
+msgstr "Zobrazovat název stavu"
+
+#: admin/views/general.php:174 admin/views/general_settings_step3.php:39
+msgid "Enable to show state name in addresses"
+msgstr "Povolit zobrazení názvu státu v adresách"
+
+#: admin/views/general.php:182 admin/views/general_settings_step3.php:47
+msgid "Preview before printing"
+msgstr "Náhled před tiskem"
+
+#: admin/views/general.php:186 admin/views/general_settings_step3.php:51
+msgid "Preview documents before printing"
+msgstr "Náhled dokumentů před tiskem"
+
+#: admin/views/general.php:194 admin/views/general_settings_step3.php:59
+msgid "Enable RTL support"
+msgstr "Povolit podporu RTL"
+
+#: admin/views/general.php:198 admin/views/general_settings_step3.php:63
+msgid "RTL support for documents"
+msgstr "Podpora RTL pro dokumenty"
+
+#: admin/views/general.php:202 admin/views/general_settings_step3.php:67
+msgid "For better RTL integration in PDF documents, please use our"
+msgstr "Pro lepší integraci RTL v dokumentech PDF použijte prosím naše"
+
+#: admin/views/general.php:203 admin/views/general_settings_step3.php:68
+msgid "mPDF add-on"
+msgstr "doplněk mPDF"
+
+#: admin/views/general.php:215 admin/views/general_settings_step3.php:80
+msgid "PDF library"
+msgstr "PDF knihovna"
+
+#: admin/views/general.php:229 admin/views/general_settings_step3.php:93
+#, php-format
+msgid ""
+"%sNote:%s You have not enabled tax option in WooCommerce. If you need to "
+"apply tax for new orders you need to enable it %s here. %s"
+msgstr ""
+"%s Poznámka: %s Ve WooCommerce jste nepovolili možnost daně. Pokud "
+"potřebujete u nových objednávek uplatnit daň, musíte ji povolit %s zde. %s"
+
+#: admin/views/general.php:235 admin/views/general_settings_step3.php:99
+msgid "Display price in the product table"
+msgstr "Zobrazit cenu v tabulce produktů"
+
+#: admin/views/general.php:240 admin/views/general_settings_step3.php:104
+msgid "WooCommerce tax settings"
+msgstr "Nastavení daně WooCommerce"
+
+#: admin/views/general.php:242 admin/views/general_settings_step3.php:106
+msgid "Exclude tax"
+msgstr "Bez daně"
+
+#: admin/views/general.php:243 admin/views/general_settings_step3.php:107
+msgid "Include tax"
+msgstr "Včetně daně"
+
+#: admin/views/general.php:247 admin/views/general_settings_step3.php:111
+msgid "All price columns displayed will be inclusive of tax."
+msgstr "Všechny zobrazené sloupce cen budou včetně daně."
+
+#: admin/views/general.php:253 admin/views/general_settings_step3.php:117
+msgid "All price columns displayed will be exclusive of tax."
+msgstr "Všechny zobrazené sloupce ceny budou bez daně."
+
+#: admin/views/general_settings_step1.php:54
+msgid "Tax ID"
+msgstr "DIČ"
+
+#: admin/views/goto-pro.php:201
+msgid "Watch setup video"
+msgstr "Podívejte se na video nastavení"
+
+#: admin/views/goto-pro.php:221 admin/views/goto-pro.php:236
+msgid "UPGRADE TO PREMIUM"
+msgstr "UPGRADE NA PREMIUM"
+
+#: admin/views/help.php:37 admin/views/help.php:42
+msgid "Help Links"
+msgstr "Odkazy na nápovědu"
+
+#: admin/views/help.php:38
+msgid "System Info"
+msgstr "Systémové informace"
+
+#: admin/views/help.php:46 admin/views/help.php:49
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: admin/views/help.php:47
+msgid "Refer to our documentation to setup and get started"
+msgstr "Chcete-li nastavit a začít, podívejte se do naší dokumentace"
+
+#: admin/views/help.php:54
+msgid "Help and Support"
+msgstr "Pomoc a podpora"
+
+#: admin/views/help.php:55
+msgid "We would love to help you on any queries or issues."
+msgstr "Rádi bychom vám pomohli při jakýchkoli dotazech nebo problémech."
+
+#: admin/views/help.php:57
+msgid "Contact Us"
+msgstr "Napište nám"
+
+#: admin/views/wt_ipc_free_pro.php:6 admin/views/wt_pro_addons_list.php:9
+msgid "WooCommerce PDF Invoices, Packing Slips and Credit Notes plugin"
+msgstr "Plugin WooCommerce PDF faktury, balicí lístky a kreditní poznámky"
+
+#: admin/views/wt_ipc_free_pro.php:10 admin/views/wt_sdd_free_pro.php:10
+msgid "Supported documents"
+msgstr "Další dokumenty"
+
+#: admin/views/wt_ipc_free_pro.php:41
+msgid "Automatically create invoice based on order status"
+msgstr "Automaticky vytvořit fakturu na základě stavu objednávky"
+
+#: admin/views/wt_ipc_free_pro.php:54
+msgid "Attach document to order email"
+msgstr "Přiložte dokument k e-mailu objednávky"
+
+#: admin/views/wt_ipc_free_pro.php:85
+msgid "Custom invoice date"
+msgstr "Vlastní datum faktury"
+
+#: admin/views/wt_ipc_free_pro.php:88 admin/views/wt_ipc_free_pro.php:98
+msgid "Use order date"
+msgstr "Použijte datum objednávky"
+
+#: admin/views/wt_ipc_free_pro.php:92 admin/views/wt_ipc_free_pro.php:102
+msgid "Use invoice created date"
+msgstr "Použít datum vytvoření faktury"
+
+#: admin/views/wt_ipc_free_pro.php:108
+msgid "Show print invoice button to customers"
+msgstr "Zobrazit tlačítko faktury pro zákazníky"
+
+#: admin/views/wt_ipc_free_pro.php:139
+msgid "Show print packing slip button to customers"
+msgstr "Ukažte zákazníkům tlačítko vytisknout dodací list"
+
+#: admin/views/wt_ipc_free_pro.php:162
+msgid "Use order number as document number"
+msgstr "Jako číslo dokladu použijte číslo objednávky"
+
+#: admin/views/wt_ipc_free_pro.php:185
+msgid "Use custom number series to number documents"
+msgstr "K číslování dokladů použijte vlastní číselné řady"
+
+#: admin/views/wt_ipc_free_pro.php:208
+msgid "Change document number format & length"
+msgstr "Změna formátu a délky čísla dokumentu"
+
+#: admin/views/wt_ipc_free_pro.php:231 admin/views/wt_pl_free_pro.php:38
+#: admin/views/wt_pro_addons_list.php:21 admin/views/wt_pro_addons_list.php:39
+#: admin/views/wt_sdd_free_pro.php:104
+msgid "Group products by ‘Category’"
+msgstr "Seskupit produkty podle 'Kategorie'"
+
+#: admin/views/wt_ipc_free_pro.php:254 admin/views/wt_pi_free_pro.php:122
+#: admin/views/wt_pl_free_pro.php:94 admin/views/wt_sdd_free_pro.php:80
+msgid "Sort order items in product table"
+msgstr "Přidat obrázek produktu do tabulky s produkty"
+
+#: admin/views/wt_ipc_free_pro.php:285 admin/views/wt_pl_free_pro.php:66
+#: admin/views/wt_pro_addons_list.php:18 admin/views/wt_pro_addons_list.php:36
+#: admin/views/wt_pro_addons_list.php:53 admin/views/wt_sdd_free_pro.php:120
+msgid "Show product variation data"
+msgstr "Zobrazit data o variantách produktu"
+
+#: admin/views/wt_ipc_free_pro.php:316
+msgid "Display options for bundled products"
+msgstr "Možnosti zobrazení pro přibalené produkty"
+
+#: admin/views/wt_ipc_free_pro.php:339
+msgid "Generate invoices for old orders"
+msgstr "Generování faktur za staré objednávky"
+
+#: admin/views/wt_ipc_free_pro.php:352
+#: public/modules/invoice/views/general.php:280
+msgid "Generate invoices for free orders"
+msgstr "Generujte faktury pro bezplatné objednávky"
+
+#: admin/views/wt_ipc_free_pro.php:365
+msgid "Option to include/exclude tax to Invoice"
+msgstr "Možnost zahrnout/vyloučit daň do faktury"
+
+#: admin/views/wt_ipc_free_pro.php:378
+msgid ""
+"Separate tax column in the product table for multiple tax options in invoices"
+msgstr ""
+"Samostatný sloupec daně v tabulce produktů pro více možností daně ve "
+"fakturách"
+
+#: admin/views/wt_ipc_free_pro.php:391
+msgid "Customizable tax items, tax fields (SSN, VAT, etc.)"
+msgstr "Přizpůsobitelné daňové položky, daňová pole (SSN, DPH atd.)"
+
+#: admin/views/wt_ipc_free_pro.php:422
+msgid "Display free line items on invoice"
+msgstr "Zobrazit bezplatné řádkové položky na faktuře"
+
+#: admin/views/wt_ipc_free_pro.php:435
+msgid "Customize invoice PDF name format"
+msgstr "Přizpůsobte formát názvu faktury PDF"
+
+#: admin/views/wt_ipc_free_pro.php:448
+msgid "Add a payment link to invoice"
+msgstr "Přidejte k faktuře platební odkaz"
+
+#: admin/views/wt_ipc_free_pro.php:461
+msgid "Show Pay Later option at checkout"
+msgstr "Zobrazit možnost Zaplatit později u pokladny"
+
+#: admin/views/wt_ipc_free_pro.php:474
+msgid "Customize Pay Later option display"
+msgstr "Přizpůsobit zobrazení možnosti Pay Later"
+
+#: admin/views/wt_ipc_free_pro.php:482 admin/views/wt_ipc_free_pro.php:496
+msgid "Description"
+msgstr "Popis"
+
+#: admin/views/wt_ipc_free_pro.php:486 admin/views/wt_ipc_free_pro.php:500
+msgid "Instruction"
+msgstr "Návod"
+
+#: admin/views/wt_ipc_free_pro.php:505 admin/views/wt_sdd_free_pro.php:144
+msgid "Add order meta fields"
+msgstr "Přidejte meta pole objednávky"
+
+#: admin/views/wt_ipc_free_pro.php:513
+msgid "(But customer notes can be added)"
+msgstr "(Lze však přidat poznámky zákazníků)"
+
+#: admin/views/wt_ipc_free_pro.php:536 admin/views/wt_pi_free_pro.php:164
+#: admin/views/wt_sdd_free_pro.php:176
+msgid "Add product meta fields"
+msgstr "Přidejte meta pole produktu"
+
+#: admin/views/wt_ipc_free_pro.php:567 admin/views/wt_pi_free_pro.php:178
+#: admin/views/wt_sdd_free_pro.php:200
+msgid "Add product attributes"
+msgstr "Přidejte atributy produktu"
+
+#: admin/views/wt_ipc_free_pro.php:598
+#: public/modules/invoice/views/general.php:245
+msgid "Custom logo for invoice"
+msgstr "Vlastní logo pro fakturu"
+
+#: admin/views/wt_ipc_free_pro.php:611
+msgid "Add product images to packing slips"
+msgstr "Přidejte obrázky produktů na dodací listy"
+
+#: admin/views/wt_ipc_free_pro.php:624
+msgid "Custom footer"
+msgstr "Vlastní zápatí"
+
+#: admin/views/wt_ipc_free_pro.php:647 admin/views/wt_pi_free_pro.php:262
+#: admin/views/wt_pl_free_pro.php:150 admin/views/wt_sdd_free_pro.php:288
+msgid "Document customizer"
+msgstr "Nástroj pro přizpůsobení dokumentů"
+
+#: admin/views/wt_ipc_free_pro.php:651 admin/views/wt_sdd_free_pro.php:292
+msgid "(Visual editor)"
+msgstr "(vizuální editor)"
+
+#: admin/views/wt_ipc_free_pro.php:665 admin/views/wt_sdd_free_pro.php:306
+msgid "(Visual and code editor)"
+msgstr "(vizuální a kódový editor)"
+
+#: admin/views/wt_ipc_free_pro.php:678
+msgid "Pre-built layouts for documents"
+msgstr "Předem vytvořené rozvržení pro dokumenty"
+
+#: admin/views/wt_ipc_free_pro.php:709
+msgid "Save document layout as template"
+msgstr "Uložit rozložení dokumentu jako šablonu"
+
+#: admin/views/wt_ipc_free_pro.php:740
+msgid "Add additional data to invoice layout"
+msgstr "Přidejte další data do rozložení faktury"
+
+#: admin/views/wt_ipc_free_pro.php:744 admin/views/wt_ipc_free_pro.php:786
+msgid "Total tax"
+msgstr "Total tax"
+
+#: admin/views/wt_ipc_free_pro.php:748 admin/views/wt_ipc_free_pro.php:790
+msgid "Tracking number"
+msgstr "Sledovací číslo"
+
+#: admin/views/wt_ipc_free_pro.php:760 admin/views/wt_ipc_free_pro.php:802
+msgid "Cart discount"
+msgstr "Sleva do košíku"
+
+#: admin/views/wt_ipc_free_pro.php:764 admin/views/wt_ipc_free_pro.php:806
+msgid "Order discount"
+msgstr "Sleva"
+
+#: admin/views/wt_ipc_free_pro.php:772 admin/views/wt_ipc_free_pro.php:814
+#: public/modules/invoice/invoice.php:1107
+msgid "Coupon info"
+msgstr "Informace o kupónu"
+
+#: admin/views/wt_ipc_free_pro.php:776 admin/views/wt_ipc_free_pro.php:818
+msgid "Payment method"
+msgstr "Způsob platby"
+
+#: admin/views/wt_ipc_free_pro.php:827 admin/views/wt_pi_free_pro.php:276
+#: admin/views/wt_pl_free_pro.php:164 admin/views/wt_sdd_free_pro.php:428
+msgid "WPML compatibility"
+msgstr "Kompatibilita s WPML"
+
+#: admin/views/wt_pi_free_pro.php:6 admin/views/wt_pro_addons_list.php:63
+msgid "WooCommerce Proforma Invoices plugin"
+msgstr "Plugin WooCommerce Proforma Invoices"
+
+#: admin/views/wt_pi_free_pro.php:10
+msgid "Create proforma invoice automatically for selected order statuses"
+msgstr "Vytvořte proforma fakturu automaticky pro vybrané stavy objednávek"
+
+#: admin/views/wt_pi_free_pro.php:24
+msgid "Attach invoice PDF to order emails"
+msgstr "Přiložte fakturu ve formátu PDF k e-mailům s objednávkami"
+
+#: admin/views/wt_pi_free_pro.php:38
+#: public/modules/invoice/views/general.php:109
+msgid "Show print invoice button for customers"
+msgstr "Zobrazit tlačítko faktury pro zákazníky"
+
+#: admin/views/wt_pi_free_pro.php:61 admin/views/wt_pro_addons_list.php:71
+msgid "Set custom proforma invoice number"
+msgstr "Nastavit vlastní číslo proforma faktury"
+
+#: admin/views/wt_pi_free_pro.php:70
+msgid "Based on order number"
+msgstr "Na základě čísla objednávky"
+
+#: admin/views/wt_pi_free_pro.php:74
+#: public/modules/invoice/views/general.php:148
+msgid "Custom number series"
+msgstr "Vlastní číselná řada"
+
+#: admin/views/wt_pi_free_pro.php:80
+msgid ""
+"Separate tax column in product table for multiple tax options in proforma "
+"invoices"
+msgstr ""
+"Samostatný sloupec daně v tabulce produktů pro více možností daně v proforma "
+"fakturách"
+
+#: admin/views/wt_pi_free_pro.php:94
+msgid "Use custom number format & length"
+msgstr "Použijte vlastní formát a délku čísel"
+
+#: admin/views/wt_pi_free_pro.php:108
+msgid "Group products by 'Category'"
+msgstr "Seskupit produkty podle 'Kategorie'"
+
+#: admin/views/wt_pi_free_pro.php:136
+msgid "Show variation data of products"
+msgstr "Zobrazit data o variantách produktů"
+
+#: admin/views/wt_pi_free_pro.php:150
+msgid "Add order meta fields "
+msgstr "Přidejte meta pole objednávky "
+
+#: admin/views/wt_pi_free_pro.php:192
+msgid "Add custom footer"
+msgstr "Přidat vlastní zápatí"
+
+#: admin/views/wt_pi_free_pro.php:206 admin/views/wt_pro_addons_list.php:73
+msgid "Attach special notes with proforma invoices"
+msgstr "K proforma fakturám připojte speciální poznámky"
+
+#: admin/views/wt_pi_free_pro.php:220
+msgid "Attach transport terms"
+msgstr "Připojte přepravní podmínky"
+
+#: admin/views/wt_pi_free_pro.php:234
+msgid "Attach sales terms"
+msgstr "Připojte podmínky prodeje"
+
+#: admin/views/wt_pi_free_pro.php:248
+msgid "Multiple pre-built layouts"
+msgstr "Více předpřipravených rozložení"
+
+#: admin/views/wt_pi_free_pro.php:292 admin/views/wt_pro_addons_list.php:81
+msgid "WooCommerce Address Labels plugin"
+msgstr "Plugin WooCommerce Address Labels"
+
+#: admin/views/wt_pi_free_pro.php:296
+msgid "Generate address labels"
+msgstr "Generování adresních štítků"
+
+#: admin/views/wt_pi_free_pro.php:310
+msgid "Supported address types"
+msgstr "Podporované typy adres"
+
+#: admin/views/wt_pi_free_pro.php:319
+msgid "Shipping address"
+msgstr "Dodací adresa"
+
+#: admin/views/wt_pi_free_pro.php:323
+msgid "Billing address"
+msgstr "Fakturační adresa"
+
+#: admin/views/wt_pi_free_pro.php:327
+msgid "From address"
+msgstr "Adresa odesílatele"
+
+#: admin/views/wt_pi_free_pro.php:331
+msgid "Return address"
+msgstr "Zpáteční adresa"
+
+#: admin/views/wt_pi_free_pro.php:337
+msgid "Multiple address label layouts"
+msgstr "Rozložení více adresních štítků"
+
+#: admin/views/wt_pi_free_pro.php:351
+msgid "Customize layout properties"
+msgstr "Přizpůsobte vlastnosti rozvržení"
+
+#: admin/views/wt_pi_free_pro.php:365
+msgid "WPML compatibilityCustomize label sizes"
+msgstr "Kompatibilita WPML Přizpůsobte velikosti štítků"
+
+#: admin/views/wt_pi_free_pro.php:379
+msgid "Bulk print shipping labels"
+msgstr "Hromadný tisk přepravních štítků"
+
+#: admin/views/wt_pi_free_pro.php:393 admin/views/wt_pro_addons_list.php:23
+#: admin/views/wt_pro_addons_list.php:41 admin/views/wt_pro_addons_list.php:57
+#: admin/views/wt_pro_addons_list.php:75 admin/views/wt_pro_addons_list.php:93
+msgid "Multilingual support"
+msgstr "Vícejazyčná podpora"
+
+#: admin/views/wt_pl_free_pro.php:6
+msgid "WooCommerce Pick lists plugin"
+msgstr "Plugin WooCommerce Výběr seznamů"
+
+#: admin/views/wt_pl_free_pro.php:10
+msgid "Generate picklists"
+msgstr "Vytvářejte výběrové seznamy"
+
+#: admin/views/wt_pl_free_pro.php:24 admin/views/wt_pro_addons_list.php:51
+msgid "Automatically email picklists based on order status"
+msgstr "Automaticky e-mailem výběrové seznamy na základě stavu objednávky"
+
+#: admin/views/wt_pl_free_pro.php:52
+msgid "Group products by ‘Order’"
+msgstr "Seskupit produkty podle 'Objednat'"
+
+#: admin/views/wt_pl_free_pro.php:80
+msgid "Exclude virtual items from picklists"
+msgstr "Vyloučit virtuální položky z výběrových seznamů"
+
+#: admin/views/wt_pl_free_pro.php:108
+msgid "Product meta fields"
+msgstr "Meta pole produktu"
+
+#: admin/views/wt_pl_free_pro.php:122
+msgid "Product attributes"
+msgstr "Atributy produktu"
+
+#: admin/views/wt_pl_free_pro.php:136
+msgid "Pre-built layouts"
+msgstr "Předem připravené rozvržení"
+
+#: admin/views/wt_pro_addons_list.php:12
+msgid "Auto-generate invoices, packing slips, and credit notes"
+msgstr "Automatické generování faktur, dodacích listů a dobropisů"
+
+#: admin/views/wt_pro_addons_list.php:13
+msgid "Show payment link on invoice"
+msgstr "Zobrazit odkaz na platbu na faktuře"
+
+#: admin/views/wt_pro_addons_list.php:14
+msgid "Add ‘Pay Later’ option at checkout"
+msgstr "Při pokladně přidejte možnost Zaplatit později"
+
+#: admin/views/wt_pro_addons_list.php:15
+msgid "Attach documents to selected order status emails"
+msgstr "Přiložte dokumenty k vybraným e-mailům o stavu objednávky"
+
+#: admin/views/wt_pro_addons_list.php:16
+msgid "Enable customers to print invoices & packing slips"
+msgstr "Umožněte zákazníkům tisknout faktury a dodací listy"
+
+#: admin/views/wt_pro_addons_list.php:17
+msgid "Customize document layout & properties"
+msgstr "Přizpůsobte rozvržení a vlastnosti dokumentu"
+
+#: admin/views/wt_pro_addons_list.php:19
+msgid "Add custom data to documents"
+msgstr "Vlastní logo pro fakturu"
+
+#: admin/views/wt_pro_addons_list.php:20
+msgid "Multiple display options for bundle products"
+msgstr "Více možností zobrazení pro balíčky produktů"
+
+#: admin/views/wt_pro_addons_list.php:22
+msgid "Verified compatibility with major plugins"
+msgstr "Ověřená kompatibilita s hlavními doplňky"
+
+#: admin/views/wt_pro_addons_list.php:29 admin/views/wt_sdd_free_pro.php:6
+msgid "WooCommerce Shipping labels, Dispatch labels and Delivery Notes plugin"
+msgstr "Plugin WooCommerce Shipping labels, Dispatch labels and Delivery Notes"
+
+#: admin/views/wt_pro_addons_list.php:32
+msgid "Create delivery notes, shipping & dispatch labels"
+msgstr "Vytvářejte dodací listy, přepravní a expediční štítky"
+
+#: admin/views/wt_pro_addons_list.php:33
+msgid "Enable customers to print the documents from order emails"
+msgstr "Umožněte zákazníkům tisknout dokumenty z e-mailů objednávek"
+
+#: admin/views/wt_pro_addons_list.php:34
+msgid "Customize shipping label size"
+msgstr "Přizpůsobte velikost přepravního štítku"
+
+#: admin/views/wt_pro_addons_list.php:35
+msgid "Add multiple shipping labels on one page"
+msgstr "Přidejte více přepravních štítků na jednu stránku"
+
+#: admin/views/wt_pro_addons_list.php:37
+msgid "Add extra product & order data fields"
+msgstr "Přidejte další datová pole produktu a objednávky"
+
+#: admin/views/wt_pro_addons_list.php:38
+msgid "Pre-built layouts & customizable templates"
+msgstr "Předem vytvořené rozvržení a přizpůsobitelné šablony"
+
+#: admin/views/wt_pro_addons_list.php:40
+msgid "Sort products based on Name or SKU"
+msgstr "Seřaďte produkty podle názvu nebo SKU"
+
+#: admin/views/wt_pro_addons_list.php:47
+msgid "WooCommerce Picklists plugin"
+msgstr "Plugin WooCommerce Picklists"
+
+#: admin/views/wt_pro_addons_list.php:50
+msgid "Bulk print picklists from the admin order page"
+msgstr "Hromadný tisk výběrových seznamů ze stránky objednávky správce"
+
+#: admin/views/wt_pro_addons_list.php:52
+msgid "Create or customize picklist templates"
+msgstr "Vytvořte nebo přizpůsobte šablony výběrových seznamů"
+
+#: admin/views/wt_pro_addons_list.php:54
+msgid "Group products in picklist by order/category"
+msgstr "Seskupte produkty v seznamu podle objednávky/kategorie"
+
+#: admin/views/wt_pro_addons_list.php:55
+msgid "Add product meta fields & attributes"
+msgstr "Přidejte meta pole a atributy produktu"
+
+#: admin/views/wt_pro_addons_list.php:56
+msgid "Exclude virtual products from picklists"
+msgstr "Vyloučit virtuální produkty z výběrových seznamů"
+
+#: admin/views/wt_pro_addons_list.php:66
+msgid "Create proforma invoices automatically"
+msgstr "Vytvářejte proforma faktury automaticky"
+
+#: admin/views/wt_pro_addons_list.php:67
+msgid "Pre-built proforma invoice layouts"
+msgstr "Předem vytvořené rozvržení proforma faktury"
+
+#: admin/views/wt_pro_addons_list.php:68
+msgid "Easy invoice layout customization"
+msgstr "Snadné přizpůsobení rozložení faktury"
+
+#: admin/views/wt_pro_addons_list.php:69
+msgid "Attach proforma invoice PDF to order emails"
+msgstr "K e-mailům s objednávkami přiložte proforma fakturu ve formátu PDF"
+
+#: admin/views/wt_pro_addons_list.php:70
+msgid "Allow customers to print invoices"
+msgstr "Umožněte zákazníkům tisknout faktury"
+
+#: admin/views/wt_pro_addons_list.php:72
+msgid "Add additional product & order data fields"
+msgstr "Přidejte další datová pole produktu a objednávky"
+
+#: admin/views/wt_pro_addons_list.php:74
+msgid "Attach transport & sales terms"
+msgstr "Připojte přepravní a prodejní podmínky"
+
+#: admin/views/wt_pro_addons_list.php:84
+msgid "Generate Shipping Address labels"
+msgstr "Podporuje vlastní velikosti adresních/přepravních štítků"
+
+#: admin/views/wt_pro_addons_list.php:85
+msgid "Generate Billing Address labels"
+msgstr "Generování štítků s fakturační adresou"
+
+#: admin/views/wt_pro_addons_list.php:86
+msgid "Generate From Address labels"
+msgstr "Generovat z adresních štítků"
+
+#: admin/views/wt_pro_addons_list.php:87
+msgid "Generate Return Address labels"
+msgstr "Generování štítků se zpáteční adresou"
+
+#: admin/views/wt_pro_addons_list.php:88
+msgid "Customize label sizes"
+msgstr "Přizpůsobte velikosti štítků"
+
+#: admin/views/wt_pro_addons_list.php:89
+msgid "Bulk print address labels"
+msgstr "Hromadný tisk adresních štítků"
+
+#: admin/views/wt_pro_addons_list.php:90
+msgid "Built-in label templates"
+msgstr "Vybírejte z předem připravených šablon"
+
+#: admin/views/wt_pro_addons_list.php:91
+msgid "Change address label layout"
+msgstr "Změnit rozložení štítku s adresou"
+
+#: admin/views/wt_pro_addons_list.php:92
+msgid "Customize layout elements & properties"
+msgstr "Přizpůsobte prvky a vlastnosti rozvržení"
+
+#: admin/views/wt_pro_addons_list.php:102
+msgid "Assign QR codes to all generated invoices"
+msgstr "Přiřaďte QR kódy všem vygenerovaným fakturám"
+
+#: admin/views/wt_pro_addons_list.php:103
+msgid "Create QR code that reads order or invoice number"
+msgstr "Vytvořte QR kód, který přečte číslo objednávky nebo faktury"
+
+#: admin/views/wt_pro_addons_list.php:104
+msgid "Add custom data to invoices"
+msgstr "Přidejte vlastní data do faktur"
+
+#: admin/views/wt_pro_addons_list.php:105
+msgid ""
+"Compatible with WooCommerce PDF Invoice, Packing Slip & Credit Note (Pro)"
+msgstr ""
+"Kompatibilní s WooCommerce PDF fakturou, balicím listem a dobropisem (Pro)"
+
+#: admin/views/wt_pro_addons_list.php:106
+msgid ""
+"Compatible with WooCommerce PDF Invoices, Packing Slips, Delivery Notes, and "
+"Shipping Labels (Free)"
+msgstr ""
+"Kompatibilní s fakturami WooCommerce PDF, balicími listy, dodacími listy a "
+"přepravními štítky (zdarma)"
+
+#: admin/views/wt_sdd_free_pro.php:42
+#: public/modules/shippinglabel/views/general.php:26
+msgid "Shipping label size"
+msgstr "Velikost Přepravního štítku"
+
+#: admin/views/wt_sdd_free_pro.php:46 admin/views/wt_sdd_free_pro.php:56
+msgid "Full page"
+msgstr "Celá stránka"
+
+#: admin/views/wt_sdd_free_pro.php:50 admin/views/wt_sdd_free_pro.php:60
+msgid "Custom"
+msgstr "Vlastní"
+
+#: admin/views/wt_sdd_free_pro.php:66
+msgid "Add multiple shipping labels in one page"
+msgstr "Přidejte více přepravních štítků na jednu stránku"
+
+#: admin/views/wt_sdd_free_pro.php:224
+msgid "Add print document button to selected order emails"
+msgstr "Přidat tlačítko pro tisk dokumentu k vybraným e-mailům objednávek"
+
+#: admin/views/wt_sdd_free_pro.php:256
+msgid "Pre-built layout for documents"
+msgstr "Předem vytvořené rozvržení pro dokumenty"
+
+#: admin/views/wt_sdd_free_pro.php:320
+msgid "Add custom fields to shipping label layout"
+msgstr "Přidejte vlastní pole do rozložení přepravního štítku"
+
+#: admin/views/wt_sdd_free_pro.php:324 admin/views/wt_sdd_free_pro.php:334
+msgid "Company logo"
+msgstr "Logo firmy"
+
+#: admin/views/wt_sdd_free_pro.php:328 admin/views/wt_sdd_free_pro.php:338
+msgid "Return policy"
+msgstr "Návratová politika"
+
+#: admin/views/wt_sdd_free_pro.php:344
+msgid "Include product image in delivery note"
+msgstr "Do dodacího listu uveďte obrázek produktu"
+
+#: admin/views/wt_sdd_free_pro.php:358
+#: public/modules/deliverynote/views/general.php:38
+#: public/modules/dispatchlabel/views/general.php:24
+#: public/modules/packinglist/views/general.php:39
+msgid "Add customer note"
+msgstr "Přidat poznámku zákazníka"
+
+#: admin/views/wt_sdd_free_pro.php:382
+#: public/modules/deliverynote/views/general.php:53
+#: public/modules/dispatchlabel/views/general.php:39
+#: public/modules/packinglist/views/general.php:54
+#: public/modules/shippinglabel/views/general.php:40
+msgid "Add footer"
+msgstr "Přidat zápatí"
+
+#: admin/views/wt_sdd_free_pro.php:414
+msgid ""
+"Separate tax column in product table for multiple tax options in dispatch "
+"labels"
+msgstr "Oddělený sloupec daně v tabulce produktů pro více možností daně"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:29
+msgid "Invoice Generation In Progress"
+msgstr "Probíhá generování faktury"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:30
+msgid ""
+"Invoice numbers are getting generated in the background. This process may "
+"take a little while, so please be patient."
+msgstr ""
+"Čísla faktur se generují na pozadí. Tento proces může chvíli trvat, proto "
+"buďte trpěliví."
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:31
+msgid "View progress"
+msgstr "Zobrazit pokrok"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:54
+#, php-format
+msgid ""
+"Hey, we at %sWebToffee%s would like to thank you for using %s %s %s. %s Less "
+"than a minute of your time will motivate us to keep doing what we do. We "
+"would really appreciate if you could take a moment to drop a quick review "
+"that motivate us to keep going."
+msgstr ""
+"Dobrý den, v %sWebToffee% s bychom vám chtěli poděkovat za používání služby "
+"%s %s %s. %s Méně než minuta vašeho času nás bude motivovat pokračovat v "
+"tom, co děláme. Opravdu bychom ocenili, kdybyste si našli chvilku na rychlé "
+"hodnocení, které nás motivuje pokračovat."
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:57
+msgid "Remind me later"
+msgstr "Připomenout později"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:58
+msgid "Not interested"
+msgstr "Nebyly nalezeny žádné tiskárny"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:59
+msgid "Review now"
+msgstr "Zkontrolovat nyní"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:65
+msgid "Knock, Knock!"
+msgstr "Ťuk ťuk!"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:66
+msgid "You`ve just crated"
+msgstr "Právě jste se ukryli"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:68
+msgid "commercial documents using"
+msgstr "pomocí komerčních dokumentů"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:69
+msgid ""
+"Woocommerce PDF invoices, packing slips, delivery notes, and shipping labels"
+msgstr "WooCommerce PDF faktury, balicí listy, dodací listy a přepravní štítky"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:70
+msgid ""
+"That’s awesome! We’d love it if you take a moment to share what you think "
+"and help spread the word."
+msgstr ""
+"To je úžasné! Budeme rádi, když si uděláte chvilku a podělíte se o to, co si "
+"myslíte, a pomůžete to šířit dál."
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:72
+msgid "Rate us now"
+msgstr "Ohodnoťte nás nyní"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:52
+#, php-format
+msgid ""
+"The plugins %s and %s cannot be active in your store at the same time. "
+"Kindly deactivate one of these prior to activating the other."
+msgstr ""
+"Pluginy %s a %s nemohou být ve vašem obchodě aktivní současně. Před aktivací "
+"druhého, laskavě deaktivujte jeden z nich."
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:52
+msgid "Go to plugins page"
+msgstr "Přejít na stránku pluginů"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:158
+#, php-format
+msgid ""
+"%s WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels "
+"(Basic) %s is enabled but not effective. It requires %s WooCommerce %s in "
+"order to work."
+msgstr ""
+"%s Faktury WooCommerce PDF, dodací listy, dodací listy a přepravní štítky "
+"(základní) %s jsou povoleny, ale nejsou účinné. Aby fungoval, vyžaduje %s "
+"WooCommerce %s."
+
+#: public/modules/deliverynote/data/data.templates.php:5
+msgid "Classic"
+msgstr "Klasický"
+
+#: public/modules/deliverynote/data/data.tooltip.php:3
+#: public/modules/packinglist/data/data.tooltip.php:3
+msgid "Adds product image to the line items in the product table"
+msgstr "Přidá obrázek produktu k řádkovým položkám v tabulce produktů"
+
+#: public/modules/deliverynote/data/data.tooltip.php:4
+msgid "Adds customer note to the delivery note"
+msgstr "Přidá zákaznický list do dodacího listu"
+
+#: public/modules/deliverynote/data/data.tooltip.php:5
+msgid "Adds Footer to the delivery note"
+msgstr "Přidat zápatí do dodacího listu"
+
+#: public/modules/deliverynote/deliverynote.php:224
+#: public/modules/deliverynote/deliverynote.php:244
+#: public/modules/deliverynote/deliverynote.php:254
+#: public/modules/deliverynote/deliverynote.php:255
+msgid "Print Delivery note"
+msgstr "Vytiskni dodací list"
+
+#: public/modules/deliverynote/deliverynote.php:238
+msgid "Print/Download Delivery note"
+msgstr "Tisk / stažení dodacího listu"
+
+#: public/modules/deliverynote/deliverynote.php:243
+#: public/modules/dispatchlabel/dispatchlabel.php:238
+#: public/modules/invoice/invoice.php:1303
+#: public/modules/packinglist/packinglist.php:252
+#: public/modules/shippinglabel/shippinglabel.php:384
+msgid "Print"
+msgstr "Tisk"
+
+#: public/modules/deliverynote/deliverynote.php:321
+msgid "Unable to print Delivery note. Please check the items in the order."
+msgstr ""
+"Nelze vytisknout dodací list. Zkontrolujte prosím položky v objednávce."
+
+#: public/modules/deliverynote/views/general.php:11
+msgid "Configure the general settings required for the delivery note."
+msgstr "Nakonfigurujte obecná nastavení požadovaná pro dodací list."
+
+#: public/modules/deliverynote/views/general.php:23
+#: public/modules/packinglist/views/general.php:24
+msgid "Include product image"
+msgstr "Včetně obrázku produktu"
+
+#: public/modules/deliverynote/views/general.php:29
+#: public/modules/deliverynote/views/general.php:44
+#: public/modules/deliverynote/views/general.php:59
+#: public/modules/dispatchlabel/views/general.php:30
+#: public/modules/dispatchlabel/views/general.php:45
+#: public/modules/packinglist/views/general.php:30
+#: public/modules/packinglist/views/general.php:45
+#: public/modules/packinglist/views/general.php:60
+#: public/modules/shippinglabel/views/general.php:46
+msgid "Yes"
+msgstr "Ano"
+
+#: public/modules/deliverynote/views/general.php:30
+#: public/modules/deliverynote/views/general.php:45
+#: public/modules/deliverynote/views/general.php:60
+#: public/modules/dispatchlabel/views/general.php:31
+#: public/modules/dispatchlabel/views/general.php:46
+#: public/modules/packinglist/views/general.php:31
+#: public/modules/packinglist/views/general.php:46
+#: public/modules/packinglist/views/general.php:61
+#: public/modules/shippinglabel/views/general.php:47
+msgid "No"
+msgstr "Ne"
+
+#: public/modules/dispatchlabel/data/data.templates.php:5
+msgid "Dispatch Label 1"
+msgstr "Štítek odeslání 1"
+
+#: public/modules/dispatchlabel/data/data.tooltip.php:3
+msgid "Adds customer note in the dispatch label"
+msgstr "Přidat poznámku zákazníka do expedičního štítku"
+
+#: public/modules/dispatchlabel/data/data.tooltip.php:4
+msgid "Adds footer in dispatch label"
+msgstr "Přidá zápatí do expedičního štítku"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:205
+#: public/modules/dispatchlabel/dispatchlabel.php:239
+#: public/modules/dispatchlabel/dispatchlabel.php:249
+#: public/modules/dispatchlabel/dispatchlabel.php:250
+msgid "Print Dispatch Label"
+msgstr "Tisk Expedičního lístku"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:232
+msgid "Dispatch Label"
+msgstr "Expediční štítek"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:233
+msgid "Print/Download Dispatch Label"
+msgstr "Tisk / stažení štítku odeslání"
+
+#: public/modules/dispatchlabel/views/general.php:12
+msgid "Configure the general settings required for the dispatch label."
+msgstr "Nakonfigurujte obecná nastavení požadovaná pro expediční štítek."
+
+#: public/modules/invoice/data/data.templates.php:5
+#: public/modules/packinglist/data/data.templates.php:5
+msgid "Basic - 1"
+msgstr "Základní - 1"
+
+#: public/modules/invoice/data/data.templates.php:10
+msgid "Basic - 2"
+msgstr "Základní - 2"
+
+#: public/modules/invoice/data/data.templates.php:15
+msgid "Basic - 3"
+msgstr "Základní - 3"
+
+#: public/modules/invoice/data/data.tooltip.php:3
+msgid ""
+"Admins and customers both can leverage this feature wherever applicable. "
+"Disabling will remove all the provisions. Yet, the invoices are customizable."
+msgstr ""
+"Správci i zákazníci mohou tuto funkci využít všude tam, kde je to možné. "
+"Deaktivací odstraníte všechna ustanovení. Faktury jsou však přizpůsobitelné."
+
+#: public/modules/invoice/data/data.tooltip.php:4
+msgid ""
+"The date is displayed on the invoice. It can be either the order creation "
+"date or the invoiced date."
+msgstr ""
+"Datum je uvedeno na faktuře. Může to být datum vytvoření objednávky nebo "
+"datum fakturace."
+
+#: public/modules/invoice/data/data.tooltip.php:5
+msgid "Allows customers to print the invoice from the specified pages."
+msgstr "Umožňuje zákazníkům vytisknout fakturu ze zadaných stránek."
+
+#: public/modules/invoice/invoice.php:265
+#, php-format
+msgid ""
+"You can control the visibility of the seal according to order status via "
+"filters. See filter documentation %s here. %s"
+msgstr ""
+"Viditelnost těsnění můžete kontrolovat podle stavu objednávky pomocí filtrů. "
+"Dokumentaci k filtru najdete %s zde. %s"
+
+#: public/modules/invoice/invoice.php:284
+msgid "Width"
+msgstr "Šířka"
+
+#: public/modules/invoice/invoice.php:292
+msgid "Height"
+msgstr "Výška"
+
+#: public/modules/invoice/invoice.php:316
+msgid "Border width"
+msgstr "Šířka okraje"
+
+#: public/modules/invoice/invoice.php:324
+msgid "Line height"
+msgstr "Výška řádku"
+
+#: public/modules/invoice/invoice.php:332
+msgid "Opacity"
+msgstr "Průhlednost"
+
+#: public/modules/invoice/invoice.php:353
+msgid "Border radius"
+msgstr "Zaoblení okrajů"
+
+#: public/modules/invoice/invoice.php:361
+msgid "From left"
+msgstr "Zleva"
+
+#: public/modules/invoice/invoice.php:369
+msgid "From top"
+msgstr "Od vrchu"
+
+#: public/modules/invoice/invoice.php:377
+msgid "Angle"
+msgstr "Úhel"
+
+#: public/modules/invoice/invoice.php:384
+msgid "Color"
+msgstr "Barva"
+
+#: public/modules/invoice/invoice.php:1065
+msgid "Pro Add-on"
+msgstr "Pro doplněk"
+
+#: public/modules/invoice/invoice.php:1069
+msgid "Document title"
+msgstr "Název dokumentu"
+
+#: public/modules/invoice/invoice.php:1070
+msgid "Company Logo / Name"
+msgstr "Logo / název společnosti"
+
+#: public/modules/invoice/invoice.php:1072
+#: public/modules/invoice/invoice.php:1337
+msgid "Invoice Number"
+msgstr "Faktura číslo"
+
+#: public/modules/invoice/invoice.php:1073
+#: public/modules/shippinglabel/shippinglabel.php:158
+msgid "Order Number"
+msgstr "Číslo objednávky"
+
+#: public/modules/invoice/invoice.php:1074
+msgid "Invoice Date"
+msgstr "Datum fakturace"
+
+#: public/modules/invoice/invoice.php:1075
+msgid "Order Date"
+msgstr "Datum objednávky"
+
+#: public/modules/invoice/invoice.php:1077
+#: public/modules/shippinglabel/shippinglabel.php:156
+msgid "From Address"
+msgstr "Odesílatel"
+
+#: public/modules/invoice/invoice.php:1078
+msgid "Billing Address"
+msgstr "Fakturační adresa"
+
+#: public/modules/invoice/invoice.php:1079
+msgid "Shipping Address"
+msgstr "Doručovací adresa"
+
+#: public/modules/invoice/invoice.php:1080
+#: public/modules/shippinglabel/shippinglabel.php:162
+msgid "Email Field"
+msgstr "E-mail"
+
+#: public/modules/invoice/invoice.php:1081
+#: public/modules/shippinglabel/shippinglabel.php:163
+msgid "Tel Field"
+msgstr "Telefon"
+
+#: public/modules/invoice/invoice.php:1083
+msgid "Payment received stamp"
+msgstr "Čas přijetí platby"
+
+#: public/modules/invoice/invoice.php:1092
+msgid "QR code"
+msgstr "QR kód"
+
+#: public/modules/invoice/invoice.php:1094
+msgid "Barcode / QR code"
+msgstr "Čárový kód / QR kód"
+
+#: public/modules/invoice/invoice.php:1100
+#: public/modules/shippinglabel/shippinglabel.php:161
+msgid "Tracking Number"
+msgstr "Sledovací číslo zásilky"
+
+#: public/modules/invoice/invoice.php:1244
+msgid "Print Invoices"
+msgstr "Tisk faktur"
+
+#: public/modules/invoice/invoice.php:1245
+msgid "Download Invoices"
+msgstr "Stáhnout faktury"
+
+#: public/modules/invoice/invoice.php:1288
+#: public/modules/invoice/invoice.php:1321
+#: public/modules/invoice/invoice.php:1412
+#: public/modules/invoice/invoice.php:1447
+#: public/modules/invoice/invoice.php:1463
+msgid "Print Invoice"
+msgstr "Tisk faktury"
+
+#: public/modules/invoice/invoice.php:1296
+#: public/modules/invoice/invoice.php:1322
+msgid "Download Invoice"
+msgstr "Stáhnout fakturu"
+
+#: public/modules/invoice/invoice.php:1304
+#: public/modules/packinglist/packinglist.php:259
+msgid "Download"
+msgstr "Stáhnout"
+
+#: public/modules/invoice/invoice.php:1312
+msgid "Print/Download Invoice"
+msgstr "Tisk / stažení faktury"
+
+#: public/modules/invoice/invoice.php:1555
+msgid "Customizer module is not active."
+msgstr "Modul Customizer není aktivní."
+
+#: public/modules/invoice/views/general.php:18
+msgid "Configure the general settings required for the invoice."
+msgstr "Nakonfigurujte obecná nastavení požadovaná pro fakturu."
+
+#: public/modules/invoice/views/general.php:25
+#: public/modules/invoice/views/invoice_number_preview.php:23
+msgid "Click to append with existing data"
+msgstr "Kliknutím přidáte existující data"
+
+#: public/modules/invoice/views/general.php:38
+msgid "Enable to print, download, and mail invoices."
+msgstr "Umožňuje tisk, stahování a odesílání faktur."
+
+#: public/modules/invoice/views/general.php:40
+msgid "Enable Invoice"
+msgstr "Povolit fakturu"
+
+#: public/modules/invoice/views/general.php:70
+msgid "Invoiced date"
+msgstr "Datum fakturace"
+
+#: public/modules/invoice/views/general.php:80
+msgid "Automate invoice creation"
+msgstr "Automatizujte vytváření faktur"
+
+#: public/modules/invoice/views/general.php:87
+msgid "Choose order status"
+msgstr "Zvolte stav objednávky"
+
+#: public/modules/invoice/views/general.php:88
+msgid "Automatically creates invoices for selected order statuses."
+msgstr "Vytváří faktury pro vybrané stavy objednávek."
+
+#: public/modules/invoice/views/general.php:95
+msgid "Attach invoice PDF in order email"
+msgstr "Přiloží fakturu PDF k e-mailu s objednávkou"
+
+#: public/modules/invoice/views/general.php:99
+msgid "Attach invoice PDF for selected order statuses"
+msgstr "Připojte e-mail se seznamem PDF k objednání stavů"
+
+#: public/modules/invoice/views/general.php:102
+msgid ""
+"Invoice in PDF format will be attached with the order email for chosen order "
+"statuses."
+msgstr ""
+"Faktura ve formátu PDF bude přiložena k emailu objednávky pro vybrané stavy "
+"objednávky."
+
+#: public/modules/invoice/views/general.php:141
+msgid "Set invoice number using"
+msgstr "Nastavte číslo faktury pomocí"
+
+#: public/modules/invoice/views/general.php:147
+msgid "Woocommerce order number"
+msgstr "Číslo objednávky Woocommerce"
+
+#: public/modules/invoice/views/general.php:164
+msgid "Invoice Start Number"
+msgstr "Počáteční číslo faktury"
+
+#: public/modules/invoice/views/general.php:177
+msgid "Invoice number format"
+msgstr "Formát čísla faktury"
+
+#: public/modules/invoice/views/general.php:180
+msgid "[number]"
+msgstr "[číslo]"
+
+#: public/modules/invoice/views/general.php:181
+msgid "[number][suffix]"
+msgstr "[číslo][přípona]"
+
+#: public/modules/invoice/views/general.php:182
+msgid "[prefix][number]"
+msgstr "[předpona][číslo]"
+
+#: public/modules/invoice/views/general.php:183
+msgid "[prefix][number][suffix]"
+msgstr "[předpona] [číslo] [přípona]"
+
+#: public/modules/invoice/views/general.php:187
+msgid ""
+"Allows setting a combination of the prefix, number, and/or suffix as your "
+"invoice number."
+msgstr ""
+"Umožňuje nastavit kombinaci předčíslí, čísla a/nebo přípony jako čísla "
+"faktury."
+
+#: public/modules/invoice/views/general.php:192
+msgid "Prefix"
+msgstr "Předpona"
+
+#: public/modules/invoice/views/general.php:194
+#: public/modules/invoice/views/general.php:203
+#, php-format
+msgid "Use any of the %s date formats %s or alphanumeric characters."
+msgstr "Použijte libovolný z %s formátů data %s nebo alfanumerické znaky."
+
+#: public/modules/invoice/views/general.php:201
+msgid "Suffix"
+msgstr "Přípona"
+
+#: public/modules/invoice/views/general.php:210
+msgid "Invoice number length"
+msgstr "Délka čísla faktury"
+
+#: public/modules/invoice/views/general.php:213
+msgid ""
+"Indicates the total length of the invoice number, excluding the length of "
+"prefix and suffixes. If the length of the generated invoice number is less "
+"than the provided, it will be padded with '0'. This setting can be "
+"experimented through the preview section. <br> E.g if you specify 7 as "
+"invoice length and your invoice number is 8009, it will be represented as "
+"0008009 in the respective documents."
+msgstr ""
+"Udává celkovou délku čísla faktury, kromě délky předčíslí a přípon. Pokud je "
+"délka vygenerovaného čísla faktury menší než zadané číslo, bude doplněno o "
+"„0“. Toto nastavení lze experimentovat v sekci náhledu.<br> Např. pokud "
+"zadáte 7 jako délku faktury a číslo vaší faktury je 8009, bude v příslušných "
+"dokumentech uvedeno jako 0008009."
+
+#: public/modules/invoice/views/general.php:229
+msgid "Invoice details"
+msgstr "Fakturační údaje"
+
+#: public/modules/invoice/views/general.php:236
+msgid "Order meta fields"
+msgstr "Objednejte meta pole"
+
+#: public/modules/invoice/views/general.php:240
+msgid ""
+"Select/add order meta to display additional information related to the order "
+"on the invoice."
+msgstr ""
+"Vyberte/přidejte meta k objednávce pro zobrazení dalších informací "
+"souvisejících s objednávkou na faktuře."
+
+#: public/modules/invoice/views/general.php:248
+msgid ""
+"If left blank, default to the logo from General settings. Ensure to select "
+"company logo from ‘Invoice > Customize > Company Logo’ to reflect on the "
+"invoice. Recommended size is 150×50px."
+msgstr ""
+"Pokud ponecháte prázdné, použije se výchozí logo z Obecného nastavení. "
+"Ujistěte se, že jste vybrali logo společnosti z „Faktura > Přizpůsobit > "
+"Logo společnosti“, aby se odrazilo na faktuře. Doporučená velikost je "
+"150×50px."
+
+#: public/modules/invoice/views/general.php:269
+msgid "Generate invoices for existing orders"
+msgstr "Generování faktur pro existující objednávky"
+
+#: public/modules/invoice/views/general.php:273
+msgid ""
+"Enable to create invoice for orders generated before plugin installation"
+msgstr ""
+"Povolit vytváření faktur za objednávky vygenerované před instalací pluginu"
+
+#: public/modules/invoice/views/general.php:284
+msgid "Enable to create invoices for free orders"
+msgstr "Povolit vytváření faktur pro bezplatné objednávky"
+
+#: public/modules/invoice/views/general.php:291
+msgid "Display free line items in the invoice"
+msgstr "Zobrazit na faktuře bezplatné řádkové položky"
+
+#: public/modules/invoice/views/general.php:295
+msgid "Include free(priced as 0) line items in the invoice"
+msgstr "Zahrňte do faktury řádkové položky zdarma (s cenou 0)"
+
+#: public/modules/invoice/views/general.php:298
+msgid "Enable to create invoices for free orders."
+msgstr "Povolit vytváření faktur pro bezplatné objednávky."
+
+#: public/modules/invoice/views/general.php:304
+msgid "PDF name format"
+msgstr "Formáty data"
+
+#: public/modules/invoice/views/general.php:309
+msgid "[prefix][order_no]"
+msgstr "[prefix] [číslo objednávky]"
+
+#: public/modules/invoice/views/general.php:310
+msgid "[prefix][invoice_no]"
+msgstr "[prefix] [číslo faktury]"
+
+#: public/modules/invoice/views/general.php:314
+msgid ""
+"Select a name format for PDF invoice that includes invoice/order number."
+msgstr ""
+"Vyberte formát názvu pro fakturu PDF, který obsahuje číslo faktury/"
+"objednávky."
+
+#: public/modules/invoice/views/general.php:320
+msgid "Custom PDF name prefix"
+msgstr "Vlastní předpona názvu PDF"
+
+#: public/modules/invoice/views/general.php:322
+msgid ""
+"Input a custom prefix for ‘PDF name format’ that will appear at the "
+"beginning of the name. Defaulted to ‘Invoice_’."
+msgstr ""
+"Zadejte vlastní předponu pro „formát názvu PDF“, která se zobrazí na začátku "
+"jména. Výchozí nastavení je „Faktura_“."
+
+#: public/modules/invoice/views/general.php:350
+msgid "Date formats"
+msgstr "Formát data"
+
+#: public/modules/invoice/views/general.php:357
+msgid "Output"
+msgstr "Výstup"
+
+#: public/modules/invoice/views/invoice_number_preview.php:30
+msgid "PREVIEW"
+msgstr "NÁHLED"
+
+#: public/modules/invoice/views/invoice_number_preview.php:33
+msgid "If the order number is"
+msgstr "Číslo objednávky"
+
+#: public/modules/invoice/views/invoice_number_preview.php:35
+#, php-format
+msgid "the %s number would be"
+msgstr "číslo %s by bylo"
+
+#: public/modules/invoice/views/invoice_number_preview.php:38
+#, php-format
+msgid "Your next %s number would be"
+msgstr "Vaše další číslo %s bude"
+
+#: public/modules/packinglist/data/data.tooltip.php:4
+msgid "Adds customer note to the packing slip"
+msgstr "Přidat poznámku zákazníka do seznamu balení"
+
+#: public/modules/packinglist/data/data.tooltip.php:5
+msgid "Adds Footer to the packing slip"
+msgstr "Přidá zápatí na dodací list"
+
+#: public/modules/packinglist/packinglist.php:230
+#: public/modules/packinglist/packinglist.php:253
+#: public/modules/packinglist/packinglist.php:270
+#: public/modules/packinglist/packinglist.php:271
+msgid "Print Packing slip"
+msgstr "Tisk Balení"
+
+#: public/modules/packinglist/packinglist.php:247
+msgid "Print/Download Packing slip"
+msgstr "Vytisknout / Stáhnout Dodací list"
+
+#: public/modules/packinglist/packinglist.php:260
+#: public/modules/packinglist/packinglist.php:277
+#: public/modules/packinglist/packinglist.php:278
+msgid "Download Packing slip"
+msgstr "Stáhnout dodací list"
+
+#: public/modules/packinglist/packinglist.php:351
+#: public/modules/shippinglabel/shippinglabel.php:510
+msgid "Unable to print Packing slip. Please check the items in the order."
+msgstr ""
+"Nelze vytisknout Dodací list. Zkontrolujte prosím položky v objednávce."
+
+#: public/modules/packinglist/views/general.php:11
+msgid "Configure the general settings required for the packing slip."
+msgstr "Nakonfigurujte obecná nastavení požadovaná pro dodací list."
+
+#: public/modules/shippinglabel/data/data.templates.php:5
+msgid "Shipping Label 1"
+msgstr "Shipping label"
+
+#: public/modules/shippinglabel/data/data.tooltip.php:3
+msgid "Adds footer to the  Shipping label"
+msgstr "Přidá zápatí do štítku Doprava"
+
+#: public/modules/shippinglabel/shippinglabel.php:108
+#: public/modules/shippinglabel/shippinglabel.php:133
+msgid "Title font size"
+msgstr "Velikost písma názvu"
+
+#: public/modules/shippinglabel/shippinglabel.php:115
+msgid "Address font size"
+msgstr "Velikost písma adresy"
+
+#: public/modules/shippinglabel/shippinglabel.php:157
+msgid "To Address"
+msgstr "Na adresu"
+
+#: public/modules/shippinglabel/shippinglabel.php:159
+msgid "Weight"
+msgstr "Váha"
+
+#: public/modules/shippinglabel/shippinglabel.php:160
+msgid "Ship date"
+msgstr "Přepravní štítek"
+
+#: public/modules/shippinglabel/shippinglabel.php:165
+msgid "Package Number"
+msgstr "Číslo balíku"
+
+#: public/modules/shippinglabel/shippinglabel.php:167
+msgid "No of Items"
+msgstr "Sloučit položky"
+
+#: public/modules/shippinglabel/shippinglabel.php:168
+msgid "Fragile"
+msgstr "Křehké"
+
+#: public/modules/shippinglabel/shippinglabel.php:169
+msgid "This way up"
+msgstr "Posunout nahoru"
+
+#: public/modules/shippinglabel/shippinglabel.php:170
+msgid "Keep dry"
+msgstr "Udržujte v suchu"
+
+#: public/modules/shippinglabel/shippinglabel.php:172
+msgid "Return Policy"
+msgstr "Návratová politika"
+
+#: public/modules/shippinglabel/shippinglabel.php:360
+#: public/modules/shippinglabel/shippinglabel.php:378
+#: public/modules/shippinglabel/shippinglabel.php:385
+#: public/modules/shippinglabel/shippinglabel.php:395
+#: public/modules/shippinglabel/shippinglabel.php:396
+msgid "Print Shipping Label"
+msgstr "Vytiskni přepravní štítek"
+
+#: public/modules/shippinglabel/shippinglabel.php:377
+msgid "Shipping Label"
+msgstr "Přepravní štítek"
+
+#: public/modules/shippinglabel/shippinglabel.php:442
+msgid "Please add shipping from address in the plugin's general settings."
+msgstr "Prosím přidejte adresu odesílatele v základním nastavení pluginu."
+
+#: public/modules/shippinglabel/views/general.php:12
+msgid "Configure the general settings required for the shipping label."
+msgstr "Nakonfigurujte obecná nastavení požadovaná pro přepravní štítek."
+
+#: public/modules/shippinglabel/views/general.php:31
+msgid "Full Page"
+msgstr "Celá stránka"
+
+#: public/modules/shippinglabel/views/general.php:32
+msgid "Custom (Pro version)"
+msgstr "Verze Pro"
+
+#: public/modules/shippinglabel/views/general.php:36
+msgid ""
+"Set the  Size of the Shipping label to be either full page or custom size."
+msgstr ""
+"Nastavte Velikost přepravního štítku na celou stránku nebo vlastní velikost."
+
+#: public/modules/shippinglabel/views/general.php:50
+msgid "The content set in the"
+msgstr "Obsah nastavený v"
+
+#: public/modules/shippinglabel/views/general.php:52
+msgid "option from the General settings page"
+msgstr "možnost ze stránky Obecná nastavení"
+
+#: public/modules/shippinglabel/views/general.php:53
+msgid "General Settings > General > Footer"
+msgstr "Obecná nastavení > Obecné > Zápatí"
+
+#: public/modules/shippinglabel/views/general.php:54
+msgid "is included by default in the footer section"
+msgstr "je standardně zahrnuta v sekci zápatí"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-slips/"
+msgstr ""
+"https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-slips/"
+
+#. Description of the plugin/theme
+msgid "Prints Packing List,Invoice,Delivery Note and Shipping Label."
+msgstr "Tiskne seznam balení, fakturu, dodací list a přepravní štítek."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr "https://www.webtoffee.com/"
+
+#~ msgid "Print Actions"
+#~ msgstr "Tiskové akce"
+
+#~ msgid "Other Documents"
+#~ msgstr "Další dokumenty"
+
+#~ msgid ""
+#~ "Specify your company name in the field provided. You can choose to "
+#~ "display the name or logo in the invoice from the customize tab."
+#~ msgstr ""
+#~ "Do příslušného pole zadejte název své společnosti. Na kartě "
+#~ "\"Přizpůsobit\" si můžete vybrat, zda chcete zobrazit na faktuře jméno "
+#~ "společnosti nebo její logo."
+
+#~ msgid ""
+#~ "Upload a company logo (preferably of size 150x50px for better usability) "
+#~ "from the media library which will be displayed in your document."
+#~ msgstr ""
+#~ "Nahrajte firemní logo (nejlépe o velikosti 150 x 50 pixelů pro lepší "
+#~ "použitelnost) z knihovny médií, které se pak bude zobrazovat v dokumentu."
+
+#~ msgid ""
+#~ "Additional details like the terms and conditions, any specific messages "
+#~ "that have to be displayed at the bottom of the document can be specified "
+#~ "in the expandable text area provided."
+#~ msgstr ""
+#~ "Další podrobnosti, jako jsou podmínky, jakékoli konkrétní zprávy, které "
+#~ "se mají zobrazit v dolní části dokumentu, lze zadat v rozbalitelné "
+#~ "textové oblasti."
+
+#~ msgid ""
+#~ "The 'From Address' to be displayed in the shipping documents will be "
+#~ "loaded from details specified in these fields."
+#~ msgstr ""
+#~ "Adresa odesílatele, která se zobrazuje v přepravních dokladech, se načte "
+#~ "z údajů uvedených v těchto polích."
+
+#~ msgid ""
+#~ "Click here to load the default WooCommerce store address details into the "
+#~ "respective fields."
+#~ msgstr ""
+#~ "Kliknutím zde načtete výchozí údaje adresy obchodu WooCommerce do "
+#~ "příslušných polí."
+
+#~ msgid ""
+#~ "Enable to obtain the document in right to left alignment. (P.S: Use it "
+#~ "only for languages with the right to left text direction)"
+#~ msgstr ""
+#~ "Umožňuje zarovnat dokument zprava doleva. (P.S: Používejte pouze pro "
+#~ "jazyky se směrem textu zprava doleva)"
+
+#~ msgid ""
+#~ "Configure the product price/subtotal inclusive or exclusive of tax. "
+#~ "Provision to set up tax also provided."
+#~ msgstr ""
+#~ "Nakonfigurujte cenu produktu / mezisoučet včetně nebo bez daně. "
+#~ "Ustanovení o stanovení daně také stanoveno."
+
+#~ msgid "Use"
+#~ msgstr "Použit"
+
+#~ msgid "Decorator – WooCommerce Email Customizer"
+#~ msgstr "Decorator - WooCommerce Email Customizer"
+
+#~ msgid "Customize your WooCommerce emails now and stand out from the crowd!"
+#~ msgstr "Přizpůsobte si své e -maily WooCommerce hned teď a vystupte z davu!"
+
+#~ msgid ""
+#~ "This plugin will assist you in making your website GDPR (RGPD, DSVGO) "
+#~ "compliant."
+#~ msgstr ""
+#~ "Tento plugin vám pomůže zajistit shodu vašeho webu s GDPR (RGPD, DSVGO)."
+
+#~ msgid ""
+#~ "This plugin allows you to import and export WordPress users and "
+#~ "WooCommerce customers quickly and easily."
+#~ msgstr ""
+#~ "Tento plugin vám umožňuje rychle a snadno importovat a exportovat "
+#~ "uživatele WordPress a zákazníky WooCommerce."
+
+#~ msgid ""
+#~ "The Order XML File Export Import Plugin for WooCommerce will export your "
+#~ "WooCommerce orders in XML format."
+#~ msgstr ""
+#~ "Plugin pro import importu souboru XML pro WooCommerce exportuje vaše "
+#~ "objednávky WooCommerce ve formátu XML."
+
+#~ msgid "Related Products for WooCommerce"
+#~ msgstr "Načíst z WooCommerce"
+
+#~ msgid ""
+#~ "This plugin allows you to choose related products for a particular "
+#~ "product."
+#~ msgstr ""
+#~ "Tento plugin vám umožňuje vybrat související produkty pro konkrétní "
+#~ "produkt."
+
+#~ msgid ""
+#~ "Using this plugin, you will always get sequential order number for "
+#~ "woocommerce."
+#~ msgstr ""
+#~ "Pomocí tohoto pluginu vždy získáte pořadové číslo objednávky pro "
+#~ "woocommerce."
+
+#~ msgid ""
+#~ "This plugin provides additional features with default WooCommerce coupons "
+#~ "to get more conversions."
+#~ msgstr ""
+#~ "Tento plugin poskytuje další funkce s výchozími kupóny WooCommerce pro "
+#~ "získání více konverzí."
+
+#~ msgid "WebToffee Product Feed for Facebook"
+#~ msgstr "Informační kanál WebToffee pro Facebook"
+
+#~ msgid ""
+#~ "This plugin allows you to integrate your WooCommerce store with Facebook "
+#~ "in a few steps by syncing your store’s products with it."
+#~ msgstr ""
+#~ "Tento plugin vám umožňuje v několika krocích integrovat váš obchod "
+#~ "WooCommerce s Facebookem synchronizací produktů vašeho obchodu s ním."
+
+#~ msgid ""
+#~ "This plugin exports your WordPress website media files, plugins and "
+#~ "themes including the database with a single click."
+#~ msgstr ""
+#~ "Tento plugin jediným kliknutím exportuje mediální soubory, doplňky a "
+#~ "motivy vaší webové stránky WordPress včetně databáze."
+
+#~ msgid ""
+#~ "With this plugin, your customer can use their credit cards or PayPal "
+#~ "Money to make order from cart page itself."
+#~ msgstr ""
+#~ "Díky tomuto pluginu může váš zákazník použít své kreditní karty nebo "
+#~ "peníze PayPal k provedení objednávky ze samotné stránky košíku."
+
+#~ msgid ""
+#~ "Add-on to support RTL and Unicode languages seamlessly in PDF documents."
+#~ msgstr ""
+#~ "Doplněk pro bezproblémovou podporu jazyků RTL a Unicode v dokumentech PDF."
+
+#~ msgid "OTHER FREE SOLUTIONS FROM WEBTOFFEE"
+#~ msgstr "DALŠÍ ZDARMA ŘEŠENÍ Z WEBTOFFEE"
+
+#~ msgid ""
+#~ "Generate and print additional documents (Address Labels, Pick Lists, "
+#~ "Proforma Invoices, and Credit Notes)."
+#~ msgstr ""
+#~ "Vytvářejte a tiskněte další dokumenty (adresní štítky, výběrové seznamy, "
+#~ "faktury Proforma a dobropisy)."
+
+#~ msgid "Advanced customization options along with code editor."
+#~ msgstr "Pokročilé možnosti přizpůsobení spolu s editorem kódu."
+
+#~ msgid "Choose from pre-built templates."
+#~ msgstr "Vybírejte z předem připravených šablon."
+
+#~ msgid "Choose from multiple packaging types for Packing slips."
+#~ msgstr "Vybírejte z několika typů balení pro balicí lístky."
+
+#~ msgid "Supports custom sizes for address/shipping labels."
+#~ msgstr "Podporuje vlastní velikosti adresních/přepravních štítků."
+
+#~ msgid "Group order items by category in the product table of documents."
+#~ msgstr "Seskupte položky podle kategorie v produktové tabulce dokumentů."
+
+#~ msgid "Display individual tax column(s) in the product table."
+#~ msgstr "Zobrazte sloupce jednotlivých daní v tabulce produktů."
+
+#~ msgid "Share Packing Slip PDF and Picklist PDF as separate mail."
+#~ msgstr ""
+#~ "Sdílejte balicí lístek PDF a výběrový list PDF jako samostatnou poštu."
+
+#~ msgid "Sort order items in the product table of documents."
+#~ msgstr "Seřaďte položky objednávky v produktové tabulce dokumentů."
+
+#~ msgid "Add-on for remote printing (PrintNode)."
+#~ msgstr "Doplněk pro vzdálený tisk (PrintNode)."
+
+#~ msgid "Automatically Attach PDF Invoice with order email"
+#~ msgstr "Přiloží fakturu PDF k e-mailu s objednávkou"
+
+#~ msgid "Customizer"
+#~ msgstr "Přizpůsobení"
+
+#~ msgid "Minimal customizer available for Invoice and Shipping label only"
+#~ msgstr ""
+#~ "Minimální přizpůsobitel je k dispozici pouze pro štítek Faktura a Doprava"
+
+#~ msgid ""
+#~ "Advanced customizer with source code editor, available for all documents"
+#~ msgstr ""
+#~ "Pokročilý přizpůsobitel s editorem zdrojového kódu, dostupný pro všechny "
+#~ "dokumenty"
+
+#~ msgid "Predefined templates"
+#~ msgstr "Vytvořit novou šablonu"
+
+#~ msgid "One for document type"
+#~ msgstr "Další dokumenty"
+
+#~ msgid "Free add-on for RTL and Unicode language support"
+#~ msgstr "Bezplatný doplněk pro podporu jazyků RTL a Unicode"
+
+#~ msgid "Auto-generate customized Invoice number"
+#~ msgstr "Automaticky vygenerujte přizpůsobené číslo faktury"
+
+#~ msgid "Signature in Invoice"
+#~ msgstr "Tisk faktury"
+
+#~ msgid "Remote(cloud) print add-on support"
+#~ msgstr "Podpora doplňků pro vzdálený (cloudový) tisk"
+
+#~ msgid "Supports multiple packaging types"
+#~ msgstr "Podporuje více typů balení"
+
+#~ msgid "In-built custom checkout field manager"
+#~ msgstr "Integrovaný vlastní správce polí pokladen"
+
+#~ msgid "In-built Order meta, Product meta, Product attribute manager"
+#~ msgstr ""
+#~ "Integrovaná meta objednávka, meta produktu, správce atributů produktu"
+
+#~ msgid "Total tax column in product table"
+#~ msgstr "Přidat obrázek produktu do tabulky s produkty"
+
+#~ msgid "Group order items by category in the product table"
+#~ msgstr "Seskupte položky podle kategorie v tabulce produktů"
+
+#~ msgid "Share Packing slip PDF and Picklist PDF as separate emails."
+#~ msgstr ""
+#~ "Sdílejte balicí list PDF a výběrový list PDF jako samostatné e -maily."
+
+#~ msgid "Temp file manager (Auto cleanup, Download as zip etc)"
+#~ msgstr ""
+#~ "Správce dočasných souborů (automatické čištění, stahování jako zip atd.)"
+
+#~ msgid "Custom footer for individual documents"
+#~ msgstr "Vlastní logo pro fakturu"
+
+#~ msgid "FEATURES"
+#~ msgstr "FUNKCE"
+
+#~ msgid "FREE"
+#~ msgstr "ZDARMA"
+
+#~ msgid "PREMIUM"
+#~ msgstr "Prémium"
+
+#~ msgid "30 day money back guarantee"
+#~ msgstr "30denní záruka vrácení peněz"
+
+#~ msgid "Fast and superior support"
+#~ msgstr "Rychlá a vynikající podpora"
+
+#~ msgid "Features that every site needs"
+#~ msgstr "Funkce, které každý web potřebuje"
+
+#~ msgid "Upload"
+#~ msgstr "Nahrát"
+
+#~ msgid ""
+#~ "Either of the document types, Packing  slip, Shipping label, Dispatch "
+#~ "label or Delivery note should be activated to view relevant settings."
+#~ msgstr ""
+#~ "K zobrazení příslušných nastavení by měl být aktivován některý z typů "
+#~ "dokumentů, Dodací list, Přepravní štítek, Expediční štítek, apod."
+
+#, php-format
+#~ msgid "Go to %s General Settings %s Documents %s in order to activate."
+#~ msgstr ""
+#~ "Chcete -li aktivovat, přejděte do %s Obecného nastavení %s Dokumenty %s."
+
+#~ msgid ""
+#~ "WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping "
+#~ "Labels (Basic) | Developed by"
+#~ msgstr ""
+#~ "WooCommerce PDF faktury, balicí listy, dodací listy a přepravní štítky "
+#~ "(základní) | Vyvinuto společností"
+
+#~ msgid ""
+#~ "The document types(Invoice, Packing  slip, Shipping label, Dispatch label "
+#~ "and Delivery note) have been enabled by default for use. Click on the "
+#~ "Settings under the document types to configure the respective settings. "
+#~ "You can use the toggle button to activate/deactivate the respective "
+#~ "document type."
+#~ msgstr ""
+#~ "Ve výchozím nastavení jsou povoleny typy dokumentů (faktura, balící list, "
+#~ "přepravní štítek a expediční štítek a dodací list). Kliknutím na "
+#~ "\"Nastavení\" pod typy dokumentů změníte příslušná nastavení. Pomocí "
+#~ "přepínacího tlačítka můžete aktivovat/deaktivovat příslušný typ dokumentu."
+
+#~ msgid ""
+#~ "Also make sure to fill-up the Company and Address information from the "
+#~ "General tab above prior to customization of the respective document types."
+#~ msgstr ""
+#~ "Poznámka: Pokud budete nastavovat příslušné typy dokumentů, nezapomeňte "
+#~ "vyplnit informace o společnosti a adresu v záložce \"Obecné\"."
+
+#, php-format
+#~ msgid ""
+#~ "For better Unicode/RTL support, use our free %s mPDF add-on %s along with "
+#~ "this plugin."
+#~ msgstr ""
+#~ "Pro lepší podporu Unicode / RTL použijte náš bezplatný %s doplněk mPDF %s "
+#~ "spolu s tímto pluginem."
+
+#~ msgid "Company Info"
+#~ msgstr "Informace o firmě"
+
+#~ msgid ""
+#~ "Ensure to select company logo from ‘Invoice > Customize > Company Logo’ "
+#~ "to reflect on the invoice. Recommended size is 150x50px."
+#~ msgstr ""
+#~ "Vyberte logo společnosti z „Faktura> Přizpůsobit> Logo společnosti“, aby "
+#~ "se odráželo na faktuře. Doporučená velikost je 150 x 50 pixelů."
+
+#~ msgid "Set up a footer which will be used across the respective documents."
+#~ msgstr "Nastavte zápatí, které bude použito v příslušných dokumentech."
+
+#~ msgid "Enable ‘Pay Later’ checkout method and pay via invoice"
+#~ msgstr ""
+#~ "Povolte způsob platby „Zaplatit později“ a plaťte prostřednictvím faktury"
+
+#~ msgid "Generate picklist, credit notes, proforma invoice, & address labels"
+#~ msgstr "Generujte výběr, dobropisy, proforma faktury a adresní štítky"
+
+#~ msgid "Advanced customization of templates using code-editor"
+#~ msgstr "Pokročilé možnosti přizpůsobení spolu s editorem kódu"
+
+#~ msgid "Choose from various packing methods"
+#~ msgstr "Vybírejte z různých způsobů balení"
+
+#~ msgid "Option to customize return policy"
+#~ msgstr "Možnosti přizpůsobení zásady vrácení zboží a zápatí"
+
+#~ msgid "Premium add-on for cloud printing"
+#~ msgstr "Náhled před tiskem"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Enable to include product image in the document."
+#~ msgstr "Povolit v dokumentu zobrazení obrázku produktu."
+
+#~ msgid "Enable to display footer content in the document."
+#~ msgstr "Povolit zobrazení obsahu zápatí v dokumentu."
+
+#~ msgid "Layout - 1"
+#~ msgstr "Rozložení - 1"
+
+#~ msgid "Layout - 2"
+#~ msgstr "Rozložení - 2"
+
+#~ msgid "Layout - 3"
+#~ msgstr "Rozložení - 3"
+
+#~ msgid ""
+#~ "By enabling, you are permitting admin as well as customers to have access "
+#~ "to print, download, attach invoice in the mail, etc from wherever "
+#~ "applicable. Disabling will remove all the provisions, still, admin can "
+#~ "customize the template, set invoice number pattern and so on."
+#~ msgstr ""
+#~ "Pokud tuto možnost zvolíte, bude správci i zákazníkům povolen přístup k "
+#~ "tisku, stahování, připojování faktur poštou atd., kdykoli je to možné. "
+#~ "Zakázání odstraní všechna oprávnění, přesto může administrátor "
+#~ "přizpůsobit šablonu, nastavit vzor čísla faktury atd."
+
+#~ msgid ""
+#~ "If you choose 'No' then the invoice date will be the date on which it is "
+#~ "printed, downloaded or attached in the mail."
+#~ msgstr ""
+#~ "Pokud zvolíte „Ne“, bude zobrazeno datum, kdy bude faktura vytištěna, "
+#~ "stažena nebo přiložena do e-mailu."
+
+#~ msgid ""
+#~ "PDF version of the currently active invoice template will be attached "
+#~ "with the Woocommerce order emails sent to customers and admins for the "
+#~ "chosen order statuses."
+#~ msgstr ""
+#~ "Aktivní verze vybrané šablony PDF faktury bude připojena k e-mailům "
+#~ "objednávek Woocommerce zasílaných zákazníkům a správcům pro vybrané stavy "
+#~ "objednávek."
+
+#~ msgid ""
+#~ "Choose the order statuses for which an email is to be sent to the "
+#~ "customer with an invoice attached to it."
+#~ msgstr ""
+#~ "Vyberte stavy objednávky, pro které má být zákazníkovi zaslán e-mail s "
+#~ "přiloženou fakturou."
+
+#~ msgid ""
+#~ "Enabling this option will allow your customers to print the invoice (via "
+#~ "print button) from their order mail as well as after checkout."
+#~ msgstr ""
+#~ "Povolení této možnosti umožní vašim zákazníkům vytisknout fakturu (pomocí "
+#~ "tlačítka pro tisk) přímo z e-mailu objednávky i po dokončení platby."
+
+#~ msgid "You can add any personalised note/comment in this"
+#~ msgstr "Zde můžete přidat libovolnou vlastní poznámku / komentář"
+
+#~ msgid ""
+#~ "Upload to include a unique logo in the invoice other than the one loaded "
+#~ "from general settings.  If left blank, then defaulted to the logo from "
+#~ "general settings."
+#~ msgstr ""
+#~ "Nahrajte logo, pokud požadujete použít logo jiné než je logo uložené v "
+#~ "obecném nastavení. Je-li ponecháno prázdné, použije se logo (jako "
+#~ "výchozí) z obecného nastavení."
+
+#~ msgid ""
+#~ "Select an invoice number format from the drop-down. You can choose to "
+#~ "have a prefix, suffix or both for your invoice number."
+#~ msgstr ""
+#~ "V rozbalovací nabídce vyberte formát čísla faktury. Pro své číslo faktury "
+#~ "můžete zvolit předponu, příponu nebo obojí."
+
+#~ msgid ""
+#~ "You can mirror the order number as the invoice number by enabling this "
+#~ "option, else, you can create an invoice number of your own choice by "
+#~ "specifying an invoice start number."
+#~ msgstr ""
+#~ "Povolením této možnosti můžete použít číslo faktury stejné jako číslo "
+#~ "objednávky, nebo můžete vytvořit číslo faktury podle vlastního výběru "
+#~ "zadáním počátečního čísla faktury."
+
+#~ msgid ""
+#~ "Set a starting number for the invoice number to have a specific number "
+#~ "other than the order number. Reset provisions are also allowed."
+#~ msgstr ""
+#~ "Nastavte počáteční číslo pro číslo faktury tak, aby mělo jiné číslo než "
+#~ "číslo objednávky. Povoleno je také obnovení."
+
+#~ msgid ""
+#~ "Specify a prefix that will appear at the leading edge of the invoice "
+#~ "number. Provisions are included to select predefined date formats as "
+#~ "prefixes."
+#~ msgstr ""
+#~ "Zadejte předponu, která se zobrazí na začátku čísla faktury. Jsou zde "
+#~ "zahrnuty možnosti předdefinovaných formátů data jako předpony."
+
+#~ msgid ""
+#~ "Specify a suffix that will appear at the trailing edge of the invoice "
+#~ "number. Provisions are included to select predefined date formats as "
+#~ "suffixes."
+#~ msgstr ""
+#~ "Zadejte příponu, která se zobrazí na konci čísla faktury. Jsou zde "
+#~ "zahrnuty možnosti předdefinovaných formátů data jako přípony."
+
+#~ msgid "Invoice Number:"
+#~ msgstr "Číslo faktury:"
+
+#~ msgid "Create and email invoice"
+#~ msgstr "Vytvořte a zašlete e-mailem fakturu"
+
+#~ msgid "Enable to display free line items in the invoices."
+#~ msgstr "Povolit zobrazení bezplatných řádkových položek ve fakturách."
+
+#~ msgid ""
+#~ "Use the configurations below to set up a custom invoice number with "
+#~ "prefix/suffix/number series or mirror the order number respectively."
+#~ msgstr ""
+#~ "Pomocí níže uvedených konfigurací můžete nastavit vlastní číslo faktury s "
+#~ "předponou/příponou/číselnou řadou nebo duplikovat číslo objednávky."
+
+#~ msgid "Invoice length"
+#~ msgstr "Délka čísla faktury"
+
+#~ msgid "Save Invoice number settings"
+#~ msgstr "Formát čísla faktury"
+
+#~ msgid ""
+#~ "Prints the shipping label in full page. Provisions to create custom sized "
+#~ "labels are allowed in premium versions."
+#~ msgstr ""
+#~ "Vytiskne přepravní štítek na celou stránku. V prémiové verzi jsou "
+#~ "povolena nastavení pro vytváření štítků s vlastní velikostí."
+
+#~ msgid "Your order is not in selected statuses to create an invoice"
+#~ msgstr "Vaše objednávka není ve vybraných stavech pro vytvoření faktury"
+
+#, php-format
+#~ msgid ""
+#~ "This order status is %s which is not in the selected statuses to create "
+#~ "an invoice"
+#~ msgstr ""
+#~ "Tento stav objednávky je %s, který není ve vybraných stavech pro "
+#~ "vytvoření faktury"
+
+#~ msgid "Admin has disabled the option to print the invoice"
+#~ msgstr "Správce zakázal možnost tisku faktury"
+
+#~ msgid ""
+#~ "Displays print button in the order email, order listing page and in the "
+#~ "order summary."
+#~ msgstr ""
+#~ "Zobrazí tlačítko tisku v e -mailu objednávky, stránce se seznamem "
+#~ "objednávek a v souhrnu objednávky."
+
+#~ msgid "Show print button only for statuses"
+#~ msgstr "Zobrazit tlačítko tisku pouze pro stavy"
+
+#~ msgid "Reset Invoice no"
+#~ msgstr "Obnovit číslo faktury"

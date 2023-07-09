@@ -1,0 +1,385 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code Tag for WC order emails, POS receipt emails, PDF "
+"invoices, PDF packing slips, Blog posts, Custom post types and Pages (from "
+"goaskle.com)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-29 18:39+0000\n"
+"PO-Revision-Date: 2022-08-29 21:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-5.9.3\n"
+"X-Domain: qr-code-tag-for-wc-from-goaskle-com"
+
+#: lib/qrct/QrctWp-admin.inc.php:172
+#, php-format
+msgid "%1$01.4f sec average code creation time."
+msgstr "%1$01.4f сек среднее время создания кода."
+
+#: lib/qrct/QrctWp-admin.inc.php:171
+#, php-format
+msgid "%1$d codes cached, using %2$s disk space (%3$s free disk space)."
+msgstr ""
+"Кэшировано %1$d кодов, используется %2$s дискового пространства (%3$s "
+"свободного дискового пространства)."
+
+#: lib/qrct/QrctWp-admin.inc.php:88
+msgid "(Google Chart API only)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:120
+msgid "(QR Code Lib only)"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:61
+msgid ""
+"<b style=\"color:red;\">!!! CLEAR IT FOR AUTOMATIC DATA TEMPLATE IN "
+"WOOCOMMERCE !!!</b> Woocommerce will use this template for the data to "
+"generate the QR code. The QR code will be created based on the texts and "
+"variables of this template. For example (AUTOMATIC):<br>Ivan Ivanov<br>TOTAL "
+"AMOUNT $39.10<br>VAT AMOUNT $5.10<br>VAT NUMBER 1235ABN457<br>DATE "
+"03/11/2021<br>TIME 19:03<br>https://goaskle.com<br>You can easy use your own "
+"text, labels and these variables: {order_id}, {full_customer_name}, "
+"{total_amount}, {vat_amount}, {vat_number}, {order_date}, {order_time}, "
+"{wc_website}<br><b>EXAMPLE FOR YOUR OWN TEMPLATE:</b><br>Order ID: {order_id}"
+"<br>{full_customer_name}<br>TOTAL AMOUNT: {total_amount}<br>VAT AMOUNT: "
+"{vat_amount}<br>VAT NUMBER: {vat_number}<br>DATE {order_date}<br>TIME "
+"{order_time}<br>{wc_website}"
+msgstr ""
+"<b style=\"color:red;\">!!! !!! ОЧИСТИТЕ ЕГО ДЛЯ АВТОМАТИЧЕСКОГО ШАБЛОНА "
+"ДАННЫХ В WOOCOMMERCE !!!</b> Woocommerce будет использовать этот шаблон для "
+"данных для генерации QR-кода. QR-код будет создан на основе текстов и "
+"переменных этого шаблона. Например ( AUTOMATIC ):<br>Ivan Ivanov<br>TOTAL "
+"AMOUNT $39.10<br>VAT AMOUNT $5.10<br>VAT NUMBER 1235ABN457<br>DATE "
+"03/11/2021<br>TIME 19:03<br>https://goaskle.com<br>Вы можете легко "
+"использовать свой собственный текст, метки и эти переменные: {order_id}, "
+"{full_customer_name}, {total_amount}, {vat_amount}, {vat_number}, "
+"{order_date}, {order_time}, {wc_website}<br><b>ПРИМЕР ДЛЯ ВАШЕГО "
+"СОБСТВЕННОГО ШАБЛОНА:</b><br>Order ID: {order_id}<br>{full_customer_name}<br>"
+"TOTAL AMOUNT: {total_amount}<br>VAT AMOUNT: {vat_amount}<br>VAT NUMBER: "
+"{vat_number}<br>DATE {order_date}<br>TIME {order_time}<br>{wc_website}"
+
+#: lib/qrct/QrctWp-admin.inc.php:120
+msgid ""
+"<strong>0-40 (0=auto)</strong>. Before choosing the QR code version, "
+"consider what kind of device is used to read your code. The best QR code "
+"readers are able to read Version 40 codes, mobile devices may read only up "
+"to Version 4 "
+msgstr ""
+"<strong>0-40 (0=auto)</strong>. Прежде чем выбрать версию QR-кода, подумайте,"
+" какое устройство используется для считывания вашего кода. Лучшие устройства "
+"для считывания QR-кодов способны считывать коды версии 40, мобильные "
+"устройства могут считывать только до версии 4 "
+
+#: lib/qrct/QrctWp-admin.inc.php:144
+msgid "A Tag classes"
+msgstr "A Классы тегов\t"
+
+#: lib/qrct/QrctWp-admin.inc.php:134
+msgid "Additional image classes (e.g. <i>qrctimage anynewclass</i>)"
+msgstr "Дополнительные классы изображений (например, qrctimage anynewclass)"
+
+#: lib/qrct/QrctWp-admin.inc.php:148
+msgid "Additional link classes (e.g. <i>mylinkclass anynewlinkclass</i>)"
+msgstr "Дополнительные классы ссылок (например, mylinkclass anynewlinkclass)"
+
+#: lib/qrct/QrctWp.php:373
+msgid "After QR Code:"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:371
+msgid "Before QR Code:"
+msgstr ""
+
+#: lib/qrct/QrctWp.php:835
+msgid "Cache cleared."
+msgstr "Кэш очищен."
+
+#: lib/qrct/QrctWp-admin.inc.php:174
+msgid "Clear Cache"
+msgstr "Очистить кэш"
+
+#: lib/qrct/QrctWp-admin.inc.php:13
+msgid "Code Generation"
+msgstr "Генерация кода"
+
+#: lib/qrct/QrctWp.php:372
+msgid "Content (blank for current URL):"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:36
+msgid "Default Options"
+msgstr "Параметры по умолчанию"
+
+#: lib/qrct/QrctWp.php:825
+msgid "Default options loaded."
+msgstr "Загружены параметры по умолчанию."
+
+#: lib/qrct/QrctWp-admin.inc.php:141
+msgid ""
+"Defines if the image will have a link:<br/><strong>false</strong> = no "
+"link<br/><strong>true</strong> = link to the QR code content<br/><strong>"
+"url</strong> = link to the current URL<br><strong>http://</strong> = link to "
+"some URL (e.g. <i>http://www.google.com</i>)"
+msgstr ""
+"Определяет, будет ли изображение иметь ссылку:<br/><strong>false</strong> = "
+"нет ссылки<br/><strong>true</strong> = ссылка на содержимое QR-кода<br/>"
+"<strong>url</strong> = ссылка на текущий URL<br><strong>https://</strong> = "
+"ссылка на некоторый URL (e.g. <i>https://www.google.com</i>)"
+
+#: lib/qrct/QrctWp-admin.inc.php:127
+msgid ""
+"Defines the margin (or blank space) around the QR code (in QR Code pixel "
+"size - not actual pixels!)"
+msgstr ""
+"Определяет поле (или пустое пространство) вокруг QR-кода (в пикселях QR-кода "
+"- не в реальных пикселях!)."
+
+#: lib/qrct/QrctWp-admin.inc.php:44
+msgid "Description"
+msgstr "Описание"
+
+#: lib/qrct/QrctWp-admin.inc.php:50
+msgid ""
+"Disable Auto QR code Generating for Woocommerce ( Shortcode mode will "
+"continue working )"
+msgstr ""
+"Отключить автоматическую генерацию QR-кода для Woocommerce (режим шорткода "
+"будет продолжать работать)"
+
+#: lib/qrct/QrctWp-admin.inc.php:48
+msgid "Disable for Woocommerce (Auto)"
+msgstr "Отключить для Woocommerce (Авто)"
+
+#: lib/qrct/QrctWp-admin.inc.php:93
+msgid "ECC"
+msgstr "ECC"
+
+#: lib/qrct/QrctWp-admin.inc.php:71
+msgid "Enc"
+msgstr "Код"
+
+#: lib/qrct/QrctWp-admin.inc.php:113
+#, php-format
+msgid ""
+"Error Correction Level (see <a href=\"http://code.google."
+"com/apis/chart/types.html#ec_level_table\" target=\"_blank\">Google Chart "
+"API</a>)<br/><strong>L</strong> allows 7% of a QR code to be restored<br/>"
+"<strong>M</strong> allows 15% of a QR code to be restored<br/><strong>"
+"Q</strong> allows 25% of a QR code to be restored<br/><strong>H</strong> "
+"allows 30% of a QR code to be restored"
+msgstr ""
+"Уровень коррекции ошибок (см. <a href=\"http://code.google."
+"com/apis/chart/types.html#ec_level_table\" target=\"_blank\">Google Chart "
+"API</a>)<br/><strong>L</strong> позволяет восстановить 7% QR-кода<br/>"
+"<strong>M</strong> позволяет восстановить 15% QR-кода<br/><strong>Q</strong> "
+"позволяет восстановить 25% QR-кода<br/><strong>H</strong> позволяет "
+"восстановить 30% QR-кода"
+
+#: lib/qrct/QrctWp-admin.inc.php:40
+msgid "Field"
+msgstr "Поле"
+
+#: lib/qrct/QrctWp-admin.inc.php:16
+msgid "Generator"
+msgstr "Генератор"
+
+#: lib/qrct/QrctWp-admin.inc.php:28
+msgid "GIF"
+msgstr ""
+
+#. Author of the plugin
+msgid "Goaskle.com"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:19
+msgid "Google Chart API"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:98 lib/qrct/QrctWp-admin.inc.php:104
+#: lib/qrct/QrctWp-admin.inc.php:110
+msgid "H"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:177
+msgid "Help"
+msgstr "Помощь"
+
+#. Author URI of the plugin
+msgid "https://15.to"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://goaskle.com/en/full-description-of-the-features-of-the-qr-code-tag-"
+"from-goaskle-com-plugin/"
+msgstr ""
+"https://goaskle.com/en/full-description-of-the-features-of-the-qr-code-tag-"
+"from-goaskle-com-plugin/"
+
+#: lib/qrct/QrctWp-admin.inc.php:130
+msgid "Image Classes"
+msgstr "Классы изображений"
+
+#: lib/qrct/QrctWp-admin.inc.php:25
+msgid "Image Type"
+msgstr "Тип изображения"
+
+#: lib/qrct/QrctWp-admin.inc.php:75 lib/qrct/QrctWp-admin.inc.php:80
+#: lib/qrct/QrctWp-admin.inc.php:85
+msgid "ISO-8859-1"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:30
+msgid "JPG"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:95 lib/qrct/QrctWp-admin.inc.php:101
+#: lib/qrct/QrctWp-admin.inc.php:107
+msgid "L"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:60
+msgid "Leave empty for automatic template"
+msgstr "Оставьте пустым для автоматического шаблона"
+
+#: lib/qrct/QrctWp-admin.inc.php:137
+msgid "Link"
+msgstr "Ссылка"
+
+#: lib/qrct/QrctWp-admin.inc.php:96 lib/qrct/QrctWp-admin.inc.php:102
+#: lib/qrct/QrctWp-admin.inc.php:108
+msgid "M"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:123
+msgid "Margin"
+msgstr "Отступ"
+
+#: lib/qrct/QrctWp.php:814
+msgid "Options saved."
+msgstr "Опции сохранены."
+
+#: lib/qrct/QrctWp-admin.inc.php:29
+msgid "PNG"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:97 lib/qrct/QrctWp-admin.inc.php:103
+#: lib/qrct/QrctWp-admin.inc.php:109
+msgid "Q"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:154
+msgid "QR Code Cache"
+msgstr "Кэш QR-кодов"
+
+#: lib/qrct/QrctWp-admin.inc.php:20
+msgid "QR Code Lib"
+msgstr ""
+
+#. Name of the plugin
+msgid ""
+"QR Code Tag for WC order emails, POS receipt emails, PDF invoices, PDF "
+"packing slips, Blog posts, Custom post types and Pages (from goaskle.com)"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"QR Code tag generator for Woocommerce orders, POS, PDF, emails. Using modes: "
+"automatic for Woocommerce, manual for: widget, shortcode and tooltip."
+msgstr ""
+"Генератор тегов QR-кодов для заказов Woocommerce, POS, PDF, электронных "
+"писем. Режимы использования: автоматический для Woocommerce, ручной для: "
+"виджета, шорткода и всплывающей подсказки."
+
+#: lib/qrct/QrctWp-admin.inc.php:10
+msgid "QR Code Tag Settings"
+msgstr "Настройки QR кодов"
+
+#: lib/qrct/QrctWp-admin.inc.php:151
+msgid "Reset Options"
+msgstr "Сброс настроек"
+
+#: lib/qrct/QrctWp-admin.inc.php:151
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: lib/qrct/QrctWp.php:195
+msgid "Settings"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:74 lib/qrct/QrctWp-admin.inc.php:79
+#: lib/qrct/QrctWp-admin.inc.php:84
+msgid "Shift_JIS"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:41
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: lib/qrct/QrctWp-admin.inc.php:64
+msgid "Size"
+msgstr "Размер"
+
+#: lib/qrct/QrctWp-admin.inc.php:87
+msgid "Specifies how the output is encoded"
+msgstr "Определяет способ кодирования вывода"
+
+#: lib/qrct/QrctWp-admin.inc.php:68
+msgid ""
+"The size of the generated QRCode image (in pixels). it's always a square, so "
+"you only need to set one side - to enable the \"Best Read Mode\" <i>(QR Code "
+"Lib only)</i> specify a value lower than 10 (read help below)"
+msgstr ""
+"Размер генерируемого изображения QRCode (в пикселях). Это всегда квадрат, "
+"поэтому вам нужно задать только одну сторону - для включения режима \"Best "
+"Read Mode\" (только для QR Code Lib) укажите значение меньше 10 (читайте "
+"справку ниже)."
+
+#: lib/qrct/QrctWp-admin.inc.php:37
+msgid ""
+"This will be the default values of the QR Code Tag Shortcode, Tooltip and "
+"Widget."
+msgstr ""
+"Это будут значения по умолчанию для шорткода тега QR-кода, всплывающей "
+"подсказки и виджета."
+
+#: lib/qrct/QrctWp-admin.inc.php:42
+msgid "Tooltip"
+msgstr "Всплывающая подсказка"
+
+#: lib/qrct/QrctWp-admin.inc.php:55
+msgid "Using for Woocommerce in shortcode mode only"
+msgstr "Использование для Woocommerce только в режиме шорткода"
+
+#: lib/qrct/QrctWp-admin.inc.php:73 lib/qrct/QrctWp-admin.inc.php:78
+#: lib/qrct/QrctWp-admin.inc.php:83
+msgid "UTF-8"
+msgstr ""
+
+#: lib/qrct/QrctWp-admin.inc.php:53
+msgid "VAT Number"
+msgstr "ИНН"
+
+#: lib/qrct/QrctWp-admin.inc.php:116
+msgid "Version"
+msgstr "Версия"
+
+#: lib/qrct/QrctWp-admin.inc.php:43
+msgid "Widget"
+msgstr "Виджет"
+
+#: lib/qrct/QrctWp-admin.inc.php:59
+msgid "Woocommerce Data Template"
+msgstr "Шаблон данных Woocommerce"
+
+#: lib/qrct/QrctWp-admin.inc.php:179
+msgid "Your content"
+msgstr "Ваше содержание"

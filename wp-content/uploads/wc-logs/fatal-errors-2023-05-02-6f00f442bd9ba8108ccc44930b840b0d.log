@@ -1,0 +1,83 @@
+2023-05-02T13:54:04+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:173
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 173
+
+2023-05-02T13:54:24+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:173
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 173
+
+2023-05-02T13:54:45+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:173
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 173
+
+2023-05-02T13:56:28+00:00 CRITICAL Uncaught Error: Call to a member function single_add_to_cart_text() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:176
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 176
+
+2023-05-02T13:59:21+00:00 CRITICAL Uncaught Error: Call to a member function is_purchasable() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:195
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 195
+
+2023-05-02T14:00:43+00:00 CRITICAL Uncaught Error: Call to a member function get_availability() on null in C:\OpenServer\domains\dream2\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3569
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php(197): wc_get_stock_html()
+#1 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#4 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3569
+
+2023-05-02T14:01:12+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:179
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 179
+
+2023-05-02T14:01:53+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:178
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 178
+
+2023-05-02T14:02:10+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:178
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 178
+
+2023-05-02T14:02:37+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php:178
+Stack trace:
+#0 C:\OpenServer\domains\dream2\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\dream2\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\dream2\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\dream2\wp-content\themes\dream\pages\scarlet.php на строке 178
+
+2023-05-02T17:49:54+00:00 CRITICAL Cannot redeclare my_custom_checkout_button_text() (previously declared in C:\OpenServer\domains\dream2\wp-content\themes\dream\functions.php:60) в C:\OpenServer\domains\dream2\wp-content\themes\dream\functions.php на строке 65
+

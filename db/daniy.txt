@@ -1,0 +1,4 @@
+db url papka ://dream
+login:dreamAdmin
+parol:dreamAdmin@hunter
+wp_admin url : /admindreamhunter
